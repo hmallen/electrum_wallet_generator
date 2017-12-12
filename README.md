@@ -4,7 +4,7 @@ Generates new Bitcoin wallets individually or in batch with BIP32 standard and e
 <b>Program Flow:</b>
 1. Use electrum to generate random mnemonic seed
 2. Hash seed using SHA256
-3. Use pybitcointools (bitcoin library) to convert hash to public hash, private hash, public address, and private address
+3. Use pybitcointools (bitcoin library) to convert hash to public hash, private hash, public address, and private address, saving everything to csv file
 4. Create QR codes for public address and private key and save to svg files
 
 <b>Options:</b>
