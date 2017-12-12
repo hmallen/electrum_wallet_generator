@@ -25,6 +25,8 @@ wallet_count = args.number
 logger.debug('wallet_count: ' + str(wallet_count))
 output_file = args.output
 logger.debug('output_file: ' + output_file)
+qr_output = args.qr
+logger.debug('qr_output: ' + str(qr_output))
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -67,6 +69,9 @@ if __name__ == '__main__':
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             for x in range(0, len(wallets)):
                 csv_writer.writerow(wallets[x])
+
+        if qr_output == True:
+            logger.info('Creating QR codes.')
     
     except Exception as e:
         logger.exception(e)
