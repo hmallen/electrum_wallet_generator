@@ -17,17 +17,26 @@ output_dir = 'output/' + dt_current +'/'
 address_file = output_dir + 'addresses.csv'
 
 parser = argparse.ArgumentParser()
+parser.add_argument('-d', '--debug', action='store_true', default=False, help='Include DEBUG level output.')
 parser.add_argument('-n', '--number', default=1, type=int, help='Number of wallets to generate. [Default = 1]')
 parser.add_argument('-o', '--output', default=address_file, type=str, help='Specify output file. [Default = \'output/addresses.csv\'')
 parser.add_argument('-q', '--qr', action='store_true', default=False, help='Include QR codes of pub/priv keys as svg files in output.')
 args = parser.parse_args()
 
+debug = args.debug
+if debug == False:
+    logger.setLevel(logging.INFO)
+logger.debug('debug: ' + str(debug))
 wallet_count = args.number
 logger.debug('wallet_count: ' + str(wallet_count))
 output_path = args.output
 logger.debug('output_path: ' + output_path)
 qr_output = args.qr
 logger.debug('qr_output: ' + str(qr_output))
+
+logger.info('Creating ' + str(wallet_count) + ' wallets.')
+logger.info('Output directory: ' + output_dir)
+logger.info('QR Creation: ' + str(qr_output))
 
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
@@ -122,6 +131,7 @@ if __name__ == '__main__':
         with open(output_path, 'a', newline='') as csv_file:
             csv_writer = csv.writer(csv_file, delimiter=',', quotechar='|', quoting=csv.QUOTE_MINIMAL)
             for x in range(0, len(wallets)):
+                logger.info(str(x) + ': ' + str(wallets[x]))
                 csv_writer.writerow(wallets[x])
 
         if qr_output == True:
