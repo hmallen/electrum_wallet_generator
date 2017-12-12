@@ -1,1 +1,2 @@
-# bitcoin_wallet_generator
+#Testing Repo for Bitcoin Address Generation
+In progress...
