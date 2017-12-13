@@ -9,8 +9,8 @@ Generates new Bitcoin wallets individually or in batch with BIP32 standard and e
 
 <b>Options:</b>
 
--n: Number of wallets to generate
+-n/--number: Number of wallets to generate
 
--o: Specify output csv file path
+-o/--output: Specify output csv file path
 
--q: Enable output of svg QR codes
+-q/--qr: Enable output of svg QR codes
