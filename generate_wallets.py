@@ -60,13 +60,10 @@ def generate_wallets():
             pub = privtopub(priv)
             logger.debug(pub)
             
-            addr_pub = pubtoaddr(pub)
-            logger.debug(addr_pub)
-            
-            addr_priv = privtoaddr(priv)
-            logger.debug(addr_priv)
+            addr = pubtoaddr(pub)
+            logger.debug(addr)
 
-            wallet_list.append([seed, addr_pub, addr_priv, pub, priv])
+            wallet_list.append([seed, addr, pub, priv])
             
     except Exception as e:
         logger.exception(e)
@@ -97,25 +94,27 @@ def create_svg(input_file):
                 #logger.debug(qr_svg_pub)
                 file_name_pub = output_dir + str(count) + '_pub.svg'
                 logger.debug(file_name_pub)
+                
                 with open(file_name_pub, 'w') as svg_file:
                     svg_file.write(qr_svg_pub)
                 
-                qr_priv = QrCode.encode_text(row[4], errcorlvl)
-                qr_svg_priv = qr_priv.to_svg_str(4)
+                #qr_priv = QrCode.encode_text(row[4], errcorlvl)
+                #qr_svg_priv = qr_priv.to_svg_str(4)
                 #logger.debug('PRIVATE')
                 #logger.debug(qr_svg_priv)
-                file_name_priv = output_dir + str(count) + '_priv.svg'
-                logger.debug(file_name_priv)
-                with open(file_name_priv, 'w') as svg_file:
-                    svg_file.write(qr_svg_priv)
+                #file_name_priv = output_dir + str(count) + '_priv.svg'
+                #logger.debug(file_name_priv)
+                    
+                #with open(file_name_priv, 'w') as svg_file:
+                    #svg_file.write(qr_svg_priv)
 
                 file_name_info = output_dir + str(count) + '_info.txt'
                 with open(file_name_info, 'w') as info_file:
                     info_file.write(row[0])
                     info_file.write('\n\n')
                     info_file.write(row[1])
-                    info_file.write('\n\n')
-                    info_file.write(row[4])
+                    #info_file.write('\n\n')
+                    #info_file.write(row[4])
 
         except Exception as e:
             logger.exception('Exception while creating svg files.')
