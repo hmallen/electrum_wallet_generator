@@ -1,10 +1,9 @@
 import argparse
-import bitcoin as btc
+from bitcoin import *
 import csv
 import datetime
 from electrum import mnemonic
 import logging
-import os
 from qrcodegen import QrCode, QrSegment
 import sys
 
@@ -45,8 +44,6 @@ if not os.path.exists(output_dir):
 else:
     logger.info('Found output directory.')
 
-m = mnemonic.Mnemonic()
-
 
 def generate_wallets():
     wallet_list = []
@@ -55,16 +52,19 @@ def generate_wallets():
             seed = m.make_seed()
             logger.debug(seed)
 
-            priv = btc.sha256(seed)
-            logger.debug(priv)
-            
-            pub = btc.privtopub(priv)
-            logger.debug(pub)
-            
-            addr = btc.pubtoaddr(pub)
-            logger.debug(addr)
+            bip32_priv = bip32_master_key(seed.encode('utf-8'))
+            logger.debug(bip32_priv)
 
-            wallet_list.append([seed, addr, pub, priv])
+            bip32_pub = bip32_privtopub(bip32_priv)
+            logger.debug(bip32_pub)
+
+            bip32_extract = bip32_extract_key(bip32_pub)
+            logger.debug(bip32_extract)
+            
+            addr = pubtoaddr(bip32_extract)
+            logger.debug(bip32_extract)
+
+            wallet_list.append([seed, addr, bip32_pub, bip32_priv])
             
     except Exception as e:
         logger.exception(e)
@@ -91,23 +91,12 @@ def create_svg(input_file):
                 
                 qr_pub = QrCode.encode_text(row[1], errcorlvl)
                 qr_svg_pub = qr_pub.to_svg_str(4)
-                #logger.debug('PUBLIC')
-                #logger.debug(qr_svg_pub)
+                
                 file_name_pub = output_dir + str(count) + '_pub.svg'
                 logger.debug(file_name_pub)
                 
                 with open(file_name_pub, 'w') as svg_file:
                     svg_file.write(qr_svg_pub)
-                
-                #qr_priv = QrCode.encode_text(row[4], errcorlvl)
-                #qr_svg_priv = qr_priv.to_svg_str(4)
-                #logger.debug('PRIVATE')
-                #logger.debug(qr_svg_priv)
-                #file_name_priv = output_dir + str(count) + '_priv.svg'
-                #logger.debug(file_name_priv)
-                    
-                #with open(file_name_priv, 'w') as svg_file:
-                    #svg_file.write(qr_svg_priv)
 
                 file_name_info = output_dir + str(count) + '_info.txt'
                 with open(file_name_info, 'w') as info_file:
@@ -124,6 +113,9 @@ def create_svg(input_file):
         
 
 if __name__ == '__main__':
+    language = 'english'
+    m = mnemonic.Mnemonic()
+
     try:
         wallets = generate_wallets()
         logger.debug(wallets)

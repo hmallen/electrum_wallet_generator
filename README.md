@@ -1,4 +1,7 @@
 # Bitcoin Wallet Generator
+
+PUBLIC ADDRESS AND ASSOCIATED QR NOT READY FOR LIVE USE. FIX IN PROGRESS.
+
 Generates new Bitcoin wallets individually or in batch with BIP32 standard and entropy generated from mnemonic seed.
 
 <b>Program Flow:</b>
