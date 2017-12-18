@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Es3egKT3py7Rge1FCxV4vbaFhDV54ERUx",
+            "1Psj4YLevEhzmCH3Pq5HcorDeHAV2R7kih",
+            "19oHqfBdFEotDE8c9fWavX8zHETHejzVPM",
+            "1HJKXhyRjqfDhxhU5RQqzC3Wg6pqVVxczv",
+            "1BKo7NVkyuMAP3w96b1NcZaLGtn7apb1uN",
+            "1KX8YpZ5dk1twjuTMWXbczxMoT7R3vjAcs"
+        ],
+        "receiving": [
+            "16u9HsA5hFbCPDvN97nFGuwM8qD2EXkvjJ",
+            "16jNoXeWWKfoVE4hvtN8Vk6EHDi8BX7Jg1",
+            "1FM5JfzjAYmL1B6gcCNhs9MQtWcXQ7GPKQ",
+            "1HZkYg2enepBHgX9yRoeTenfCS3te4jjtQ",
+            "1JjZExMPUjzsr6AUHDQqHYFN1YrDjm2C2Q",
+            "1KDATRk5XST4J625R9vj1FxW5WmUXsU3G6",
+            "1KFnQ6dZiVbgdGh5meMLFQ8VW5ZjWfhenz",
+            "1P9KRdtChTZZZgyfGHt7VPdqT8BvD82eaT",
+            "15Ua4aLg4EwWqcvPvEYnM7PTDdfWt6tdpi",
+            "1NZc2z75kdHCRF6ayProqNiv21pwv8dWFM",
+            "1L7estpwrBvPx7NvUx77HyjcN1Au2PXhFu",
+            "1JaosGepAJ75J6TTDq1CaamXycBmHEmbw9",
+            "1KDVFaxGboW7ue8285yysmJ8YDLNb8mgvS",
+            "1HoFBBdZutx52c1hDywYhhzb71Tw1dvyfa",
+            "14sBjkY6VdoGqQZkbJTMx2VFYMzA1TgcQ3",
+            "1Brf5B49V9SZGWNrrHYB4Yw2tsGU1Bz5Fp",
+            "1EoYP34STveQsDxPjY6qhRRfuWJJE9SfbR",
+            "1QBaY2XmzKe1sVPSVHfMiK5atF9v77HMfX",
+            "1AsNU3vg7WsB237ezzbeDMVssTxQQzqhUn",
+            "1DuvCfpTu6P5CrPTJgfSLSP3tH7Dhd3xtY"
+        ]
+    },
+    "keystore": {
+        "seed": "unaware valley hello surprise airport journey clay quote drama fortune escape coach",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3xkUDNrrZePXycZv5mEuq7do2bCBEhLkVN8SuoM3PiLvZ3fZWNjh4uc4K1kyu2JFAs1uNkLFDp7LipkSpcpc43PWkGgPGP2",
+        "xpub": "xpub661MyMwAqRbcGSpwKQPrvnLGXeQQVDxmCLZPpybno2sjNATbTLfHwWfQQJ1dPyJU3gnxnoKLLwwEw1r9ahsNy9qvSjB3i2NN7r29DGLoPM7"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

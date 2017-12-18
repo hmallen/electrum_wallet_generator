@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1DoMQ7QZMnPxXtbXsuqTvWTrqe5KkedDgU",
+            "1Kragdte8CY33QCfr3gjrKACrkiMAFLPap",
+            "1Gg6JKW2ZxVBonRM24XGmgQQzXahjNA7vp",
+            "1G27tmZTEATionwdkR4d9rECDKPB8eYQrw",
+            "1Z6QBhciuekV4RdVLVW1si3HvqGboRVKa",
+            "1EHbAxorhAaq6jYuWMyRCU9J3gs8dbjJWA"
+        ],
+        "receiving": [
+            "1B5RDUQTusyRetuoDzuNhC5FZtYfGvEw2G",
+            "18bxJTkQZppZQAEtS67pasFv4zMmmahHU2",
+            "1Dniu5a9sbqgJkfuF2QXM1LwgrqMYZCnHu",
+            "15fX66Aav5443SSwycGxk8jANHGv2S4kMn",
+            "15EoFTZ8d8MRugWzJrWNrGX51t87Dik9gJ",
+            "16qnNfbDtHk5iJAxX2vbe72K4icXVLDg5t",
+            "195ererfGhVWsVBakUG62HGXgkeYtSWuXK",
+            "1DRHjP6Yy25eYhHCAV3K9nKk7oRcEoktxZ",
+            "12Yqj6uEE1DxNXE8eG4aMXPrfpzB12FVyU",
+            "18SqiWWBAUUxgVG48L2bqFNWew8iE5tV45",
+            "1Hr4j3tNkFavP96XvZ17emB2aiobyxcEYG",
+            "15AuENE67Z5QWxZQ1bwL3dTuiozMgRpFdR",
+            "15rMxdjM4BjDWUZ6uXFcXXWPx4Ro8gkQaE",
+            "1JgVDyfNjvz5cSC3MX2Fvx2fSi3oEdxyno",
+            "1GCaasB3xiD2dEnFm9sH66Gf5ckHii8pUh",
+            "1KmqXSRGjX4TBGRv1Bmb35ixwPcdcbMwGV",
+            "1Ge1zkni62dC4kq4kEUVGAnRhF8G3144Zi",
+            "1DcAxVkRy6V59yEqfHpSSqi9DgxwFsrNQt",
+            "13jAXzKTUXti7A8CSR1FUezE5AMTPnqZhz",
+            "16MnP9LATT9DFob5wzJUQNM65NTUNDsL2t"
+        ]
+    },
+    "keystore": {
+        "seed": "text scale casino chalk wise require recipe wave veteran kitchen wine frozen",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2zPTSdF2h1TbxFWP3BzGUVRBZeomar4JY4Pu7j88SKMPZKXpDd8LhkJ4RAFFTTLNTVCHv4Jzc137XXgv3USufLVcJW7zrWB",
+        "xpub": "xpub661MyMwAqRbcFUTvYen349QLWHLsSei7qiLnN3DP9BbHQrj3fGSNz7fsQc7gdKoJEqsH7tmQPRZJqJmVF78ndcGwYD6ZgrmyMXEfWskhkMJ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19kCpjB1NqRpcUQVgJNaXsQHfDd6ccGEvJ",
+            "18jFAFVyGj33YDdWJP4s6K7duEf9LEx6Th",
+            "1JmD23bqnisTRcXstF54dJ1bTKEgRzdpRz",
+            "18V5ZFkgpnJUSSE49onQvYHxRzsU6pv7xN",
+            "12K2hLKutbJX4xC3ohe1uJk22gW7m169R1",
+            "1KhZhu9LsE9Lq9aYHiN4xSGzRT3mcUkPYn"
+        ],
+        "receiving": [
+            "1G6ZhvE3WvLnpXSBRGfQ4rnjPkWL3XdYhZ",
+            "18X5ZnZ61mu8r4K5UNTgUneuNNn584PZY8",
+            "18nymi7ZjJewtHJWD2rn36oHzwbppfUrn6",
+            "18EaX52xcoVkExXBWkZCBWQhjmNKbJvbGN",
+            "16wNwcuff6zfhYPRmb4gwRGHpPdb7kBuG9",
+            "1JGCY1rYY3nTcwfHqre71o3YP3k3QgoiJD",
+            "187Ur4xfWRwJdW34r7VsddPub6LbcAqSW9",
+            "14kPnbP7k5mtPnUKz8CK8BBBS4XMxtyLwc",
+            "1L8kQYvkicyyonoSqGS1qRym96LKG29a7s",
+            "1683iaXbKZQCnea6TzDUYLac3dESoHq3oG",
+            "1MnJurgLvk67PeTotSC4ajTGT9E5qSCHhF",
+            "1NEtNGo9KT8w8tEzRercDsVLLa3pYBXDmA",
+            "1pQXqHqATM9QS8nH6bUWjoeMvsk32hmrs",
+            "1DR5YSnFYfjyFCAesghzH6CLTxFiQ1aJu7",
+            "1GWCM41jE9aF1JJ5ytHo9xLJWgfgT9yWN9",
+            "12q3oPCAsYdas6PedpvoEoqPpbVuSSjsza",
+            "1A3W2M1cipbqe42jbPvtsEcUo3FtPyXik2",
+            "1NtaSveaoPRaj61LSvUVDrH998WpKRVcfh",
+            "1AGxvYcKULbkXgN71PEM48ocHoRmJaZjLK",
+            "1JNKWdhCyoVArcSwuZKQoF1Bmf3B1nfLeo"
+        ]
+    },
+    "keystore": {
+        "seed": "useless brick loop unveil there vapor snake panda front giraffe grape sponsor",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4A1azPkRYv3p5PSp8qVpEjxHxgGTT3y1jsVBXenu36NQ7NvNNUcuvZ99Gysq1GUcyHHTKZsJxqH1ysQ79EXedGsjZXLHu1m",
+        "xpub": "xpub661MyMwAqRbcGe646RHRv3zYdRHJYJDfbxstm4g51PVzcfpL5C79atgsxhKk3CiZw62Ktfsxc8h68r1QsUXaYubCoYDKzkTf6MPk4sxs9TU"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

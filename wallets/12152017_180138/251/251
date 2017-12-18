@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1D5BCTBugfZoH51fMauwELf3uvVWwioJvu",
+            "1FKSQRaRBHtU7dG1uk1wCQPUoA7ujL7jBW",
+            "1NVREJbwxv8opugW7qBw3A8PYZbzDRv2JY",
+            "1GUGDdxVx2xRzUae8Z9xNKNrS5vbCQ3ti5",
+            "1MZFZZ9Nsh5hBo8Gf6HohBhkQFoAh3MHgZ",
+            "1A37wSciFU7zJr5HkwGa5xb4FZwthRQFAi"
+        ],
+        "receiving": [
+            "1DV8KiT31gyCQyzGeDoQLatduMUQ9rqLdZ",
+            "1FnwC8aYuAh19pPYwC8ZxM7qzDdD6ysTXP",
+            "1ox6NGX3FYogvv1QwdGuzXyCerJpyn8SF",
+            "1EJgEN5e39Xiapm5nfj9bEuwemFx1Eh3L",
+            "1Nc5uPKo9UpJ4sW9WonfXeHTJuTUBT9m72",
+            "1DXMQur6eHv1a3Pwksbqcup14U1R31aaD1",
+            "1BMVVqokYdp8VmTri7kevNghxzFnNmyN6e",
+            "1G8Gc34HMvZeRST5KsDr4gZ9gTjBw3myHD",
+            "1C2A6P1iLCoFmJZTJh3BGFhNjyudebvYkD",
+            "1AJKw8WjSpq5y3KJc9vYKwrZti1FneFFrW",
+            "1EnrxVSz2o17dQGeg1k4senqvPzNgo27AV",
+            "14tsWqfFsvyAaEPDwtebxxswpxMx62PSpG",
+            "1K3U1vk79J45ZfejvvaREYtUcph4A3vVaW",
+            "1F7upjBAvY9JU3sJCes34Uo7RSmzfSLcXW",
+            "12eGYk95jjf2Ps9EsZgXJsrF5gjLnmnsDU",
+            "12pjaS73rYrkM8TDokdAFtDjJswgqcaos4",
+            "1AzPiPUkswZz2WbUWvCfNzTFhnNua7fvwt",
+            "1AWphUshaJJw4E7AsgEUn4Wr9n9Uj3cUw5",
+            "1P4LCKmxFoaHswJjmGCdY9NKgegGXnn2CJ",
+            "1FR7rSR8Xwz5geVQg9BR2gQnztpaqYB3gx"
+        ]
+    },
+    "keystore": {
+        "seed": "buffalo ritual story soup senior office absorb toddler inflict right jelly this",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2dXC6uNbcXozrBXShMWL2dyWKNBXLsAg1p4zr8P8wkw5nBJuzh3KW9jDTo4w4rETdgfezB4F9CmJgwoLKeh8kEtCB4yD7Cb",
+        "xpub": "xpub661MyMwAqRbcF7bfCvubyfkjQDMw6pEBPru77kb8uChetcQ9PfhPVZFZdV2gcUz4S7DE5yyLhUBfonXmG774t25BDjcmHxtoqLmjB4WbUCF"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14BzKWJF6BvvUq68V2dh7wqZ9xjxHERH4c",
+            "179t7UuM12Z1bHnv1VhgzfLDBuFGWd77nG",
+            "15R7M4iKnmJpD6mcDUk3ebJV2ekTbsxagV",
+            "1GUiGDshtJRft34qn6fLrcd6WLfBgCoMWL",
+            "1Fjnfd4UjC9RMqUC9GSjHeweg4zXsvRLTb",
+            "16SMDNWLXMDa252bB5MpfRpUdFFo9LNmBE"
+        ],
+        "receiving": [
+            "15DmbzKY5vbGxPSU9SdbbBrTTJ9Rt9G5eM",
+            "19ofPVvWPpXM547czMpMnAGaHaMZa1LRAT",
+            "1EesxKNxe4hvwkQdcNjNBDW98Vy8dDhntc",
+            "1GLB15pvCkUD3GRDZ7qj5syNNnmkNjS1uz",
+            "1Nv9F6t28nL2Ywrmxu4xfjrm9QVyTQ6NgA",
+            "17bxM6Sh7pYMD96LuySjnJgWYk9c1WpPHZ",
+            "16MPk2iNPjJrvPoS3pV8M8xWRVQpL6sD6h",
+            "1NtFPTWDJ4vzM4pMH71hXFZFRzbJzHWWux",
+            "12U5VnTc2zCjciEWZBDHZeQiF5iEU7eKDE",
+            "1DkpVpmBmASLjx2ShQ96yLyCr4chMc6zeS",
+            "1C2ztaFKCry2DzhPrrQofvn42TfZddyDcR",
+            "1Exjo12SqDUAtXKPg9SsAnM6gEcKCjAVDy",
+            "14ccuwgTrR4YYgNcLZ5Ws1st3GvwMPdMHY",
+            "17XpiRzfDpiaReY9m4q4NYWSRKRby3LvBJ",
+            "1DJnR3SmoDdPMfUhoZYFag5rWDm5PxxPJp",
+            "1AJxwZSmBJWHV2AAY4NCeuEtgsRbCJdo6B",
+            "1GjzWDdcNBiUjoz6AbqaQkjmeLnLhfEFri",
+            "1PAUbpy6yJX9QYp5Ur3U7KZzieeNQcdmFH",
+            "1NMoeoxDtG8NL9jVVtRKjx5j52KEL3nLPL",
+            "18szWdEpFSBpEkiBZyn8E5LmvLRVtNi6Uy"
+        ]
+    },
+    "keystore": {
+        "seed": "bonus creek knife rely veteran canoe melt apart degree payment fringe barely",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4M1kEUWLBRg7PduumUJLKst7xx7MHJWVAnWrW9DycPs3Tzbnbnzuv5jYavoAvoGEHkpGvEWkpKtStt29XRELzGSHuQQefcY",
+        "xpub": "xpub661MyMwAqRbcGq6DLW3LYZcqwfkQAw2Bh6oimLWxqe3U3ar13gYEACBXKFPHcg8ocs3K83uYg8wtqHBKJA7r7VmmqQGwenL7yZfzdjLsbRY"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

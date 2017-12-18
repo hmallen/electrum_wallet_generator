@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17AGRZP7ES8euHnUvdh8VtbkaBp9xRUgPc",
+            "1FoqWrtv8KTzqowdDMTQqypQJHSKjbjxkG",
+            "13doWoBFAPY3MZxmLhMgGDYbUY6QEAZMNu",
+            "19pih8i6LafARRzpKyabPQwQ8mg2wqzvhU",
+            "1Ag1ctM8NDG6Bfs7TirR3qcueDxCuQ16rP",
+            "1H9hSHanHQMZnZJuMDFphGzd7QhjFw1Mpt"
+        ],
+        "receiving": [
+            "1GmQiQhZiYFJ3p8gnWGCz7p7a4gvktWreQ",
+            "1B3rrn8RkLpYSWZoFLDKD6tpKyoVQPdoDf",
+            "1NcziaNrZRZmDjvZKhQ5Pza2ca5nBswJgV",
+            "1BqMuHpwdJq9kqBJQZbN9xcdusYppBnTDh",
+            "17jWtr9RbXzATVkGpV1ZYLnKVszHQbtbSH",
+            "1Ep428kaTSFdhsJEGuPCAKHL96wKgGSFCW",
+            "1DhoQHoxNfvN75e1SAbR4r37pzwwn8LGyD",
+            "1M319iUgMaiDyyjzBFWBzTrLKoaipzsHCx",
+            "1PwxSQSvWdUtn2JjQHbGZXkuLmBFhJYqY4",
+            "16kqnewDW3iYybUSfTYGqF7tqJpxB5SYHa",
+            "1JAUqHeKtyKJA244tLz2W99pHZJgkgubmP",
+            "12p9fn4ZSzp3xKCRbMDwJx9rZDvtgdabGo",
+            "1MpWaxEQxy87PgAChNHmbmp9wvknXFa7Ac",
+            "1C7wQkC2B1F39mCeQZMhy6fjFmseaDgnSn",
+            "16CVkNUjEdSVBGVr9TGJj7LLM8n7Xs8cMR",
+            "1LtNymtknfpb9zmsuhcaQE3YquLJbu6yPJ",
+            "1K1Jtj5duF9No4f18yFg8HppjtEL9VJVYt",
+            "1H1oUCGSB5Q2x8frEGi47WEsZcSPEg2VYT",
+            "1QJvascedigCnFh9QbrMcB4HjJw1DTs2m5",
+            "15C5bsMAHpnRUcYiWRmMsAAMwk7RRo93jT"
+        ]
+    },
+    "keystore": {
+        "seed": "elder humble shove negative also angle cram that thank country spider work",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K46Da7PdjPr73qnB8v6kG17Tj1g7sBo4GK6KADYnXT3SZ5pFYi6ufyuDCEocdCwWLsXH8BDH6wymiUTz79XezWSTC3thSdNn",
+        "xpub": "xpub661MyMwAqRbcGaJ3DRAjkz3nPp1dKZU7NLPKp4XUk8bFBteJm66mzqm2w6Dn8DxBFTAUHUq5g7NmReP57VcKZ6Rk3ZK94Lp9TRckHaw9oGK"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1B5WapkrPgrmYNaMZ9PsG3aPS166FwFpG",
+            "1MhoSr7j8qqajC9MG86mKjEgpPn7DrT6j5",
+            "1H1jfA98iKtEBSSA48XcdGt8VH9MZf3B49",
+            "1AeFLoGgmJi6HPLFQc5gzJyGbkdMDjfevj",
+            "148FzFT1SRS8ugHwwkipJ8hFhqmEyH2gb1",
+            "18ue7UoKWvMCCmLtWYjR4RwbF9tQvaRxG4"
+        ],
+        "receiving": [
+            "16CHAbJ7MnbN85kT36k6tVydkjCD52V8KK",
+            "14LVaVUHR1jszHTz6EYCUGriXYCKtiTo1g",
+            "18c396emJKg5tTcsTjz3hPgWd53LAXE7Yd",
+            "15fhqxPuym6MAB7M2nQeUSy3wtRjeYeiX9",
+            "1P8yaC7e4gX5j9yQt6mHpusubDXpS7yMhm",
+            "13WuqCkCF8LSqemB7pEEKkc72Bgm9WQSbu",
+            "18d8d4ghYQJVsgKa9gMZyBg4WfwEYymdUj",
+            "17yUE79VCSTv2A7WS8a1U1LU2kmUKoqfS9",
+            "1EoaWGE1s7RK9Zk1HQahXpgxcwNNMWhGyC",
+            "13tQKSieNVTkXzFGCPtFv5K9zbMG4g3fQS",
+            "1LcKrHni5q7WhjQw53ET1AF8sTiNdAGZqH",
+            "18CxQ4m9SxAg5ndbHzco7RwPSPiAYWTz5s",
+            "1Es5umt7d6odtpco9gD9VFsHWW7pnoZoLi",
+            "13F8zmUNAErDRWvZAwnCrV1NetgPpZVZzb",
+            "1P5S5WXPhaJwfHP7BUTH8oF2GAmv7eNaXC",
+            "1KBWJaB3pakFeHrjubbcMcwMjUQqvgKzz8",
+            "1ERa8PrKVwUCdS3B1JYkGeAuY8F4k6iVqE",
+            "1MuFsCLm1p2b5t3czSb43CWBdAdD881bmC",
+            "1BTSYSHYCU3H3rY5uBMtd7QFGC8E3NBcmh",
+            "1AfFDQTRqYhDCcbwZ6BkbjJjwaFMbetYYD"
+        ]
+    },
+    "keystore": {
+        "seed": "cake riot danger open cup curve diary achieve jeans rug invite lumber",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3hYwRnQjWhJnjRBdiYcm7FP3dQFrQixXNQw5gpqE3cUrDKpG1EctE4Lh526ejVYqrNqWwKnffWPreznQ1v9377bfrgZ5Nxs",
+        "xpub": "xpub661MyMwAqRbcGBdQXowjsqFXHT2881LcUUJeRnfTy4VWFDGEEN9UbQoL4cwdDrccfx9h8zutUWHxk7qFQXjoJEoQetLmegwJR39UTqLDEsa"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

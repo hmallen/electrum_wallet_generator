@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1AjXktcHFu8Z4ptqv28UYveUCSxUVF74nh",
+            "1HKp4qW8rSScEk2FpMVPCo5VGbdGWxNE3N",
+            "1CsnuPJAR1izafjbDAqSBW8F6CxFXwhcPy",
+            "1C8fykMBUMBy9djZVg4aqToXCFKeJBQHia",
+            "13KgDCZayybw6J86Jg9ML2iEemndtFRczm",
+            "19noyJNXF16jUDs52EH3kGpX1xXqPsZVCQ"
+        ],
+        "receiving": [
+            "1Gonm8ym4PmAUJZAu4G9JcR6gjEGz2dHXQ",
+            "1BQKEQcQFW65HZh38QPZ6HvbafjVvEAAwH",
+            "1MMc2fkyyqitp7J8J9WJr33SMQRPp7P33u",
+            "18tbem4zstezer2sCHeYwc4vrR5vHe4eAi",
+            "1CuDh6dfyr2gYaPp4N7zDkiEJcudbPZ9nH",
+            "1PZUBPL4iLsvSFUob3gDCa32cDgKTQQ8W1",
+            "1QH5JQL6PtX3gWEFDYRsGo9ZrpCDRJWJaZ",
+            "12HaGJshh7qgbusvHRvVFKUK6g6q6ZU698",
+            "1JqCJxLwrX7oWChPWE5sa5mWZcVJ1CY6Ph",
+            "13ssR8znAiwYb1hWBGTKb3FqkekGh7VCHg",
+            "16PHmc6iEt5MeMddZ4WPL6tFY1FaipW44r",
+            "1Lyo7wcq5tE1rWTyF6WHf4Xy8VSdbCN4HA",
+            "1BJdfaWvLy5TiuJh2GzqbrFNBN8dxZqqUF",
+            "1FeeuEWK1bGhcn94pSfrGyXCxtYB8Bduoh",
+            "14wHg6NY4KcvuhjXRuuB6v71c11HB9MUdq",
+            "18voAqexdAjzVEZ6vV4DfgXv4RTUYRPExK",
+            "1Hmx55QgSiaGWE6qGt2n1UC9AsMFer4Gtp",
+            "12y4SUnDYZhkqE3DgqEUtXSxyJxJao5agJ",
+            "1XiLK22BqQknvB41qNJppSe97cjYeBfkg",
+            "1PKbErkkNhBK7eUamnL4XY4qGsFdKvt79r"
+        ]
+    },
+    "keystore": {
+        "seed": "total program sustain trash body help blouse accuse squirrel direct chunk early",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3dTT1fZcxyC3k28YdrctGdHPF1nPupZ2zEWcmhtgowQSUDJQJWidd77HGXmvtRiGkWHciT4KT6Uwqa6RTVnfFsmDAUp3XWq",
+        "xpub": "xpub661MyMwAqRbcG7Xv7h6dL78nJ3y33KLjdrCz3QC1UA61s2qmKFCwMjivKVPgkT91FPD7LtY4u1Ab9LEoT85DX5P6bm7Z6D2FdNHYGmg1Mmt"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

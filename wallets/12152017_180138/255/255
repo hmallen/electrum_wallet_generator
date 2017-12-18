@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16bpX2RZBZkqVqx3P63PwzqS2E2cVXYrNL",
+            "16LkMc9i5uVriSGrP2JQK7MZ2a2ZGjeCun",
+            "13pRU3iWBL3QPWseMZkqnhGL5KmZ6WNpFW",
+            "16ufthnLKUFXCJJxFRqE7CmwFnuCkrdYgB",
+            "13YAy18vpELxhQkjUBQi1uK2eCD1xNLQQf",
+            "1BmghqjvbqbW9dEVxPC8PPYebiHYGZT7NX"
+        ],
+        "receiving": [
+            "1FSJjGS7hpph1vJixEkdbDZTyZMiysUsuL",
+            "165H9BSu9gkzvY1oqFLLpwMPmX6PGNE75T",
+            "1ARoCq1QaUSuuuwjeuYW1mBmi6RXRXW8PT",
+            "1FLYiAsJfA5H1bwUuu7Qm3i8X8k5HWosS6",
+            "1KUi7gtWYLu4EAxX6qdXohR1deR2JHiZNX",
+            "16jiY72BrgvPvKf9srgCm4WxeaNdXM9PpG",
+            "1DB139S1KGD9uX9Y9Y9oV6j1G5gmEY7xwr",
+            "1P4Swxj84KzQk4swRZHuevo7CJD99LXTjZ",
+            "1Aeqj3ZHyxjkZ2T2C65AuwcjsNsRfAs9PQ",
+            "13PNv3ZrdvyQKRzupvLuKErNrE1nFpk3bn",
+            "1B8Pe2SDfhzkmebzivwd88DVa9bqW55PKC",
+            "1MwyEm8mYN56uFWoBSV2qtniXSJz26sKpR",
+            "16avJCdNAXc3Rh8qUbH6mEyHRmk8uLAvuM",
+            "1MJghSz8YeW7HavUoPTgsS26Qev91JTqkS",
+            "1JqhXVSt62fB1yCfUceMrSqwrCqLFRSWNH",
+            "1DWpmh2eJNXeHV7wa78ZmacfoNmvz81iyj",
+            "12hQd5fd5B9uMxtB2Kmk4nBQMyVupWTiCM",
+            "1KZ6D8Rmv5caoKUmf8QWF5gHasUHpWcPng",
+            "1ChH8bFzBsYivTDxYSUwSD96CUZvNtC8zA",
+            "1A166LoChuXwmnJM3aKVjLH9JetqeCzJgb"
+        ]
+    },
+    "keystore": {
+        "seed": "wear maple bind inmate half similar uncle artefact certain cancel bottom supply",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2HUZFEuZeP2BCUefP8Zm1vZKaHhG5LasnVbDamYXHWrtP8wstJwZKukNa4YjJ32UtGmvtnTev7ys7njNNdk4L8FtJLT73ta",
+        "xpub": "xpub661MyMwAqRbcEmZ2MGSa1WxukWV9nbHcP9UvNg6sdg7rfHvN8JrmqKBNETchACv6F1YtMuHhLqajE9EavLc5kJYSM85W9okjYVa8mWQd6oS"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

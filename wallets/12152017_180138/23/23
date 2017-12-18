@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BfgSjb1UaEyM9xHpPxg9sMqZ17vDbs5Hz",
+            "15RRf38EnnhK98N9LcSPy6SQPgsfzMGmh5",
+            "152Pi4mjHxWbBfhQ7byfVfiPcAmtir32Kr",
+            "1Mb2J9aiEVY8GyrqHNpnzLL8ESZTTaiaUY",
+            "13qzUWKJDgjK8TscAr5y4f8qDyjJehBYKd",
+            "15uZMw5yDLPt8z3nzcQ5KhHgxe4of2k8HJ"
+        ],
+        "receiving": [
+            "1GW75F6p428bKH12Egp6nn29vjXWePeGjw",
+            "112tC7q6ZvjVJBuay1q2kLka1D9s8suT73",
+            "1MRPuRYyDESttfCfr91nS61nQS6ybadgcj",
+            "1K8waCqbYBP9b4kAUpwQhSmBW3afRCXRuL",
+            "1BVdXWAbVFSNGqWLHUUeAT4cHfhXAuac6D",
+            "1D9gDS1NUau8xgfee9sNxDrHX9gT5vMBFR",
+            "1P7ZZPCNHkXqXUzy6TS72PcTVHiyHRWnYX",
+            "1EUonL7YBaSvn6ams7Gn4HoWEJFr85hGxx",
+            "1AXNVDMtg2oZrxnW37U3B8gvoSf4YmpANZ",
+            "1436jzCHfkP1kgmR5HQSDLrbxRnDdFD1Jx",
+            "13iaMdoZ3avCH7ZTfrGso6uFo6Qo42Ecry",
+            "1BGHpB32qFPUmxdQKPzEH3tf3eYtvHZ8e7",
+            "1DLBT5NmbsADkHEi1KhvJFewqNf5dK4oxf",
+            "1KbbUPbPfQp2BkPDr4KeuAE9NqXErhVj7N",
+            "15bHa5BQXuDMeh9ktvhokSY8EF8fLNC5PW",
+            "1HUBwQnenzSn1yLkB8bRLa3wZJDvhcVwsP",
+            "16trHv742iq3brfGifNpKYZ7WomXpaaBFV",
+            "1EEFstAHPUD5escmTT8wYk5hSfykwB2zbN",
+            "157TwzadsZ98Xjf5hEEwD5raXWkVfp2bPM",
+            "13j4zoyUURsjW9C4ntaEjrWyeaHARaCQLu"
+        ]
+    },
+    "keystore": {
+        "seed": "regular frozen anger capable nose example parent camera boil humor number rebuild",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3ezpSgY6r8omQNiEAXLb1sn5TCG299pu5q89jVstiTdi4VBf784JA6JF7to3G8NKQvBcreetZxGSateKQtq9WUETCYWaBMe",
+        "xpub": "xpub661MyMwAqRbcG95HYi57DGkVxQYiZz4SP6hgFafdhVMsxdTJH3C9GFxBum88nTbkr1uXmTBnvmPLQVYP7pcqXZj9ZjyvKn3iqozPUKm8PS9"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

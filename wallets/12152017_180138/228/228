@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1MkJtd7B7qDDYGtT9YuAyAtNhkgsLavUw7",
+            "15yAyVTBxYfRzZXg839wCwhiFei3wyJgmh",
+            "16FLgUzZzVcyiSgJk9U7Qb3kVY5StbnmcT",
+            "1PitP7oc4S9ipBUC9gnpLU86gLcoKTifq5",
+            "1LPAK8w9tLAoaRF58it93ZqBLrxnfoxqfH",
+            "148jiKWZUfBRwd3TaE9ej88jqbVdE1ZW8H"
+        ],
+        "receiving": [
+            "1N9o3gYWyecTpjJEpgc5BSDcT38NbbZddZ",
+            "16kcQqzKSx3gV9d7Zs5pvSzoR5aX249TLb",
+            "1F6jsALyK3feoXjgEZKEWbBMC2GjNn4LdD",
+            "1H5LaeQmPxbngts2wGLF1w1zAEkdWJUuWG",
+            "1ERivsib2Hmp55ZhPVLLE552Fh98ik1ZMp",
+            "17WzSA9aizjCRVv5w28NcdHDWvyNmjJ6yp",
+            "18aasoqLLNYVkU7oiGbhDfMuu62DmZxzYW",
+            "1FHsAkgmY5wwp4UivLb9XPJ1YJxpwK9a1w",
+            "1D41os6QC39c6VSFdCbjgHXhhYsLU6Upqp",
+            "1F9KWy8NRLExPYVv8wnPpeHacmCQppYiNo",
+            "1KqrivjS1YDzXUeptg4SGM3LkkVGJFX9LY",
+            "1NApxsNPQnqdW8fAZYQcGVogdXgcN3quQx",
+            "12gPc9FaKbJYtyKQ9Bp6Pxfz6YeVe7hWed",
+            "1DEpAHEfNFS3XiLcwkDo8ftjnHmm64hUe4",
+            "1LM1TsvQQcAkPmQ1ELSFXYDgMTa2W79nBx",
+            "1PwNsaiQBvX9pS7n52tgqhsiCNacDu5CZH",
+            "1LZzErs5nwt6UBnPT85wQL7jAEubEnZi5k",
+            "1NMBWBmKFBzR36LvD565RRzRue4SokpJQ1",
+            "19zFFz3zJ352aZJFfap3FN4EGdtRrq8skD",
+            "1LBvaPDhTPX1mEdpaXMuZNX7U8ttqQXr5A"
+        ]
+    },
+    "keystore": {
+        "seed": "define deputy expect ability obscure sphere caution voice taste stick glide fiction",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Wmt5WfdTgwqkta32i2hsjAJ4Y86PALue8DwsbtvX2Lej2enDkwH4BQuiiLDCuf1G8SrBiWPa2C4YBJ7LKmotsFKPDMmqZ3",
+        "xpub": "xpub661MyMwAqRbcEzrMBYCdpptaJvQXSAkZEx5trvXhwVstWvZ6R9DB4pf8aJMqh5nKb6QccrTPTizh9mm3DQVjovfQ5pZ2ZAvF6DXPvepruHK"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

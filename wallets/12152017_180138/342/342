@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Jd5iAVXjUwVspHSNjEQF6BwSnseDWRYJj",
+            "14LkfueEwV9CriBLhj6MRKdf3uivEvNxTt",
+            "1CiZQwzjycENVBLoV9Vc85YZGzfsq1G2BH",
+            "1K5QfSyYvZwC2TVeZvcCWfmjuGwQs5163z",
+            "1GdugWot6HmmwzHdn9f57oh6WCC9p8uoC6",
+            "1G6wnPySxdBUPV6SH59xu5srLXEtaGwidJ"
+        ],
+        "receiving": [
+            "1CtPS7SPR1wdoYmuj2T2CuP31ov7x6eStv",
+            "1ENsqLLgELWuFKcYbcJtd4QKjYbiMbPs8u",
+            "14em9q31VJonQ9tAGWagt4Jx4X9oQV1u5D",
+            "1PtAMHqHjyY6ZxraqjaytDs6fHCPzF1YE1",
+            "1NSbs59M4VBjZ1rAGpfxycbpGz9WNKSALC",
+            "1KxxF8KPTdQzE8nYD9JTkqDx3FaG9iDb7N",
+            "1MQSS9ouPxXfLVoLersUYniZcCKf7uKN6q",
+            "1MmzS6eJF7RPRcjt4yE2bFhHgJQ5T8NpLR",
+            "1QGiip4Bfyn3ZGWaVyqLAn6p4KBwL5fBUC",
+            "1F53MNTor5NLdWdVcuSHeDHH7bPLtnJThm",
+            "14YgHuhU4SivMs1C5ekVZUr3FJKmEGPmFG",
+            "14zGRhNx7nbXAPvJx6x7njVifBdZX1ze3W",
+            "193udbSc6THnWby3A8GavcL8Fbd39WYqCV",
+            "13mkb2w1fDwXH9sUrR8V84kn4VqLbf8GAi",
+            "1NoVkShK7sz8oW7BkFQzqxQrDWCjjLAwka",
+            "1LLkzspsQeYJiu7jRqYmcAnDmfjFE655B2",
+            "1A7mJ1AQGvkNE179ff5Dr7bV44TJ6qRD84",
+            "1P4P1Nge99wgK4bMRNonPoQdSjuFtmda6M",
+            "14G2WCUPTM5RRootm2JjufmB86XZ2eQnsN",
+            "1BtJTmc9mYEibnxMjtoM4bANtq1FdcoRvK"
+        ]
+    },
+    "keystore": {
+        "seed": "hollow love enlist wing grid deal patient bread divorce example close increase",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2j98nvLyDP7Gv7pqddzrPtt7qQiTLgPJUdUb571q1bCEv7MsT2z5bG3k7uRgeZioMaK6WvmHwxXibasn3Z7AJqaAb6YqzjV",
+        "xpub": "xpub661MyMwAqRbcFDDbtwsyaX41U9fL36ihm7oido84u1vHMRojceL5ZPWimQkrh19n2jvAHKejSGXUY1DFkQEaGAgFf9ouwLqsc4hGhBqBXQS"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

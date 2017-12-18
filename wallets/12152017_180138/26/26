@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1P9BAVLsKJ6ioHztDrrb2QSfQXovKy9Q7i",
+            "1Q9E4uDZtkqp67oasgRhAkgu36HoVKBbE8",
+            "17W1QibQZue7AWsESCvrqWL4KoKYk3XPeF",
+            "18zHWLFzK34cK21J4Uf8kaZcC9phpSwhRE",
+            "1JQFFrufe5UxbPkFWHDmSgUtfvj8weJx74",
+            "1N5E9GBB55XaZZ4EEUk1YJZunn9fLEdvmg"
+        ],
+        "receiving": [
+            "1FkEBvb35h338GsPGaqhZyGLKCKdgitChe",
+            "1Ccuh8FESWDYDWg5Xmw5fNHCz4hWd7fXhX",
+            "18RF2Kb5zeZLeZmJs3ZwUajifgRvHg6s4y",
+            "14cQ1q4G34xDh9ntURj9XQsvXeBXgWSWmQ",
+            "1M2sC21ZiwKJNJAwTxMgxaumEHjtpW7KEH",
+            "1CKxP3W97VKoTgTtJn3LNh6Zt4NyupZdrQ",
+            "16udJ17EXqNytwnam41pF59qXLvpHL3xZj",
+            "151JUuSoSriVqLqrTSuXhkv1mhr3K9F2s3",
+            "17gvWchVoYF7jobhbRQe4WrkJkZwziQ1yk",
+            "1AKCz7Ppb1LQKwjK58qQWtnRjqmZFuFT32",
+            "1Kz8vw1NyUbqNYufPEvqWVistQR97WJkbN",
+            "1CJP679NytuoMfHcw8bPoTjdZdnSXqNNCV",
+            "169sPMkMmH8xMKCyXdPzCPpeHaAYi3zFc8",
+            "1F4PTtr5uVdbU18RdbxLKaoBprhCRG7QKm",
+            "178b4cKT6an5vGfbEGeqXfyqWv2HShv2n6",
+            "1Q7zPcicYKUvbznoB8qyzwxddmbnjAmoAN",
+            "1JSdHCVk16AmVMi4XXbSu8Wmf5zAa3LYDP",
+            "1Krc2EJ7sFQtGCvNQP9nr9Hk885H8bidCT",
+            "1De6sLdUFmtZ5rWo9RwPmVND2oMVZRyfjo",
+            "14zQnBseM8DJB4DNHhU5QwpbvfxZaLYfow"
+        ]
+    },
+    "keystore": {
+        "seed": "spawn bridge table own man vehicle faint need twelve nominee fury kiss",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4DNWFWuNP3iQhKKsMfmUfu76rd8jMATRj9T1KYrvsdtK5sZPsLqfrJHQVSFr9hpHsYKkKZ7zSvePFPbABnnincXkPjjqQKS",
+        "xpub": "xpub661MyMwAqRbcGhSyMYSNkBf9FMAMm8VL382hf1YLuVzQbwn9s6BBRSCnw8E1D9Gkhkx8VYhiR1Khz1xNPCRb7BNkTnuXvnRcSTHUBZip51z"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

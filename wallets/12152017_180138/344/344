@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1KJ4e3fV65bzTq1F7ibrH9StMRxqEa9ixp",
+            "18dkw9UruwrwhFMC8eA3nU1SzNxgHQvHVw",
+            "17nDCP7dutXkUX99yjV6wrz168LaJDaK6z",
+            "1C5PTED7E5i8CEVegMZvydRjpWasWHN4L2",
+            "1G6xia7xNYSkpNNEDmLb4Cja1V9NuPWCk2",
+            "1NtaUjDQE4jMGcLZCm3of7utFGefy2zNHh"
+        ],
+        "receiving": [
+            "1ET2HW44V2WkiMeTfH3DJCDTNHzNKDTkSP",
+            "1F1KKWihZ1tAdxCmmUy76KvyeCtDHy7FsB",
+            "12Q2W1B7PvdJKFuBo52F7twtiwoHB8qpSS",
+            "1Q3HHLruweXQ3sLDyxDekmB7sg5gzzZTg6",
+            "1MoN3avohUyBfxWX7QzWcbZQ6fECxu5WZe",
+            "1L1MthhD5q2oE8UEmPSWdwjgBaZS9Ph163",
+            "1HW4LtmtVajhoUQKUFVn15H64aqE1kkfAs",
+            "1Ef69BvFG1dMwKEYSBJrRNZZadZLVdhh2c",
+            "1LNhMsXaEB7bkc1g7AguSG5oKbdJtHQZxC",
+            "1Ciq7Y63Yi63ywYCypkcfHC5NaWkAuysQi",
+            "15xYYTNqHamiBa38iX1rtoiGi35nvxzdK8",
+            "13hmMomzmQJqUf1dF3XiyFzV3GwwiJtTWL",
+            "1Apd7LQiSPoM1yeK8tywcyCyCbvPoJTSaA",
+            "1AetoeVXU1E9fq9TeCVhEqxcPTHjtYZ5mq",
+            "18siwFruNtmpaKV8wPvafAZH4p1GGGYji2",
+            "1NwgTwaUufNFX5P1ZZ4q9iwwwaWXtTP3kX",
+            "19qyFPEyRjo6ckksgZ9ZX7PA39YPckhnyj",
+            "13WYziojfnniRwmPq8Pn8u6JNoeDTKRcr8",
+            "1DhwBzNgEzgun1VZmd5pryaMuFpQyDDshe",
+            "1Ph7pPL8bdihJ5TLhQP6XMwx3WJJ5Gt1yg"
+        ]
+    },
+    "keystore": {
+        "seed": "furnace swallow damp load prevent work famous reform stay vacant brain cluster",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K27x89uPTN4fkwF9kdCzaY3Z9pi82GTSJU5iwzdN4ekXxEtw4UPKweiq4t9yQzaTQoc6x421XyBPujC2h985uo3JZ9SH9EUB",
+        "xpub": "xpub661MyMwAqRbcEc2bFvvTjCcVVGzF2fiRuGUkd6XdpnyHLt46YAgKCYrS69DHRwYXVdkbqtTbFakLiNDLKujiCkKjXUTWUnaEW5H5ioxgCBr"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

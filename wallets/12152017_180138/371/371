@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1CLZTEgqqrV1oCQuBkirYRMNzpRSFee2TP",
+            "1N3vERyD5avvPicpujPebe42XgGRfKiJBz",
+            "1JW3fiHnNmMw31p7mGnyZ7gE3YwSwkicVv",
+            "18bATj8LrjLmEbvHLQJQqH2vxTtJLR5K5B",
+            "1D7gxwZDijKXNy6ZyA95TuveWwMMVgoRXM",
+            "1PEfR96gEP4X6P7T3h2JzvRHLEXsRfH49a"
+        ],
+        "receiving": [
+            "1KetTykxqMiySHvSAjG3so1PfmRuhykqnp",
+            "1PRoB1Fj5e1LcstP59d6ScgJxzXenzS2fY",
+            "18Zt8MGuZ9EVmPHJ9WuKAHYjp2iCwviBiz",
+            "1JARAuPr9J7vVvqYkCECx5er3jh2PEAyVj",
+            "1CxFzinMGDhy4aiFakj2qwJ8kSpomNq4G4",
+            "1AoEhAL1tXXM9MtAzXxzJnGpMRdV2nR5i2",
+            "1G5sEv8cNN3QoCxh1FC11US57xBNADpaYa",
+            "1FQDPGFGaVmyvziTx8FQ2ArjDqmJBH4Gqk",
+            "16gViQBfPr7cKu2WdU4mGaBY6bcWrCcQoM",
+            "17WEVscJiCvqvfbazHrMhVxC9rSKe76Ysz",
+            "185VZNvuaG4KgrFcmQbNAFn1NRv2wif6op",
+            "1HMsQLdeFf6oPjNipqXhay83RwAS1C3UTr",
+            "17Y7swFWo3iwKsfDJuFszB8G4wWTmoQ8HM",
+            "1Pr7EcGzZ5Gft3cziXvnUFNVpMzbgJ4w8K",
+            "1Dynb3v4R9nAkGA4XQ8HTTw8QqKGnD8yxj",
+            "1PBRjVseV5u3Xi8pqLatxWYq9GEDA9SPkv",
+            "1HdPTymUp5HjQFTFjD9MwouACcDQkgtQ8L",
+            "15a9eRDUxtGiLtySssBfddFK8qjZTid1zj",
+            "1BqdFxNgQ7ezjtHpxjb5K4nrmgk7UmP1Ri",
+            "1FBMq5NwvMBQiB9tAU5xsWuMdAnkC5vvrx"
+        ]
+    },
+    "keystore": {
+        "seed": "property pitch blade ribbon jelly track mystery solid service divorce brother slight",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Yr6fQtdFu7d8fcWsqYUQgGwyUskbxMZonVrCAHDAf1wXE1H2s4LzcvsheVGH6do4pbmdkXH512uxYTwjLQA7t5SXfbSaja",
+        "xpub": "xpub661MyMwAqRbcF2vZmSRdd34MghT1HJGKmuCYmsHNAHtYgapzjhbTiTLRNTzgPbc4XAYCx2nLu6r1xBhXKqqPtTuDz2vkdgLRm93Euvxj8SZ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

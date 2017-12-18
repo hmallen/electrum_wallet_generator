@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19H4MGE47jx4HtgfdgQQaUVXPMDdkr3GtL",
+            "17QzfBQViK4aAWtNFRpdVLP4Q7BPz12LJz",
+            "16j5AJGpQhZgqWiN7GCBjtNQNBp3i3eovH",
+            "1A7h7mMbDMxoKuZqG4s8t9c7X3Fn1DXztj",
+            "1LPdRpwHUCbLBHRLbMJhkVacimHnY88pD1",
+            "1AXUPwU9qS3LLtRnKEr5rUZA4caSfFubR9"
+        ],
+        "receiving": [
+            "1BibTbnAwviEit6vc2SZQfAKnSYt2cQg79",
+            "1MK3j1PuSt2d8G59J3aKtAqFMaGvAuUZFA",
+            "1Ed3CiR2XeU3gramtcy1tDy2afriXjW4Ng",
+            "19YTtHjmoxSuP8AMQZv9XhpxrE62pb7Wb8",
+            "13YWbFSqUHRJGwEmyBkGe66nevFSDy9Yer",
+            "1Gai1Q5xgmDVvtrGkPyng8h2Jfz2STcXEK",
+            "1Q9f9v7zPNSjN2EwmFRUT2STGA8V4ty5kC",
+            "1B8BLpTD2318CL82V6K9hMwdcz1JBTgaFK",
+            "1MiYfCBsYLivP3aYVjSWNZZJcgzJovsKM6",
+            "183vxHDFqfw4xAP3ka4WcsEJegMakbQxLS",
+            "1QD3F7BTXHC6KfwEHHwXcPJ2v2KSVt99Pz",
+            "19yeGqEUu2yQYAAQc6q8THbLb3QRS3ruDv",
+            "1Dy5s1nSQyFUHw5k29tjMGn9HotKVzF7y9",
+            "163AuKrgntXxoVXj7LHRA3zm3YJj9CiTyo",
+            "1L9pX5VP3NP6ZPivLTFgE8sNwyKvY1R7Pq",
+            "1MtmhEEff63iXHKwqXYek1FLyVVeo7YEtS",
+            "1Ec1nMYeZyn47aBeU1iwvpicLRRpQi6qLw",
+            "1HcGHHYQEYPabqrqaFk2f4oCjHX3Uo4cYe",
+            "165qsv4jPRpgbKeAJ95muaqtkPWez8iz34",
+            "1EkQoWUHdU3g7CbtsHz77zE5PCX3YN85q7"
+        ]
+    },
+    "keystore": {
+        "seed": "because dry pepper century limit artist across explain fresh lecture suit calm",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K42qfSpY8tWaiGAfs4Vq9Kh2R1zVJX4zmc5nTRgP9KBGcQkB4agRivqb3ZYLN9RwE1eqrric2E3fa8EtsWrVDobsGCe1VLqp",
+        "xpub": "xpub661MyMwAqRbcGWv8Yr59FeXSpCWMTxYzgux1pNtv5QXkUt7byDhPryb6G1yKjGPdeVeVbdUsUcPo6WZMgMQS5RfAgimZa4owvmMY2iB2mYe"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

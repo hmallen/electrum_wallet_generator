@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1C7MnVvMDj547wPu3tDauVppScWozfkMsT",
+            "12VTaFxhtRbCCbZpQfXLDHkZZ7KXZuqWnz",
+            "1HNqEuBwZhXSzmdVV2dLc3KwQna2o3LSY6",
+            "1N5poLWhxdvkVFJJmBx6gWK4opibEo1Bdd",
+            "1LcgoLGvC9bFvPYh2PHRhtrSy8U5jvEu44",
+            "1DcJG4UzNAteEGR6wUDjinm9smHiSiMHiA"
+        ],
+        "receiving": [
+            "14PrEazdaspVQiJRQhvQdieExcykg77gbp",
+            "1NTFDuKvHxcpM6JRa8LHkiNCkTiQm1URtM",
+            "1BXGqAsWt5xWUmPFVCFmirZ3kUFwvHsbqX",
+            "1DnTrofxcafAeb9ApwG2EhXYPJ4KaXxJZf",
+            "18CQn28QnyG3jmuWGD7ZL61ZipK7DDzqXH",
+            "159Qabzrwx5CqUhSoYANrnNHT7YRSTAupp",
+            "17jddRnb7j3kzkuiPQZ2YyTFB5TVfZnE6q",
+            "18aC2gBiRhWmY12MzEkXKLoVtNQgSs6EED",
+            "1K2fgRiwWeEiCKc2ejBk4qmvUy9sbMFiJT",
+            "1H932E4Br13cn9GLp8oNuWukM9s6rWH8Eb",
+            "15cNxd2K55TyXs4tZscFDFdUFegQEkdcVv",
+            "1HDDAdvWCpsBvraVPHQGQjRkUhfTwY1oWw",
+            "1Pxufx1wqHzDUMnFK3eCju5871RMes5wEM",
+            "1BbQ4BcBrS7rUGgbtvue7UYJa6iuaE1RUj",
+            "192PKJcCzutaaWTrnoEAV67ZbcTq33Up6y",
+            "1LrxtVomGPa27Arw2wHMPGagiYWaFCa5So",
+            "1KG97qBqxVgQJ1MR9Yyfy7iu5Fz5AbuneB",
+            "14h6Hkwejj82en3jPEzhTi2squ7QDaX73B",
+            "1NHoyQXFsxQvPAqJDNVoBWdiqDKBQzAfGu",
+            "1CA8dJP74z64ZpzX5523UWmdMnfWj9SB6k"
+        ]
+    },
+    "keystore": {
+        "seed": "angle brand piece detect prize entry quick please pond creek strike century",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2D13GAQ7e3sQnYipQtdjZZMwsCdYDQQfZmy5dFNvNQP6P3sLhS5jnf4khCvZkJUG5FvBas6R5R1mnuvpDF7dk6JbMUCRuhw",
+        "xpub": "xpub661MyMwAqRbcEh5WNBw81Bp9LaZJpMMavnHYfb39mjweSaJEAnhAvChaEMMvRn3pkYHud8AjV7PUXL74QVKA9Hauuee7J9h7H3giuUEh6tA"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

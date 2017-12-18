@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1F3JhnbHYjvCFHoA9T89ywp2rCdUrR5Szh",
+            "16oCCyqXxtgSUMczvr3oyzxuyXhiGETh9F",
+            "1DsSKf3d2f7SGzFzquymgwo5QsAzePYEHk",
+            "1EE8E1RZqd5GjwYMx2narKkgDrGoCVhcSP",
+            "1Dwx7CFeBTjBG5ChP3LWZtZrZXW1S8MAaQ",
+            "16qh9a8a4wzdxgGW8kNDnptUcoV9AGh3uX"
+        ],
+        "receiving": [
+            "15ycKW1QsYzp86PcGi85QUrwUTPAS3x2vp",
+            "1DE7k6LJRvAjeJMee92criQ3umtToeQzDe",
+            "1N4S6gvsyrm98XTMfZuHFTw3tx3imD378b",
+            "14ZHNNAfdZx1kGqVXkmWjVXZwbLinHJPum",
+            "1H3Rzmdn3rWKx55N7ir17sz3mSZ7C4vFGu",
+            "1GvuWci53SwN5Zy7vUBKhC3FLtDMCyYsbo",
+            "17WgVfoHpeRZCaZJQE5Jk7T3rhGh3KNgGZ",
+            "14RtFQJ8ED5jWUZskWQNC5jhwvWFwnn6YT",
+            "1LzxvDT6u4HewWAadtoSMV3NMDzASALEPo",
+            "1FifkRX2of67ZfcjnYycpPVxYd65kFfQj9",
+            "17SyMJaZwyXGJwqcEUBtxVSDkNVSzP1cbS",
+            "18UTa3dcBe1DBnifT7yyggS9UNrDutYUYg",
+            "1LDeL2vFaQWYe9jC8QHVQrG3e98bDteX3",
+            "1Kb7s22mTaciEh399Gqm2LqaSWhj7Nbs3N",
+            "1FaVHrHuEaTJu7zhqUeg8qfKe5ansUUxiW",
+            "1KB4NgMHNnQPgoFvwcsNVUCQW89MiDcsbN",
+            "1Ph3MkZXjHT1oKC1MHQ7WywgNcSM1xbADu",
+            "1P6HAPwoRvL5rMvtqrZySzzhbzkjbvhxQA",
+            "1FJW8XRFUZXxLpPDKmrXPN8RgUeW2n9dNG",
+            "1DnRTyMoqjhhj8Y9unR6bmCjptGAW7TnMW"
+        ]
+    },
+    "keystore": {
+        "seed": "job jacket crowd analyst fat tail goose sport rigid bulk crystal layer",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4XWJvVd5tsDpgEt3hbuuihP1E5LSyVVaPsn4picVPmgUnAJz39WP8TTFmxktczhFTxJHMxP2p8uSfKaAdv8gVQoc9paAFN4",
+        "xpub": "xpub661MyMwAqRbcH1an2XA6G1AZEGiY74dm5vJc2Tk4Xq2ZGg7DNFvjwZzxdS84aHtrDJdpBtedsbfTGyH39gRgrDPhBLdNKncbNsVHtY7r48o"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

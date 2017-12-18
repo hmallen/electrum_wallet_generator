@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13Uu8PDR8kDSk3zM1UKVdW7jaY9ypFMChH",
+            "14uDzJhZzEhY7kp4iAgEi3HKCh9Bn6hZ4U",
+            "1JKVfR4A8y3H59xmPw6Q2UD52mtrGcsVin",
+            "1MuLms6GxmpRevweRiHmXJJFcVE8u6LZMU",
+            "1DUFJV9TiLtMAujdcgrK57gMzM9RiYLkkt",
+            "17AmSUnb61Qe7XwARHjdXu9nqBbQoGFRpi"
+        ],
+        "receiving": [
+            "1Jc6PgeBknbQR522QaEk9eQgNoUtE4umBJ",
+            "1F5UR1qnx68g4SKGWDpDfY32AytHPtRQF2",
+            "1u2PtfmC2RaSCTzbsQHH4sKedoCDdEhYz",
+            "16uYip5Ma9jGFqaLphKTLCvu8hRxmGso7C",
+            "12FTWUWByJW8NKb3Hfh2PvaXaLAQcf5DbH",
+            "17YfsR42gFV7eob8c4kL9QCCNhGm11eMJY",
+            "1KsZw7qFdZNB8LMFBB69w8iRcoyggX4pdK",
+            "16bQk15QSf5fESjqyDpKx28W5XtBDbD2e1",
+            "1KS832wSt4EUPM2uD3gHAXmwmchP227urE",
+            "1Hc9iDcrswx1r32erZhgH37e7tafWcAtk7",
+            "1KYwvNwhaWT5fDMQ8n9eKFUEK7QJHFQQ8U",
+            "1PNXLQ6BxsvK3AhpRPeYUCeP7XYw7YVQsb",
+            "1D4WVear8c4qbYkm5NkcNyBF3pQWcsJBj7",
+            "1DWdPCq7nH5ipMyAt9fvs8ba8YKhhjoDN4",
+            "1MYVnds6tuGPvFKtUnduuBEX6t3HbZnVxg",
+            "1JM9spegtRXobroYv13xZG1e9X7y87BkBc",
+            "1Ca7g43VKyEpFQnn5aLWVhxbEKvog1aA9C",
+            "1ENRKsjWx7ffjH6zWHLARNRzyR173H4qEq",
+            "1BspR7kRBXfLWWKjoJoG9MTLEFwnpggm4w",
+            "14YsAYW3axcLfgfcdFykMtderZkcsQdRRP"
+        ]
+    },
+    "keystore": {
+        "seed": "abuse diary few supply dress find identify device alone win physical fish",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3EPoiYFdp8kx1TLPUS57JUBTNtdPpGXwfLfDKQJUPdBPqGD8EPrPNnkjsfXWG5SpKK7tThJkzMKFyPphmkJFZQ86rjwdRpy",
+        "xpub": "xpub661MyMwAqRbcFiUGpZneBGhgZVAsstnxfh74BH31Nc4vY8zMrwciwRVsgZ462xsncrgdwXQJdxLUPLGHgJEEJzduegzprjcfXBVGtoBX5HD"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

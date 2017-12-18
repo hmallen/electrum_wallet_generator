@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13CzYZ68New9Ls8cjBL3GaauFWyVSQC1xh",
+            "1LR34Q1mThU5VquvzQGusWMHuVvC75tkn6",
+            "121M6HE21EXVJBJMKPmtfHkWxQhXQrccqE",
+            "1BLpGS9CVfFjZBNJ7rCNuN97ojkuwcuLoq",
+            "1CVHbK9QBWfJX7VnayZYUH6ARr1MfYuejc",
+            "16zp5ECf68kzDyHHToxeF1rHDmqhzBiQ3p"
+        ],
+        "receiving": [
+            "1ArUnvvZbxTadZ3E4uXw2pBYfTndbF46zE",
+            "18yd9QFrhW5yVH9KDCcff7dXP5vE8EVPzG",
+            "1CeuNtDaJk2cZ5TrhSnBCJfvHmWuWE9EDT",
+            "1EZ6s4JNY6uQbpo2o8dnALWQEpBTQcEkjm",
+            "14LwuEuKL6HViSh4TRedHsBeDsob8qFW3q",
+            "1H5QKe9C7smwbkN3xLxLoKUmKiT3j2szN2",
+            "1GkaHMgFEyAecBg5HFwHKcLdPdJ9TA6s1F",
+            "1MMRhSEMXye2uz35X5iB2T3ESBZDqY4PPh",
+            "197y1p4U23usuwpk7LNXvnh7fXno3fexks",
+            "1PW8Z4rMKzvZavdwMqXFWsbMw8nP5HwhpG",
+            "1A4ouJB42f4Nifk3t8YyccyjCMAbWzTEDd",
+            "1FwCuhnN4LThY1dZtVnAEfiLEs6BgiCvGm",
+            "16TuX3b1tXn9UrvqvCDnbqHTzrJvS9jFnr",
+            "16CJxNUU4cM5X7krsxzZfymrDehxw7mxNB",
+            "1MaxBVcaUmwf7ZJpS7XFRPfX4kv2c1v3GL",
+            "12ZCrXwvtV4htwr6XNkZ1DkgMQXEgCJrTE",
+            "1EEyTP1k8BGcLJCT887UkCLNJtA1VpvfBf",
+            "1MRYAWyXGaHxhsEAk861b5vNwue9zj2fKd",
+            "1P9tbwUg6AUeDCxrzSm8xcMwULuhsjsRYP",
+            "1HJLqa2CZHbvb4FXqVW33PMXmSaHyGnEjR"
+        ]
+    },
+    "keystore": {
+        "seed": "inquiry side young bag tower power opera neck brain candy capital luxury",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Nz4AFo8DrSZWG7zs6aecKsiD4vLgMYMWSvsgiR1BYndPN41WUKUttp2oY7YqucZ9BKorjpozvBmBwz1zZnrSAiDicbAosZ",
+        "xpub": "xpub661MyMwAqRbcEs4XGHL8azPJ4HxVGZJVyYoK1TKxEh5LPFG2EFjFjM77Ef6BSWdsqDR7MgW2TgTTX2RtPapf6Zd2yEDsJrXY4U3rmHpMjzZ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

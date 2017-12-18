@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1DfTNqTddEKpyDFTN8QZbgm5Dj1BVpG7Z9",
+            "16ajGKVbcp1vtx6EfQi3vnVkzzEGM9Paqi",
+            "1NduZwGpPgS8QhPo5TGRjXYbXdcU97pv5j",
+            "1ZNWtcoD3p1C1438JMJaj2GysjYQDNRo7",
+            "1EyHLTuqE2PybQC65R756uShH8Y17DSwqh",
+            "1EPuKYJDXsCkAD8wNKY5tRvuBqmi2WTUDF"
+        ],
+        "receiving": [
+            "14gjma6Z23RyaCSSw6seUDYGGvcWPaUchD",
+            "1AbJn2BXgAzgthEuwPrjQdP8TosQYDmQVd",
+            "1JgKWEhmqmwawFfoBnhwm1MniZwPP9SrNs",
+            "1BniNdac8qUA9wSMkzcWQUmwSA8P2QUPdv",
+            "1CtynjFm3SQfPbfmpF8UR72KNcba7UTMvU",
+            "1Npb9CnXZJHyp66zzFSoCLRfBrEwQFU4CZ",
+            "16myk3ht8mP43Kwv6KZnmQiu7QtZPBFTDm",
+            "1F11CZXQokWdbae1HKXYADhoaAhR8N2tYs",
+            "12LkzcA6bL5oYeiuji4jm4P3qj2iz76dCZ",
+            "12wWG1oD7nvhphUVBRwjpp8eW7Ef8pk2jw",
+            "1KadeR6q4jwa49zWxsAu5DSrz42mkFG15W",
+            "1NWzvE6CBxTx6dH9Seg44oirQp8zWJtuZa",
+            "13JgTgpEbPVGs3f1PRx3Xa6RdPfMo8D7k5",
+            "1Lr2Pi7jHPDESf6A43hcTzZFRPNSr8BMnS",
+            "1KhPZhaZxdTpWH3vaBvsgD5FrSostsYWTp",
+            "15DNXLVToAfp9C7kczbkLWcfwfQy6aLKLn",
+            "12cSa6P3nW8rggYkAuqwvwUesddd54csXt",
+            "19xyuyRqjDEw5rmzDdgsYDiwzph5cB6Ckd",
+            "12actGhP6GBBcZUJnbWxTsdm73mPWzNXw2",
+            "1NNizmANY61yfYG5HvoSjnx7d7Roqgy9Qu"
+        ]
+    },
+    "keystore": {
+        "seed": "various family neglect wall desert sentence seminar tongue hundred crystal sound control",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3M3Yd6kmrQ1nbBYSsxacWNjqsDDEndaq7EPaU9cVddLXbrLYvWQo9BMCjjxE1hb3vJaR8HcVdULyNkcPrL9J8mh2d6L318b",
+        "xpub": "xpub661MyMwAqRbcFq81j8HnDXxX9DNwHRJTsbfSfbcrLy7oz2ij1gvkBRf1T87q3xgwabMjL5J8u988vuVzW6q9jwKSB1NhAXRqxStJuHp9U4A"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

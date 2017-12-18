@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1JxnyY94Wn1s9ojaFTVs1upyGg4mgkd3CK",
+            "1EzvpAcBNrhP6Dnj8NxDU7hcA9tCdgJDXY",
+            "1Bgsjcr3g4EtnernUzKbbm1jXX1WbXwgtf",
+            "1ECd8D5bwXBsa6PCEr5LbeKoV1L8TMQpb8",
+            "16bHPRPoxkXkiqxXyjHUARfgBPEZenWRTp",
+            "1Gmnm2jkPnmN2yfbdN9cYnzEtoALx3y1Vx"
+        ],
+        "receiving": [
+            "1GezD8LnXezsvz2cL6qhBUNUe8rCP7Hvog",
+            "154cX2e96jtaczyC99rJ35UJWi7z4rftTR",
+            "1LEAbDKDct8Sgog89YmmTJT6tD1yTRwh3e",
+            "17S2wAfUAJRBSmWA27gEdE5JWUd2HgdJWw",
+            "15YDKyAJLn9Whew2Wrv8p9f3mXt6JwUZVN",
+            "1CeZWShF8v2jHCnD3Q3KrdpBoknXJS1tzj",
+            "1JSGULjPRejQNCiH7z4owqv9ZDq7h11BNP",
+            "1GvoL2rESCgMi6rfb5xugnzriWkZ9qfsw1",
+            "15VCJx2nNDqkseXuzutgo4YT7Pau9AGXVy",
+            "1AhH3hwP74ct7BF44CD6xbgLHDTgoEyFgj",
+            "1E1vHHtbCvAnw9aumgMWNJKKpwUNACkm49",
+            "1Cvp4SAbpPQk9Ppu3HrzP592AMwkWToYFY",
+            "1BVwWSXEfDKc3GfbFaaVGLq9reS8QeP9A8",
+            "1MrfS1RyL9sFKxg2aRJu5gSuRyHiLEwyMA",
+            "19g3VX7ZvNrraNkpNoNKMmWaUastVUyNA",
+            "1Gpnc2DCseSyC1TUTzLFDwc4GQc7i4ZKhF",
+            "179bykvGo2qnVWExgzpDdEnMBcMSogr2TW",
+            "19JBfx2bUhnXE2QZ9NS9osQ3pkoeQuEF7y",
+            "19MLwxJfN3Cddoj2e7Lv9mrW423Rs8ciDo",
+            "1Bi8LmJfTavzM6fauLYbcXopUBdat2dPGp"
+        ]
+    },
+    "keystore": {
+        "seed": "rose lazy box spy patch fee egg loan device gravity boring awful",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4LdK5tcJy2y18hoZCVxuKg6A3omYvsM5omyVpHZ39ZuhMEEF5K5HmU7ZEeposLyopxuU4aBHRhT2HPCSC1rcicEYj6LTLEx",
+        "xpub": "xpub661MyMwAqRbcGphnBv9KLAujgje3bxgkgu1krCBAVCt4gaJeMpsHhNEBCX6UDMEPwdjGtiFFdhVmixLcrbZT96QVPKEeEjbqx6j3jYfACDK"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

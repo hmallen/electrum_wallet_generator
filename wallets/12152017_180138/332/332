@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1CbsYHQ4gYLj4sGWuTJX9F6uhco2iqY44V",
+            "14JXnC99LNhGnwgJogjpC3wr7hoSpVUsh3",
+            "1KkgzvVU8M16o44bM8bPeuKU1TyKtP6AEq",
+            "1DkVLXcTkoneKCX6vnLzKAj87DwQghZ9Eh",
+            "1PWTWQiMnvNKEodbCQofhnz4TeUHTgX6BN",
+            "114WCPyQ4GBryvLx1WwFneoFiTHy9VMQ6"
+        ],
+        "receiving": [
+            "1JspbWygJ5ULowRy86RTYcx3EBfZLC9qwv",
+            "16z9aTq2QKM7U3M4iAk7QfW42rTyPdghuf",
+            "1Koy6BhZ7x18dojAKp9gbHd2faHUsBiHM9",
+            "18Lst2V5z1hSew6MDZ6PTkk1Jdga6t11Rf",
+            "19zNatW59jC3PzifkrbuDVUzhM1McYzFLF",
+            "1KwJtmzRhos8gmKiT2tNR8rcNVVvsdj7S7",
+            "14ZtejhBoAvmDLQdFc3UsDk69GQ27vfncN",
+            "1j8DsxrfMn5uYHUUFVt83mmmKHfoXoqCp",
+            "1CXyDjsQ2epK3d1RnvUwYVNhpvFyRNU9kE",
+            "1PCqzmqf5ku5BfNWGjBptD2yK3kcpVb2X3",
+            "1Cc1vY4oCSjvaAzD16GChQRn9uJVfY3r9G",
+            "16BzsQFzRbLFSQX4WRMsApdoBNNrCVWxrz",
+            "1QA5mKkccsUP3RSRiRSqDor57SDEdcjwjE",
+            "18ajJbS3zeqgGFiXVKmohUZnKr2JfPZuwP",
+            "14kDJQogW1U9CsiJs9pmxf8EtivgFdZtb8",
+            "1LXRy9tu764ZCqe5aP1hPjqdBhfJjN2hB6",
+            "1MKWHQuy9jArpWC6G4kowqpbebQkkr3Jyo",
+            "12q9DhQrvXwiRoHtJuRbun6rxoTtCPidAs",
+            "121HfFeUaP5HqPRpxNjJHmJ8mTFb1hy1XC",
+            "15kh7V3DzvWsi6W4a8UwaY157wFJJBAqja"
+        ]
+    },
+    "keystore": {
+        "seed": "exchange run pepper crumble then cattle major rhythm evidence warfare since empower",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4brKyxrxHwDpSdSpEhLhHbkGPLF4BdzEJW2SUprUmif2CPHpdTMDA6iK3vrjNUbnd1eAU41PcP6uJuE44hf6P79pcgQ274o",
+        "xpub": "xpub661MyMwAqRbcH5vo5zPxf5AYzfHJeA4YepfsBiefjyXDBJMb2NAjKWyW3gdgjEPV2LQY2c8CsZQmm3WEAkdpDinK4nWSHa8566bsaiB1f9Y"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

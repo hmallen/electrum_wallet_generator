@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Av3fjRMuc8HQmgx2Krm7eHDy5AoJgR9hh",
+            "1BpzU14o1q15CiLyzsbRMWEPmm4MGY94Gg",
+            "1EjgLncSNvTbTWkUE7ncVJGKWinhtUF2q5",
+            "1VBEH4o8N2AW389wVYrzxSjKgb3C1xdUs",
+            "18XFjE6AyijX7q4jF1mFhe8TFpDPRAjjTx",
+            "1ArXVYN3RnG8r4JUMxaDyGTvujGZyTnxrs"
+        ],
+        "receiving": [
+            "1Eq3cnG4rhhqPQUFTopBtzR5jDfrNHjLuX",
+            "1uFQiY3zodS9yp88ffK2bLSBTA2Q2SBRq",
+            "13Qjzv9x7TAFYFEbCVssrRtp5ko8FHeVix",
+            "12TUSGfANY3XaitSWnaUPfGYHDmPewFTjh",
+            "1Abzoy5JUbnZxXS2Y8WAnaNqaGngLzSF3E",
+            "1Mxz5xYqLuMtMzzqhofSBgu7kmqjAP9JRX",
+            "1GxY1MfKWRagj4SmG34MabzTPZo1M9r7Av",
+            "1N4HNPkeVRMVFj3GMiHAiYqiXC1viPHboS",
+            "1DDX1jx9Cc9dSSfQExeKHG8VgyAV3U5EzH",
+            "1Niwqv69UuxEuGxaJcEFfDRNTri6XVKmgU",
+            "1GXZ1Fguka6VjfdD37AVJTpMoNBUDCcQ3Z",
+            "14KJYtoTputRKmNwCuNk6GrZEy9MZ9Aa3t",
+            "1Ci3LPNKduPTPa2Yqvqrdpa4UqLJDJabYb",
+            "1LDmWtW5GPuwXFuT8eMP7HPo4stDjk2Nti",
+            "19RjPf6wBEyTtingw77V7gjTFLkxbAE9kX",
+            "1Beydi7mcwbfxjeGNbuvNZ9e9G4S72Guwe",
+            "1KaoPtECUnfCzKWfzXKt4iKTRejmWFyqX9",
+            "1F5pS4CmC3WjsvSb3jLLRwUBv86m78bhRX",
+            "1E5e2221Fh6fkGNMtHyRsTUoALjmh11tN6",
+            "1DN6NaBVQqKUoaGeiDMGrhDPdmRrhrtcZo"
+        ]
+    },
+    "keystore": {
+        "seed": "image cannon gadget property guess dog inquiry screen consider oval dentist acquire",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3k9jhQSrWNztdJmzCekjsrmH6E23wXvHkZZDj93ZtfzeV4dNffAVzoDZx5qqwaEpZDQ7okqyiAW6pDCJMxRu7ijcoy5xbbo",
+        "xpub": "xpub661MyMwAqRbcGEECoRyrsWwdBLcUc7UbF5gstcRfVsTGdMtNGgMpSUK8LMpx1KAEQST83UFF5sxhopJAhZCnajut3LRRKdxzfcxpYjWK8LW"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

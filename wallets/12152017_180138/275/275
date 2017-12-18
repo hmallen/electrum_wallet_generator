@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1LxpN7QJFYDGV4gPS4F63zU9tipuXzrk5m",
+            "1PD9ASfZzT8oeGKyCpD6rjuFC4xEbJXYWE",
+            "1Fnf9t6smd4h4waK84DCtNKAXh1dyBWVjb",
+            "18hhZAR6jboxiuRV7vWTCLUw3Gju2UAdNH",
+            "1NU8qTgnqB7yZYcHMYfriV3o7YdVLDdaD8",
+            "173ECfG1CqY51HTTUfPpv5nXfvKNthG1Cm"
+        ],
+        "receiving": [
+            "17gYwSGJtuWWbWPLvxyuwYwFQNPDsRCjKG",
+            "1L5Wh8VJpemJex51hYZtye6LARbYTg2SJH",
+            "1P3wZG3EgbSR3XvoTLCgbbfPPfu8N6KDML",
+            "1MQ4RLeCL47uP9v1YiA7QpHRZ6prXr2HXg",
+            "1Q4AVFJHykbkPxdgkHUssr5wvKKgaCxhmo",
+            "1AAmjGxwzMTa65eGehpyr2fwJ7MGqxnNbn",
+            "1EXh2AFtDCisWSwuc5F3hJGPaD454WXsFo",
+            "1HXSPEffvZa6p8FJaMUumc3bcsbhSjrQdt",
+            "1JQZxWLhyJb44qGGDig1Z3V2M2NukanvNu",
+            "1GUH7DRC4Z9BL4vSChBc3hTvvKWASp1Vba",
+            "12fWqTA19YsJ5C126h4avosiPRqppWFjBT",
+            "1291edze5wufRKabywNFHraAJ9Jq8pBFij",
+            "1FwU7Q1dX771TKtbF3gPVziQQBHoUD3Q98",
+            "12ZG4ariNMtytt3YfWkaFgB9tQ7rK3XgMF",
+            "1MG1ihBMF4BjuQfVV2xjHAW4pMqCdnNGda",
+            "1m52RCreV5MB24bYG5F8KoxpaDivo7RVA",
+            "19cgFbHJnRoat5WxjZqYtSvvBrDkFdGeY7",
+            "18zF3bBPSpA8e2zRHe1mTk9Wutonm13tAV",
+            "18T4jMdtsbtKWwDtwyXjYrzphPZG9iAGzA",
+            "1Gsc1fxxGz4a8EBuqrHKpKMwcNokhHxcG7"
+        ]
+    },
+    "keystore": {
+        "seed": "describe crunch body cake satoshi weekend smoke review chair safe local grape",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3xVQFuRE22ZmnjTKi5WriKYoikJVLzWZhmbR3FhgVpGaXzd8qBAUsK9B7hWoxyKa3Ukx3y4zVaZr6kWBrpscsA62T73ePCp",
+        "xpub": "xpub661MyMwAqRbcGSZsMvxEPAWWLmHp7YEi5YUQX8i6uL3YaZvZao1w3cb4PHYvF9VysmhxCq2dnBS2NuBnodB4KpXcKha8P9HYW4kmEabvxoy"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

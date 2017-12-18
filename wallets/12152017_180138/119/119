@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17bEE45auTZFwWi6djS6chzzKamQWimrYk",
+            "1F3dtEEYPM9Z8FuPngFoppzmymhwRYd7AU",
+            "1GqUeUsmWMeoe4G5uYwqVe6HsNTVz4xdXZ",
+            "189Ba7C8CPmoWhun1Yg855mJ2DpH4zGt8J",
+            "1DfpCUXf8TBLH11TtQkRVuXqm2tegHjBnP",
+            "1CgX5Qdph44A9E6gU4Q5yMYKuvxxGATj4n"
+        ],
+        "receiving": [
+            "14mfJZ9KQVhGjnWNFyt1ZGqKHkVWhHu7BA",
+            "15NppVkSLVV1fVenZ88GvG6VwKE8Nax6UL",
+            "1ALfUhMm7NffPWdVKN91MQjZKCbZTWEiHA",
+            "1AzrQYdcHXDTGAHDyRiS6erdZjR8XCt7rD",
+            "1F3NitsuECEcKCAmXxZX6Y8YJNkn2d5642",
+            "19hTj499Hpx7E6qnWTfCz6XSNcBsxo3xk9",
+            "1KA38ZjV9Wof3qpUoAWCSyWw4Dw9VfXjPD",
+            "18goSUbkL2V7HhYUMmsu1Xm3cHQ1yHmjv8",
+            "1HDBnERoeHUMzzYGr88fRydCFo9wtdBk1Y",
+            "1NK39Ybd28jkaVvJnboZKH1WvtpPNJdu2n",
+            "1G5MzueGwmqv3wanBDEUkgiVaDLgQzWv1B",
+            "1HTLgCpNxiKqXsbXwGaLagfMxTn15CXtqT",
+            "11529DEX4Po7dzDedfhXQiuBbeT3JDN6TT",
+            "1AZqXv8sBw5tAZt1nzddjgy3LM38xJ8Dkc",
+            "17b1durSJ7umSXK9xLn7yefgBCMKXJZQVL",
+            "1FSDQS3kXCqke3x5ovuUc96KWmp9kS9uMG",
+            "1P2dgC9ZRawYjsT5fQ18SYEpusfMwkzEdf",
+            "1DLXuQYbd9CjoVz4UFhfkAcgDfrBFPrv3o",
+            "14ySksm4J6BddehccT3TfCPBWg6APC4B32",
+            "1McyrdxnFboD2AGsBZmq9yzmYGMZ2mezDs"
+        ]
+    },
+    "keystore": {
+        "seed": "protect shy lemon deliver obscure chef trash acid upper emotion dune exit",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4VyFX3UcHW1JGSJwD4tZiNxRUFfQPXLwSW57DjTZBkFDUYMMBmv1jpnxRuUnFW3Kt4e9htD6QC9rwPM6MstT4wyRLKGDbr1",
+        "xpub": "xpub661MyMwAqRbcGz3id51cedx2pU9RcXcR5bt2Ge51wrsvKJQFmGmojYZhKpgtNZ3zna5gKUoe981CuectNxSwERAwCFtNA2yo7SYH2L3YCDY"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

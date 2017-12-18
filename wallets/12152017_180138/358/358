@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "12GStHNT1C4g8RVArbtZ1fa7Xvp8PZsV7L",
+            "17F1PDRMoxUT7NrHLaTaEjTSLPGZPZpGoK",
+            "1EWXEUMgX1nKQz33bZBVmbq3o22tc7F45d",
+            "19UyPXoSA9jiEgpTTg5QpSAzraZN7E25c1",
+            "1FBYddXP2F4fXWmMXwKcp4KqzteLnM42C4",
+            "1wuVFqnm1fLRqSwACwbKFhaGaVyVcy8Ai"
+        ],
+        "receiving": [
+            "1KvKGT24SKwmg8s9QGFu9sGgfkBAbYmbe4",
+            "17F1zpxnVGNtouYgNHCx3H82CdGDmFBB7X",
+            "1PX37KZDkkDa1h6qakhFS8M5stXSiG428n",
+            "1DUNQCaWkw1WaradBZHVTnWvSgfuw4TAHa",
+            "1GcfneS8dCtNCnfwLrVQKUrK7BBJNwmX89",
+            "17VqsdGDFEU6KsSGzaS9JHpfU5DaDRPtW1",
+            "1EYKL1kNhpvfg7ZMx1V3TE1zKv8DTgPHSN",
+            "1HuyCetfXJUzvjzuvjCWBS1dKvC4uX7ezx",
+            "1As1vnRi8oWTmWktn5uwHwbo3jyapCj6Ae",
+            "1ErDKCmg8zai7nKBNnxYKxsQTBfsxyuMmj",
+            "1KihiAcM1xZ7WXaJQd4ChNMrN6SeYz9eww",
+            "1CykePyyb4rWoaZcYWa2X5QW5vmXNbaDv6",
+            "19Kt9NUcKtdHmiJye621aPxPmdz1RndC3b",
+            "1LK4YByuvEMLdRu9TEApEqoF17tShpqpQ2",
+            "19wsDzgDci4uU1pujymQWk3pYiNv6oVa5h",
+            "1FVBKCQLhHrYunPMZpB8db7yvG9G2vesJa",
+            "1LqPJ9RPYSxmD7Bo8K5wAmPVbSCAr6CVzA",
+            "1PvQGUMhCYEVM8U43ujE2gjvrdVTSRxFFh",
+            "1HcmPoaAG6NM9oR9BdeqHfzMFFwvBqXR17",
+            "1JEVwEc61P2NsoPsYGCa2kUCWgZ8EZUgEN"
+        ]
+    },
+    "keystore": {
+        "seed": "example marine drive smoke manage lamp because day later apology tail online",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4bTDqdhHLvy8cgVfKRRXBELADWEUc5VSwgj8E9QGBguhbfSnHQ8wnWVuEA6pYij4UGJcSPFdHAa6PjbECzLD56GzHbeu4eK",
+        "xpub": "xpub661MyMwAqRbcH5XgwfEHi4usAiL9it9NYTFm1te6AR2RpV4GmgiWjVEBSyF7GxcnCUjE1UBdS67kDuK2kNfkqQaThKkDLxcBpmSmjdJAUcJ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

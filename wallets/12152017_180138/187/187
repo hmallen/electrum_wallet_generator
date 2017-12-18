@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16N6E9ALKSLPyMxMnZbrAuxBchTJc6K1q3",
+            "16Fhe77hV8z7v32S5DsxH6uHCBWgvo6U9P",
+            "1KrrNV4E57GPNEq6xPAxoRoJShJWi5sDqG",
+            "1BxTKmXHvaNhgsqqs4gKyCzjLynT3in4gg",
+            "1A8axYD2BU7fxB1LgVJ78epLnpaqTuThf",
+            "1KGg2qkMQ9uDWyYy4vtLxR8ExbFkYZoxzB"
+        ],
+        "receiving": [
+            "14GzFaLG4zNC8Z6uizSsvPF9xSLajtxkYd",
+            "1PEhupYztzrjs4hqsuDtx7ZbaUrvxrDSyk",
+            "14TfYKW8JZWQFpqyQmB4cwywBWr7LAiFF4",
+            "1NdJwri24X7qAeSKhXvVPDEW8gbR6hz4is",
+            "1MEDxXVATgZwHZejYKPmuvhYgp3BJKcoUf",
+            "1LdChFN733J3riqEwukzA2G8NfC7yanz7",
+            "13k1ESGe8tryJPXwPXXftBVigfWQCjWjus",
+            "1FD2LBKBmaz6tZrVaPNmN4mNaHekDhgTrg",
+            "1oHkN7oStScuk7raCqGkgNZWkFVZ8LFdT",
+            "19s1VjgBxRQyiLmSV1wVTN7U2DYuqE4Baj",
+            "1LXuZFjG14sYPtSZzixcqKELt8BMskPT11",
+            "1EHhiATD7H6q25nhSNt7NQ3e5AXu8pb9kn",
+            "148jSkkbVu7r5yXFWPjy3ndz2kKoWBcicr",
+            "1HxcPShYP37aHZBFdYsW2Y7sYpsgrVUdcF",
+            "1PrhMXMQTgMNJEdymjLU8wGt2rZUrXAcML",
+            "1Mu5crMx6Ykn69iUpj8kpGMBagnb9J4g5F",
+            "1CdfUn8Q8JUzVyxLUnpmBiipb1CH75VSmR",
+            "1D6mXhJvRn2XXj9zaQERcgSnhziPQz5JZY",
+            "12xJAdi91ivfSxzd8mwhKLCRPMAqDSyDKP",
+            "132yAAe74pMe91gjYdZgpHX6qwCkUtcQon"
+        ]
+    },
+    "keystore": {
+        "seed": "bus foil syrup puzzle escape noodle sense relief eternal south orbit able",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3CDqXD4Z1FQoKthxnC3FF6fjvuEw5Zskt2TwEXQeGsM6Xbsjn8qnygxgLrzWNUuzgFFoFNYUkj19ed3KV9B82Z7h8iG2gH1",
+        "xpub": "xpub661MyMwAqRbcFgJJdEbZNPMXsvYTBem6cKbLjHeYduQjkpo5n4itpffaNrkhrMxafE3Eq121R34fPbY82N5mgk7UKwQYt2kcGd19M67z9Uk"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

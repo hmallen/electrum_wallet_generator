@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "18VmXSrrSTbtrajuHuCL2KHoSgZtncRuuq",
+            "1EbZ4ooUbKWSTqm5C7Wi3fse6Pgz34ozjk",
+            "1BiUZADHfufQyqpxh468sohQGxUJ38DUgg",
+            "1CXHUFGG39Lq2SGxPaHSC2UC2PZZfE5NYA",
+            "1BLUkeYXRb9QV93b5ijrED7cR5PmJNa5Ne",
+            "19xo75jGNUuqDLnSfG7Hpf1oednk3yLd7Z"
+        ],
+        "receiving": [
+            "19jpKAWAtwkBpt1bsnqoeshQW9yA2uneXv",
+            "19rgBWiEQ1bjZ63wjLV7KPDFroeHR9pZWr",
+            "1HeLfxWT7bBmAP15FhLfkHogujr6Na3Z24",
+            "1ExZhh1Vi2s9ABX9NznLS57RDo5Fi4DPH2",
+            "1B2h2pt6r38My1MLyrREawwYyXbQcEK3f6",
+            "1F9qDYRcmLBJ7tQTVwW482HQKHeqpXcM2U",
+            "1GpFUR3zPSmsDtikCcm1tBvk9cnng2e6QY",
+            "198THv8osPYXXuokbtCWJsJUPT7XJGzecn",
+            "1MYuJiZsr19rRHSPcjAKUZvYW6b4KX5m1F",
+            "19m93BssVPAYqyjWj4aYsr48pxSzUXxr4s",
+            "16qANSVt8dKeMjd2WShP29xXrCbkCRo6e9",
+            "193bbkctLQahqTRBaAXMdeG4aYjxKqLU14",
+            "1K4jqEaXdtjGrmYmTqT7VtTL6moHKQtfGg",
+            "19W3ePJfhabkDjY6fedKPMQnqt7aPkFYKS",
+            "19pkSGmrzv4WPg3NGaWH91oH9ydRHMP2PJ",
+            "16DxiDbTDTboiJeWzYLwSwLNj3NY3sYW1M",
+            "1ESA12QyueSKydNmZJH9V9XhuzCCW1oL1t",
+            "13C4cRhEUFzsYmEVrCaPsRVELacGEE1Ynh",
+            "14ZPN7H3EcicRyc5vxZkWM7p93nQbgJAbt",
+            "18BmMrHLbYwejweC5EYUERmmSXKLk1hKhH"
+        ]
+    },
+    "keystore": {
+        "seed": "entry enroll fan push ginger daring chicken saddle shaft bitter marriage bench",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2VSikN5LkRxwH4FLAyLHoiNP6cM1hjLSkfyWnPwnxSajWbC8Z6xyVauLJ41ZygsqQWDdEJzg2AszpJh2P8eJvGGG4fCy9hF",
+        "xpub": "xpub661MyMwAqRbcEyXBrPcM7Zufq65paS49AwHytzkdG4sRdUJfKwG3WEuDMsY5AbdTYbSTYi15YYQ7Z9BKHLTQw4sXC8ZmvpPfef8kFq4aAWp"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

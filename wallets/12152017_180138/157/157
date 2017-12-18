@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1HJXku7bSYH8tuuYt62FYTiEHueVyD1EtC",
+            "13sAiMkytDrs3ktGt4CnYiqMWyZcqLhnCt",
+            "155T1AjfWJbXmTdKLmAxUKtigT9YC17Qmz",
+            "1BuePUAXQLxPYVWwKT59yygs3Gs9bVGsW3",
+            "17DxgYyuk4daZgAYir8osN1gYdov7H8z7q",
+            "18sxVguXT9o9ntppoofiRN8DLpT9jAAc2i"
+        ],
+        "receiving": [
+            "1Ji4LQrSxM1YG8oNDRUo6bMzy74xZNo1eb",
+            "14n7aZYhcBfZxVNt8j7SFBiRfgZjZ59NG4",
+            "1Fpj4JngUoJoLr3dVSAovf8US3n8hMryQL",
+            "1DgCMhk3CFaeVb6sX7yHKdKHLBJdrMKwq8",
+            "18TheuzLZkhtXyzVG7FoSUhNPtNB8FUby4",
+            "1HGqhZQnK95FQD6MY5r3HfnwdhkgaDjKi5",
+            "14vhbtdLFrR3LoPgJyFqNzekzj3LjEqTi5",
+            "1KC1AVnngJVLjfysf2BhTt9Ghr45oPFo1d",
+            "19Ti13nofPMQP3dioVYbEktYSM4gAwmvzY",
+            "1HaAnr9DFcv7vH8tmH3aSU5FQ6dUqEhxfu",
+            "1Cnf62xFtoFYPkKV7oGHjm1QsmwLxZNx5V",
+            "1Jeg7GsKskv3pUU1UPR9FRURLnqbAaWbVT",
+            "17KZ3ywdePLNShrMsx7Rq9GKkRhxwnVPNY",
+            "13meukcDmFJe6gxiiAqDveqpxe6r9UteGh",
+            "1G5YdWeDVDaW3ZPsb3o9RSeWuZBL1rcyei",
+            "1BkvL3pWZB59PiT4YH5ECsVczpXnEprDUi",
+            "1F9Z622JjxkrTb7k5UtCSg6CHcj71HT5jj",
+            "1KieXsF2t3aGoPJLPmaeCNqmnTpjH6mRrE",
+            "1MSwu5vaRpAPP11tvEFYbeC6t1dkDXHDj1",
+            "1Fd5GSBUJdh71mt5uKR6azAC3fffGEZXSj"
+        ]
+    },
+    "keystore": {
+        "seed": "exhaust chicken mimic mercy thumb inquiry trap fitness bring remain believe cheese",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3UVuHjqrDp1Sy5tytsr6YPpokFKz77xi7VTspsqXKHTyW1i12mgcpZzmx4jrkCr8VYjjWr1EPojBNfDJCNn9VtU49eC6Mzr",
+        "xpub": "xpub661MyMwAqRbcFxaNPmNrawxBX7jUJLZwuckQYdjbfTVgzHo2NR9ms5nTMHjk1nAJjxxMsarpspnDjfdC1DFQo3s4A3PsCWnG7igrX8JnnBh"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

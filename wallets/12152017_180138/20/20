@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1JE5NNEPkTuaVoiaQUiFnkq1C7saEn9QyV",
+            "19jmhmsj7S1HTVEMXj5mzbQqFZ4PfgPNjx",
+            "1MmT7V7wcQZ9bz4j3xcqpZoUTohBa8Hc5g",
+            "1Gd2qj9PGK1MFshgB9uBAygdJYNAZ9Ugim",
+            "1AATwBz25MoMYYe4LoMqYVgRA6P7q7hzEt",
+            "15q2TgyWP5meqb21cWZQiEoFD4B2s6EKXL"
+        ],
+        "receiving": [
+            "1G3ceQM6jerrTA9rRDd8MUKwHsHnkhYatp",
+            "1HRauECmnG6mmDYVqv9yznuk7qNZyB4M7z",
+            "1GCfhFQeRdv9ZijYEmZAKqRa2V7VBA9a9Z",
+            "16xkmPEUFLCap8MbdpLg6pD5pgvevjimij",
+            "18PXnWViSUqhbwJpH4V6bftFA8gH3jjdGE",
+            "1Hq77oQKtbE9iFSRcj65KumPY86gcZnkcA",
+            "1L7KyjgSa9U9TsTWTpyAYUQcpfJBgsThP3",
+            "1B93D8XyELAvtq6XKCWqe9RazdoNPmf63G",
+            "17vwtBygrhRchwgcTpR3WgVh2H7TthAVaB",
+            "1H3mpfZYQLsWY6shy42R4KAVMuqX9UF2dU",
+            "14zNXQa5CnEGrPuYxjBwwFK4eLTHzUnRvF",
+            "18EyqH9y5uRLU6UijexWLWFrKVAf9tivsE",
+            "183fmDTwL4fGnTmGmXSCA5jNMvNcFuMVjj",
+            "1ADfjXXobgKeweJN82gatxSjJu1Sv34wck",
+            "12QUkpoHUX2Ktxg8gqduXDeLSRwJ13fGpd",
+            "1Ln2dDWT44ucGktBzXRLraa7KVG8EUsNtL",
+            "1KTLYxgEUi7MkgoyCz8AJ1oMxeBy1VTJz1",
+            "14siaAd8P4Av4FJBb7zcEixbYKV5naJQR8",
+            "1MmKuAqM8ghy9a4gVTZE8ahgRabrS4qhgB",
+            "1P4ocqZS7r6tSUfefQiuGStaNhevsjQBhJ"
+        ]
+    },
+    "keystore": {
+        "seed": "tissue tongue author giraffe much trigger romance crash moral vicious achieve guess",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K257Ed8tYj5k5XDjScFir8mp2kRrX9nXHCmo2C6nrMEw4bA6aPF94ncAD7uueEhXSLWaNZReG1RWC3WLkGSPqx3Z85M76DnN",
+        "xpub": "xpub661MyMwAqRbcEZBhjARZ6Dgp5FZw1iShVzjdYpG8i84G5a8Aje76u3FYSQ3Q1nieH2AfXmsHkQr4AT1ieabmihLoue9rSR4CDpLoKrrzAwc"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

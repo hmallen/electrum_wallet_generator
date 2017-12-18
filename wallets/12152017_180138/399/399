@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14LRSDtH3QJcnqQbRpi4dQRComVi5Bihyo",
+            "1KLhx6ZiG5hKjyuFrrYL1uCg9WhGZve3MF",
+            "151mD3j3YyqXcMZcpMKXA9qjpanub4dF6W",
+            "1J9n61oeZzDkFcuAmNQse3MhtxPhBZHzmY",
+            "15g7GmDfyJfvXHV1SSPQUXe6ZeKGu7KizB",
+            "1BvBJnCyhUGcJehassEXsoiRmxkZ3XwKLX"
+        ],
+        "receiving": [
+            "1FKLmdUh7qHfdMUBubmR5x4csXqNF4y3Z5",
+            "15iaLs5PrdxJ5DDihzdHcn8Qg1cmpZo5nn",
+            "1KQbbKSakHZjwbNLiX4RU21CaRffxmZmEY",
+            "17eqVyYNuzsYyc5uhRrdmPTN4GUQUEzQZt",
+            "145GSxjFdmob94RrXjrP2v7LiuUjX4KB2d",
+            "1Q4Uwo78JTcC1hbBH2Lj35RyBm3W47AjPo",
+            "1Pa84J71RkEWddvZJZtC7wwKhZhw8RNKUT",
+            "1KvA8qR3tSY9nwUJS7yLZARwGoqCcMx7Yk",
+            "1MDpxq1G9J3SrR5JkKmYVsyRJB32EYGY3L",
+            "1HrwH5P3ULhrcHLbDQ4GSqR7s7RdVENajR",
+            "1J9iEGjFHbD4azJBqvseoPsKJ3SQXWUMTj",
+            "15yCtfibpsDooGuvLe6tbVHiGBna9UGB9s",
+            "1BR4iGuHdX3sjv1UbkWvmXNcivtZnEhRDP",
+            "19nyT4UJ9zSgn3QAEVnuYCMsKozrsEcoFG",
+            "1PzCHsiquNmDxGmSRwLHTHYCpRnoSdVFJZ",
+            "1NUGgWSiqpxcw6JFWyrFdsyFyNKXcvHFr7",
+            "1ANVshAZ4Tn5GysoG88h8SY6TdxmNiSn5t",
+            "1EVc5ryCYGvGZvN8JFZbqzaLFgEaY4Fq9N",
+            "1K63NFpd624gMTeSpZBJQDuGGjtCBDZtWm",
+            "1LngehJ4FPAHCaRrjXe6kTUELdTWErWJ8L"
+        ]
+    },
+    "keystore": {
+        "seed": "velvet oval secret rebuild tired toe moral diamond wet mass hold master",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3RHWht1BXhiGuAziPVa6nYj5Q5L1i5wMGUuW2ioxzY3tKnLECWZzcxxXC3HuXvikDPEixnVZ8Un6JL62C2kMnrbkmjXxvgd",
+        "xpub": "xpub661MyMwAqRbcFuMyouYBtqf1TCqCnxHx9megCTjdGRUL9HEeaG8DYLNNB6cEWs4jfj2EvUheRpCHeBfSZd3662YmimVHEmMZheenBb6igx9"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

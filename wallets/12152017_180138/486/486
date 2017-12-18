@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14v5hBkZ4PPVEpZEFYwBLAc8YCJgY5iCMg",
+            "1LMU2Wa4RE5QJ9bvS3qPPNTh4symnRdS3F",
+            "1Mw6oka8TcNzzjna6XWXafwVNgoF7xE917",
+            "17g8rxCGeJP2AR1o6WBHAXsCxLpyb5EK6F",
+            "1JexnMauZfb1Zzmh3Z4rhvMtCsmLQTpLda",
+            "18fkafjR6ZVfshGskLFKptKQHHfqfBY9Kn"
+        ],
+        "receiving": [
+            "1C6iXs7QVevgBwo8PDSBLFaGPYgiwkjVc2",
+            "1KdJrDk5ndrFSoypK1tHhWe15aWCV8UQR8",
+            "1AWsLq6uA4SmgQB8caHQYELXtwKLgcKQQP",
+            "1Fwtqy9WkTjqLJPbwUnwufQRwQKjggCxNp",
+            "12sbSNZRticbRyNjQowz4Jd6jERF2Ch58t",
+            "16xBroF9Ki2fznR7NqNGndsMeiupnnB9p1",
+            "1NwmtPyXC6QRyKGyb6pRK39Yfmkq6EbTsq",
+            "1JahT6a5sDqRqhhk5z1WwXniQwF4BnfPNj",
+            "1MQUbZ5vqqQ7uWYkcAz2zvGoFDV58vdTJK",
+            "17x6FNpKgjqSrifVbES97hKjM2zMy59VH7",
+            "1H47N6gj5g5BmxmNtqjN4yhhqKfZsqJx8x",
+            "1KHkjYfmjvgLopGKz6MDThfi8ak4jRpvPG",
+            "17zRgNWFsNwg8hVydLUGjL4MBk8RBRSNn4",
+            "1D4L8FeoB9vS9Vh7zpUGfmUfaY8zSVrGe8",
+            "1MotopfjPq2UG2B8CGG9wHVBbp3S1m3nQW",
+            "1UrxNJ6JhpoVWQpZnxVZtRKq912BmWEzg",
+            "1JzXJg8E4j6hFKSxzfvCFzeCQvCDNsHBnt",
+            "1D761SL23AYTANZjLUQL35pv8eWBnaUFNq",
+            "1HQ6W1FEdoAKXRvpfu1Zd4PuzJksHMgMSB",
+            "1MfWzAQz2uZhFcX5t75jjAb7s8kCDrjqL1"
+        ]
+    },
+    "keystore": {
+        "seed": "group adapt hazard scheme air crew awkward vendor either minor morning order",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4QgCAwMndUakfvph2x9opr1w9zRWK8C68MpTEJM74pdaPcrcvcu1pVd1PMBVUWF5go4nG3cVof8g31J5iaRugxffgtthXqH",
+        "xpub": "xpub661MyMwAqRbcGtkfGxtnzcXVDxfBSQsfC4wXxNq7sTj51A9bmqfMccx4ErgVwCmMGeuXka9b6vnT3jgm1JPrhUsT2gxY9zM8M7x2ndotrbv"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

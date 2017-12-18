@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19tNcy3tHP98xgSqbwaWMbJYi1AsRaqLEG",
+            "1PUx3qm8DC8GKmunpT8hciE3BRLQ1jAzhi",
+            "15FWEnniUt76iKmXarkhD8bV5dyypCkNyG",
+            "1B9Ce1P1xme5HRhRXB8iAPtKvTabdf4Sr4",
+            "1E2CLu2yC6SCnvQyzGh1mDTW5b8bJzA6M1",
+            "16VHcmUUHnhsqRbdVRfTopNhrLqnc3JVJL"
+        ],
+        "receiving": [
+            "1D6ZV6HHuCPzoyiLTyUe2Q4v2mfWUBSZEb",
+            "1Ksg5nFdfm5Kp9EbPFqern92G2m97CC5sT",
+            "1NE83pMDuFPaxUVrmtWqhiifxp45LxaCiQ",
+            "12kFHbkNQbsCB1Sdb6iZVrYsX1TXMn9tfJ",
+            "1KhoMgAeMgXLfzFMHx6iSFmMMbcTDzcPnQ",
+            "1v16oBzHSykvKky1NuuTviRXWkTc64ZQm",
+            "1LGWtb476CzMCvyBveTD8R12C2eFiFScQQ",
+            "1776ifUuYwX6W6f8W4WqF1H62afRmtjAR2",
+            "1CDZxtZsKgDLVXkSe4PqeMQ8Pfmsr56gog",
+            "19ienGxzN3VnaxZBygt4nJZNWpt4bX6Xa6",
+            "13r3uYxXXtJsRmvgDFHnBipaiVVwCBU7mC",
+            "1EUrVCoNt8AfRtiiE6bXX1udTiwBBFS8t8",
+            "182uWCEGJhfJ7Nij2shPFMKeUtvVHR8Pqc",
+            "19YKMyxm8XKFLPHn9CHGKRyPX9tLxD1Z5u",
+            "12AjkhXyAshWGCaBCxZ7K5WQ1DKc6TqzYv",
+            "165uHfW4229Dj7qaMeTqBkXqHCG5UN93PA",
+            "1HiTgujykTcRrULHTVXrxjG8DuUrjLXfK1",
+            "1ENhpS2YxuftARstpjfnvjtLnq2coaxFNT",
+            "1Esa1GcKKJrkN73HbY17ncxpu2uestae1X",
+            "19th3z8wC8Ms7HeJreVeDuj5BD5hSVaQMG"
+        ]
+    },
+    "keystore": {
+        "seed": "differ push define fossil aspect you claim talk holiday clog three first",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3P7WwAx2XqdjUYo1TFuL3AdwXGtzKWd1nhYPLGzwLDASMeEAJHzbTgdhpDwGYzG2NiyN8UV9n6FF8mVduCK1o2Bsawx5Zoz",
+        "xpub": "xpub661MyMwAqRbcFsBz3CV2tyaU2adVridBQPZYKfJbsr9zfVsXspKBt1UvCuxddSWBLgGndj8fxnB4TZtr87V2jnkoFvWUKHCWawxra42DbPJ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

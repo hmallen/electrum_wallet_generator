@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19vyFmw5Wb4ByiJcqjtN9NUPHmWn9j1dX6",
+            "1GFvmv9UUER3UGp6DP194D2jsseJzhoPUL",
+            "1FGssBJe4XnLz1mjeVa4wYhgsKhoBtFnR7",
+            "12SYb7iJyT8Uaxh2opA1Pgqf8EHvJcoAAk",
+            "1NbMHJjHgKyVQWhhNNWEi6V4pVoEkQqzQb",
+            "13tmbo4vimnKSbxjuWpd4Sefi6w8AVrzzk"
+        ],
+        "receiving": [
+            "1JQNADNW46mNJF8z2u7PvdSK52PnJoGcFE",
+            "19mtzRdaerzBvu1PEmHtKYkP93H9sJWfR3",
+            "1B1sEHqkaz1FhfDWNobEqBP7zoUmmT4yHU",
+            "1Nxd5r2Tf9eUr6ZM6wjRK6roZJimDCkhfi",
+            "1PcTapy6XjBta54dhfPG8NdmFLBroJ4BS9",
+            "1H27ZsTd4pJqNR9qLzSLFCofW9R7B6iKdx",
+            "194aYZK8NhLxDEMVdE2zMmmAdpqZKF4Q7r",
+            "1HQ1HFJe2KCmn26u1Z5iskP1fEjafWiznE",
+            "1FoxcZqbo8EbAnFqzyM7rnVe6zRXDC7sVM",
+            "1E1J7vMdqvwUBTPccfbUgt36mMkkC1gjbC",
+            "15t3igRgpQ51N2hsqVvukRfGiY5Z2cgxRq",
+            "1HCrhmMhBz6s16VTtPzy9hiMDQXuW8gks6",
+            "144zY6bT94D2f7GjGgwz1E76AT8DzmQmcy",
+            "13rUbGEqjpeka7XuddhUueyruWYoJWEuFc",
+            "1E5hjNSxDtWBd7QFeSjoDSBnEtgYvJ1b7Y",
+            "1cPCpb1XsuyXJegbGVk1sb8J6Q3mS1cyd",
+            "15o94WBWSvXfAd4Pk1YyMXJxwMHxygkFt6",
+            "1Mrqop5zTu1k3LQ1XRqDFA1TtwGow1AtyN",
+            "14HeyVckvyjaJFzs1MqNcrmGvD2nBsGWez",
+            "19Q3ghJKjf8nWSD76X7MEXo1j3iZ54CJFn"
+        ]
+    },
+    "keystore": {
+        "seed": "exclude pizza time story arrow nut pond hire silent plate mutual pony",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3WxMPPGgaAk1fZ8YS8cNbTUwB5ro29jpRdmdpMqswtiWzqbzxzaxxdRPoQyn8oJEjwra7jfWv7VTzoLrdB12pUsGVXSm1fK",
+        "xpub": "xpub661MyMwAqRbcG12pVQogwJgkDay2qbLDxgQXyUGQaVGoJS6nMuA8Vh2zr7UemZiU8LjKNCTJfwWZ1Z9t3xkWesHRWjoFUgN5ePHzTgrDwUJ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

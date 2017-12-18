@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1N4mL6aAR9V58w3SSjPvet9m86t7zV8otV",
+            "1EVYaBqLVcRwi6puwMwuA6BP6ohHeoP9F4",
+            "1PRcDAXh36L1edMTqyP1iYQNs9Ji9wbaBV",
+            "1JQtDAjaoPz91c9o37gbdrKSzzaDYGKARN",
+            "1Gw5cf5tSWvW3rkmJX2jaLBMokv1S4yeg1",
+            "1FJgvJdbcsvXF5r4vD8xHthVmWDSkE5Aj6"
+        ],
+        "receiving": [
+            "15QMAAU4gnAeHVdMPck7T2pzvWn46wQqtc",
+            "1FgMvLt2Xc3XdKDpUt2PGMYmsiofduC88Z",
+            "15STusWthLr2JZFxebruNksSPyWcQLgaDB",
+            "1Ap1DRJ3UTdRCXELxEo1H3ARCTxF9Mqm9f",
+            "13s9qTk2Nx4BGSa1Xt5Aca9qn58pv3h85h",
+            "1EWppoACfuouBSXzDQb7t2re9npeNpJUiR",
+            "1ErG16PU5pUtgyfCFXykbLdD3SF1yQF7L8",
+            "1DDPAvpar8yVQ11DXwZESmU6BjV6FFgPkz",
+            "1FSE1a8KZGKCjUu7okfAQXNXApPyuU4xV7",
+            "1HWPcxDu5TymysG4hBUMGeJuvCi9pc8f79",
+            "17p8CBQVqMaaH5ymH3ZGrRaKGcPZL392QX",
+            "19h6NVD5vSnz4n29CrwFhPzf5gEUKjRhp5",
+            "13xMqFbJLZqgawj9JmyGPyxWvYYUZA4ixi",
+            "15iohD6KbpzVp18Fja1Jyoj4fXrWF7TPyY",
+            "1MjZmzKpRdeSJ6u4MHwc1yH4XSK4H1Ezk4",
+            "14etqukfQLwmv6tgkvGmxnpt8USdsa6sna",
+            "1GZChAFe1e5zXhqyUn2DW6zN3EH73S8CPV",
+            "18tYogBPLQShaS2hs6m7zFmLHzcoWwzdqe",
+            "1NUzeYkJkUSyvr1pyZrFWNqSUfzzMuxdKx",
+            "1CZRLYS33zTatPGSRKmdL9EBT2KYnEz9Mc"
+        ]
+    },
+    "keystore": {
+        "seed": "beef weekend wage aunt ignore hip rebel elephant used search water method",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K31hS4NwkK9h9KGuZtUcqMqkrFYuD8AayctFdXCh5sP4cCmerPB9nRKZP7q3WZbsL6jmQZC7wU6y4xHh7DkjTbSAosjZNae5",
+        "xpub": "xpub661MyMwAqRbcFVmuAQUkgHdssJk4HwLgj4gT3wJpgW7xVgan4k1LRBP64379KAN4E9btPLkESzZd67fADkr8vRNbx6oDGSQNddf4fsCnw7e"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

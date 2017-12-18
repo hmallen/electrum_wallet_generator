@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BxPTXik31sKJJnnKYVZbAVDMy74dgzLS6",
+            "17jmePoWYAySpKLBEk41oF7Gix5tGRggxg",
+            "1698fykgqMTWcT8fwo1XdV9HyxhspXkcVc",
+            "1N6eqTqkgz4oCQ5GLreahUYi6SpP6FNT62",
+            "1KCcpCWrfjBSTr3J2x1fiwiMEqP4UW2enz",
+            "1FUT8wiuxjJ6zY5ouEj1NsfzNJUeQmNoM"
+        ],
+        "receiving": [
+            "1JfkLt4FjSSVZ1JgpRWjeehkcWzQJN7i86",
+            "1MsnoFSQ1PuLrU92tapMme6NYzysT14rLi",
+            "1CatjevoiJShyW2GzM3ZiBP3pwKswjNNNm",
+            "1JaWmg9U1N3BYypoTZfMdJNJS8FVz1L6Nw",
+            "1LE55JXMZT2NQ3Wzk62RbuwdRiSBpY2yaR",
+            "1NbMDToyUVKwBWgB81cA3whcJKjATXdqZd",
+            "1GPv9zLnbDP6A3z92H3Nng56Ma5qbnSzwJ",
+            "1DEeKZ7SiEGCh9w7WtwyeknAwpfPWXCxV4",
+            "12ENJ159RkfAS6QUWVtRJgq8FLKZyL62Ez",
+            "1JFX9u6TYqN8XC9U9igxSaa2pVw21pkKE3",
+            "1AudavGborkKVfdtYVBQ3WkSU5SxJFB3Wr",
+            "1LfbN4pgoFzGah1S2unKtxNd5oPbJYfa2k",
+            "18n9MmHe6pysjvBy5Xvm3LpShW22XjeSyw",
+            "1JsKoJ5hJYemor21t319USZz614p85fNbS",
+            "1KjU98N7MedeQpFaJHwzqjZE5y6mCyNz4P",
+            "1GzbQkRG84BkLJypdKUghWTD9L5iL7DDez",
+            "18c2HevJXsfAKNriJyK6FtgXawFwsj3RYe",
+            "1HyyucZ9HiJq2JtkNaMFEXjyD31NMi4PGb",
+            "135uhkRNb7JBtNB5i3QUcHBba2mQqE43aF",
+            "1L9ZRAgyiCXs8HHcrZWxLT2ZReUeYpyhnP"
+        ]
+    },
+    "keystore": {
+        "seed": "volume wear charge display convince base feed picture clay east monster anger",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3fK2aVQNA5yJcDBD2v5XnNzyhJB46VDctzrG9h7EmxzoR3aMmxYW18TsdzcYGFHy4tBuRdPGAArPedKAh8JnG9WCgtGS462",
+        "xpub": "xpub661MyMwAqRbcG9PVgWwNXDv3AF1hSNoP9bvaVgafepkbmoBQhERVKmKHGJGdREATcyzqKZWPabMYR4v4nXfNiV8CNkQYRYJj6ex4D22Z1Xf"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

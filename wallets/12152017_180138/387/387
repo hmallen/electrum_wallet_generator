@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "12zau1sNjkJ3XhRfFSPUEk9weaYyucn9v5",
+            "1DG6UHkSgMgej1xd4Y1sZ8W4uaJSJtF4zG",
+            "1HwGgog68FDSrFVJHbPWuDyBBDTzHxHnzm",
+            "17kkSiLb3nkobWNg3s3oshUjrEcioxGTuk",
+            "1DFUW1S1VzLHr28nTLR64SfD7hts2n7Gsy",
+            "133ri6meFWmUcM9Cdm1h6CFwoPoTwfN4k8"
+        ],
+        "receiving": [
+            "1CXiz2rm56C9tQYGxWN4Jpd8jv8xEVtAbV",
+            "1MVxksXHXbDdXHm68YLgSTsjy913Q6EFTT",
+            "1KBwdfYnbhtypbeqdv9ZZZvLZLrYcoJG4P",
+            "1CRygU53vLjZZgoBGwHMCmRJxg3ESReSVh",
+            "17UaHPSoFdgeDsPmyQeNXd5HZxx1RHLXVv",
+            "129z7entws6WCkmxCA4tHqwDa8kc3HjLm2",
+            "1Ltfe29N7gBUe1ZdNpZoRbwr9y3yN3NuEt",
+            "178EruF4DeTWtp7zXpu3sDwFn6FWjeyDKc",
+            "1LzsdCvkp7dmanEwf6mVQBH96o8BNXUAyp",
+            "18TFDqU8bv4YbjJ16dyrS3hWDqprfo4aGT",
+            "17pybkCr4bcsRf5KpnYXAM4Q1D8g9AQFHL",
+            "1GGSxdM1yHhxnrr8fwQVk2ZeBmPYdgvVid",
+            "1MdrAJSzdeUSaxdSdmQPuzXGMsdDHkWH8C",
+            "1Jd2PZtUbV6io2yYMsE8TahR3N2ZfuP4Y2",
+            "1QA9eRjw5oCLmxeBNZWuxZoZFc23snujfi",
+            "1A8eCzcNnS2XsuaW9q9vV52EZRMvcPxzFj",
+            "17odQMexfoavxD5W9rcZF77x3RGN2mANnL",
+            "18qtdhaJ1E4fu3trKMe22aXt4TTq9BXFzg",
+            "1LLKCBmaUgVnnunCr3Yosi2ufJ9dcgoQyR",
+            "14ehn6cjtMQR96GpbeC2fhd1zw8MBsFsUR"
+        ]
+    },
+    "keystore": {
+        "seed": "minute slab neglect slam rare enjoy portion bright estate just bar abstract",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4Lxcbamh7beXigBhc4SZQSuoBvwRJxsuoRkvwXix2pTjKkZV4Wqi3kJ7UovhC8BTxafKFJtimSKmvh8tfUTVq8Zzj8jwgaF",
+        "xpub": "xpub661MyMwAqRbcGq35hcJhUjbGGi2C1XAQmfqPzKM2sJQtgE65V53CacnDAz63jkiVTfsZ5i3zuEEmxqoYrTBsqqVWrYvDkkr8zJLUQJpAsWk"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

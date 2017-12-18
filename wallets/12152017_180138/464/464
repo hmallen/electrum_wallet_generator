@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14BCtACnjDigCtd8RcNFX4i38ygqFA7RCo",
+            "1EQ5UzEXvVT3tC4ozh4hZ88ceDryn27aQ1",
+            "1PLjCh7nL8H6VZdubaCKMS6roEyU3o1KWo",
+            "1K6UormzFXYtaHZU4qeysuDQSJZMKXpbnf",
+            "1BsKCGigDWV3i6R9abKieEeFbHEDyj93J1",
+            "1Fn3vwbozFuGWS5ovDFmHUsqTRXiwbXns6"
+        ],
+        "receiving": [
+            "19YnDj3hhUQbBgCHyMPmLS7pxFNBkaPb3M",
+            "17Uiwi8ZzsEPSbg9GcnVRMZ8g4GSvjdhKc",
+            "12yk7Ak3ucqM6xMrMrRARgo7DMvvkNwKPy",
+            "12T2SVC8KXcZpLAtntzs4cwvVUrYNXTQy4",
+            "1C6Mz4z9XDMZoWFoRFNfxkb9JqsKc2MMvU",
+            "1BNmbz45qmvMR8VWm6fiA76QyhMM4ShGYW",
+            "1JU5GBd94YptL6atzLJQnRf5vkVnwyjrfW",
+            "1KGfj2TEbKXT9oWNQ2KgRHgA4wp5mGS4Vz",
+            "1EKExT5sQxn6HEFmSiLhjttgB6z5X5FnP2",
+            "1JEhnr89QnaL7rYzSUK2ZeqyuW4ABu8KLF",
+            "19GCsjpathmWgh7iRpXAWqL86WEV8qEQy8",
+            "1GbeP45bAQkFAAr5BoRBTAFfgtnD3o5ss9",
+            "1CdahQziXd3AmyPG9dtmYs2vaRT2CR4WTV",
+            "1PunGKGbbT8QYn6sk9U7tAR8MFqJwpX37k",
+            "12FsLgXLEYKC7K1jUX2q281HqSWKX5tBUo",
+            "1NMm4HrSZn56t1HqpMC6Btwa8MMqhcDUX2",
+            "1HzMtebbHdm2XDH6QEgbyfAC4kRanoRYN2",
+            "1KJ2j18o8kfuM8gU4pjsdiEzTSscEGu22o",
+            "1CzGmTBGuqa9JvWkbCRKVLmrUUp1m4BLmF",
+            "1J7gaNYNgsRmL7s7m1yvmovN1GAyxZrwo8"
+        ]
+    },
+    "keystore": {
+        "seed": "range drive life industry case rhythm lounge sing wonder margin unfold oppose",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3b6yEwncgEkV9qfjKxHMXSv51BCK8mLAgiNLMeANB6GB2AnE4XE3HZtYYrBh7snjriHVh8h3GYPTy97kyFqVqPq2cbtGYde",
+        "xpub": "xpub661MyMwAqRbcG5BSLyKd3NhDhsWDjR1CtfqfoZbvh6s9ZWhUuBUcitaesRsbuTm9XdVJ89kLsmiNW5J3YDy2Rf1evcwaQ1p1wStSU98Dmit"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

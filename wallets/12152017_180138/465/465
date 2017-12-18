@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1EkhwcMhsMVTtDo4yiN7TneWfamvYS7AVK",
+            "1BHNT6uxYxtMVskmuUK6hpuHFFXmFMPKun",
+            "1CybDBBDP2ogAci7GbCug1bPoE1wxZq5Dr",
+            "1KEVABrA2yWas32q2TELGT4JLFkZoTWLWC",
+            "13AYvefLdP9hSRn2Uf3zYYzHd8Lt1gTB8V",
+            "12qAkJXmYuHGkH51MP9ZFchc5Q7iu7GNCL"
+        ],
+        "receiving": [
+            "1C36vhvBFBKN6pqcDyAgN58vi4GqG3ayg2",
+            "1Bvp9137k6zDLsuwvQubiTvDT9S48u48bW",
+            "1CkJJpQFSeM6dCLr5sAUxpPE9CqkZytSD5",
+            "1Bmscxk53A8qGvjLoZ161jNzGUjZqtVfKn",
+            "18ffCwLqETUUfoGdgFYfyNm8FGYnUVmvdq",
+            "17PVVVdGQ48aGZUz6h7Jzydk3hXtrGNtHi",
+            "1MfTGoMnhBj1JEns9erfPUHVRN5Tpb6hAJ",
+            "19TGRmwbyjcFLL6LC1gZWqdzkoDWH2o8nq",
+            "1PK9UDYq5yQ38cXqdVGa65c1NifR5xSekz",
+            "19ZomDKpHUCvYkWHYYbdgooiEm6LqpBs83",
+            "1AxqtEHzLvQurcxv1j2npvzYu6oYhSxs9L",
+            "12cY6rp3yDWCh1nQEf4NHHHu8gTYv5YuAQ",
+            "1NKMUJDNT21vYTbzoVHC18CeCzgU8VmxL6",
+            "1QL1Sz374Wff4WtqKfKE39G9hpmK8JMXEf",
+            "1Fu5yVtE4JGqFETGGFeeBVkEnVMNgzvsBL",
+            "1CdWb6NNc68KqnDkKivc8d6GhtzQk3bDu4",
+            "197mn8h62Ff4XkJS5oeQ7SvSGK7LBn87wp",
+            "1E5hC4MwVUh1uVUqpBVNgjHHNaP9FS8ine",
+            "1KEEJHPu7pRXjsemBZ9NGYpeQ4mX4oQNgA",
+            "139RJofQxtGsKUhgf8KexyxkWhePjqybFz"
+        ]
+    },
+    "keystore": {
+        "seed": "kind rocket napkin main modify nasty evoke dune insect become attack tape",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4AYZcAe6ewQCsy4g1vU6RWe6B3dhdM8uD9FAHvtDgxaFjRHRen8Rp36j3aVqGcoEwwu7YcwM88fEx31GMMd1NPgwtqz5DRd",
+        "xpub": "xpub661MyMwAqRbcGed2iCB725LwRzuARPBwnjZgyS3KBgft5waJqUCUEktjajL1sTrQxMPgSi1XDpbPx1HTSWfgEUwWKh5sLZppA4JQuy5Py2K"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

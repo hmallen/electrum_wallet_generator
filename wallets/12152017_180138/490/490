@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1GwRHaHx8BcnK3u1kYeSF5d4zFGZRfgYza",
+            "1AJ6jtoQFubGsFWpYcBQKN3e7sT84vU4ba",
+            "1MczAT1USfUvpSWaqnffuZFrnUuKuPCtKe",
+            "1AQr1C1srEZT9RH7PhSXsyd2e1QzR2r3PL",
+            "1AkrXmxNSeQ62HuNAYc7bZy3h9qSSAR85H",
+            "16RaFRzA8fRZdvi3UUPJ6ciC7S3Dxm8wsw"
+        ],
+        "receiving": [
+            "1ALGaEYuFQ9x8VLcMk2ZsgKKfxGHzdAehv",
+            "1JC6eyJjTN5ZUpeYAnA6AouzyCz2SJYUrm",
+            "1CbbwRa2sPaMx8MymHo5C7vPeH1DrXkzk4",
+            "1KATZfjGPD4R2CGwdwk1yR7odLgDbYnGBy",
+            "18hoxFtNjZBs4WwynMvm7DyqxVvAbbvsf1",
+            "1G1aQtPaFoT6zpQHj3X7FgodFwBGc2ygEL",
+            "196v2FK5bhre9RiutGDJLUQgjmFRZCWLuq",
+            "144ZTZ9qh2F2zA4B9JqGD8HcoU2RYRME9j",
+            "1MHJe2nK3hfDHgGYqtMZHFtEuY2uTy9LHF",
+            "18y53C7uX4PQ1nnuXZVKs9t8KdaFEDKC1u",
+            "1KCxZtEfr2wyWwmT7TEadp7rNZaPJzWLL9",
+            "1F6iwkpWEayzvxmG6ap2Ur3vWnq6szDobV",
+            "1Nna1tYpsV9FN886BzS1RzbjsziRyP7Zdj",
+            "1Lvd4XiYn7rk46uykfXTFWVq2SMavpuVpc",
+            "125sGa29YDkhCRz75pagMMDf7iDpdS5KD3",
+            "13xPzZ5F9Ce5Sk5ZDKssppG5LvfP8MhwcD",
+            "1CtM9DEmt5XCMY9GBLjSgrohLD5Ki6WpKA",
+            "1Ku7KndPo1jvZtRQqZmxn18PnbNuDqHGe7",
+            "1ATUX8Z3BJyA6ET8SjZaq5rLJ93Nb1i9hL",
+            "14VGBRbmU4DkLS9xaxv13d98KF6RmxpokF"
+        ]
+    },
+    "keystore": {
+        "seed": "grape flower attack segment table outdoor crowd gravity shrimp wrap chair teach",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4VntP9Xb5crDxDpxfp58MSwaNMybhnWP5d66nCJhTvzRC3ECfD5TNc3ucZsdE5pVWbYdAMq7TfjZ8ve1kogSQk9P91CkMYU",
+        "xpub": "xpub661MyMwAqRbcGysMVB4bSknxWFfT5GnyifsBAkPDG83MxRRFKjcx1jJu3JZuXvMFKmPLgEBZ9a1yy54E1jovH6Mfj3EErFXuqM8o5LKT8pS"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

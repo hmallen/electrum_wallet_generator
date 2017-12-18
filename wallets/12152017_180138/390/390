@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1P2p7wAmHamVfkSMUN9PF5T8wV4zUBsYkA",
+            "1PP24r3Z4k3MhKJ3425WH88Ekiv6aj5Bsq",
+            "156ivpvMbqBSyivamSARuGLe1PvZFfukqh",
+            "1JXF1hZEMG8N1RXeRxpTg8yd9gQ6fP21mU",
+            "1B1sQ1nMaLanRJokm5Jeq11htVmDGhhdzo",
+            "1DxMoJqhVAhto6xG7mBP7oVhpHTUomyzTq"
+        ],
+        "receiving": [
+            "1JqQj79CGkLhuTfpkihyzdZHGzqUkvk9oA",
+            "1HA9YCT4a5xvuPJDmJXdz6dgMjrVYc4Bg3",
+            "1AxnkYwr6yyfvfppTuGv9Ax3qG7WXQAhNP",
+            "1JJAMpDKNZMWqDCjFRxvsU9MuYDunjxUbc",
+            "1JAvq2DoR9RmLgy1Lj3KT5FPYasY3KxXuZ",
+            "18Ch1vU9H5wME64YPD9ufcsE6Qk19Piv88",
+            "1KbB1vQwb2jf3eMdxLdQB1qQXPcnrERTUM",
+            "18V4cefooRhwPRok2U3u8r3CTSZ87oXEYC",
+            "1J5tEE3KMkJ1J99xt5DVfAnD634jUDQL1x",
+            "1JB5r7Hs1j8ZXkEmtyPGRRqFdZ2TamgD4U",
+            "15FAYpcnt9sYqUu1pEDBcjjrxe4GFe2utq",
+            "1b8fA2z8P81p3gi9wHbcfABYqasVBtmES",
+            "14LvCEdGrNtcSP8ZrsxJfKMgtmjf9UhZW2",
+            "1AMh1vTG41CXMpTBPUzuu1r2Z5WcHjCAV5",
+            "1GC2XQ2SLqD2HQYqxcMjtYTkDpEFfPvRmm",
+            "12Zff7DbwWmAozQauukvJ7U8RL5LVN17M8",
+            "1NgXcKWE2zoHkxe8p97XLQv312Buh1h7Fq",
+            "1BcjPrWeP4tCpa2vHUKGixq989JJswpoaW",
+            "13BbSYahBRBQbMzoyeyuTiJiFLyY4ykDWj",
+            "1KozC7sAPxJE6Qy877uJsqi4bJXSRRELtT"
+        ]
+    },
+    "keystore": {
+        "seed": "salon walnut design quit exit cotton bicycle story across noble tuna lunch",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4DQdNftFGugoGV4ysikXXgT24TmrYoosvKitRA99FYSreBwdc1bQ1gyerzbDbodnc5YosGz5kEzmciHPvqq9Q5vB83RipyH",
+        "xpub": "xpub661MyMwAqRbcGhV6UhRFe3dXpWuUHBUNtuNcrrBU79Lro842xhTPoLmLVRavxj2VRCwKq7QPPVTM1qy71pboaFhZYPdcrqC4k7xaKa82twz"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

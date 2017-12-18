@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1EdPfrWvqJp7N8J5oiRa2ZEYPVftATaUoS",
+            "1DJfMVdW2hm93iisBAchGHHHAgS1PD9Tj4",
+            "1FGNhnrwDdLczuzfFEJwqQo4wNSe5M2Qf1",
+            "16tgm4ivnz3ucQqDwFvsBoWr1765QWVsc8",
+            "1Hp6qnhfrZjqfzK9GUR4A1CeCQEq279GKq",
+            "15oAHzrwHdPJkGqiqZiLE6rdFuKS3RrYBm"
+        ],
+        "receiving": [
+            "1NcHbd5xossaDtLwatd15wALRsoC3pjGVG",
+            "1C3RHcwo71Nx7Yc9R6T2J4SLHEYHC9K2b9",
+            "1Bt4ejbE7PEMois7nvmitDMzaJeBsUQH3X",
+            "19bGRymHi5KVzLWD5WPo5UAP24wGKij3a",
+            "1PtqRwWUA14zNqzY77i9Fvv9BnadiRLHAr",
+            "153uF6zw1APTdpkPESv6WEmyefhWpS7X2w",
+            "1F2Hf3EkNdf2USw5JY5N2kQzPSkUhsHzkD",
+            "1AFtYeLr75k7FLU8NsZa2XuEnReiJTGcJX",
+            "1BaeKGxFbWNnqZZxcffLm2TLe7xPUCfcjT",
+            "1EcwNrgRV5NnYgk5siT46pZ56nQ2bnrVwi",
+            "1GFhpiMoLeizoLCbVBCPCWqZKsraMUDg3W",
+            "18XXyCAKKD7ZmJAjYEoZM6YwaVFNot7Vby",
+            "1B6kxfWSyK3Sip8FRBET4PYrEANNUdF7Df",
+            "17qLw1S66Ej25JivVAVL7cqSKDHouTR4kP",
+            "1MQvR5TFba6oroyGNUmpqq9i8S1To3Jg4A",
+            "1CEz9aagfgrbNn4TzQH6h3N9PBvyDHJVY1",
+            "1DgMJou4D7Pu9XVF4zyDpDG42CiJpQA3KG",
+            "1KBtmeyHwUeHPiPmC4x5LfsJFHimpsfxhc",
+            "1MuznUeTfCwNtLBckBR6J6yKTHRFCZXjG3",
+            "13XUd284dhSrwX635HzbvfToD1bD1mtAu6"
+        ]
+    },
+    "keystore": {
+        "seed": "draft fetch permit physical system print fat village oyster trade mad mix",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3tsD6cmopvST6HUqWTUqH7rSk6pyNjZPNaaLbnTek3w1vbK8RVbsWtW56uMC7f2bDKfVomuWDuTh8TcjdCrMozCASgdE6FP",
+        "xpub": "xpub661MyMwAqRbcGNwgCeJpC4PBeKKKuvCgeLn3YVEaw56NFNuV9KmuHrFVmqhzQPvvQFxWnuVshw9Bmabf236MetNZ5hjRoyNdD5D9QAwXGub"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

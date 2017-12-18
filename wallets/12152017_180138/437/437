@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "114qWe3oczyt6MtpFKFQzdaSd13eRL5ncK",
+            "19YvshP39ktTherVTrCqAd5FEPthbWdB3L",
+            "1FjSugxWUuUZKyfmCmYh4p1xqNfDAHzPzu",
+            "1AcAeYeN6Hsbhrt6DzfKGxGFLfXxXP1ZDX",
+            "1Gv43ciER53V7BCmp1UYUQn74CFPgGd2ZH",
+            "1PuUWEDU4PCinLf8RRRLcCPaJh46Pz5VNo"
+        ],
+        "receiving": [
+            "12PEx88YWZQDsm1S87L3ArFMYsgz3VWAXF",
+            "1DsHzhhVEdaDCWanuoPNvkMFR8A8Y58fqR",
+            "1LuR9Ekcfp5disvVahnsqnEbm98FJ9ck3c",
+            "1MquudLL7LdJC9BenKfyAW825JENWECCSD",
+            "12ZofST99WQ1Ua2WCKwku7B3yDx32jaE3v",
+            "1J5LiA9dBpqzrZdwpbaQGCCLAxnXW9QK4G",
+            "1HoJXw8G1GHvqGEiDZKAHVVxEcM2K8KbDR",
+            "1GDEYqPvXmxut8dJRyggMpHLewmudbnezr",
+            "1G8Fx25JwKV9W3gSy7UpP1DuZWorX79VWM",
+            "1AiCms8fJJmqh33hT86ckaJoscBZzWs7NG",
+            "1ErEYH729t75a3BLG6AKEvGnpJmBx2bBrq",
+            "1BFSmV8TdzV8svZzodsKFggaKwayDwd6Bi",
+            "15AUpmDkDQf8LW2KywMmqCq5TzkCxGFjx6",
+            "156S7ZdMqykcKwwCM6u9xBQF3dmJEokkKm",
+            "17pg5V1d8NRNzDYTVRWGQWfggC87fa9xAq",
+            "1CuaBn3TFRTYUmLJXnmoCriim8RQhKE8Uq",
+            "1MNYTEMJyZsrqoYw2DDcgELRksUPLDsn9n",
+            "1CaQGraXoqKVDyYU41wRYx1UXmk35Cs26b",
+            "1PGzJ2xXznHGEYP88VppGrJ1L8iyWz8qXh",
+            "14uwjW6ZVkef56xXr79Zy7vjgfxYYNmCVx"
+        ]
+    },
+    "keystore": {
+        "seed": "barely manual latin exit there crew narrow ankle suspect industry one used",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3wcd2Zf9mmyw85P8rKUe6CEE4NuWK5kj9SMMdGH9Jhuuo9WRhfwDjUXsTFYtgfCFdMc8obMnzu7b9ySFKMpMd9YAYTj2DCd",
+        "xpub": "xpub661MyMwAqRbcGRh68bCA8uvfg7DdFnCVTR9prmK7sRHi2EgWAobPrWEPeSsxPAKH8FsEB5ryNLyerSYQBasHErV1qYiZ19yGsdUowkNRZ3a"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

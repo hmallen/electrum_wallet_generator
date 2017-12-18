@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14B5VfomeHwPKxRWJHKGjnKtmzAmxtqZ6J",
+            "1HjjqJYyxJnNZSj3k3TUrS9JuMwYFHtVSd",
+            "1PgEabsCN73eyEpJYovM4SBDAzjsfU4o1z",
+            "1FcisnGi9v5ACjmWzbn1hwCfxTiwnNm5rJ",
+            "17dWVtFSEtWg3fUuaZCFHFWSwhVFm7FDfC",
+            "1GvDb1B83YPpPDJRn3E8NQv19QaP2wKnDB"
+        ],
+        "receiving": [
+            "1Ha3Qut2U6BWHNreAKZKTbpCyuf7agmXVY",
+            "1GbFb9StYV8cHkJvQPS7kG44GUcS8N5KbP",
+            "1KXetNsFu1kRCzL3eRbYZ3JQyYrE81vSDr",
+            "1JfZzrewNUskdUK57oKvcsrg4wu5oWhcNv",
+            "1LN3ndpFvgTGHDhHW92JRZKAZTq6NVnuEh",
+            "1AKsXSQHroJzwUV1TSTptDvoDqAqAyHH7Z",
+            "1K7SmDfXJE5YnoExsLrmf27FcMV6foP5rd",
+            "1KzE4VoqQchXM1YHJYEkaKzKLZjzn3c128",
+            "17oKveiX2BF84biKoeyUvThdD1kzYqtR72",
+            "1LqC42iBq4wZrFzGsH3D8CgGVyNLEX978z",
+            "1L6dnWJNEKagiPorpcvEyAMu72p18ynEXh",
+            "121XTYxNrfLcfWhsF1GL3KHnb5phib6RKm",
+            "1Jr6bqAH7zm4j5gdAQMe84cPFuwjDtXHbr",
+            "1LpoYhKi6RzDyBDzmWbb1AiJk2a7MKhvMu",
+            "1LsyA76UqNpvidgs2eFHPR6AeKU1VNkw7K",
+            "1Bp5q6AqgEbwH91sNGVHZ6RsjCFpRAxhnm",
+            "1Ma9AYYyg3mfZ9U38b93JTEKZECG5yryjA",
+            "1BBrc7Bhmif8JgQYM9sVScvsw7ZkgjzjQF",
+            "1K7WimZdgnYL5MjGn4rJhzwpHqpANUoG5r",
+            "1K85aNupS6h1mH7DDjajhSk7iDL5BEbc15"
+        ]
+    },
+    "keystore": {
+        "seed": "royal jar tower motor surround clean click squirrel ignore salad fever rebel",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K35fAuMJiGvsNqtAHt8HMBQcYqcvHu65BqUs7YB8u4tQ6PW2aAAMGabifYUEFtojvGXBqC7E787vSCxVs5VhrDFnZVDBM51z",
+        "xpub": "xpub661MyMwAqRbcFZje1Nqie4p7PuznHb1CYdY9e1KuTRcAiHCG5iT9cgiaEnnRfvYcXujBH2AThAuizsRbKGNpeC26LFDf9uYinwnCEXqdWUe"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1AwrbePm8LpAp36UoqfsgPMi3c8Ribe2Ar",
+            "14ZtyzQcfM9enbzzBcpGaWW3EmcJTDYjn2",
+            "1MwuZyxGxCzTiiQq1TeUiAbQLmVTL3jRbb",
+            "13TACRvwD1zqAKsQt5zcLjQy7Zp7RkNB6A",
+            "1LWL47MGSc8DXQJeWnifMcNtYkkAH7pszj",
+            "1N1fwuFBEnt3fAh5erDWE16b82VEegLKAd"
+        ],
+        "receiving": [
+            "1B3EaGhT5wQpydDQ7aSiSzYyqUSqgDDftD",
+            "133agYrXaTtpCgRTgMRQ5YUeRSgrqP8H7q",
+            "16qf89bRVWjaTJRu6ciVjzGrX6HG5zjyPf",
+            "1Bs4yWNzD1sWWQex1qiRN9ofYNyr4rTEtn",
+            "1JCaeqc9z8acZ3RUYxvWAvPCJ4cfLdyqpE",
+            "197ctbu9P8c5MLExsG2EjriMsk4jM77NBf",
+            "1D2wHGHTL5PFNvDPjYtJVFSKsEbVznHko6",
+            "12a2N7TpQadvPTZWSev7XBPSJiA5FeTRMX",
+            "1KjDLm7ATEo9cCkXdpDqEGMY1WhtgDuhrT",
+            "1G4UthyDApUPpErghusXSQFBFS1kf9wKGr",
+            "1LWTCD7wrNi2qLxuDtrTQ1op7Xvx9xFUt4",
+            "1ExBDvA1Zn9Xt3oB4v1MKSpxNE3Rcgjuw5",
+            "1EwfQRe6Q4PKEdMuBnoHSSLNQSBx9JWUpa",
+            "18o3GdNYtQQWYT1jFHjDDdmBsXipMgjU5z",
+            "18x1X9wt5beH8wqi6oufWgrcPdx5o1XoAY",
+            "14yjSzioSHhgkESrkqthZivs3M52rr7cYt",
+            "1DGDgJyjDTaJRFtvkvZ8Kw2Dc2mK4abL9V",
+            "1AkZdXEoS1C5sQgErh7Hs8gbqqr4hNx6Gs",
+            "13YjJdZhk1LXjbJCH1nxB6eh2MzxDj8B8r",
+            "1K5QNEiJuesoSzHRzMa4nRLRw9DH187VUn"
+        ]
+    },
+    "keystore": {
+        "seed": "road wisdom enemy beyond suggest clog often balance table tone recall logic",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3EvXNoao5nrYmyr3irgZj2L8Epm6sGbrLZpX53ubvsPRFXV3i1Cx2NexQqZXWBu8TRZ7LmcUFBymtz4YULkLcB77ac6eJTA",
+        "xpub": "xpub661MyMwAqRbcFizzUq7oSvoHL1gY8KQR6FFj3DAiRc8qDN9fcbDrUfhu6pA45ngbppvhuyCc1WPhPZGBdua5h3sLu4kajWSTGR9DB7EoGvc"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

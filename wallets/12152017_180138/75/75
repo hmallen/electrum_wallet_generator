@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13kccbFpb3gP92nHRQRZrMVU1b7dshbjv6",
+            "1MdPZ4wryB7EGwLoRNdiNbqM44LDekTAch",
+            "1BCS8EiTyZtEDQZH9f5FrcJykGm7HoF1w6",
+            "13GaTrjio2ndYNhMCo7RF2E4u5fttapNQj",
+            "15quxv68Dw6qYXZgA7k2FZcB3ZKSHc7aR9",
+            "13QY3JQeSUcd3LWJBKMsitkLCdtoYE413L"
+        ],
+        "receiving": [
+            "1G71aKdmiepoTDtWqubasgXS5dKwsYbHAg",
+            "1M6JcdYam1hWpUujUpPZT8VfuqgYvGLBR",
+            "1L1bsmUQUvaJj9aC9oxV6jQbvnB7U4TD4f",
+            "1M5Zw5chiN149i5Hor8eJzved4VjeSYD52",
+            "18wsYXDGUVF91H3hg7tFL7LigZF6hL9QHE",
+            "12pendRsaKRZmyVwM9eHDwASjLFjKprqyL",
+            "1Nq9CrtjJRUCRt2u24W1zwwJgdNFB9F76N",
+            "1rfiEUs1zWTqP4j57YqoSvKiDbUMoe5yi",
+            "1Fn9tZkskccice5eW9ms2udmcEVgq9SGZC",
+            "1DWNdxSpYLyUXBeCFJzc6jNdoQFsaGWozX",
+            "1Q89C9DWrvvNyLHe4EnE5eGo85j7cAZxf1",
+            "1Bajr93dcmF5mjXRgfE6sMYYD5ef5urNYy",
+            "18vPCL8CaGGDue3A55eAFqdha7W4d4awgz",
+            "143kigeqEmf7UU6hBC9z4oDuYZcftH97R1",
+            "1BHxa66zbgHcc8uEMFPZ36wws9Zw5XBh4J",
+            "1FgigHNWvSFFUZewNdpA4Nuq9uwha3okie",
+            "1HB9Akm4Xohqkj4gJaKPdjLACPKMzkGrxp",
+            "13DVeYjJsomRVhBZq5X1bgvaU5qNzXrExP",
+            "1B6gNGuUse7BQsq2cE37c4cLFxYZPfM3ju",
+            "1AP1cchUWbpc6TdDfD1t3sdjCFH3mQi4sL"
+        ]
+    },
+    "keystore": {
+        "seed": "april top enter fatal address under oxygen often debate canal depart process",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3RTJaExDeGGyskz1LAszwHL9vzCd16QKiyd945ekAuVEbPK6NWA6iNq6Zr31q9xaDBjCis59wjfps4qbJQQWBTweZtPbATx",
+        "xpub": "xpub661MyMwAqRbcFuXmgGVE1QDiRnpVjdbrJWFkjNcEZRwJbmxHbcxzihoiSf3SNfEMeMqWZovtbVirtdzUaRFTBsqmA4ignsEcyctxGGGs5cv"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

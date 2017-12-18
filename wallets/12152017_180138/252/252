@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1EqR7DTXbhvfmnfNdxeq36vbUkK957S8Pz",
+            "16tR2TvXWT7bAku655EL3F1G65b8omCSxh",
+            "12U6BgSjo7FHB2A8WeBa2nADEgEo6aW3jZ",
+            "18Q1uuSZjTfi3getjrYwAhMQbXgTRXCuPs",
+            "1E6tkwZrBfE8hEv43RyFkGoSLqbnyKwBoj",
+            "14vDzTzPbmtNbeoNbt6zQQZZRSaiw7JaB5"
+        ],
+        "receiving": [
+            "1E5vUxuCHTmm7e7MexmeazULcxdtVPhNLd",
+            "1MRYm9d4yhaH2BQAZEKQ7fFZRQv56PKhjj",
+            "1PkUTuBF2UZwNFb96wEtu8t9qEvsk2UxA4",
+            "12PK5ucEHoJoxKk8Dq37U5PAFg5WAy9REj",
+            "1M8HPTsxkZhtA1ZJ4SpCUeY5dSB8GBNCdx",
+            "1GAtyMRrAfCGjzytEm9iYoLoyTVjAdoBD6",
+            "1LkoTg9f2MKNGt9wwECXs94BCB3gwv8VRS",
+            "15L5tyWMrA5pEq23JksDLp5FUrQZvdv3Kr",
+            "14q5yYRTPWTfhK2q3JCR1fqEXyVqwZCErT",
+            "1LQw3Pah3EJS3BhHxgn6VjohpYWhYW6PzG",
+            "1B7oTZ3hrTWf4rCE2bRvTNGRRxK6ieCtz9",
+            "1GYR8Dop3MhaFKvo8sajfaG67uuMxBMYx4",
+            "1Eg8zjCijZdRJ72MdCgJzEW1ah77bkNcRh",
+            "1LcFchmbsMfzqGsBMSyGFmDfYKe6E2RmH4",
+            "1732L8J1fUaQkCUKYCXNjX3W68TfJJrhh",
+            "1rfXzo5ak8Fi8VqTVgSBCjDxQEBmd9HWf",
+            "16kwJaFKWFh7XX9eYudRNdC2SjWT5sbk8D",
+            "1PPWG19hSjP9cizakFk4KrFHKBSvWEjrp8",
+            "1EV15v8FYBqg95Pw393LZTAQUt2ouRvWy9",
+            "1NnS7cH4bf6hTLgejS7g7fWqmDLLj9HRVf"
+        ]
+    },
+    "keystore": {
+        "seed": "imitate hospital venture barely orphan involve autumn boil wine distance milk educate",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K45DczQ6XKYm9XU6UqLCPaSsW9fQWzYTHoWAikmMEjn1AUK8P5ipiVHPSL671Z3NGb8z3QrNZRK5k5BusAYShTd8n57m8jjf",
+        "xpub": "xpub661MyMwAqRbcGZJ66RdXgght5VvyEnvEwfo6x3p8YszGgJVsJJfVHaKeKZxWHJozGe77KopNKWGXMZcwzzYkG1EHXQswZsozShxNNRqYYTS"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

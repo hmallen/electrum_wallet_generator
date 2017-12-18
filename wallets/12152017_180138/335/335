@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16vdpVKciTEzTYEC96okbhCJPCxTttGAA1",
+            "1Chn5uTq39aAJ2Fw7yMLdEsipSnRLpvkuf",
+            "1KiBkaJKU2KCKcmLChHTKudQRT5JRS7zzw",
+            "16uGY3xJ6PRQjCxcKiFMBnznvUaptpHNKh",
+            "17DyRNcg8a5hVnCgdPxA2ACteDTqvfgak5",
+            "1KaMGLHQf2AfMDbepfkFnRKesxkwZCgDSp"
+        ],
+        "receiving": [
+            "1AkjQfedR5dJ53Ezqo6KVdGmQqLvfJcBMt",
+            "1CbtxrC3dTWifvcuF8Lw4mBv3kuoWA788y",
+            "1MtbkVEGBsSiAwVF3Z2Pw51NUZ7HQiUGVE",
+            "18jKE5S1oPU1UvBXcPAdS6ko4cuNsrFZCW",
+            "18UizTLPr6fQKt7cGekfgUvpoMhnicaNbd",
+            "1M37hv8NrtwDrk3DTNyRrtAL4yS4sXjhyf",
+            "14PGjumeU6ogZT22srvZT9x6vcubeGNJeJ",
+            "1Fm583ouzjD2KQV8ArkVBpu7RpEyH9ueRc",
+            "186wq5FMfe6EDSZ9JCvRaMe13qzPaNWTnA",
+            "1QBTKqrcAeAAxXcJ7gTdRRhQkUnwQ8LsA4",
+            "1BFMdVT4tEGStn2yGHPdFVzasRjaCtAqDC",
+            "1Dba6qKyHurwL9hTzZsQsDpXLXfKhUNfQu",
+            "1LjGktuse78aMdrn2tAnmHBDLX1eEkxVX2",
+            "1E4LJAJUb9ihf19virDmdNsVGtUn1Hhgem",
+            "1Gm27etZW7XEBR1RUX3tHD7ovem8GKX3og",
+            "1MFjtWuLF72g8tB9g3B9AR7hQBW69mw2YD",
+            "1Q1fjEV2xCdqzRSbHWXdzrL5bJ98Xuugaf",
+            "168AwdWMGFxWwWoacarJDFNwVEZDaKAF35",
+            "1MXfcrQgxohaz1qapStcni6tkuKChW4U9h",
+            "1n5WPESVjJFzR1VYQ5wdtXiTUgEypk2kF"
+        ]
+    },
+    "keystore": {
+        "seed": "edit scatter silent segment giggle early rhythm ankle alcohol still limit skill",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K44JuWvPupEN8tsWnzeVT9BGZHZpzmrdyE9eEMRsaz4yYb9HeYg4zVJyghMJ2Aev2FYBJGU8gcVCozgw2fUXxY8ZDxefcaRA",
+        "xpub": "xpub661MyMwAqRbcGYPNcwvvBNJsSuMHQ7DJWQCA5xEcLCAx6wyNtyBqXsJ2SPMZi6BvaAJaKuLGGk8tJKMNdYL6Z5T4dLsMcRxeowfoW65yd7z"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1CRdcpwzLSPsFbai5Xzykfc8t8HrqxhSqa",
+            "1NSouGnFQF8qqcctefgm4ca3wbdcxfRQbn",
+            "19T4UkX55NiS9gqaF5Nk5Zn9TSHmbT8SLK",
+            "19eMt1oZ928pTwjKgEGVxLdg5CbA5UyY8v",
+            "1EraaZyCkmeXn4pJ2fB3MhvMa8mmMYQAAw",
+            "1FSyQ7PMnx7Tn3sRpSer94QiPrRWmG8AUh"
+        ],
+        "receiving": [
+            "1D6EVhaVWVQmioeWKfcJtrJUTMi73xdFUL",
+            "1AzCyi4ZxPaVYXC8piHURihrnAW5RWYXq7",
+            "1BDLmvtffgUHpk9rAbK9PjCBcCACp36Kzn",
+            "1HQ4HngAcXxUpqKDtG7jCACraG3v83fcov",
+            "1BQNsqfYb4QUuKE9cEXL9sm36vnymoxtpZ",
+            "1H7RagJyzaxpGVLoCj6UUFiSJrtoxgVCA4",
+            "1LvbHCcBCmFZ75sNTK1u5GDXqzz5ZZrMDk",
+            "1y6sA5cMAGikWYZgR29amd5XsbsMYLt2h",
+            "1HKRL2eB58PrkQaSPppDP4RMMUx5SCefW5",
+            "1NBM968nuuaJmZHqhanidfnZR2hFgFMp58",
+            "1E8tC511LuXTqr7aHidWKGTUuqGdawBJXT",
+            "1BD38xW9US8njgGRYPsp9voexgHbnDZ1nT",
+            "1hJ8n6pdZKjKf51P3ebDNxBnMokpRH3WY",
+            "1Q36fseNhMxWokBDnWbiFwVzyUBFmx3zH7",
+            "1DhbhUkdgwrv8wjG5WPaZC67gbcWVhtoUe",
+            "1BrWduA9997KspoUS93Ze1TFBemyBptMD5",
+            "193RvtAzHKZMaofG3qAneV3Adhjs7Ned3p",
+            "1NVn9f9HSRzPEwRiXuwCVX3bix8RJ1Jxn8",
+            "1FFTYPAQEXszDoTVzxGg2D6MeSBuqa9rkX",
+            "175xjtTZ2Yx5idbCreakZK1r8jNvjnqHqN"
+        ]
+    },
+    "keystore": {
+        "seed": "zebra camp oval define reunion frost cinnamon any embrace uncover hole better",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2V3gkbQtwrCBxk64dvGQ9eo6ntdyR5wzKto7tqAuRTVoHpvxw7aNUSYAuwqG26Q1VybFpnYfWREhqHX5MYRAvwWrZ9Q4YCh",
+        "xpub": "xpub661MyMwAqRbcEy89rcwuJz8vWmvZ3NzFWsihbH3ayRUyCh8GSNV9yFpH95in8Ur7tbhky9pnFMfg72Z6eumUvEQthR4gt319AiV7vYHbobM"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

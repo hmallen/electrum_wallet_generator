@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1E6exTvdm119E4CJyiozk366zpwi7gPiaM",
+            "18oY5WxrRJwng4GkojS8rkfSQcP3AdLWYX",
+            "1Ao8DSh3TcXRB4hptJeBiYCBjGQaRw5KxB",
+            "1Jhb2dspHvnfr99HXXSrxmxoZ4MQkSUD8t",
+            "1FLboUAR71XgVsLJQcNYjihm4fgCQUddiD",
+            "1Lg3XWrSzsmTi6V77tLkCJGTPMRcJvtUF3"
+        ],
+        "receiving": [
+            "1LzfKJPZKG7t5Qt63BLR8W87znb7EEw2oZ",
+            "13MvTsDJftcd3WEmAjMXXwBmc5CijqLHRx",
+            "1Fm4vMNjYzGg4G1t3cEnmezGEGJqvFFiCv",
+            "1JBgsYrjzC4crLZWrFht63DYZsqErFxn55",
+            "122cGNSKzpmNnvneCvdzEXaXxLNwBTT5B2",
+            "1Q1tWs5oXDW8BqJLL8aRLYNtefv9DbQVaD",
+            "1L48QykX2F4qvNjkkyoLkGnqoEMtGLnTYP",
+            "1Pnkp1fywzjU3SybS9WZdQMVdYmUtjCdyD",
+            "12wpGqTmSsNMdVMEvuF3MjGBxYYpbhMD8d",
+            "17zH8WupNqAy8oe2yKwjiW3XASXKYoiCvr",
+            "1FAJ3r9xir76WkkmmR54R7orebykgb7zaW",
+            "1CgvmH5dzhp2JVWy5K9aL5yswy4DgEThyK",
+            "1LjYi7Sr7XUE39BFsSbPDcF2fsL5LNNG8i",
+            "1H6xqE39fDeDYFdHARZCXvMyL6GqUb7iZn",
+            "1P29vkBLi3HJwKySf8ToajM9YqzNasR9Gg",
+            "15CzSh9yh1G2ZL7BRLpUzjyJwFGTNbituY",
+            "14nmtmSVGFjEnxHQsUFRwwLZeLsdF3cfHP",
+            "1JUhz84tSNURxkMbh9ZFdbyiK3orBNPU6i",
+            "15kKGyMwAijccrCLHLjDmeBB6C3nZTqsXo",
+            "15cqLLf2ZrDPTGxQtBQmWL79xhvxbcFnHX"
+        ]
+    },
+    "keystore": {
+        "seed": "height kiss vague vacant never taste course wagon antenna fortune already impact",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3J3ptPtjbo56qXk5vpx1MWvGuZ7MqxjeTH1XgXkMYUb9NfqFyz716bxDkaGLcjiRGg77funGbrWQza52xkid7WoqvntmJFM",
+        "xpub": "xpub661MyMwAqRbcFn8HzRRjxw1qPZaaLHfrijqshwWyQJGdL5LgE54c6GudDxDaEMfWCmc2gzdgKTtTnzFX4YLkwyDoU9voTvexTQ54DMEx65a"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "15dzmnCwWhP2E9uRSTv9hBiQPN1aS2iDXM",
+            "1ArZdRvDu5xjpMpiQYET5Nf4wtnUsTpS1a",
+            "1KvSKWZ2Us8qKHufVYMGCjR9LEELNTHNzV",
+            "18B81CTahPS9TxqPdiJJ13Sa6LvxVHVFtz",
+            "19xSXsWbHKPYkR8KEEwtiefWPw52xswaoj",
+            "12SWZeKRBjWCNJHKdQNf3z6BFkLBUGt1hx"
+        ],
+        "receiving": [
+            "13xz4Z91dSE49f7SszMEks45BwFsp5zDgN",
+            "1H75sRrrsMMLfvB1JDsK5pPhDp7XzpuTEB",
+            "1PXZj2ijrJPYyn1cvVYGat212z2bpMsN4b",
+            "1FbQEZ3q2o8ArUp6fDjzcpTRtmgx6W1kBD",
+            "15TPaLmojpWP3rZrjpSKcC6soLmmwLpHZj",
+            "12og4DoqPVraE2AE6WYEV3BVB8VLim7i7g",
+            "1G6TGiiZU2py6WZ48gw6LhtzadpDWiydUk",
+            "1FxBBfSTN8PWfZvHCVveqoQSnDRqbnHwK7",
+            "1FcdTRMp1yDdRUaYgeCUZmhStW4pQ7UJDV",
+            "15NmwL62X65nf9Mmhsp5hdWEMR2Sp7pZQP",
+            "18db4srFmBydFNWceUaPgpUiFRa6ABpUSS",
+            "1Pp29FwA5iahH1AevW5dAjXjpCQ6PzP9KJ",
+            "13iwDaTaK4JNbRoykQw5L1MNhixnTAbpHJ",
+            "1LWaH1NTGfCAELNpJ51cWnPqWFk4wjiqk9",
+            "1D5vvXaaRQ5iuAgNd8eRuZvKf6t7nav5Bs",
+            "1CWozF9DvmngEmpW5UmPAEKSJFMq6Fn3en",
+            "16U2irtLKVWrBbumV76EzkhPRLtMKxzb9t",
+            "16NtfYAgLszyU6vKmefhYMWYMSUyi3oR7x",
+            "136CEBnAmrVGnbRpXhDzcnFprHYc2pXgg3",
+            "19CEFB4BE9bbj43CEHFhukZyadSibw5hq6"
+        ]
+    },
+    "keystore": {
+        "seed": "layer audit version duck conduct arrest view deliver melody sunset dutch remember",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K498EZVP3BkYgDG5JP6VPqD81L9z5YyC7xmFgumrVhf9NVzUtUogoFDcFsUgrjusbGmX1C2NNG2qCVsyHsmNXw1i5NVEadiJ",
+        "xpub": "xpub661MyMwAqRbcGdChfWv3YtVQmHunnZDFCS3c8YPh7Jj6qZaqTKAkFTTrMHbcDRyAkDZ9xToi52Hw53hjyweZk7rTyPbN4UZR1ZqSQBNyHxY"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

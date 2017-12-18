@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1EBtkbyhFgUdRtRZJFprPfRcEcStfq7JJr",
+            "1GJ57dK1ZRuuLw9m8hGgRKGk3WBtyAPwQf",
+            "1NmxBhqCwQqLGik1HpkGLnZKzZ6z2mFtYa",
+            "1Bwb4SSLh3GSVXWAK8TZnTdHsgwb9i192Z",
+            "1KCi1a222nGfo9DgDUSUYneu1FoHarsmNj",
+            "1KWZEk7pE3N1rVdQyqFpst3h9g44YbwauC"
+        ],
+        "receiving": [
+            "1EvhTuaMa4qxjwqsDiPbiXr4My3VNtspwD",
+            "1KzSsUZuyNrqdecsePoYHNY9t7PcQgwTaj",
+            "1NBV57e7NtXYiKpz9s9oUgvFQtZUq8uC6E",
+            "1ME9ctdj2HiP3rhpCWdtBXSwSmaHCPpPyM",
+            "1sf6hNzojmpvqaZV1uzWHgQ7Sa3QY1eRa",
+            "134ZNroMssfWTxDjYA6uRm3D6ZM9c1BkG5",
+            "1A7nyAzLnzxU3LJynks4pfwF6ksvPPkiqH",
+            "15MDK6FL3pcHZRfgmmtMafLYcqWSvjRf9w",
+            "16yrhE6LsnWW5maoeTUXoJrgPNNjdqbHQL",
+            "18yL2k7bBTXZNhdWtbYjPkVkijCXgaqA7f",
+            "1CfaYfS55iS422i6refMxbXHhZr6KyBYBC",
+            "18AiDiRFFhHgrw8t12bFNWgGSPqob1ngZo",
+            "1FQsPY4dcBEkkeV3e9PEydcv9p95KMb4YN",
+            "1LdNXhMH7a9MvN4UvrZZbFN761a74hQ5Hj",
+            "1LPdmewDw3EjqGsnG9DTQt7M98E8h8rCwt",
+            "1JYA3TbYRUHs8BCFT7gEL2toZc4VHZV59s",
+            "1GRc1Qode4Q8j8EUboFpfcgDV1hhMdonaC",
+            "15qyG2tNPDkRi3TsJFzpbXNz1aBtwwbUSh",
+            "1GKRTapu4U1MAREYPiAUbfLZz59YD7eSXL",
+            "1AfXebZg23F8GfmTfUWFTZzmZSa1Fe4hiY"
+        ]
+    },
+    "keystore": {
+        "seed": "torch dinosaur baby friend december catch puzzle tattoo galaxy one suggest kit",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2jH41KEPf6RDfnr65P6HEZLyrawcfJCt6AigdY96DkxaCnQUWMdYfarZ2LKVJecB7u67D4SDDa8aE9Q3xPoLYcemdow2rEa",
+        "xpub": "xpub661MyMwAqRbcFDMX7LmQ2EMxDpgaUqp8bnGaeyMEDdjrxy3qB5TLmZH444sBfYCq7KQLjuX6s99C2DMu7HDmbN2AUujAcLwmpcw8f42mH84"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1TwQ6DXzKmcF8gMQE1ZbjZRo53zYAsgV6",
+            "17m6guFpq6CcNnudhHXkg6eVzqnS8Becf2",
+            "1CP3xpcrY28g1u4JU9T3sFx53pwKN5XQwQ",
+            "14brkDwrAvoXdCnhrn3SAxV6kNHfH12utf",
+            "169R1zXATeXimjbkmngh1YM4ZLhqMi2Y44",
+            "14ZWeFtNvxcccueWeDui7BDKuYr1MSm3nX"
+        ],
+        "receiving": [
+            "1KCcswtqjuEaKnEqB4Wf32jEU94Fvoi17D",
+            "15jS32t3RHiFux87FwzX76EhbDrC2Gig8v",
+            "1M3diiKQEFMLxcMKkQ13SUHfR2dpBmvE37",
+            "14wvgFtR7kePL3Vykcv6PpH6EibVq1QvsM",
+            "13N9j95Kehq1bJ6qYuLNpR1JK1jodKxyur",
+            "1APGz2ix5nVdCrjoSNDevWoTVjXckb744H",
+            "1ECYBfg3eFG6iPzQbnadZLpUv7wwkPHhGC",
+            "1ARitDyUwrgFLB2jnVqDD4QKjGDo9Mpdki",
+            "1C7GbdaoCqrgjGGf6sh79hiTfrKiUoe3ZE",
+            "161Qph2fUBxS9t6G556eWjGg6KvdbrGhaq",
+            "164yo7cTMpoktLxcVKTQCWGx5wTbeQfq1w",
+            "13EyasF68ekWzc7nrrhD7yENGeCkJYsjx8",
+            "19kkn6wJtLD7EX6NG3iL4a4adQzkfuWwmT",
+            "1HrZhNsJiUXeL2A9b75KDo52JWcFbz8ANH",
+            "1P7wzckVdYjrFZRQVbTasfKnk4UmTf9UZJ",
+            "1HV1iW4G36RuDSTJ7aErdBR1xXjm8iY5Yh",
+            "1PStLqLRevbJVBBkJWn1ksVKZ1WNz2nr9G",
+            "1ENARFwSeVJSLBFH3Xfnf9YaDqevyTL9uD",
+            "167HR3RzyNg2rSQhc4oarVh35U2GZvXuhf",
+            "13YfiZDZvk1warnxfNtaxwX1vWbkpPxvg8"
+        ]
+    },
+    "keystore": {
+        "seed": "skirt fat circle render address feature annual fold goat photo solid similar",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3RwFrDUSf4XLk8cNMp7NjWFeafV9fP7967mdqQcP5jUaSN4ose5gYCFpJSnmjpDWmdj8sAe7PWfQWmD5GtBZXHi3p8H8pBh",
+        "xpub": "xpub661MyMwAqRbcFv1ixF1T2CU5JASrmGqE6jBFP3tmDie7xv6nNwvddXo4HcNdiXpaFtNfkCxyF3au7GPPMgSqW2eKAc6yf5uhWv31t8vqTJU"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

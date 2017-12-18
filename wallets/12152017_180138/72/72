@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1F8UtxdWBSgx75M9s91rD6THvE2Yw1siBJ",
+            "1KEveKgZkLT75jR1es4Ux5Nyngv51L68xU",
+            "1CNPJUYNXw85qrt8E9Nw3Rnbiari75P9js",
+            "16EEX9sicpbkjXTJVw4J7DoFaGnkAiMYjj",
+            "18n8ffmnAEX3JSZdLqeYciHXKyxsLP6fig",
+            "13ieKtikzMhZzeGVMmGpgDLroQJt3NtFb2"
+        ],
+        "receiving": [
+            "1HnLi9vS78AZJNayAU6GkLBdg6KWxHRo2L",
+            "1D2wvU1hwjJqkmkumcTuoxDk6DhHv6BSDu",
+            "1K53DaZb3vzpcnio7UG1EM88SuUAMXJNZz",
+            "12cNrw6VEorQdggZVSR38uvR9ammoUQjCL",
+            "1DoVjgHtu9Yoyb5xFikf4WtAUeiLEHAABU",
+            "1BwrdA9SpwXiCT8Ru1dsk63XKDQxe9bo5r",
+            "17F3miZUnNaHhW3JbL1zNYc39m3FBcogRy",
+            "1Hze6R4Bu2s8np2Ee2KhH7msV4wvyVQo8g",
+            "1EGbMQ68nzKscfLg1pLopSTmZsyZPzYry1",
+            "13BXwfRVJ9eG9DKP9caTGoMF4E7Y6VjTwF",
+            "1G6QHCpFo8K6hLbYWyKfcRNXGwMChun7ch",
+            "1J9axEmxTaV5fW56QbKEmqMLN2SyR28NJn",
+            "1AKXctfaUdeRA47ZwjmhG9FVf6vch6tsxP",
+            "18PwohgR8X3HYQjPKvHcUEknMrGw9nKAuS",
+            "192bmvbg6mG4xKip5itS9R5YWovDx2svZi",
+            "1MpUhoyAz8jZ6sL7EvfvhqbQA74Eo1vjjD",
+            "14uczYLZUcVoAo5pK7z1fExRuMBh7uk412",
+            "1L79dumWY2Sw5ihyYRR7xBacNehUZEKD2L",
+            "17QqJ1iWuaajHXrGjt8nfuwBQ4oLucQG2w",
+            "1HJzNp9yyC9LyvG4E545v4w6LjvU97d61c"
+        ]
+    },
+    "keystore": {
+        "seed": "fashion tourist subway daughter tail glimpse wave ring two sort pig intact",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4DMzy81VL7bABxghGaBUeAMfEvs3ZB13nqhPJHbJrq7mbC3zvxhpa49uWDnUj3s3GF4WtYvYZVYwMrAdiBsdthy5u2xcgy7",
+        "xpub": "xpub661MyMwAqRbcGhSU59YVhFXtjzXBg2uL1PHG3KGf7WY2fe2XqpuZQdSFSRtU1oXxFRBTDR8raGinNY5KHBHgbE6mQXe3t21Jv54wQaNG7JP"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

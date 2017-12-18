@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17rdTKjsVFUMvJYqHPsg6THDTcmhQqTBNN",
+            "1JxTKdQwzxPTn4ovtnc5ZtTxcfD1qsNpq9",
+            "181c2iKpxbXnTFsnRnk3zXxYzxykzYfqhi",
+            "1JrjYfLemKQAGEJQVhpCKcKtLXAAHMzyGT",
+            "1D23vCXFPzu6AgJyeVW3xpEEpMY1wzp8bB",
+            "1AKGkxASWqoWA5jeHSnVoohNuMfaSUUJwE"
+        ],
+        "receiving": [
+            "1AimG4DuZQGPPtGtoSfM8X9qHh5f3RGSim",
+            "1AAFbJXGRExVFY6Gbu2MmGRs7iGQjoae9v",
+            "1DHiTQPMgWv1LUZqNqE9uWsWXi7hSWkTr3",
+            "1KZkenUv95jqW9nzasxcq9ZH4w6SGkt1QU",
+            "15ffvYd5mdtEXqpJcon2SfkkP496kawMGN",
+            "1DTB6KtiCfRRQrz9gq89uyuK7ULQ3zJnBL",
+            "13tNtucCGjqnVZcd2peac3CgzvUM4EJH9K",
+            "1BYtbyfu4PphrTYHmMPprXPCrPfMU37QmQ",
+            "1NG6tMfyDuDyq13QK4FTMfJJKoqBCFqZk2",
+            "17y2t9tzSEELZdJ3CTeLGeBxPGzLYtCfnM",
+            "12FzS5RZazN8LKDCYmmhDuHRPvUbA1bfAJ",
+            "1PkGxjRAPvwjBUHyQSGo26qXf6RSbddeYZ",
+            "1DwUWKscpQwwYgBnvy1JxXLQptt1mQhAoJ",
+            "1JzH25YNkGUFRe9vcgRyuwhug6hEkU3WMC",
+            "1EPc9LKRx5YNz1mGFJrq1mp6CYssKsP2Zi",
+            "165JCSpVWnnrG1tdeyGbRJ4C8eFi4kM299",
+            "1DVtXB7UrquSLEpgyxs3b9CEn5Dr4Ptz59",
+            "164bypNTJmN5q1C678uKy4Ad7KwYsLUhqj",
+            "15zWnAy4GTez17dawTVfD8pXx8XHWboqqw",
+            "1KVZo8xKdgeA47T9q11W1cmbF4hrGcwfzy"
+        ]
+    },
+    "keystore": {
+        "seed": "vacuum luggage tomato tray enforce allow swift normal estate round wagon core",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3P86xQkc4rQaz9hsnPjRMkjGHA47YQGPqxighnU4Y9fAGqU4uwY8KskKkMJCHCScdEpk3jfUsoh2gR66k6wmNcAAbpuyETe",
+        "xpub": "xpub661MyMwAqRbcFsCa4SHcRzMKYBYNBrTGiyes5YTj6joNim3qFKnK5wye86RhG2xVYmiYudNnDWCrsDLNcdSiQcRDUwmZ77uJfsJKd2ZtMz6"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

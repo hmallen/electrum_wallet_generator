@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Cg1459eMhsahCmxxG5Kpy65UZcTFH8g34",
+            "1FnnZWpjJ4xRz6gJxufdzfNbis7hMEXDLU",
+            "18DKJpZTQfob7CqMWM1qtsXUjDAyXAuLxo",
+            "18EpWvzfHsEpbAtY4j2j6wNvGbgg9qXMvT",
+            "1Jioro6NQCA7UwoHLbuFChxmNaXV9WQBA5",
+            "18w3MtTfLPZKfCQ6d16VwpWNa9J7ihm3yX"
+        ],
+        "receiving": [
+            "12pszHEaoB68azTUXCcUqysyfNBrwaW3EW",
+            "1LrFv2eF8wtQRj2TaiSDRGuW2CToykPTV5",
+            "1KJNxyMvTBUMVh4PKvryWAd56TXZJnJbfv",
+            "15CjLc6gR2YbkHyN9H1B6CGC2RZguwx6fN",
+            "1N6nMa82hbdw1VSL5mwvMbxed2MwLDbgTR",
+            "1M4Kb5bVyiL6TnSrj693N549ecd1pBNuUw",
+            "1PryNVes6ijxHxF9UTVfbYM3PN2i3e41e7",
+            "1nZHUMtzADnc5w5GtQARGUkCzzQsc6bbp",
+            "1FghRwM7gyidfSSTfNBBJZPZpmLKUCYYLh",
+            "16rrPXcvVUYb89NMogH1jKTd3LSgk1ti6z",
+            "1B6txmicRStk7N5UppSUBoG5HMCVH3uiiS",
+            "19UTu3jiAxT7U9xp17wHWKkZxZsKvfEcZQ",
+            "1KmSEvb5NgeUTdFhjEVGu5J4sCXnaTwJkT",
+            "1ByMDaMMCKucU6nGibV5uW9d9FkMczXDrb",
+            "17N9kXNLqyXjKU23VMdiN4VRAPwoiLFdNv",
+            "15eKSvmQBtGmBDmPRnif53GMQB78n8LGLo",
+            "1E2KSxbviRucznoKX2Emny2eqwTpX8EBpU",
+            "1P9AhLTCZTyQzT9ABRHBWwRtiAgErQyPRS",
+            "1FsnUycYrWZkmMfViAQi2Fh6H1U4UPng97",
+            "13opQswALyMeK2bzDN6d8m61LvjMbVNa73"
+        ]
+    },
+    "keystore": {
+        "seed": "panda diagram yard powder outer fence warrior person notice cross eight lift",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2HEcEEAbYUPU3vDn3MyeAJBhbgEjYtbsgLpEJCbEy2Kifh9M2oieg3xf3jFNYmJKnze2Fh6ziFN4yqQeDjr9TT85KDDLbNk",
+        "xpub": "xpub661MyMwAqRbcEmK5LFhbucLCbx4GSphVXX7JQ4eM7E8rZ99NqjuVWpeCWy6QCJ52LxG7ZtPMkiWPmnsWw9N56cWPX27AsYnWaKg5TvWowdi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

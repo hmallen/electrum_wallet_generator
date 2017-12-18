@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1GFiyCPNsoizEVayTqVDfsr1kc19e5xF1V",
+            "1HWxscQnpf8UBanZ9xCGrNDSmVfNyGFZHy",
+            "17e6YWKHdkYy6WN8UaaTxmGhMnipj1sJhS",
+            "1NXgAJGiuhenU9Puosdn4ah49wMM2LaF5b",
+            "1CXAFVmPHyfgoj9ZSS5QnTCvr4xB27tgCB",
+            "18yePKvoJqhqYnV11UiQxJ1r4YzWagrntz"
+        ],
+        "receiving": [
+            "1CR8mjoGwNYM4CNtjBXxE6AwAkDe7KX34v",
+            "1GhsGvjCb54f7xtvk61JHG3U9iKBd1nYCa",
+            "1JwQx438ahPepaAaFf5MJwNYUKb7j5ayPH",
+            "14MXqZ15GSeJUrBZZwi4dpk4KJ9PfkHKJW",
+            "19otfxmW5gC6Ypb7LvTVGhX8CDTyp27nSW",
+            "16cn46LB5zb5g7g7ydtGoSBkeJbeAezWM8",
+            "13dCPm8jiW4cvCCVp8vzHaavcugTvDuH8g",
+            "1BjY2ercPFescN5iVv1zfp4fXLRwFEJrF",
+            "17ETz3LwDmxd6hQaEpZySHefWyuZkV6Ze",
+            "16iVSekF8yWrdtHZaxQ8vCutJ58zmdrURJ",
+            "1wQxvCRqFZCsa3Ksfze52WxBzqnbxtfDW",
+            "12PeenfHorhu7c2RmkviKsrxZxxnvuc7R8",
+            "1AY5zfXu6Rs6mwZqciuNZA51BygNSxuzjg",
+            "1JaGKjWuDswo6GosyNHLm95uH85Z94qHuq",
+            "18P7Wx4eKgKgHgrsYvQTiTpKh7rQCAfups",
+            "1LsDxvYo48NTucSBnMWc3vM9X3gnotsBLe",
+            "1KFd7LtRmeW9792sapmh6wcr5fyKTHvATi",
+            "1LYhfs9o7XwoW2Wi5k6XxtWchU3Jci6bFt",
+            "1MkbDF33zmcywgzM3FpMNYqT33ev8ZpX1F",
+            "1CG7wDaY3bsspWVdQ8phvJ82xkx9q6MVzr"
+        ]
+    },
+    "keystore": {
+        "seed": "duck goat chaos scene vehicle cricket anchor spot unfold valley settle arena",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K276uAv8b6pzDtPrDTj8eJvxTiynCwcn3NGM8kKbbooXcLzqWkQ5JhSxYcThW7CmiDdKuXTDLEFR7GuiBfeN9eVpD2eEEHes",
+        "xpub": "xpub661MyMwAqRbcEbBNGwfbTxvxSRghsBrVg9t4XNBpVxK2F4gHHrurMbr6CEZqT1WZ3dTWE7p8kZJALK19hdr3UJaVNwyrPvGg9SaUyDKfFW8"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

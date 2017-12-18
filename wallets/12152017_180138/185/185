@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "18FKh4Qfx9U131DJ3o9DYECPSZ7dLaXdcq",
+            "1LRYfHCbHPVAXKEtMLW8rQvuK8uAVbLMTZ",
+            "14bBjMAq38zT8eZs9JwxpiT76ohzRwNHFG",
+            "18ga9nPvR6f9GVJ61WPTbVmN35CAG593uk",
+            "1E59fBUV2xC44cdgjLxBuwtS4qreL7x94y",
+            "1NU56SKGWH1ACEHD9c1q4T9RKCzW2B1UhE"
+        ],
+        "receiving": [
+            "1BZF9e9ZoNUf8CZUjGEdYaHbSA4i4zN6Pr",
+            "1AV3TznWeBxE4cMZLGsDxbgrt2uS1go7dq",
+            "1MiudNUMUFz3WnPkQSwDXHwCi3mRQ6thEp",
+            "18pP5b21mAErfaQBLt3m6QgHeRBGD5UuCF",
+            "1PsuvGJQQYTLg8GLvyo6zeSXsjBiVmS8U1",
+            "1AK8P1Bwi9P8ThLwEMgUsNVoHZCQ33d34f",
+            "1EDk9qzoH8HcufE753tqET3GPmfRrN7edL",
+            "14nCY4miWa9eQ53FwkL2oZeicvkgVmE6q1",
+            "13Fcnzu2qfrsrFkvURJWktAG2BaNoLNCSm",
+            "1KpStJvu6T769sp6CrBVQzX4Lym4GFCe8T",
+            "1GQhbTMPL4uNnukMLBpUwtKTzBZpdNep55",
+            "1Hd11W9SGbmVWM9w3u5z2ANrEznCXpcPuD",
+            "17a49b5gr2EA5FYXDWR4kJd41rT6hqv1Vt",
+            "1NA6LBtsaYwHn9PKWGxbn7hrtLTvvwNKjP",
+            "16h7HRHCur2F6LDsJS14jUEZ5BgoApSyRx",
+            "1JvhcaMr3C7E7mNo5z54Cjcz2f23qqzFps",
+            "1GYPz78jqddw89utkxLprF1fjDaiGJ3bh8",
+            "1JPAQ6gPrzfJ6WJe7EyEeEi7WQVRmnG7mh",
+            "1JsWDAAzRbok5TLnwUrpcnpMKa5wWGK98m",
+            "1637QEDbdmQTu54k1FGF8LXKARjSECZHrn"
+        ]
+    },
+    "keystore": {
+        "seed": "sweet apart clerk album jump force defense ginger display stone together check",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3vHMUWmPYaYepovNFJb4THae3NoFSs8ZhZXrhxGPdV98noayVmJRJPw3n9TigFJhoJhbYuevnCMKF7N1m9icaxjij25CWTg",
+        "xpub": "xpub661MyMwAqRbcGQMpaYJPuiVPNqkremJupWWEqmCs1CfYaMs1FVaeBHTce6ZiMDvM6cutpQfEKwoWzyF2Z2SYVmG4ZxwKSYJgMWwpNSiB9v7"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

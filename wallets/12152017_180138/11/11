@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13fEgF1Nzk99dGHL3ErR46BAU9MC9egbXn",
+            "1FbwUNqYkHtnzfoGevksNFN3sv7FWTcQGf",
+            "1PyYUeytb6XSxZ7nSUbN7eTyuSDXZREKCz",
+            "1EYjAU1nUsiNUtSbJWAqoyHRRGjPA2gsSk",
+            "1T2XvTkV8C25hbsa63hNrZuytNtBMoQci",
+            "1MrL2zJB25hoYWTXDAFwCy3KHZQrvkkLbM"
+        ],
+        "receiving": [
+            "1K7mff1gS6QZ8YbufDUe86CX279FAb4Kbq",
+            "1Ndyy1ba633MWZKm47tyZtPMJBXYq6w4Ux",
+            "1CmRoUrc1MxtSnvPxUKoyPgiBsgw6XM4Vd",
+            "12bWezsXR9WfqtrwopdPQweQcM9BEoPtLx",
+            "1KfBuykf7oMkyq8krviFq9jJB18ZKUhwaL",
+            "1EVRBHKBuU2PRKu5NLUrr1nxMyTsPU4C7w",
+            "1C5hGPyepb93tsy61K2wd5EayDu5FApk9R",
+            "1Pa8XUg6Q4XkjGh6d3Q32TwNFag6MLSLRL",
+            "1Dyrt6512hT7hLcZc5aabLhHu2q5L9V24T",
+            "1Q2Tdevvz4JyNsTE2tgvsFTqPmKi2iog6a",
+            "1FqGNLPJ7eBcYeBoBjJW7EEsti5epv4Np",
+            "1KrSd8vsPu2avt2ZxmBZCFxyM16GuDV8fM",
+            "17WYEmcgfE3Fb1nWZkYAphgH8o3EfdTvGk",
+            "1BaxRpifQaaxWJg9K4RaaGhccyJnozfwA1",
+            "17S7d8mJXWeyhprfZEYubXA5bJGoQt1mSj",
+            "1GPMewJgAZtPqoLZeER964RPz4jJyaGD5j",
+            "1DRhKAhyRozd1gL6aXS52jaZJMhKteKi6E",
+            "1KwbyWiiLTZqSbbVBoRsBzRmZp553QQqHi",
+            "1H5YYJajEtX6ucVrRybabRLfqzeoCaNcg4",
+            "1DbDwewQexywbmeQfFtQURZRaCrUUdeQrS"
+        ]
+    },
+    "keystore": {
+        "seed": "pluck echo airport glide oxygen minimum tide immune dolphin depart kite bean",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4B5mg4zbDZsVYeWmDF5ExY5mzAUUh2TS1EwLCweG3MrVUwNNuN3ncdWomv3oE3jiXBv6Sxak1eDHCKu1fSDJtVNKKZ6DY9Y",
+        "xpub": "xpub661MyMwAqRbcGfAEn6XbahpE6gMFcho6Km1NnYt6FMzQt3GUkUxWbAAyLDuUiLAkoFUUH7GHj8N6Whhe56SYSVeEbs7vHyQTG961Bgfd3yF"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BFktLxtJW9djdo65Th4AkkGtvCSxo5SbK",
+            "1Ck6AT87BPNQsiBpRE7DFCF5VQN4j9w7cm",
+            "1LGfNUN95TCFzuitF7eRFvVztgWXntv2eR",
+            "1BE5iMBKG5xoPyLsekV73itjgR97M2Cqtm",
+            "185GDj1f4hcybG3Xam4bo45X1Bc266DryS",
+            "169FGsUUWNNxKT6vSAbeF8ZiraY8TNiYaH"
+        ],
+        "receiving": [
+            "13cmxmNWEq8swbLC7HYYyJMLyugijMi7UQ",
+            "15ZmoF9Nkui8aT37XPzUfmwVS2YKTfgQzh",
+            "1JWg2oPBkEzNZtRhmsNnuMwYJcTx7RhLx8",
+            "1MekSdWREyxhRATwrFVBM7kv6krcNY4uwN",
+            "1CC9vaRi8QXuyYHAXooPNYeFUxY9jrCvjo",
+            "1CKZiyka7Dbr81u625fwyg8A1pK5VseFAC",
+            "1LTM12gGjhcMut17GQnXNkSpNB2T8snkD6",
+            "1JfxaEYgiTnMnVKm8qERuhFbKUbnrQ8Gry",
+            "1pTTDcWYzgizLSXQB3TmEEdbZFw9KcNN6",
+            "1H16fJMeoMbrPYya27wH5TJZkfzXthwqEy",
+            "1E8NYmzPszjvkNRTa5KZqinPYnPXoDWsQG",
+            "17VaC9dCka191euCNV7W9KuZ6syBdwUJSw",
+            "1BCD3ZCgHkTrQqiji9bEYiwuuYwLp6BuD8",
+            "12WRAdf3gCUTEnTRXfop7FEF9NXmeAn444",
+            "18m6FJ16muLUzVhHB1Wsju4yeceEhRFugM",
+            "13Qtm7VWCfECdHUFMbXGmLSMm6cRNL3xMp",
+            "12WX9Ffcd5tsTrLE8icne86WgaUH2py6fm",
+            "17w38uHn7nD9QqRZwmB8aGCR62FKmHsm2n",
+            "1HKvZoG45MfF6G5wLhCvKDo64K1FqRtrf4",
+            "17AtegUMFdixM6YAmn1MA8eAMfcRZz3LfL"
+        ]
+    },
+    "keystore": {
+        "seed": "phrase feed oblige random faith wool romance pledge butter ensure valve carpet",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2PScZhKCY3E5o3gBqur3k5eXZtHBiSQXA1RhLcsdQpWF7TemnLgEkFDawKcXUvrUXDz8WkJMNiS3j6a6jqt8s7Xtvd7YmfG",
+        "xpub": "xpub661MyMwAqRbcEsX5firCuBApM5WgFNZu7Ja8NGgoGmwW2okqtABsxcpixi98Li7PZLuGos4SxmVcwvKSterQWNErrdzVpgWcytCHgmcMKNv"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

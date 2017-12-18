@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1LwF8PiFdeDVSK5NLRxEhsXNrVAfzGjoKN",
+            "12A77snmVqmgJovHysmJNsemSvHKJMZSQD",
+            "1J42TkErMUZjN7acowKZA3bY2oTZuzHJLK",
+            "1C6A8ZimaeQH1qYjrkFGqxnmxBuV3izmYL",
+            "1C6Z9acz4NjFrpETAkzkvz6wPibAYzQtZ5",
+            "1C1EM15fkyTLzSJh66U5BsBJ1dDKRjDGpr"
+        ],
+        "receiving": [
+            "13wBi3C8DxfmztGWDjSig8euRCeEHZCCCt",
+            "1CsDQRd2soRxY5sXQPTstSqa74JkEbHGE6",
+            "1Pavgz3SHKRqhdcWqatq2TbdVZGSJMvWxP",
+            "1EiBcat883ZuLH5dKarQuKgxD4Tz26GT27",
+            "1K6Yu5iHnTWnpbuYqJadxywpLYdJ3JvzsE",
+            "15uZTmMKV8t7a7wkG81JKdvayR3SF9jxxK",
+            "12oKct6kwL3ALQ7TgJinXr56SpNNTqw6fM",
+            "1JrxMUtBFaazeCgLUucm563cCFNcZ5WhEp",
+            "1LUJbYN9GGu3UxcTTUyZ2uLEkDLKQDNHDX",
+            "19AJQ5bEwB83eqSibgYUuifxhLo5tNoGha",
+            "165E5aPWh2i5RHPCncqxYnB8fLzPBynbZM",
+            "1jEg7ad8pseWiqirhyygfPKVqxVUMam5N",
+            "13dfmnEgoFZWHEePMW4RktyFQC9Pnmdygb",
+            "1HMKUkynSpVQ85MoRYRJyu5sXcPJZhqDGs",
+            "17qcTZ5HbP5cxrLCYJ7bP7RZS6B76aPkwA",
+            "153GMNgVk1LGhvPfv874bStt5xNbHjnYR2",
+            "1H4paMzBk6jVn6wKxTfqbunzVcWv8ssWx9",
+            "19bCrM8XtKzt19B4up7HbShG2yMZmtXFXW",
+            "1DeorXULkBhGfa5aFicEBafN1n76UgpJDo",
+            "19wyvG5esWgGdMyVquL9Eq5MiWRKioGUSY"
+        ]
+    },
+    "keystore": {
+        "seed": "web trend popular monkey sister amazing firm cliff gorilla track mean divide",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4Z3yF2f8CUdEkRX7w3hFEgC8we3UAC3RLwtv6UkEF2NmKvdpobTUiC9VoE9YtoVWVN6BWPSNy37b4JBcp72ArcCRiraYz63",
+        "xpub": "xpub661MyMwAqRbcH38SM4C8ZcZyJTMcLWR6bu7jk2T5iXaQDkE4e24UnphFBCgG1YDTyEf3GiQmrVNyg2D2syaC54MvnWmvSjZ5UfQ3KKDPFpD"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

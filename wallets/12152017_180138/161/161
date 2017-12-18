@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1dugxhDSwGcjNhxYnJTxCAwaZGhFnyAsH",
+            "19vvsKJadQMbKLtP5Kt4gjFov4uhY6gF41",
+            "1Jcc6wnq1teuFvjQVRLv1pdpcddirbENGu",
+            "1FtTPHPdZUBbBzn7T73rvB8e3UxCDRYyDs",
+            "16XKeUXy5aQ9NiNNhRe4LKzyvsGD8dKm7M",
+            "1C7oTrPi9cWLLaWbA74B8xB2gYSM7rpodU"
+        ],
+        "receiving": [
+            "1DyGSeJHD9mvAodXFQQqza3ytGn3ZYWU7j",
+            "13fZhjquH1CziEZ4oUmE7NLmRHEDjSHkMZ",
+            "1ALKK32dbACQJoWnDGUn4HZ9wnLe5bHAkz",
+            "1MTyAALX59HJBdjPuvc74HeahTwnPTQJ4M",
+            "16eaPt5stYTU3XyygrQrV7K3weneCjyT9n",
+            "17DxJZKufqcYzFgLxwBJqKy778BHsQHUfr",
+            "19Vk9ZrunpyJzn2xfcYQJeCPHCrLkQ52VK",
+            "14kEc17WnTK3FwHS3D9YAEYQWWB34uq8Pq",
+            "15PH1hpK7C8hgxrQHBP6q4sFLRzepb5qxx",
+            "16xx6tfwuZhdeeoqhh6wTmGrZX7EGzoT4Z",
+            "1A2mj2xsvZsDd3u2q5ttNgzSxkr4TEy62G",
+            "1BU3NYT37EgWJzYb3H8vBKXZUWPzRXPkWG",
+            "154y4fHBK3FhHaHGSF2twUXeQK3A4f2BHu",
+            "1AhdaWFUiPbFH7yNZVcqLgasr9axFcaMoo",
+            "17SwgSZvMdtNxn7Pd4yLTcuhSoNuMjSoKU",
+            "1Lcmam87kZEFj3WbLYSbFejqaAF9KFdWcK",
+            "1GpspGKPbXQJWCRXkBKvg3rn2dxzzHhd2v",
+            "19jLitgvgvpwzffri11RkLvCxp2Hxm5Yv4",
+            "15pT7SdmeR5jenQR5TASF57hC8GuWCfWeo",
+            "1HkPN1NPrkewGkcwQkn39xiBRunMh9xd5c"
+        ]
+    },
+    "keystore": {
+        "seed": "kitchen harbor intact regret polar estate twist motion movie humble fever convince",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2jYoXJU7ef2iCKDaQDQ1bcxmgpQckr9sARWAVxPV52i17NyHjo7tUFsCJtuV82vBvch2BRNdd7DNG3KmrRfZajfEQGVvWZc",
+        "xpub": "xpub661MyMwAqRbcFDdGdL181nySkM44og7rxqtNVCpEKBgr3DqK3Vhjcq2UxgnLaZdrtVU2hrZVBYygkwcahr3LzUVVCuJ2a85XuN2VDEz9vpc"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

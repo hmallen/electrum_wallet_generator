@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13DzcAaRtWz94RsQP8mBtesmoLv7Q9qHux",
+            "1C6LpojzbHw5grXeu8zAD5AbfWhFKEFcQb",
+            "1CodPNwD6bwUWZj6TWvAe3rh2thKGJ4CFd",
+            "17NFKtpCU8GSY8McU8jLCth7X8XcRQ3PzV",
+            "13YsE1tFiHCxNZSGbz6v1qAawgEMTjEzS7",
+            "187j6chVXLPiG3GLSnUvghkNgzgjYgbW16"
+        ],
+        "receiving": [
+            "1AFfMgRUwnVDEVBPTy7PD2prgQR59C1r1R",
+            "1EfJke58kG9f7gQktNPzJKY8cXejyaUqy1",
+            "1GSM3ihsktUyqk7FxebKh7crr4JevpRVHM",
+            "1KUFwcv5ubKtHD9BtU8kvn5DoCaQZPmDVr",
+            "18JRMUXyiiqV8q5NwDNLcYLvWg8M9c6zZX",
+            "1EfxjEeqRs6ihSHEqrZ7r3TCQdw2oBK8yH",
+            "1HfrLSb6oV1C8AZpzXMboY9BMxSkufn5st",
+            "1GtGdoBk3CuntMW8QeUfst2M83B16kuVZ",
+            "1C4Vn8M2pe3HPMN9j1dbJ572zrEbcDDyao",
+            "1DoMFQp8dEBjMFKYnUPforqAmyySMxgyTv",
+            "1JEa5EHJ1DavU9dJEAuBHkY9J2p1NJBpbu",
+            "1PzLYj34aQhTQ9cZnTc8coTNYBgCbiG8W",
+            "1Fu6RZZ4xirXouwZdoKwkR6CTKotGh9fXY",
+            "15MfTPuic5ZLxjUhRJWcG81HigXiguT2LT",
+            "17BZbqbpvZpemtEskdxEvQmMRfm5ceERTK",
+            "1Q7nSMyijAkpSZu3PNkHpBP6oJQo5atB4p",
+            "15Nv6me5iSUWJsHFUrfZiw5thfjj3hpmFV",
+            "17VTdYLdBVfHJQAvQH2AVY2HV8FRwwUFqr",
+            "1HTJHM2X1SyiaNcBoLZzNtRP5SkTCaUFrF",
+            "19JRNFEPPgyHjNZxmjxxq6dDYWysSDczKk"
+        ]
+    },
+    "keystore": {
+        "seed": "kid reflect milk pink emotion rude never army wish close add curious",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K28ykyJmgqpfnU2y9RT42gnbc2qfpWKmDW79USxPRdjWCvLFV4sJkTc6njLitpdq8YrVc38kq11tFQv4rVVoiEoSx6h6qpJy",
+        "xpub": "xpub661MyMwAqRbcEd4E5LJhCxcX24odpumt41XCqE5S4fJCNuUczVhgBXpgmavjpzyBWqCALUFuCq6SHpTmnHDAuR1coQ3bi2eDksntLW9LkzE"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

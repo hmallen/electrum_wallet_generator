@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1EQHDRnnS3TUvzbDY9Z8wHxXCBgg6FgWzd",
+            "1Bxb9TqFv5bBCiWuiXpwfsu2vS5oiXXHe8",
+            "1JQZ5kB87ddeb5YsaAzEjPBZSdyeXnatVA",
+            "193JyG3YwRXNQx9j8tyFfKB9w7pmqUyXn2",
+            "1EtuaHf8GGDWC33VRttymBeUDVPs5nZi4h",
+            "1ykTZ6hpzgpZoo7BwcTpT2285d1tPCcBe"
+        ],
+        "receiving": [
+            "1EnCJb7qmx83dN5LrkKBX9y7yhZPfCWxYv",
+            "1pfbiYvxGsJo1jr1BXZ7Gu7sbYHR21nLP",
+            "14VAPSS5s9UaS7jFBrSsqb7DtwC9sSrs2L",
+            "128dgPSE2e9QDTDvXRDYetciiCCPtXWphr",
+            "1LF4pzcrBguMERP9faXy4QEWdvM25Nxpwv",
+            "1CHMgcGuPaTJYpi9cxBHRYQBm4J8KCLFb7",
+            "13UDPbi7SjL8gBY5Zx7zDEPtUJWHpoSyBu",
+            "1DrFL3e7vpdUM7dsDZEPXKYKydYm3qZmgu",
+            "1E1vnYYzU8aaU9kFwBPfVqKHJgZTPXh1P6",
+            "14wiUcB3GEo7HqkbLCsWf3HzcG2jD7YYLX",
+            "1986CAhzRXvz7BZkkwYxfSEL39Y6CTH6z",
+            "164ELxgE9ZWBLox7pE6XdugQAFqBt54UDs",
+            "127dCQV6kRvf9Rmx2Ajw6b1os5RWD3pFZ4",
+            "1D4YAYCoPdYT7APwf6Vs8rEcUeY1Ph8aVD",
+            "1CPKeRXcFCsGPg7LMDzRo1eXNpA3768Hjo",
+            "1HZc5h6Ain3GSKt4MLLkmioHBJ2XceZE4S",
+            "15HDgGycDYsnWD1GwWK8CKKmXReL3bjq8v",
+            "1DfRZ1y2hYwZZaUi6EfayXXDoKuSeXeWNi",
+            "18dkHnUn1kc1GzFQSip2GgUHCSXCYxqbfc",
+            "1A3T3aabGAPa9gmD3KKMyqLEDjqmYJcAJN"
+        ]
+    },
+    "keystore": {
+        "seed": "remain pipe timber cement bachelor recycle girl load boil advance write home",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4U6FR1vsiL29HXSwzVm5jrrvLmtQPC9crriSqJVmovanhwUBr24EQvNGnwzvBBEKzdeT11fxP54RQpwGdoJEb3NkSF99SYK",
+        "xpub": "xpub661MyMwAqRbcGxAiX3Tt5TxsqZHSPxUw75nX9AJ1wXgbjf3bNqp2MiuGZE8jskhReQvv5uCAqadCbMQ5juTKZbvf6yDPJZM5ebLfq7hzUzq"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

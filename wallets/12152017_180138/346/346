@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1HJBBgWajanPmAMA4SZTf3rvvBE9haz9sb",
+            "1AKvHixSQB9arneX1J6bfxcnoqym8EboDZ",
+            "19FWDmkKe6NcFdhP3PE2cHD55zt5g8xzWT",
+            "1F8JgNfwtzN6TCEg6NUfZJp7wspeneB4Cr",
+            "1KgT2PXrLwXLgbZYpBmYUGZCxYnDPuGyw8",
+            "1M9oYBrLHdxXh2auzs7f4EtDvqMhkaAgtS"
+        ],
+        "receiving": [
+            "1HhqoEazPauNYwQNRidqHEtZdvV5thugRt",
+            "17d7ExKBYXwX7G36Kpxs5yo2VFEjB5K9kp",
+            "1GWhVtWsyoHeoTWCymDRcUdoJz7ea2mrsj",
+            "1HDKXjZi7AhsJxXxVuUmCThCNW9KXP5Mw2",
+            "1Hh8N7s9zQSZ7WzhYjoUHfmEFUuhqcqiy9",
+            "15XZoRaYyy7uCBppAL7AsU6DS4wXgkzn8r",
+            "1M6D9oyzZErbieqoKJJCBhCTn4erGcEWFH",
+            "1PnAZmjqmftqXTaNEicSZBfAK2ruqhQ89E",
+            "1Nf7cuKx1pTp1v9D3MfLZbvfL3DUtxLfh",
+            "1NoqaoyVcqKZxEQB2URjczEQ9R9U5nyVHG",
+            "1AdesNb6HXqJ8hwZ8wFXL1T3ap52wM5HtE",
+            "1PD8UHJCmWPFhyubbZepyQdCRkom7zzJvh",
+            "14nUq3XBxYxQzzrdVg75jskSeRQUUya6tq",
+            "1Fsvh7xp7Z8B47qPKLbhE3T8RgvQ2dCqLG",
+            "156V6rcytd1JgQnr1w419WQdV6gfVU3SbC",
+            "1LiSpFiNSQuUdcJvigqKwyT8Tdkok5FA6Y",
+            "1KzeWnU4feecyQo9XvJWxoMjfjtmzoJvep",
+            "12f75u1C2TTQy3PGmYyV2LTp6gPECGh1Va",
+            "14NDqnYLBTXH6aXYxWSVbF3iHU8ZZW8J2P",
+            "181Q1DFSyjC7g6sR9SwQrBQ5ztJGkjUax4"
+        ]
+    },
+    "keystore": {
+        "seed": "snap age reason churn guitar spy mimic wage dial keen person horror",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K26eE8oJHXwGBZZLvaaF5dKC6SRTecTTaZ2tBJfPRi3gZWoaz6K3KgcXCzzJoUtuuupLE9mxg4yrj92XT7D2E3dTG3Bv9BW6",
+        "xpub": "xpub661MyMwAqRbcEaihEpqHu5Cv7bBQz2xvzY7hEosGAnzZRqDKrChgFr13N3hxaR4XRFvdujE5NfEHPp8EFER81SNZyReUB6qnKNmPi38RDX1"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

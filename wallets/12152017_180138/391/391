@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1HFPXs1ixkKTwFt9VABSNKbdLy2i6VVcmA",
+            "1BQG4vdr4qEP52xsj4xa3PwX7eCXQRrXf6",
+            "1AhQGzSkzAQ3CS1NS3RGLdi2mBmhKY4DLk",
+            "1NSzgJk1N7qFpKUR1NaYuZB15cAJLkS4sm",
+            "13FQNLUHzo6y6KPcuanCNPYbR54BeSQG4i",
+            "1EeAKZtBMmenpHH1fqb7Q3sJnSFHscXWii"
+        ],
+        "receiving": [
+            "1KDM8NA3AM1ux72s2qC9q2SqJap4gKg7Cm",
+            "1UnF1gHdovSFrztRMxckv4mNASFuEJ77A",
+            "1Z19rW5n6SCc6X1E47kMXpdTKpxUW4Ata",
+            "1JQEG8ZBwdbzhNyhhCHy184D9XjioBaiTZ",
+            "1NGThqbHBR4iCoN82bcn2MjZX47BW1Kkmv",
+            "1LhoHUsPZvHgUEepWAoYr3jxFamUUgV9rw",
+            "1PGZ1BWMBEAeUpa2JXze1y95bjprzDcprc",
+            "18u4rYtToeob248GSc7YHzPReUur7UVg1t",
+            "1J2mpG7LYGkqZFHxcHBfMPL1psR3j97Zeg",
+            "1KURGBojgS5XfXQAJH4juabHw6yJgTtBV9",
+            "16SSRWnVxXRZRXYdq9AX6sTLMuVqgcMGFF",
+            "18PyaJT73nxkjriZQNF18t6SnjVwAcJqsX",
+            "1NyoM1EUFYYvPkQzXy89pXSUPBx3MdZuvD",
+            "1Jgu6fwC9mfP4nQUg3kg8VSfdqrD4dQNGF",
+            "189FbFkRLYwKXPBUEp6aqZidamXdXXaHs7",
+            "1PV4buijYoA5NoeNw53RCeECNmyLm9XKfG",
+            "13Lsg2Jko9FrwTraXn4H2xgtzTeTaMHt9E",
+            "1D9qD4LXUFhfUypY7tX5s9Gxaf17Yj1kg1",
+            "16d7a9HjUrH11Bru5PsAMXdPgShjngTCCW",
+            "1BFh9SH2CgAcu68S9hp4ECWpVLsxZ6iC4g"
+        ]
+    },
+    "keystore": {
+        "seed": "horror disease upon display green maid gown climb grain exclude hip talk",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4VQLAQ6DKyuVwJygKZdoby6b9HmiZcq1pojR2AKzEVWzSCMNMXrhegvszEryLRRJUeXJTMJV6CypWW2uTKWFQLc5ffJoyHJ",
+        "xpub": "xpub661MyMwAqRbcGyUoGRdDh7rEVLpAj2MeyC2BwgBL7xMzhc4ZZheEnHqUHTvGvSRHtRtnsHADy7as7jDBHYDcisZPYxcNbjLoxtctErQrgK5"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

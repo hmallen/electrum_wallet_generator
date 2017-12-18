@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1DKQRehpRvmuKpiPNfuEFxpcs8k5i3MCKk",
+            "196EBanhyEaJdCuobaFUvbP9wQ2XbVcj71",
+            "18Ni3YAaG9FV2GwMsXqpf3sD2xbG8UXHnW",
+            "1HFXu1dv8bcGoArGbV1S4Cxc1KaZVdd518",
+            "1Mi19QADXqv9uy9hYSewoL7J9CRWoyKgCn",
+            "12ZDH4gRdrVMfbdG4UgzS4xPoW3ibdkeYD"
+        ],
+        "receiving": [
+            "1PNDa9HXRU9FjmUzGQKuqJNRNivwQA8p3J",
+            "1KGZzbk7pNAooQgiAXprDRDHyLqZoqhA6a",
+            "14FwByxA4KiRPYAnSumi5Q3aMxbZuHFLGb",
+            "1CmNySZf6QTk4E5FR6Ui1BXaJn4m1DSndn",
+            "1HNU29hr7cnegVYvUHu4XuXSaaf94xUctN",
+            "1Ko3Di67Rr7WMyqsofuvMUVGw7rc3M5tER",
+            "1JiPiJmQ66KiXj2okry5oMAG2qinDVA751",
+            "13FQGxBD61czAqivMC7GhacoqxkMUMcMRp",
+            "17ZP9WwiTL4BQPJRtcfUy3tYMWuVwvmHQp",
+            "1FufAafvsFPPTmMcXQzkLAP9Jba5Bhyx5S",
+            "1KFnTNtKVXVdrEqkxvJeoBh24nhJfGa4fo",
+            "14L2zcUZ7gr5RDYcrxFHzoo9LauhaQWuWg",
+            "1NzhxXmLE4qSQy3saFHqgmbN3CKm5zAWb8",
+            "1Fpj8jmFyxy859n3nTSKqthNV6nWnrVXkQ",
+            "1N6qoYr9GuZrNTYoJpKzcBN9xYTTqhkuD",
+            "17FFt3qdcDna9H3b9MVBGF2kuqyWjXRVvT",
+            "1G3VxjvHt4PYtgCgZtLtp3PSspnjEvQfnz",
+            "15T99CckyvMjjPWUPW4a31fcE5tYRPLJH1",
+            "1BeD8m5STMgWDvJfLhASJe7nsoqL72jcAN",
+            "1H2F8E2MzCrKHwMVsW2GW4k4YSPLWe3MxT"
+        ]
+    },
+    "keystore": {
+        "seed": "bronze rather slogan river day potato all lyrics glad wheat deputy pig",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2vEMjshi97De6p637fmZoYz5h7HmoUG7qkDC5m94HLF1YGFDyMFfcH9DxP8rQ8wWVHcuxuKDXBE4ZQ5VawdtAbMAmZw6duv",
+        "xpub": "xpub661MyMwAqRbcFQJpquEiWFANeqvXX8VRAmugVVhPMoo6iYYLdJTJq8ZVPYGAPAHNE2MLiTxgkbZArLvTLbDHhbJa5zXXuakqmcK2u1z2QKY"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

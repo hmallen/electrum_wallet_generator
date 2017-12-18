@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BmKoSi5W1cUuLQPbyRBySHXFjdjYS6ubj",
+            "1qwL7pLEJEBJWJUa1A7BRRB5Mw9qAtvN4",
+            "13UAz4PwUDYEhSJrK3Juy3mc9wNGefftEZ",
+            "1GQHiRwXwPYLxnHysj1H54qq4yFmAdbpb3",
+            "1NJAEuh6z4gBtzVZo6BGtfMbyx8VXUuVVV",
+            "1JnKAF2wANQ66TjD5y6ZirLkgMJDQfBTFL"
+        ],
+        "receiving": [
+            "1WApK1VUWfDw3xcU6KSfujeXqRQLN4EC4",
+            "1HK9GLFrw1PhvR221rbao8Bevy1RXgiSV4",
+            "1PrPz2LAyoh6Z2T7CbquWxUAuA9oUGLVGq",
+            "1JTsju3qdrgjTksuMzkopNR21eGxd9wrBZ",
+            "15K7ceujnEvCm5pKj9ZmGrn1nznm1zzqVF",
+            "1L6t8HKVsGUQutcCkvYyU8ZkxbGngaxoeN",
+            "1DvYTYG3c1orQvxFuw3gXQawjrDjNUbr4Y",
+            "1A85Tto2QGy5ZYuiZLTHJ4GV54UHmgZ1am",
+            "14ivEGumxBay8UjzLRumSuNtM6AdAHC6Vb",
+            "1HLn9pRrCR1WX7xKkDMWEttcBZgS96Ns1X",
+            "19g66KZinusJBTQdQJ5Vu9kgBrjNfUzFy5",
+            "18J1kmemK5GZGx61GzjvWxfNUkrnRqa1qm",
+            "194ETpmYVVXWEtGWq1rVJFrXV7py1UT6qQ",
+            "1AgBoeTnZCi1gZzQPBQWt2HMQyrmwiemgo",
+            "16UUq9GiSYjvmdBWFafoX5SpygLBX7y6qq",
+            "1C7Qj8k9pGwpkRtrU2Pb67bEsdr45GwBxt",
+            "1K72ZeXeWjF67UUqPq1FdnbXH5LNrKQjWH",
+            "17UbrjSXt8wRmRPRGbKEG2tLXgbUwjTSDS",
+            "16YN6RambtL2Cexmo9VRscAC8r6ancsYdh",
+            "19HUALMKjDd9KgoLh1g17ZG3dMRuFBby86"
+        ]
+    },
+    "keystore": {
+        "seed": "genuine glare ice mouse winter lady token bridge swallow bone above brush",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2jAFZh3ryGQ2fBD9zapvjj4GPgpsRTRzQ8W6nQpDZK1Lg9t3UTTdYaYVir1qXQEctQWEsqdvhxadcTwQe5JnLqgoc4aXrVD",
+        "xpub": "xpub661MyMwAqRbcFDEifiasLQLmDD3eQ3Yn6wysC5EUynxyGvqFKx8U77KpXPoTbG2VkGV9eLc5mNDAQSz1jbaZuBPMNY5r6mueDCRt3S1DMXd"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

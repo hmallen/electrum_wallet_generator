@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1PFHoXw7zSRxmsxk6TcXTJdx6fNocXAgLj",
+            "1JWtr7E7v9VMVRtKUbXzhUhiFYBGdFK1Sc",
+            "16xqMiJAdp2pi3he773kLaEWrwxihcLpxc",
+            "14PzfNLRvAiMssdUrVL4tXUdAAAJ9zammW",
+            "1k5i8P13URrqeEZK6nPxu1Xx12adiD9Fw",
+            "194dpo62QnjLc1vZ8KfrHMVXEH8h5Zvfvb"
+        ],
+        "receiving": [
+            "13dadvbNB5yERtrzUus3r8zEA1xcUa9xtM",
+            "1H3u6eNcH6pV617ANNLzjo2fbZBPJyBkD",
+            "1L3WjfF8xb5kKofih1FMLy7tZFimogW98W",
+            "1Hq4cbR88qy491G8EHu1YBZ4XvgUqQw49V",
+            "1AuUVyqSKVcFAD2ZKpMhZsYbwQLXfpGLeF",
+            "1MaoPcY8vNUaJHHwbHzjT4vX6TJHHG7hxJ",
+            "12s2MqnV19tFcNBgfEZTxSkNpodvsJrha3",
+            "1EN8NYZyuL6fYphs7ShpCWZHBp5p1Uk3CC",
+            "16y9DrdXcbbeYBF2GkCUg8baH4uaYi1xLj",
+            "1B9rRxFvdcrp6s7u6DDARKSf5pWsTXz29B",
+            "1DL9TzGNRfdp5chS8wk67peKorEFykT6ku",
+            "12poPrXmZCEhmacYHsjBou8nHyCWoqKoSK",
+            "19KCTxrUAjz25eagWztXEBwQii81hud2hH",
+            "177k3Ar34XifsGjp2NXUFTYBbDiUSBZocq",
+            "17bnKnwZwbCFRNxEF6o8ye8SiQyJyYYQa1",
+            "1PpnSWfK2j7zGdHJCBaye26JagH1AR8ZVX",
+            "1FH26RyDATrcihL4mKVoX5C8T1UYJ9cq11",
+            "1QKX6hBPGH6zZA6rpXf2dZaPpRjWPxCYva",
+            "14tmZUKPQtkLxtuxmjWXrrBCBECYD6VpxL",
+            "1Asv6dRVogMHRe4AeNFh9u8HVihVNz22yz"
+        ]
+    },
+    "keystore": {
+        "seed": "air canyon tonight security inflict truck diagram cheap car parade panther scale",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Ajfxqo91u1G5ZYsMEuNnvjjEEtnjUy654W59eqkfKYbTNygDkNp24QLWQjoU4vxWKxgHuSoqBYdt9FgeiKvDuYYtAGxyqh",
+        "xpub": "xpub661MyMwAqRbcEep94sL9P2wzdbPMkhdEA9fL2dJQHpW4wrqDhCA1D7s5JgLz16XcHcxfawWNxBTZ1vnFpU6wXjYKRc71ECiLjHuc2LbUR7q"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

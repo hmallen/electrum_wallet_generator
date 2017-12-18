@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17UC7H9jKhCbXkaUtdZbVb8oMyt2XRk6gG",
+            "1Dh3tH4uH4sde8TB3vsn8xWUDwFRqYyZGQ",
+            "1HfnAhajMCz1KNzYkrodFsLNN7bTuBgot3",
+            "1FuNmFv9qFYGFd2nhpbhwmab6EvtSufjT",
+            "1K8HyK2x2AEBHWB1VgMiKTsxQzCCNwDTFV",
+            "1EWQ6YbLAXsP7T8ioqnvtcaodFquoN4WzK"
+        ],
+        "receiving": [
+            "15sn6FYoQpGHTX1gB2Jfv7NcKwBZ1fQWc9",
+            "1M9xk5k9tHpjV3hXHr3j14qbp1hWdbfjtm",
+            "1FiR8aJqfCydt3S18p95Z6E9KkonF5Muc7",
+            "1Bkv4YzrN3tTfpLtd26ygSZmuW7ny6Ri7u",
+            "1NhM6asezgSJBejstv7WmNxTZEXjVqG2qH",
+            "1NLHhtiwUX9HLAsumb4hh5TzypPd9vxABX",
+            "1F8dtEuhFS5Wd1FKZpbXbb1ooj7iKXqYLS",
+            "17VxWbCs9uYKfPxAn85QVApvPxU11RwaDP",
+            "15C8eAMHbbnvKYdG2nsEbcMapSJtkY6e66",
+            "1XfxpYy2Q3xtcMb25FceE6NfGLTo9MpZv",
+            "15asHhHmzoD58odVeDeaQzP8wXvsdGmWa5",
+            "1DSckJXXESUxtpBhEouogtHq2shRTCSaYg",
+            "1Kp4uHtbEYECtAqbmXnanWZ7m7DQxgVftD",
+            "178evXDgrH2UXJZhcmafjZFUpJsJT2so1x",
+            "1CheHNtyVVXPBFDSRr7FpodeXVmT7aMbae",
+            "13jzgGqjQ2KmLfZR1C6NZimQnZYtbfgybu",
+            "1MouiFJTdf4Ts8HTVBHXz8qMdBA76bdKSR",
+            "1AxBthg29z8CrwSmXTFAA1FxZULYwbWiBK",
+            "1DDLM26urmfMkikBV5ZsbCBkEVCvZ8X16b",
+            "1AnLxvK3sDebCBRwQPPei1afwDJdNPnHHu"
+        ]
+    },
+    "keystore": {
+        "seed": "wise derive there tank hole close brand correct piano endless grit spoon",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2GBNYicyvyFkFQi3F5Gfty2MHLkTSsfacse4fkCTjY2cQMhsaLMEocrJ1twrfcPmhKNQL2RJuJrETy3fFUA6SFr2JSoNSqh",
+        "xpub": "xpub661MyMwAqRbcEkFqek9zJ7CUoSYXeXzXGBwx5jA51DCZVfyDDHWiHLM6FcnQVjzAwCouBaQvpzhnEgjnk1oFjZknEWGPgWHv785nejuE141"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

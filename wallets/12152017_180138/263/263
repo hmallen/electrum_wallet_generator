@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19PaZFqPPQEHv6Ncn1iHf65fSDMvhTWtAL",
+            "19pyucCH15XoidZAgfS7QCAx5GemtjVYby",
+            "1scessLFyjNCK9kHDgw4E3jG9xPj1gf4M",
+            "1DDoirub7ZRQqzdP3NtJ4SJwQp1TUbEDep",
+            "19ADQQRHtEKRA1yMW1CvzzyrKbEYwwgwW4",
+            "1Bw7rh3aThmC4LURXpak5BBBXQoxucCvyc"
+        ],
+        "receiving": [
+            "1NjPpgdMRXm8BpZtWovtpsqGjJrYu9tbtm",
+            "13o6VYjdQVo6k2jwqBsMSDthnd2e5cf3sh",
+            "1Hsk1yMsCrwAydgBM3EhUwrEJcVDy3VUpA",
+            "1PYNVnPrEbiuXFWD64i4E8iB8J7Xz5xtYm",
+            "14ApYHyKAespPJSFWy4RuNDQ7xArAzsUUX",
+            "1A8ZmWe7wGJ2n8Fz3ihpHZWipBjW1sScBr",
+            "1MW6GMNt9Gh5KF5iTXN8ys29z41NzbTLF6",
+            "14Yaeu6FhpUsQz44mQ9dgTZtRnsjXxb1dt",
+            "15XWRVVKNfHkmHH9a1J2ncf6pQZ4fJLQfr",
+            "14oVLwbU5XUgLua9Ud7KvCFWzsQk2u9rJY",
+            "1K3MRqzL1aiRGYnra6rdY4ueyS6Z8G3Mx7",
+            "1BSJnGPQ7hhcWZEmKtM9FpcLHSnT3kgjhj",
+            "13fzyAyAJS93zFmdY85XNY84MjZrJ8fpYV",
+            "1Ek64R6AzLumwPzzmnYdsTMsqHGC6GdTqN",
+            "1LHLAEvxoNszz4WMYK7C5X4jSpYGZo1x1d",
+            "14dt2CSHBuUa2tXw9SwneWM6sA98YsjhBp",
+            "1DEtr6XZdhjhgG71YssWQM7Q4mhzWUSUUQ",
+            "1KCUYRPeJ8Q4GyNQxCag4NLrdBk1atREvr",
+            "1GxmcC4LFRdABLkd7c22wjSH9xuzTSEYPJ",
+            "1GnRZppVQLraYTwMsMbZNPwmXhYSW1WTRM"
+        ]
+    },
+    "keystore": {
+        "seed": "survey fence uncover nephew tumble three name finish step pear payment service",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4CDnNHPmHpX8sPB8ripf3ZqqfPSpBC3PGTY2H8HyuCQDmCk23Lk13iWvKwzgc3d2SHxMtd1GthA2Fo55ef9oY3owMjDDtXp",
+        "xpub": "xpub661MyMwAqRbcGgJFUJvmexTsRR1dGBYWQnmSTmrRjXaN9FsApfcESzihcSZmvFcARMxEiLY1ELyXFmiJJKPjySF3EZkx1FKUSd9FXrFHCi5"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

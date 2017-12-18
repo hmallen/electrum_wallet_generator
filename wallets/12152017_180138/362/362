@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Be7HjmZUbjS5jw4s8W7LEMgBxuHH8Q2X9",
+            "1TDux3vjStiSJ1UgtXMxUdVr2s26U32XY",
+            "1QCcRrtmBk5vkpTW5X9diQR66b5JBCCdSr",
+            "19fCns1FdmLTWtd2qf2wREXKkecwyvyzqh",
+            "1NyHxMEtrRDzazykQp5RQn1WEmujEsJePf",
+            "1L8PMooCjDBLDmQNhEFL3dadKsdgeaZXm3"
+        ],
+        "receiving": [
+            "1BW5W66bWpy1B2WTukJR3ecZZovz4tLaVr",
+            "15kpP6uNo4ucys1LoxwqYUUpKnTsRiPZPJ",
+            "1EvsZj3JJ8QYYLwWNFEct64W3DAeXoSc7n",
+            "1NUYnLcwAYefEWLebzEa3uDzwUGsUc9p2K",
+            "1BLXiYGTNzZszbUgjyzbaXgk6m61xWADfY",
+            "12hspayjS35NJCpyhRYk8WqnGCXqQfDWPr",
+            "1FZCchoZLwPoDwykc88FTVmnvNnBRDsw68",
+            "1BxxYmoTGQ9dVHKMfzJ1uRAZefApm8YEMM",
+            "1Gb6TGf4fxpTjYUpdU9FCkBpfaR31QuLnJ",
+            "1BQ3U7cMrSQg7omJm3LAjY2g6KHpujiKmf",
+            "1LHGZ8DSh499eHYtwRyUujoj2DZer9RZ92",
+            "1D26A3SErhDvpYS8tLCyBCpHYXDDp9xooV",
+            "1D5zRKuG38zqjaU6GzAkJeUyYQPxWJHcAZ",
+            "17zmWdBaD5skrZ8i76zezZRfp9NeWmyEkb",
+            "1B8tXAmiuE5d9cLrzgTRjsfxUvizsUSRWp",
+            "1KAj3QD76wPvaQ655NJBsYb8fQSroUsV15",
+            "1JHXozh2PWkKpwGw1NqpnPwsLzH83xdY16",
+            "1EBoVXq35gCZ5xu8qK98CxZ8bEA47NfHaz",
+            "1PUVxQq2C5fx9pt8nU2djPRP32zBd9SsqJ",
+            "1JhqwoVtbTPrhgQD4d1ePXjfHtNNFBFmg5"
+        ]
+    },
+    "keystore": {
+        "seed": "satisfy hamster knock catalog patrol stool few jealous fetch flower few street",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2F4LxD7J4vkiYQquaeW73L2fFRCpg5F1XxnvfBXQHqz6m7c8VnsNACyWMvUUyjrLBktMHzHt5QE3pRDUzLFJjyHirPFbSoi",
+        "xpub": "xpub661MyMwAqRbcEj8p4EeJS4hT6SgPz7DxQYxG3ocSEQmzQm85CiqeqeJacNSp3BvcXPmAhmw5DdPimqLUr4iHwPBPUD1bEc3XeGGZfTRA8Yt"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

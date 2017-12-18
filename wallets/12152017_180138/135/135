@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1GSMu4ezZqxUdcmG1U3nBArAZdAWd2ZLnE",
+            "15WrK49paWQFbfCUJgsQkGheYVtWKV5GxN",
+            "1JoLUC7wR6MBBKhqQMiXpM69pftcf5q17M",
+            "1EfhLvCQswA8U3aVnqD334pY28jgVy5gYM",
+            "1Dd1Ay2w5o5eLGtWdY4sau6DC5THXu4s6h",
+            "14qH1HYDzR3CvqaA6MoXqBvCmu5ToJAiJg"
+        ],
+        "receiving": [
+            "13q2cn6e3GgxrFdzcAc23dTWsbY6S2MxBe",
+            "18oHzKzXX9Qw6sJ6VCv3xE6HpYN7QxthXc",
+            "1HzMdehH6sx5MNpNcqEUDekXQhQ8MghhpV",
+            "1HLY9No6gbfKhf4zQXb9y9Pu9gTRpKwavZ",
+            "1JpQF5HKWwYiNm78wNHZ2tGfgUWWeomwcy",
+            "14SgKCjtyDAGncqH1V4PRMFP4rsfhPQjU1",
+            "1GKq9jhyUfWgTKWTFpTYPyC31HJAxmDMNq",
+            "1CSAq8wcLJYM7aUCJm87ARV5FXyvB1TXd4",
+            "1C2foWkz7fCErzFLN2YL7aviSv7CoawvWP",
+            "1BRpj6n3KPhSdAoE1tPVeBsDR8ugmStQa6",
+            "171QrHM49etj2zGRdXCFfRVft35GHZZz7N",
+            "1J999Lbj6z4nimuf13Jfm7UgYHbQRXqxN1",
+            "1Px3RTbmh5Dx28YtBnpMzcGwDzpuEQvY9S",
+            "1QG3WhV3MnssXvUk4NGzjDpoWoZzAtnvCB",
+            "199nK2fDfoRng86s1XXfrBcLMHRLToVzXy",
+            "1oM37u8MbyM4sTZyAxfbuVUECQyK9mpBn",
+            "1HV3RcC5kZEhsGD9kxEYMrgjMyioJTYfQT",
+            "14FLKba3nZ2yEabhHqzMwUA3EdVov52qkb",
+            "1DWzSP9MsZg9qxWp87dyoECupCxc3js6MC",
+            "1AerKbgoXRWrobHKadWfj6ukNu7Myaw4FT"
+        ]
+    },
+    "keystore": {
+        "seed": "pizza banner baby tenant fantasy master secret dinner refuse brave more doctor",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3CaKQzsY7dqNLmFYU93nhQKnMScrxbXontQ3HPR8MqXNjp1NyL3oyJvvmcom2ige43tTYMEMpsaJhaSZSv2kwgGczoQjJ8M",
+        "xpub": "xpub661MyMwAqRbcFgenX2QYUmn6to62sbme4dFP9q2UWw4nfgjBpvjNudqrb5SjbEkjLnvhTJYT9sDNctcmYTjnfQ1STLKbTiuQ1wxpn3mojtF"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

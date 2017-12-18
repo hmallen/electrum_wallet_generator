@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1PiJLv8du6pMuGZXeGRkyPWf25GD8YAdoE",
+            "1A1umxqgRMEYrow7GxMop7eAcRnkikoLwo",
+            "15T5YKbf6hWixHmiJEhkko4sv9gvp2rLy8",
+            "1PdZbXCvDmVZixDtuajyfJAWUP7EdH4udA",
+            "14ixYTMW7U8HSQ12o5X4NjCmDakNnZqRT9",
+            "13JHPsD54yFU2AtaCBJNyVvFhAupAdbJZg"
+        ],
+        "receiving": [
+            "17P72yiRk5DTPdENBww66At1iUANu2j11q",
+            "1MFJQTJHtheaiL3jVj4anjDGJ5m5JzwXFk",
+            "133iiWTmxcihszPSwaQR8eV24ZL9pt1Mx6",
+            "1NEKCxwE8HwqmhwDFQEvxq6vXwo81kx4W8",
+            "1HwEvErMgZLVLuxmboHENNJU3FNcRptAm",
+            "1934GwMgRKkcydqYKL7kwtS1e16vjcwBba",
+            "1HvY9dDKi8yczvPRBKLPwVbFWJfPbuPwfA",
+            "1HUx7Nw4bC3i8LzQyD86CWvMNc16WWNxXR",
+            "1QHptygSUPkZmQFaLBFPBFUMRLenrqGFvd",
+            "18wTdbGZXJVh3QJ3cmbCzmKfechrJFsw47",
+            "1CY5BsF64U8hPpYnaxmZtDRbiYUpwN6ynJ",
+            "1AdVLB2bWu7UszdnreomA3UMRsWWb1qAmr",
+            "18gsGmXwvG2WBBhsUR6zk8S6wv9n2k9e6b",
+            "1P7pvfTkw4SPY8b8orfgCm7gZoeRhtYnej",
+            "1JsnooLQaG7EUt2SpiE8m6VZZCzJMfmS7u",
+            "1D9kcsMuZ4G3xEFDro7pN7bgi9urBf5TFr",
+            "1Cje8pVjDXU38vVCTskNZg6KfubiBg7L9K",
+            "18xRN2a67Xm8zLpWrf9cNDAEtMEif9QgVi",
+            "19HjqHjqhQ7mUrmk5G8MpVZhi6tEfHANEr",
+            "13uSAzMaQptnkx3muKJpJzFq7rzLNX73ko"
+        ]
+    },
+    "keystore": {
+        "seed": "height wood poet kangaroo organ knife test drop derive quote raccoon joke",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2KP16XqCSfmngAcXcvJyqoPwhhBxvEsjU5PwDKVRHFU5QVLgGrG56jahokCq1H2nUorNW7PoPZnT6KzEy5D2VpLiVJDvxpM",
+        "xpub": "xpub661MyMwAqRbcEoTUCZNCooiXECT22P2qD2KYW5baUaQiLsj5krofq3nZFkHzo5KE57FPJG6PArdvSr4RJHnK3T7oJNZ89C3z1ZamB6goW4g"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

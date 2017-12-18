@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16oFwFfVaZP9BXaUamnSpVXHVJ4G7zMQpB",
+            "1EVzcL4zZv9AgamMLtbYzhL7MxPKpy1PFc",
+            "1CT3wBPnENsC1fkM2b7TiH1PKXyW3eLYGn",
+            "1A9VAgcF987TBca7FVome99yBAA2NQ2MX3",
+            "16wwPGgr8Fa23S1YCXmGYY5m1VK6FQPgBX",
+            "13YWDNRRaLbWMvd1z4QDYEvWtLYB1Fppzg"
+        ],
+        "receiving": [
+            "19R3LyRptvcX8M5s41vik2UKpaRLqNJrdB",
+            "1G5sLfxcyMC94CvS9rvVPmE8wUhnht3ZMg",
+            "1NkWrHG91qu4xnnULwtVtURnXJCmfbYeE7",
+            "19jwrHqFoyUpwujzWLRNFeYDemWzddbGK8",
+            "1B7tZsRD2wymG2g4gMRHQmnoU6yFBRp2Gt",
+            "1NdX4HocrFCLrPL6fJTbqG2XQGG5HoLy3V",
+            "1MuYcLFdQ9T9aWdnHZekQvEXtP9EbmqpJL",
+            "1MipVVN8JeXaR7zi3RVwVkjfHvfdUfYybw",
+            "12LCJfiSk5GFW5YEmiCMHd7UuKy3Y7NHJZ",
+            "17828qHP32TMKckSND6JVVMFD8nsddxMzQ",
+            "195GqhDFRZJJZp6pfGJZgs2RHazb7vtfBm",
+            "14gdyE7zoGc2f3LQVBKZgnf4Bf55JWznPL",
+            "14PuZevW25yYbgBitnQogjFtU8eJ76BgzL",
+            "14inTvWAxX5Di6xSCzVbiz2638BWknub5g",
+            "1DiScKaYRj46fiLhGMJzaMGjenMG3ov1T",
+            "1DT4US7LbdhFHmgwcQowSMi8CgWk23eb8n",
+            "157yKM3mBwn3ZtST9HU3s5Ee8wPnCzcsvr",
+            "1AkTKPddoQMQiCC3WdY9XccxxCkmhrACKD",
+            "14iV52fo3a3gbRe55abYk85yyCYjKoPRz1",
+            "1Ax5Gz2z3BNEQtxVjDa2G2tpUsE8sCcQgC"
+        ]
+    },
+    "keystore": {
+        "seed": "swamp pill swim young roof laptop winter above ball rebuild survey turkey",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3QyN6WqZxBALxjoYabetwvte6BZeYyvXSbbmTYLPk4Vkf51Y6GhJ88FxXVnFi5Ekcx2SJt4a2zcJefvoa6JuTGoU6PNZK42",
+        "xpub": "xpub661MyMwAqRbcFu3qCYNaKK75Wme2z4NkK9pEtZyG7KTWKPvv15eeHrpEWJpWjUNLxDQgBa2Jky1wfDoKUJbSrb9CzzAhxFdZmQzAWnBmrEb"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

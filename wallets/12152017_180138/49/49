@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13D7mF8qGYJjjJWzrv4CjpKH83psF1CDZW",
+            "1JJo6o6Pg78rCQrr3CrQpRxR5XeohyjDxE",
+            "1JYiGCveZb7BGpbw1vSmkjMs847VR7xytB",
+            "1L1GzFVZFmrsKphRKTgdh5K9zPMK9cNyY4",
+            "1H8b64M5wqoUozWEN2njiosbRAwYDfP4Dp",
+            "1Fvhr9fmh8Zkm17YqQexCgwkHidEbQH8yE"
+        ],
+        "receiving": [
+            "16UnsqGHoogMZGe13FrSFHNmMp8rFhmrrr",
+            "1NvrGbupC2a9XnJGLhMXKVU6MokE1Fmj7Y",
+            "1MBJJuMNbFdotJFSAtXrCoNNykqNHgHEZf",
+            "16q1ZeQ4JvL81QcAZMbQ5KMx1vEMvRGGTN",
+            "1qKZBWyexfyC1UYKiAHMXPBqr2P6MF7nt",
+            "1Avva61KtAvvM5MRu8LrktJDNVgMxR1Vz7",
+            "14nTNBcNgJnMbViqaHzD6FZ66Yzq6LfrTa",
+            "1MKm6MrbxyTBmZgYGtULW6ZGgYaK6GmGTN",
+            "1J8MMjnzsAoeFZTiEzdZ1Wd7jfvtRvvHea",
+            "1A2hvL5Zu8Hpx21GwBHQZ6WCKF1fuZ9wch",
+            "1NGaMpDNW1oirF1US63CJEsrJcMaKWM3Pv",
+            "1D1kSaQWa3eqaV7YKi6AaUAHgMXMt8oBk",
+            "1K6q3KJfMBFKpr7NrSniiTY5o55sbkhmmo",
+            "1AV9QVMxGHySUpS9hTg5giH6KwCpfa6WJV",
+            "1Lty9VH4nSMmUzpG3jSEYW6R3WoYeN8P9S",
+            "1C8P3DZKqmJVTEstCW5LoYqAwJoVLvHjky",
+            "16X5Hcird1ho1Wgk5gwY2C57VJuuvkaGs7",
+            "14ovHMtSZvRNtToXdDKZzgtTSXwLciohpt",
+            "15dyEMgcxQQ2mqfLWhmRWnmHiZ4QzaLYnZ",
+            "18y8dmo7tZY6eSMthFD134XkXesvpWuTY5"
+        ]
+    },
+    "keystore": {
+        "seed": "bone evoke two pencil lazy april climb wire ability usage coyote cream",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2nMHnyYb4WCNCGAR1h4unAzhPxVmTpPkWEsv12ZWavXCwXqS8D4gK7YgHf4mbj54SiZCZEjAnYxWU1cFbseQfMQG5CNnevX",
+        "xpub": "xpub661MyMwAqRbcFGRku15bRe96kHzuR9nm9PvJCLuP29vjP3D4YZsm8iqgnp7PFqDFKCynCCzVmWSchvFYgLzs9MxtLkqDhkRG1n2TpU4xaGi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

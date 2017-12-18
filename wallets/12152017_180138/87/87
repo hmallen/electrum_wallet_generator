@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1PZQvxjJ23oTLaVzEMCxZ86uncEzCWJKeM",
+            "13vC1saLbvVRBYnQLmr6qh7xJWp4SkZhuZ",
+            "1Br4X8TrqR9r9MwJsgJEvTHD83snh9hxNK",
+            "1Bu99X4gF3tjGxS8pyp51M9s3SVoKUABui",
+            "1LPPzr1wKQeF5tnTcazxNdip3rfdxWvFGa",
+            "1Fz84SRzVwyEYNkLLb9sqyJCyRZMsYkrDw"
+        ],
+        "receiving": [
+            "16TE81SY9PzdR9S9P2CuMmewtqAirXGV3J",
+            "18pHbeYvmkMRh4HBXsfYDgXnZicW3WSqR9",
+            "1Deh54jRdXAC9LvqrHpTEJuAHCgjp7a7FD",
+            "1Cpp6JtLdFpcP6WNBZRm5jjqVbUDsSun6G",
+            "1LiDNHoBNM7hnQtCr4CyERfUw9J8yT2KXV",
+            "12YpWPGz5QS3kuMm4fJWqsmqTWNUaN7tbA",
+            "1A8Caq79FJK1KR2zhKFKWeLHBZHo4zQbeA",
+            "18PT523D9tNyW2dZey8DHhHTDN3JiA4HXd",
+            "1BKADURQBXMuJVR5PUFhkRYyPrGb5L1oUS",
+            "1PfNYWPdLZ4Chf2Mq9SBaUqSZjaM6FpNum",
+            "18mMzs5n7mGkLbYt7GAmAWgUySzhtsQe2S",
+            "1DZpi5YhrrVaZrZU5PNnqLSjKkE62gQTgn",
+            "1MHC3Hx59GDPViVPSn7WieWZLLmhcrGbjL",
+            "18dSEki8kmfXfPv9uhW425gzSeff87RuUT",
+            "136GGt7RF88kJykHz6kTFJkq3G4pV1FCqa",
+            "17VvRbuFCoPVMvndSnphW4FhUb7HsKusHJ",
+            "1CUtpEuga8u1DrSPzbmRKAXXvxWrsd3QxH",
+            "1KbhJUBGUZ4Xq1r4J8t3tmgh1Pixk7uSUq",
+            "13tE4RF1bGePGXW2MLAxs6gUKjcRyv1fjX",
+            "185h8i8hQXWUb1dLb3h6ygFykLjtpEkAE9"
+        ]
+    },
+    "keystore": {
+        "seed": "fruit family unfold usual siege attend maid define kiss innocent okay square",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3t669hSGN1ES8ysKaZiThpiaTBZAf94Guze6v7MhMFF2qdasu4ncW9GtU5TifgtPuoKrDEff9qw59ubYAyjWbvjPqpwgKrP",
+        "xpub": "xpub661MyMwAqRbcGNAZFiyGj9BAh1hoz2SK53eBFZxnDUbFnnyFTefwu3ZWgtH43wq6L1WGuhi1D3P4bJG56KfMBUFJYisbKkQYrHRSvzqYeWt"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1N8zcEfNtyf1RqXVzNtZbNJ3EV1eCmUrjp",
+            "1FXMRTi9j5kpRgmFnrJMivFcy6DxrJToCH",
+            "16mk2g6jnRU74AzcLQ6YrEAZ2dYxUJYkkG",
+            "18VQkBXkrZc5RuD95ydGfj7CTnimXN2eS1",
+            "17bjpe1pACJD3ks4ff2jPpMqPSrK5bGi6t",
+            "1M9Uj5s5HekjPFFm4gd5mJrTm6smisscL3"
+        ],
+        "receiving": [
+            "16QwMX2wgXfmBcz7eqwzin2ewQahfC2VFH",
+            "1Nd73CgcDzHBSPR7xJDaQfdLzSwxUv4Ra5",
+            "18w5bAV8HRMfBJ1Q719SbXU8pZdiWGZHms",
+            "18BD1XxiCvQYL8fJgYdQFmxwDzV17FCyYR",
+            "1MXDi33BPyqax5FbanTFChjtenrmzceVz9",
+            "1KhC76DRZjCc2V53jmdrwoegg2M8LjpnDB",
+            "16557kZ9JnwtcNW3THGPZYNdy1Dart6Bom",
+            "1Er6PVKuay838FifEhCEYFg3kCrD8Xrsfc",
+            "1KJ1KFCxT36ScQuu4bBBr9c3GbqUfiNDFA",
+            "1PH636wnaswhiZVKk9AVq4Dv1GUi1ejSnq",
+            "15zrx9S6E7yGunPDgFEhkiFa45o5HkDjwF",
+            "1F16LvmGRK9VTBpEipTzZbv21YohEuGPzg",
+            "1HeQrYPDfXWGCFfMPkUMeKQ8ZzG4d6Pfeo",
+            "1EpQvfCCDQiezfDLuhFad2SowKHbKr2nKK",
+            "1E39tRLrKfvvDhpJ6YpxkHQXHYmsLLnpCZ",
+            "1Q67jBe4jiJLynGwZFafi9CJdED2zo4NXw",
+            "18r7pLrkb9NLQStxPzSigDAhawR7tqcQ7m",
+            "12mwkNgqq9sMBooHrAEt2WUCiWZGt6Wqu1",
+            "17x9k1ibv7Zq97eGubJ3JnyDsACqBPFQZf",
+            "1K1JBECX79RZ1WtG5KTTtccpQ7mgypQiyZ"
+        ]
+    },
+    "keystore": {
+        "seed": "above drip scare venue plate attack shine economy goat toddler punch equal",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3YFHVsAMJEfHLN9oGyABCXAvHLP1siNQwexfj9robabVpsZXVUx7M4j6qyKuH1AW3eqKAri31kXvHSpcAdMkgGg8D6HNson",
+        "xpub": "xpub661MyMwAqRbcG2KkbthMfNc1tPzHgRt2Zk6X5indS3uPpTHpGhB49NuygAuj979g4MTqRf9JTbZHk8CdwWaKfbAkPpiYRVkcWJYdQkz6Evi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1HbbPxvSvcWSTsqRWgbn6hsszKxfYsFKMj",
+            "1AtaMfWvaZ7ZMPpF4TPZuqy7sG8ujV4HT1",
+            "19WRgvphf3JnkQvCxVMyeWvUgUdpQmP3pv",
+            "1ZosGXf6ZJRVDZJZMrG2A9r5W6sxSmmQ4",
+            "16WrwPgcNgxtJFvcybKoWNHzpFWrfeAEyz",
+            "174KumWuxgWXbTDTTnz55fu54g19CZhzdt"
+        ],
+        "receiving": [
+            "19kY87bvuxohJcN5A1U5jXLTQpTsVp1X8i",
+            "1fEu17BEUc8TY5utXPuYt1ZeVNc2rzAiV",
+            "17Qe3B5S7z5aoafMnaT1W5fNV1sWC9Nrds",
+            "16eq9jna1LCDcUfYZaoShmbEJvchJSg2TT",
+            "1HRKCGzTBZcFUinmdoWfxHkyyD6wcZFWyT",
+            "1QE1P1k6uvn5ha5aaqKeqqQwymyngamAC4",
+            "1Q6VLAk5nj92tXYehcC8vY3xYA6wogdcfo",
+            "1K4xDWyXV2ssGTEmo7LHQvUkay2BLzVd2T",
+            "1EhnEAcR4inpA58pQVMYkdJr1bqdwu74gr",
+            "19p1kkY9hHfTce9tXhNaCCY92CEPQCcqhq",
+            "12pzv9xkQaqMacQpKbK5q1QiwPJPdfNmhG",
+            "1MxW4gjQcje3DJZrNW7NB7dt34WKj2T9Ja",
+            "1HYuAaDXCpMneQMoxDkvffHXrGDoemKkHc",
+            "1EYeqKyh4387wfvNgmoT4mWufpKUhG1VWU",
+            "19QhJYspxbkHDLwxEjq4kUFabYoriRvdGF",
+            "1LhsqLhXjureRQt7v3zZfXSEN2wWCZVoUv",
+            "1B5ogdnQieQpfm1CnCjnDUrv56dWNrowqS",
+            "1ErrHzZLSXDBWbo1e6hr4MwwX3jMzViZNg",
+            "18E2uhxisTSyQE37ASsyM1uyVYFyGQEQxU",
+            "1Dah9QQpJNGb7AHv4fS8DaJY3q1SvMUUh1"
+        ]
+    },
+    "keystore": {
+        "seed": "chest demand clown rocket wash equip common solar okay age zone tent",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3fN6wfErnQXpyi1KxwFGhiym8ucCLgZkKLMVQn7nbJfBS9mnS2JfSLUnbj2YCiAX4ULuiEjefT1ZaqEafZcrC2TeLVtat2Z",
+        "xpub": "xpub661MyMwAqRbcG9Sa3gms9YUZXjqpNPy84wuMwJ1ou26jC8gdxKS396yfHSzaCY5pqT1L4KAEMvMBySFmqAnvaWPjTkMbRKDNuHiyb4fgAyC"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

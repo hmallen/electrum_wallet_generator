@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19cF2gaPHLvU9MztFXxSDjQvamiS4r7mTh",
+            "15vqeqe5XXPTAJEYjnCFvGn8AEN4mA7Rv8",
+            "1B2RkY3TV6RceAWoXh2JFEnWvsySF7rWpE",
+            "18TMrRZYp3WszmUwA6X4drmkV7E2n83EU4",
+            "18mYzd2FfUK3bgujB1ximcakrTuBLkh1e6",
+            "18ffwUzUuNCCPDCUwiJksSaDAp3qcwJohr"
+        ],
+        "receiving": [
+            "1K2N7TTkCAhj6PL6EZ3XtS7CzXCh3nUR12",
+            "17XRntmXS7dCkW5k3D1QKAGyX9cE7kDyoT",
+            "1HrYyXHC5MNwS8CKnca8gGuyTZ2gWWSiLo",
+            "139cFQydA1mi94254XoCpehwET6VV7yB5j",
+            "1PTjvEuGXsdNxhR3FWWkjv1Mthgx1xFHAC",
+            "19ELHAyTJTzaG6zBxmgwWEPXMw2DKbzXuG",
+            "165H2Th8V3YKz3ZgfLaoSAm8uAFFi2oBUD",
+            "18TduLHB76MGUUrBt76Q5puUAHffcZ5kdw",
+            "1DxeCMkeEUaGcFCy2h3sjfZfXKo69VWim6",
+            "19agP3ufpVZ7xeneRzdU3HYwNrJe9NAUzJ",
+            "1NB5aDfGGkbrsqydys1coFsPyJ5V8ZjUwJ",
+            "1L2wjRoWGfvU7fND53fBtWByJ1kpjSw3G",
+            "1EpWJVg8ttaqkSsFRhuS87a6x6CBJNz3Ez",
+            "13csigmEWj6QaRHCvGFenzkyuauMV6ygUc",
+            "1MdGhZYM7V9xjS4sNpnkpACiZopeSDdMC3",
+            "1DsTT3Jf97XDczou6eW3Tv1LuvL4HAcF4P",
+            "1Fiz9bToCiiJuZjJTpYnQ9C7ZCbQMqKGNo",
+            "1Lx78F9x8zgX6VcAoTmzzTSdNfj5S5eGAY",
+            "1MC3fmGtZeMHXfea1YcrePktQHk5UU1U3R",
+            "1E2NuyTBJmPnNZPezFPi2bWVZzbC4aodMt"
+        ]
+    },
+    "keystore": {
+        "seed": "kiwi foil security state rebel attract ski survey skate cloth code sunset",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3JLfuV9FSCcJB862NG6s6TjUqXx1gHGxWPvyvsU5ZoQvfUVK7FwUB64TysEKN2m2Qk6v1qXMrJA7tDeBCjzJHoTYFPt3EAc",
+        "xpub": "xpub661MyMwAqRbcFnR91WgFoLZ2j9vWmipiTgf5dvMdEcowPCG8UQnL7bjQWkWi9abQBPos1Evrk9hHdVVrXcXPBeQPY6ozYvNDsN9ygHddZU3"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

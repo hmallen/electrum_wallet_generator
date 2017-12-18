@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Lcwc3xf3JgnFcrFmWqx2BFBKCataLZiWz",
+            "12EGZkkGXT2ixhiPYb5YdU6tGEMMyVB5SM",
+            "1P2aEHDjqJk9D6Fx3gWrh2DRFbuiqG7Nof",
+            "1KfYGQtFKQFkQzZjdzcm1bhL5pt3KCFNxW",
+            "169N1gG648N7V8u8vwYSiNfb4r8YPGA5jd",
+            "18Ux11mchKF8xuxZSSKBCJrd3mWqy3rM8q"
+        ],
+        "receiving": [
+            "1KB1vAnaMsrrLcRRazACF9wPpivu1fDrPP",
+            "16YFjg6nHnm6WaEYLipCHUa93wKVSQx5HU",
+            "1NunWvHpHEQ3W1fWevL4frdsuYW1qnW7Yy",
+            "18pkmSE1FB8PzoNUVAdQwcdxLLrrPcrnK2",
+            "1MD7USwV4HGjpBSReUcKh2Janpi8XhuA1H",
+            "1JPgV93AmFygRmuqesrKCmKSPA7BskFpBY",
+            "14gfQbrJopanw6CtMZH7o9GasgEfH8UPT1",
+            "16aabgtqLW9vuxxrFXctdV2TWzMau3CWb8",
+            "1GnEBUi3bE8MSaugLotQZe3ACbhNdoT7UL",
+            "1PD7txBHCvF4v2tEaFzcRTxMMV4h59x5H5",
+            "1KpZrD357KUhYUeDNpRAmTVDLDYaGA6feT",
+            "1Hk4kHtDZXYk5dWtZhpEcPssVBtff19JnQ",
+            "1AArFW8v1ijqgLaDeonwHZJjUDDNdU7MkH",
+            "1JzE5HrPXfJudKuoq9BMgXVs5Nuv1wMTBR",
+            "1MuSe85NZLV7t8TuFQzitXSjPFXuccGBjx",
+            "1GMyGh8b69b1t81GT5Nm5pb152NsFMiuew",
+            "1AE3rqQwwLq1JtjHeoQ8tLfZZJu97cQi4F",
+            "1JbpKh6vUZiqCEeYeuFzKwcrqNePnkSvpo",
+            "1J7ruHUJir7NVRM5DHvzNmCbYKPPkmCLkJ",
+            "1FdV7vLYJrERp81Aw5Qhg8mrRUv9JYRQNF"
+        ]
+    },
+    "keystore": {
+        "seed": "doll crunch rough plunge height chest rocket check combine trim penalty million",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K29cZkzbZC8BG8ZmB7YUZFr3TxKNXiTukKnNQEH7Kpa8KUtvfsYimZbVF4J7WgjW2pEQmkAQ2nBCAH8Qjqu3v2woFgvRWgLQ",
+        "xpub": "xpub661MyMwAqRbcEdh2s28ZZG7zgbbfX1CQd4y4khn9GoSjCahYmpRaNNSoL9CpXzCLvfTevwYakbnnm6UwZhdAqW7EtP8Pbxk7qLhU6Hyjeus"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

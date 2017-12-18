@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1DfBxfBHsrhvaQ1UNkRA7sfVMdsLskzoB6",
+            "18GN8zYTAPHwz6wD9wZYLxfx58LJDaik9y",
+            "1JJDEudQwCYidZoZTG6dRVEAQoySFhuV9j",
+            "1KaF9FQ7u7ToJRnhWhmiuyKg2dFBL5EcfY",
+            "121BmrSHqW3ZbeKN7Lt69LShcW6PusNEgy",
+            "1Lreh3rU33wNMRN4DKmgoAQKTk6cACSNag"
+        ],
+        "receiving": [
+            "1BVvy65wZ5Hsz5DcUP7PEjXAZzKjy58KV5",
+            "1FhX5WKVyxRCSp6JusD8B6Rct97nBkwQY3",
+            "13bxASCYRZbSbe4YgV6hpjDEJ26dEyBPRG",
+            "1Kk2KqrwvrH3b1FcBhkZNAf9cLjQFQXw8n",
+            "1Jj5fibsrj8xEkFTpTWXAWLkr2fK8TCxCF",
+            "1GuLRKtjLjsFUtLniKCF74WvtoxpFqoCV1",
+            "18NHs4E7AHmLQh6xTSb8VCL1i2kdmAfqnB",
+            "1KpzTUyLbT9ZuMXLdKujB3hapV7mzcWBqm",
+            "1343Vv78Ef3eju6P4kMPpKDjYfhRKZdWxL",
+            "1Ejk7P2DoN9dnfhpjRNKeKUBJCJi5icTtW",
+            "1CydmtnQVdpifm8xESDUVje1qMo4jb6VsZ",
+            "1DhYtNV7UiwnW2iiB2oDhHZ6P9byMaL2EP",
+            "1H9QtuheJzKFCfbWq8cmiHfDgUGAYkjmXA",
+            "1J65NfyQjcN9XMwcLkpo8wLUneCt7TQYr4",
+            "1LRu9iw7nreoj2BSXMkMjhNFKuhzXhRNCp",
+            "1MZuDdYcJFU13enPj9suCYe2yQcq622rDt",
+            "14yWncq6EhyztReXRMbbsNfZ7e3Q72mQT8",
+            "13PBnhd5ibBexBUG7nK3fYApZAainvHEd2",
+            "1NUTDrnkQSRie5YcNaMu5dKRZ14cYCE1aS",
+            "17HYMB7WQiHbrEsJcJfCFQmFfxcnC46Vch"
+        ]
+    },
+    "keystore": {
+        "seed": "during evil file pretty front code bunker lyrics right cancel camera can",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2HxP6UCrFUzmUr45ozfgYtqMr1wMqMbiqNXeavs3nJKnWEExSGKGjsd2TqAj3yJtFa6kqzJpncjbAH4D44omyC89HhyzYc8",
+        "xpub": "xpub661MyMwAqRbcEn2rCVjrccwW2staDTPXv7kxeQLyPh8hiAro8UBJL6eGMXTwLb2KiRGyoLfvMJzqM37ggAs1eM68xWjwspggzjV7RGZezZx"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

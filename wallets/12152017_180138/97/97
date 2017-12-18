@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1JXqwtHuvqgiQbtHpFKGnx6kqERMbuDvsk",
+            "1GR54X1g2mrSyKpUqH6Zpmi7M9saYPwp5a",
+            "188hGLhBXtsTVgjwrwJAGrm3FyMDmWmH2i",
+            "1DoRfJeU9JdSoCfoM7KmwaKZeRHNzYapeM",
+            "15XjJ1A5XrUJQAcFno9c9FYymkiKthV5K2",
+            "1HguJnKoT8oop1aYGwrDXtsfhb4j5BhU1r"
+        ],
+        "receiving": [
+            "17Ry69NtUgbJuGxcugDDUb3rpYETPijoJX",
+            "18TmvKH3NkS9h8YpEFUa9kKxEVFnKsNSVV",
+            "1DN14SqZ4MtSZTrptphhRW21aVQ14BzhDP",
+            "1MVxhNEcxgQvoSc9aisn51cCSDWDVQvSZ3",
+            "1G9ajS7FxpaFnLyCToVrpkErbGuhpJtRvw",
+            "1CLM3VgvZZdJfdRu2s3tN4mgGjp5aWENFL",
+            "1FsUGP8CviK7wf8irxdzPiBqqEk1dPsDDm",
+            "1H93gYCJzxo7fW55ZmMYyRguVMhaZst8n",
+            "1EpcaRLDKS7vJuL4Z636Q2qS3fGr4qyxp",
+            "16iaY8mzmGnQz3PDAb6phNCw35NptwLezG",
+            "18r7dxa8jXwM2y8Y6VxxuNWAD9osewn8hV",
+            "12ywGprdXrXcNLnre2CWWX7ABB7uRNfcUY",
+            "13iiJdeZYgBzX9ty1Z7WoAWtxe9AENnrZY",
+            "1D3ztmTVgGrgNzyH5iidQvTB2igi6taFb",
+            "1MJ34RePLe6fyAM2UAGvZLfoiBvJ7CvVMb",
+            "1Jq5narEWXRjZp2VF5V74toby1WeyuiJ9c",
+            "1Q3ZeNEqbfeYteHrLpymjiRsrdnYExXNsC",
+            "1cPYfrn3mar7Q1t9y1kjcUgxpUiQPt64H",
+            "124ou3efs4Vw2W6EdNESHfpr198vCFNz1L",
+            "18xkxqYJbqQGxgtHoggARbt3sjNDzqv8LJ"
+        ]
+    },
+    "keystore": {
+        "seed": "adult master gentle permit fragile scrub direct nut dolphin bamboo denial lava",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3kE7dwRPBdpsrrVkkXyzrVjpUjW2hw5YtRWX1R6YyvHP1Vev8LBbyi5Jhf31a37hN9evDh4GhycXPcq3iZu3FBnBVJp9QF1",
+        "xpub": "xpub661MyMwAqRbcGEJajxxPYmmcQtLF9zhrDifRH7ueGGcXmDqfYxQoXibrrmZi1NjRa6mbaswA92PbfsbX5cxj9v7QxKFTKXhee9fJuVQXMBR"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

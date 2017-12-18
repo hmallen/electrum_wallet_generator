@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1C4joiEfKpuUSiZGrtKSxobheKZ5xYJLpg",
+            "18jpTa8vMPYHehKMqDk923Nwg7rxrHdtTB",
+            "1PhxHm98Ffd4nWdVnmsrFEEsBpN6oG2own",
+            "1GzXSotJejUK6jhsoh5AdSD8j7XSuapkmx",
+            "119vth4EEm8FitLpsNsJxUc4pTtqxL7uj",
+            "1MDJsLS7zDkfmZk88Bf35denM6qVocdrFZ"
+        ],
+        "receiving": [
+            "12isyKEEbV7WPh7ovAhQjyKgZTXnGBXuKx",
+            "1AqbSTmHbs3H9inGv9ULesv7y87USmKbMs",
+            "14fbS8tK5DqiJZBTsbaUsprcCdBKrF4C1X",
+            "1NT3g6ymMt1CBfmS7zM7cnN4Hi7ped5v2A",
+            "16VoaEBA996dsbNnWTtxEd6MPbyY9rHg4s",
+            "1DYD2tyjz2GdnYkC8BKWzbKzmbVVD7QYVr",
+            "1GEYYrtLQUHHXhyCQDuhT6ZBMqYN8jCuaR",
+            "1DfYZKHcr65TRKY8v8CsTugy9V2ZWdQpVa",
+            "1Ag9LFDurBTapAfBXoK5f6hqYYkB28JHb1",
+            "14Y1SLqp5yurkFLD8nDs2ssm8GVEy3oLC8",
+            "1C7BpoBTseCHjxem1zSw9shGncF3KFzwk3",
+            "15nRXeFVMXQxTyVZQF8dkDkJbRJzwrDRPg",
+            "1LiPb41BuLSC7Qrq1LTaMHsre5wV36VGa4",
+            "12j7Y9Xk7JaKo6KE1JPyWth12x1SyKQdfT",
+            "1Mhyb37aW1A8W3JJEG5S2wX3tZXoSFLCd6",
+            "1KMmJLpQiLmzYoVWLpV15BcJKBZuPszfrR",
+            "16tjP8vFrdtp7EWjfnZKDYmVmMF5dqNMMP",
+            "1HWu2SB3iN9U6kmKMi9RqnRmnXgkRYeNMN",
+            "17MT6XbzKVyfjecmtMqXi41DZEHoPguN5H",
+            "1KP7wh8Xe7vALoXySVFsSwCzaMnqTXbQ4k"
+        ]
+    },
+    "keystore": {
+        "seed": "toilet strike general hole curve supply original rural train section thought clinic",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4ZdsyuKf3p6mXNRu2566ReFvuN5VQ9EFEdM21r8CAARrNCMbYJSuYytPh82vDhLHhujV2rVUHvpC2cdcpnovUqgeFktHjwg",
+        "xpub": "xpub661MyMwAqRbcH3iM5vrfQx3W5QGPRXownsBXhkV6xUmE7RgAZPSShxkLDWMp6yfAY3keUrbAMpanYZyRapRrkuwAGWZAEe23MirYqhbGoDr"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

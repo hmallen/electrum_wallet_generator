@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1JTmWn8dPV6zNjCWPQ4pWQ7G8rapCTEgfN",
+            "1Nn749pLAXHA5RvpNxnHG2Hmn5QVqrNdqf",
+            "1NTXA4wWwZUo7bYwcxAAqEr2K8rJ3rTBis",
+            "1Mq3WZ1LRFpwssvtpPTtmHdw98AHJT2d9e",
+            "171w4QHaG37oFpn4U1FSkUefwnRgoM8bMN",
+            "18DNvxpGpSJA1NziTeA7oviHxTBERV52i8"
+        ],
+        "receiving": [
+            "1DZVi1oKhgg784nkV4vHB9yjtQyfT6HdLY",
+            "15eXb99cG5UecoPv5RnW3Y8QP3oych3qsw",
+            "1Jyej8Y6iGNsBGfxBeBP1KHibssGBXt4K2",
+            "1DExyp4PWEUi4cGAp3cje16iR4q9bu2szZ",
+            "1PMDN2kuC7udDfM7ZZYmcvkz36weJQCdwk",
+            "1JJhwppMpWDFvWrpHQLWNfHouP95Td6qZ2",
+            "1K9cxM72JCX2hA5ahpDhBKDZa7r2YTZmXw",
+            "1Q8GSmo9ZJXkBfuypoAyn3CPj4HVAccsGp",
+            "1DLYuvMKfdHFryCHv6hZ7v1RxRYgZRHDE",
+            "1HueUJBhDV6VFEgnimv7xecELb86vC3LvL",
+            "19qxYxEdNQiiNMdfV37CbYMMzetv1aCK3S",
+            "16akprx5aaVdrkERAUT5FtVrr8cXh1Ayua",
+            "15ppaiL2A8BvpnJ8xSxY1im21c5fi8JbLb",
+            "1BzaZoQJoPwC9QyTSGCcJ9brsvCdVJ56YY",
+            "1DbHFp6XYkoe7UrEnQQhen16DeV6GeagLh",
+            "181p71yJeT2DQTJUNC5WX7Z68m3HMq8yur",
+            "1AuLkvucGNLe3Vo2vxaYGPvwgpQXQLT9yX",
+            "1KaDBjPY5aDcHYdUWHmPWmm1wVkFHsAFaL",
+            "1P46iAsNF5Ms56MEourkzDeu8JJnMjt6ax",
+            "1MNmMidbyegr3QDFUDgb4wDbuP8KPhS3yg"
+        ]
+    },
+    "keystore": {
+        "seed": "useful humor drum edge stock small van abstract ghost bag bench edit",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K38RByJpEbXjnNzpnbQXfAFzwvEV6oacNeXi4HqyxHBWHxDduv4WyU7dcBoRr4k1F98tKgaEhwUfMLF7sp28m8KEmYGniXE4",
+        "xpub": "xpub661MyMwAqRbcFcVf5LMExfgWw2fGzsFWXUvYictiMv9MXL3CqPJCpypmoXCdAYNyJxu1K1VqWnSeX8WWSQcREHRprWyfpy4CGYPD86XB6wm"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

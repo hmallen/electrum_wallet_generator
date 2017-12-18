@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1DKEa9uSYarBnx8nqMMURE4bHDSFtgw2JJ",
+            "14APXZUcSrXAeXSRr157AqrnWRNA7ExbdL",
+            "13iZs45t6d9ctbvRBmScK5x6NiDTZKVNP2",
+            "1Aa8R24a1J4PaqcUDAVX4p9Vrd7HdXUu2x",
+            "17SjsKQThDcitYhNhsgAPjs1CSStGxyUZ9",
+            "16DehF5K3sGoCe93QcNL6KVToqVkAv3zMK"
+        ],
+        "receiving": [
+            "19MX1f9JR3uPEuSxYtiyLaF15a1Ga41qTw",
+            "15oQ5jFVqXE6eNPAZ8pPD9pFqBi26bDger",
+            "1CqvGEk92LEU6uLLhqSq9Dafg3RA9hiwwU",
+            "1Lgb2Ev2tdXrSZaZHrML5DP1674WiBu4Wi",
+            "1HTj7XgFaEzDQXm6GHh8jDSRsty79fF44J",
+            "1G3zWZUNk1eSVoB97Pg9kxxz7TmGj8HPjB",
+            "1EkpWMSa1Ep4QZKKpGY6t9eybuKGZZTHng",
+            "16F2niDm2zfWTfcsYXP73DHD4ic6pcHXd2",
+            "1Ab7sYE1vnpeagUzxcdAk3zwmFzLprsMSw",
+            "1LF9MgTfotizipKgyaoiKH8xuPzJjYrv91",
+            "1HPvGj72Tv36Wv65HqCYEVyU72QkwxKTQf",
+            "19NBgLhBXy7Lu7ZHemdG1EJ57eDcu1wweV",
+            "19MXqGPYhuf26Situ69oF42ePFC2Fjx1GS",
+            "1Fz7aaHP3LThudha6zvGLGuy1tzhVAQ6TF",
+            "195RGnqkfzydMcVUHNC1npDqMwr8kCgyTX",
+            "1NimzysWbgygQvj73A9opxrof2DK9ZEz7V",
+            "1Dfrj9Mqq6yDwMkkcgBUJS25TrSbKiTwKH",
+            "1JmZGaMDzodYTkR7feZV7GiPZ9FBvVZTqv",
+            "199CEedpuawvAeDJ3nfgsNrxcs1Mq4ZkYC",
+            "1CuKUW3DcJSTsTMRbDDLdMd1F555nFTw5k"
+        ]
+    },
+    "keystore": {
+        "seed": "only holiday receive about velvet armor embrace fine hamster gown borrow six",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2G8wuqDPjaxEzJoyWnhbkqMngttpJV1aSFjfTBXLTv5693sGvYWTd4k78R8WAHVZCvDPgWRLJbFhyzx7z3LDKnkfuHiCZnU",
+        "xpub": "xpub661MyMwAqRbcEkDR1rkQ6ityYLeTvFRT84HPVHJRrpYZK44oziqb1iPZzMa2EUjLdKX2azLwiM12trUhjX2jqpyLhgMs4SD1yHkTTGydNq6"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

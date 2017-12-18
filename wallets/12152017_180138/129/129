@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "129sHwbkWiL6PDoQN6NKFTuGkLMbTbcanU",
+            "1PiPXnhtyBdBdSVuc2v86RmRtpQuQjX2nc",
+            "13ACnf9NoDquhXcroYZ2KcdHyE5NS859Xs",
+            "1KJF8rxbRQfXDp6eg2v4gq6he1jJE1W73C",
+            "1MAuQ2a5uLPvKomU8weZGvJt9NgUFwNpcZ",
+            "1H71kUzTy81aBkfYCrHSNfnsb4sdpR8YLf"
+        ],
+        "receiving": [
+            "1CPGMgqQPi1hMkUcg2rf9xTwysYwhipnE3",
+            "17Q9JCPWCUXBkfGDbrjnqFKs4DepGKvQfd",
+            "1DSV2T3fgM1S5sHymzhBDTLF5hX1eRQfnp",
+            "1NFde4GbGR6zfnRy6SDT36aVzL6o51XqLF",
+            "1ERXMyxkSapUYZZY8mWU8n5GSyvvVevtwF",
+            "1HNiRkQY91nkRPh2phckRmtv8tWbBJjht3",
+            "1KMH8Rbjsgfc5WCK84At4R85oXtENzB8do",
+            "175HG3xiYGMiF4r1cd6a2Qdw2ZA7DPhA1a",
+            "1LqwFBxcAE1cRtpD1SZ5H9CcW2aB5ZRPTQ",
+            "1CGHUuLm4chM4NPofvfY5gWyt5xY7a67yE",
+            "16Zog8XsVdL2NeoAxNj5MmT2QfScVUF3UQ",
+            "19iKkLPn897WqpTqanWVzkjJgGE3imTNif",
+            "1BkEhmD26ibDTP64WUEe1GezsSb8WkXgFh",
+            "1Nuv52iWZBsmbPDESUG2aeyFMzk2GKzzSW",
+            "1BaMyVmo9BHffphjUTi8TkyYHw2m8scyAA",
+            "162JGytECpMaHi3yjpe9hBUQWusTsbMfwy",
+            "1ABQopoH1ZAhAGXfN4tBMfvgVDiGuM6H7i",
+            "18xSCD3K27bJyu2TY9Hm5js5NSvKwTceHk",
+            "18y5pToasGSzg44yBrbG5XB1MaqS1SneH2",
+            "1ESTK9ompA1yKxdiGQ5psRyoJ4aRERR7Jb"
+        ]
+    },
+    "keystore": {
+        "seed": "velvet mixed hair aim camera cool ridge matter helmet destroy breeze mirror",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4Wtssk4thYZbFnnpcwSVFagFpeufNT2xzhpxMy5J1LqtjMtV1gvuapH1NbfpJtxMTUutJiej3b3LJH8Wza7i6gFLMfnzHVb",
+        "xpub": "xpub661MyMwAqRbcGzyLymbu4gWKopdK2QALcobrd3KGvnZwsWA6uWPYZ9ANacQxnd1xweFjQxrVNZR93Np4q5MtYnYDXE5oDWc7bYivE4HQEuR"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

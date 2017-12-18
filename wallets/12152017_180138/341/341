@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1CyWfgBpvoFMh8PiXWxDExUPBo3kkgFmed",
+            "12LHBpThiTEjLc75hdH44BNaFBk2qFzkjy",
+            "1BrdsEYpPLVrHgqijWpFzfTbv6ArWPL13F",
+            "1DWzskCEziQ8xQk2wfF1s4E3sSo7TYoLWr",
+            "18eGDmuwdS74a81WUGfxYABNmqryhjmsP9",
+            "1AqwLm4Xi62vziE1mESxmgEkf7zvQCMDT3"
+        ],
+        "receiving": [
+            "1DqeKcayT6aUG3XTfyKakKoY6EzbJsSThS",
+            "1GSnjEyFyrgXF4V47x4Mt2deLr9gwMrp3u",
+            "13tVGXnwNmUzrq3HwjD9q8Kcfs6qwy6Nub",
+            "14yJJmRvAT4tBmUi1XkUmE83re5wTgtKv6",
+            "1J6R3UJjiMYceMaMdJx4BfZxbpASVpYsj2",
+            "1MdDc2kandtWiv5gU59A5BEBr8Fd9KDT2G",
+            "1Fa4zexYopTkyCq36jkeUMWksGaVnkX62J",
+            "176hN8G7E1sqhpiugknF8NDAamVHK5V864",
+            "18niEJoF8bfCUExtPWKnzDCx8FmyteecpW",
+            "1KUhEHzYKDSNVM6euSb4V3XkpR2QZWByxL",
+            "175buKzt4YktnadnhzwuwaNSZy2bkD5JBH",
+            "15xZVBJBQZMFpVSUB6XZBUarRANgxnQU6k",
+            "1KoUCcb6t31jpn9KzrpfcdNbNXk9CYYXCa",
+            "1Hp9hAUErhPdNgoKbJXeCfnzJ4st4gevq1",
+            "128TFTKfxksdzLDCSNi5kDmroY9GTYZcnv",
+            "14YSxucSGzzHEiaHZm2NYqJFtvfFGCZtCz",
+            "1LoNvsRXPPPhfWLd5ft4hbBUKMT9Lj5xjB",
+            "141cjsJQt3VAWMGa1vHaA49jiiC68imxuk",
+            "1CsLEpMiNHTUAZQqysAgEhUcU8FWGoShCU",
+            "1Mfx5F3koTefhmTAiFuwPn3FrcwcQFLsjT"
+        ]
+    },
+    "keystore": {
+        "seed": "setup wine thank void idea human fan uniform stove noise fee rely",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3pk5hURxbo8NNZznqzFnGAWVsC4YBVddgXN4Wb1GCcGK57wJ3cJAckDbCykf9kCMVMGbAVjVSJ4DhhRP6aEwedNBjtNGJSh",
+        "xpub": "xpub661MyMwAqRbcGJpYoVxxxw56vbqHFSyddPS6faU9jqAcZKhD48KWkQanvPnmSssER3SDfuocrkrnYMSMEzZwDDvccG28T4PHC69VyppwxJa"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

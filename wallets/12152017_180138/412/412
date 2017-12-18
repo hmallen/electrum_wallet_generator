@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1NrwdvvkF9gdAXGsaENAXPBbW2UTHDpGZj",
+            "1KSXYghbCpLk3v3m3XkxPw7EEouNenUzad",
+            "1KmT6G1z5rNGpFXy9jyvSf9z63u5dGDUPA",
+            "17QyDky3n8EDhCKmhtVgH5R6SZKxYUeR66",
+            "1GeWQUZSQ8ESbeRGKUHRxL5bMqpGQJM8To",
+            "19851T7JxRQ6R7y5ALJqxX6bCen38Q94Uc"
+        ],
+        "receiving": [
+            "17Tpatw8G91cDisjJsoN75gUxj4fLjcYeL",
+            "1D9ds5BtqgUQdsuN4Q1NATTPcCoohSti8Y",
+            "1Gq4hTa1km5gdZcuNnY8z3xDjmSWZLCvKd",
+            "16oo6DpSX6kNVHA64mutysSTUhreMW45Ry",
+            "1F5grPdaFSR2RrGdGhFcW4691zxT1pSAYJ",
+            "1DuT8aKDwS92wHPTgC5ANcWFR4FyuKvQdc",
+            "1stu8LQjuhfeWGYvx772CH8H4SahdFVTK",
+            "12xmHf6kfRqWniikT1dsfMGzVKP4owy6sB",
+            "12EiNZ94pgSptfWuaYGh6wMLvdy9HRszga",
+            "1HDRec6TeiWW6onPK6J41Ct7ec13DvRKWv",
+            "1MHN6U9PakheiQUrFmBYarLWjnZiDetJpG",
+            "1MoZqeuVLVTtK1TjacRWRHifwh38oZJNKJ",
+            "1PxVULVh8Xg1s5wq34r7A6m3dpG5k3aTo8",
+            "15H7bwxZuvRRJ2RzSFSUbTRL9MMP9rBZq2",
+            "1KfKTJEDiMZ1pzqzrHhgCGyo7mBvfFduc7",
+            "1Kdf4M161YZArvqyua9MBE3dQcJrnEB3E5",
+            "1MD7CGs77B1MNrzvwe5c2Kg4hgsGZ5oY9f",
+            "1LYkJi3C9uBnJ5FBtiw997ATfmXD4iuR8Z",
+            "1BEP6JZrPCqdSD7AJhY3yVTdypNwU6bYe5",
+            "1FFnKS2ogt9QwXH9jha7Jmu5sAM1P7yrTf"
+        ]
+    },
+    "keystore": {
+        "seed": "salmon message genre bamboo wire jaguar bridge rural belt leg swamp deny",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2YkAYgZM2dwEHqrf8AkDwt4CeyBwhRiBZvUBE5KqsyanassRdEWQAK3SsThdQb8kQaCVPETSEAQA2xZUHFUSHR9FsKdhMMU",
+        "xpub": "xpub661MyMwAqRbcF2pdei6MPmsxqsh9XdU5K6yoTMbZFmFASioKmce6RmuGS8x9Vp71CBjiNWGKDjXJLr96YsvCxCWiGHYS5f8GX4pHi3n9qSW"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

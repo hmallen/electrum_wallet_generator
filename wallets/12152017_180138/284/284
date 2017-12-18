@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1GbdmUmLD3NbhEfAb9H7FLVQWuoRt9Rdtk",
+            "1CTxqYs4nz7oSYXHUb2h9gWtapWKXdS6xY",
+            "1Bz8EdhM6BVXrqwb7Kff5WPMf1oJpvSaFM",
+            "1HKTGCstWsV2v4gC172EMLPDDT1YK1VvYe",
+            "1reDjYSkZCEE428NP624kQWKGXocM1ELx",
+            "1HkcwA7iYcheU6PpfkhGUKEdxQkhAKXX4f"
+        ],
+        "receiving": [
+            "1E7ptvgkgUTv3eDHrtRjb2GqDJNFwCeBEC",
+            "1EYXG8nKaEacNeMNffAtTRAij7E3VZNirz",
+            "1DiFyUDyYYqudNuc7uUboYLSyFMhycqw7q",
+            "14o23SsA1tRYep6uhLr4EMTkh9VBH6qQM4",
+            "1Aw8aReLNjNZkFn6HmBgfPQW5bndDLmNEL",
+            "1FKRaJiEYtjjytWGBjLxbaieKzP6yVn9TV",
+            "1ECzTkv28yeFrPZMTeGw5mnXxZv9f7xZce",
+            "1Fqdqv49d1iuu4yaDQapxsJ5t8DruMwzs9",
+            "1JjBqZMgDoJ151LAjbSThEMJ9CJiKKviuh",
+            "19n64ZXuYMkxNEZ7tpMpDCFk2iTDZNvhL7",
+            "1KJGttGCLhTJ1vCSNFRSqABSnSwFbX9XDE",
+            "1EHRsk7jhvurRxQVUV4yav7mRkvf2LtJdJ",
+            "1HiDnWvPAevw5eBQYfUCaQtWCoytW4nENE",
+            "1BdPCw5iae4zkk1UUgqV5ULFn2wa93ZKU3",
+            "1WYuXh41kW9y8jRpR4MH4KQj5J1N93agg",
+            "15rxzNqXgbLLNSD9kRhVCKgvqtqysjMpbs",
+            "1CawqTRxDw95k9NFEFfrUNkbheiLDYm956",
+            "1KbvbQtfYjhGBaTji5R77Tptu1ZRW5XgyZ",
+            "144Re9dsgRaSFu6y94GVBxfgGcQej4angn",
+            "19zgZC5YSThheiwK5WThX1w1VWMgkrkZdR"
+        ]
+    },
+    "keystore": {
+        "seed": "proud rail enter time session lizard flag happy rubber lift rent genre",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K35RexNYJFs1WJzdZxM7ZUZ9DBj3pfXVN228XvVKBBcm1A3QuDbA58ST2ErpGQ6HWmZcRtp2N9KUGKQUVdiL7uSpoTSvHK6U",
+        "xpub": "xpub661MyMwAqRbcFZW84Q5JczxEs2U4MoqQqn4oz7TSDs2LtpTgU2dRjR5V1MfUq68sSqMFuW4rZJopVe83uH64AZd2CtauHQQDXSCZXsrtP2N"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16pKoXXzCDXWgkFmStni3sy4cKPPs53EvD",
+            "1N8gEGweQushbXWWD9sYZ2qfhri1UgGGNX",
+            "1PFj7qVZ5mavQbswjPA5Q5QrxRokHKKFXx",
+            "16zktR2XoyD6bxpYyzTcvVgZXtVL6yKhkp",
+            "1FD2BtLpBYNJE85inBuyVLH6zRB2hT4R2r",
+            "1JqBXA7iArZxa4Hs6WEsQmkjVeRNpKsHB6"
+        ],
+        "receiving": [
+            "1PdfPiS7LWvgGErZ68kwyqpccfs7bogUrq",
+            "13XA2pumfuSQLD62D3R4zdwQdLQHHBB7VV",
+            "17NKSY7V3kcLQPmS2WtpiqBzazR5fkWjcs",
+            "1H8MaxhsH8Jv3ZMEX4fPqzCUM6JoayDS8X",
+            "12sKtZQG1V8f1LLC7WVRRemw6J1D1EA4vw",
+            "146tzsfAwXvBrFiCbffBGZWgdVzs1vQyL5",
+            "1DKyDREL5ZHCDwCjYC2bisGbX7bkoen1fZ",
+            "1G7eEi1BYBrWKxmx5oEwPYfx4qFrj2ak9e",
+            "1C618cfoSWti69D1s9iMVhGExcwAzzGRaL",
+            "1FiSzsqxh9R5fhjRgjqcgF7VFfcD6jw9KE",
+            "1Kb1EcKrf84QEkaiwESg9iwSso93K9LQ2D",
+            "18QowzP9ZUT1ESsz7815jGrpP2NRhgfUGy",
+            "12dtN9uMD6Lu7hMmR7sKjoBULzHy6RVwjM",
+            "18ofxbcTCK31qWsJN5X8mbhpVERo8TaTGf",
+            "1Fh6PTN8hgU598SJ5no64vfWDZ4Eo7rA8j",
+            "1PFxE8jb6vLNwViMVaWNTrMM77aABst4Mw",
+            "1EnTZbaVn8ozq8YRrifc7AGjnJTM937JCr",
+            "19wDjR91razwMD9Bq4NU6TYWonRt5XQweL",
+            "1EXrkSizLWWytj5WiScKQsfj1TPFEvwHtM",
+            "1DarubGFEZonrUNNyTrBi6GtgAqfaDsErQ"
+        ]
+    },
+    "keystore": {
+        "seed": "option piece primary toe detail argue pool target off decade cost unveil",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Mt9G9gzqVUNwJkveSPouBkyq3QRgKmjd4z4qMYR62VRYnDSghvjsmuess4PhczVRy5jPyFPqj6DNUQjfwiyCFgmHgS3CdQ",
+        "xpub": "xpub661MyMwAqRbcEqxcNBE1CdR7VLbR3u7fGQgadRp3EfJiVsKDNtrfdpouQ5o6qGbehyzmzgJ1Y7SCgu16njp5CQGj3PDrkeM75vEJdq1BFED"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

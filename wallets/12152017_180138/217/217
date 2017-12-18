@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16pybk9Qe57CcBNWEF97Cicq3s4Y2vwjUZ",
+            "1LcHmJVY5LJ4qmkqG5rpTyFycdN5oxzAJ7",
+            "14jbNDbHPyFiWzE4CNnCywUZPXXfFQiVXh",
+            "13ZyztMr1x77EJHMM3oKB67q2vgaDE12fs",
+            "1K98DrkVTmcXjwTdfsNazX8TEpuqrRqnqD",
+            "1NL2SrFPVBWVzaFXz5XYfQ399nph8kp58o"
+        ],
+        "receiving": [
+            "19B5g9CxbZqK6xpAeVQBinWoE2uRGQ2xUc",
+            "16yhFqpDJrKgPWeHwgktpaGh984Tw4djy4",
+            "1CN7pDdnFAZE9kA59vuohpTK1dHY1mYuG4",
+            "13MXQqhxB7pgpuEQ21miPu8n9bqhgk5xzQ",
+            "1A5WJx4FiuxDEKFbpXUJZkjEp1uC3dKBNX",
+            "1NvfXf76SWrDeDBRzdvospwFZ4kKiod6Cu",
+            "18XsXiiYtyAVX7RqfMyBJYj7uMB3LZ73SJ",
+            "1E7A9dhJ85P63HZewa2BCJRWA8LwZtdRbE",
+            "1z8qGDn4qBUocWDPQG2ZviNAw2zT5Drey",
+            "19XYgxmk5esiSksZQmG57p24hGYhLXAHRv",
+            "1PjFsEYBuqUNKUdqF9UYSeQwCWt3MvTZSA",
+            "1L3FfLihQWfBjUadXeyEYQERMQQMoEm3kp",
+            "1NtrEZ7MrybFznxGSL8spfugGtNnZFuS4T",
+            "1PmHhV9v7hA3Yov4dHgjM3ZW5n6rbTf5AL",
+            "1A4VRgTYBsSaFrZpH9UHPSMDHrxhts3m94",
+            "16QLGyCpjrYBvxq2eYsi81aLPKGmodiYbb",
+            "1BEMhRFEnxpBoQ26ny4YN3dbxiZhWt56ge",
+            "1HZv2ztW1MatyAMNFWC59vjuWcYA3dVUrh",
+            "1Bifnzt6qV6kSty5aYqYnpTDT9hftJR6h",
+            "1CWgv4bu1Z1V4TMAepEJRghDGPeMu4Dujh"
+        ]
+    },
+    "keystore": {
+        "seed": "salad eager vanish garage sign license tired equal empower space excess sphere",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2HqkqzBmbnxt6Dyt6QpgF8WvJP7HVujtiZg6aqyFnr2f4Q8ovhL1FtnZx38T3iVZ9PLWvzPSgHD7s1A8T8NMq3hWwk1ZpiB",
+        "xpub": "xpub661MyMwAqRbcEmvDx1imxvuceFpNVsYXcMSX6mWu4FGsbN1F8PHWLeM8uetDcEkWT2WJihixUdV43R2Yft17aWEGxZWSf8byktjVYnarVPt"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

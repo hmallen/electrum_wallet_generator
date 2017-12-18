@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1GvPU7WjDq3YcVqEBftER29jy9tR7KAjGX",
+            "1NPhEUC38vtKzw7KSxNTyjM9Nyh3Y2dKFE",
+            "1Ct9GV8oDN3om2g2C8gUzCABEf5opaNsJu",
+            "16WMCyQ23ZzgvRPwuBG4PwKjGA59F9Satz",
+            "13AX45vYU1QTMKH2t6LXHEUsCjSryed8da",
+            "1Fv2KNBMR45qfKawiyLDZXZnKc7ZEzYKN7"
+        ],
+        "receiving": [
+            "1KhNxpaYKsD76wQ4J6LaAKCLXHehZXjWAb",
+            "15zgXLcfZhFW2QxkPK3YxSRafkgUMnqsiH",
+            "12uHJ4v2HNanMsetKzH9WqPNiRFqhKtb1c",
+            "1Ae9r4gzsUHPWsRaiGfXS1w4KboVAs7DxR",
+            "1M22JMAksVzhpSRn9jQwphqhB3vg6A8q89",
+            "1PXbEr3eJMtyLDE35TLkSvkWqCJSFCPYnQ",
+            "1GwuVmBJGR7xJQLoRSKu7JyQCd3sj6MgXf",
+            "1HJYeiobwANDnF7jbQFa3Y8yMCTJ7Trnjx",
+            "17iutaqnDF32cLVPvD6Bis166EnJ5JeSTm",
+            "18syPWoZcs86zd3kGGMcoiVu17tarY3P8A",
+            "14Xq9gFiVToFTHnHsBLKk2YDVtVCripgBg",
+            "1F2sWWp5YeShc5S6aqwoS15g54AQBEUBx",
+            "1L8q5FotZ2YZUU5pFryuxQWLkSs7U1q7JG",
+            "1KoKVmgK52qBmXzSSSVq3MrKetGAhaUshL",
+            "1C8burPcEC2A5PNba4YX9zUgapkDm5Xs9k",
+            "1HHaoBohuCTaMtU7eoyWq8JFqM7TxYdQsk",
+            "13Ac4e8j3FcWHC7teyGdYM1Fnq7BWLSaVb",
+            "15Jrj3w9maJLhbg4juckxi3fkWXgtpaHpa",
+            "18jG9ZS12bRnFkWcUhfkytbapMyjTK7815",
+            "1H1ktjy19sBDyACW7otdTWwbhwg3W4cd6C"
+        ]
+    },
+    "keystore": {
+        "seed": "explain fury squeeze hint lonely loan list grief rabbit awful river fossil",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K27MPUJydSr316mCFt3GCVdCJaRaMqeu5AXaxKGAFoQ7HMkaN9PgUEyKgE36aD38tM3dY84PgkzLpKskeHDVfS8qUT2d8tcy",
+        "xpub": "xpub661MyMwAqRbcEbRraLWdoyyjeo2kHVz3rr7uNoyyPzS43Kv6roUWMCRmD2FSLrzR2N8f3YLcCK5eyJKMNYyoPppLCqRYJmKKKJRt4YbDbiy"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

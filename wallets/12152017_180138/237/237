@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17eexkQEBpsaYhZTu4mfywBXU3ufNFSNXp",
+            "1588mFTYyJexLLFSuct25kD3giNifbU6U8",
+            "175KkZCtStTggUrEQAzh7AQHXjvxMVjW3S",
+            "1GTizB74yrP8CGQQsEtL3RCi4b2WKZHRmp",
+            "1MALeqskEyFYnG9ZWDoPxfctKNLgVqXEpF",
+            "15bBprvn3Sd7mE4XiuB6UrpXFoNp5mS3eY"
+        ],
+        "receiving": [
+            "18aUqwnjM2F9FmWugrxaNt8sYGGi3HtPWM",
+            "1AD6nMZ2jLnebGt5Ttciets4t2Yx3diVNU",
+            "13hHsJUmRixS2gt9L1RTkQfcucJW2X8Ft8",
+            "1Mbz1zKXs6WYpHsQ3qTDGF6DcnVa9rjA6r",
+            "1GiUnH8ejvmiovLnGDtWEEschE8beBwXKY",
+            "1F5cMbezSc5H3i2C638m4rKvmuq15kJMU7",
+            "1GcQqhpnHbmjQhuWhSeK9CZHQTNXBkm6yt",
+            "1KFMp2Tbdpq6Wb1nJCUpN23XKGCjrnDmJA",
+            "14HV68zJZcBapJVgo1tid8RfzdKRRTks2v",
+            "1JjirVniwYCm96VBeMbGqXvNFSCCeF7yPb",
+            "17poWF8iBZU2AqCrWfTBki4ziuzyaH869D",
+            "12LmNrN7oWJzM1ffyB3aVDnbvFnGB23QJi",
+            "15gmL4QR34n4ZohwSfug6x9yoTTNPEyGZz",
+            "1G95NkpVGMdUtTABiJk3sWvQW6ek4zuiVw",
+            "1FEbYrFEDRdc8zr2YWYEVUS94zzVxkU4oA",
+            "17KHcGtfF7EQ4RPiZc23NLVMGttPKyBocs",
+            "16FSHf3hUQqxKHC7FvP2kweQCex14ZyqAK",
+            "1CuJrS7GsaXJ6hGKLZYkpDyY2b3xhwzjX3",
+            "1CdnAsy2CtfPiNRweU5BZnFsnxz85zu4yC",
+            "1LA6x1EjjCk7Qvqg7xFUFvCQ3PVfpcu7J2"
+        ]
+    },
+    "keystore": {
+        "seed": "parrot hint shoot ask limb junk senior diesel orange car squirrel dash",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K37CBv68AZfGrf2z7L38AbGgjsuR9Rdi2EZpysgUxeUM2qGdwuu3JnvCGw44vvpfmrBisDhbiexuBSQejDRa39kLfL3HDGFG",
+        "xpub": "xpub661MyMwAqRbcFbGf27fAvoDbD4pbjVr1xVcLgHpkyyF17NA8RDoDCGfWgZFFzaiPBZvdmP3VHtSAHPnSh8eMFn4Yoyt9sk3S5EbjxeErRjk"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

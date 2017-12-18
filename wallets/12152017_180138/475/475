@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17TJ2DJcp6Szk42tZiSE1zkJWkgj1LdfNB",
+            "1EZZk5LJBx7g89ShcFoKGVdeVkcMJ3pVfE",
+            "18XJXVzdmN2NL7pfzRh6Ed88SXVi8Ry1N7",
+            "12SDyEbVW6cQtFR2jmES5huimaARSp4zL6",
+            "16QDqvFk5LaWdVnEZu8bvVJ4mW4Bq6S6Kw",
+            "1byGBqd32xzEAH2bNVgH65P3yju8ty4TR"
+        ],
+        "receiving": [
+            "1AqWQGtn1phzSgu2Xi48qpy1x6BoTkNTY1",
+            "19hn5Sn3iEQqMM2n8QWDrMa9ZhuSK3yC6w",
+            "19MhQzL7eZiNdkY98brtSGvRf6UdErYomV",
+            "12L95LbkbSx2Wg8PCzqnUEA9EQ7vXwBe3o",
+            "1HgiVWUDUUE4RdKJSWWV184WNxD4omt9RG",
+            "15kjuuo25uPdmHXMjNmXF5zyuEns5EPXe2",
+            "1Q4QfXczutF3ypNYyb9fwU6XpDJSi5XTsn",
+            "1AfsNrCv3uQ4AjUYgPS75dNK9hxyi9hwgy",
+            "14L6EXFBfSMCTBjKew7CQBEJ3am44DNLYv",
+            "1LbXqRDDXUTbsNacg8W2DzduL8tmgVSRD7",
+            "1MaEru5EFoEisGkYrWLLkyYSoRzaBcPKtJ",
+            "15D7Sq5GVNjrECWaX3NEgPFqUp4NQmQjE8",
+            "1ExWwN9xGboYhzzHQLmonvLMurG2Rf7XNx",
+            "1Db9TKAkT4EQEaYcGKeo2tCm6nH5W4gLsr",
+            "13N2oUeL52PCxqvo3ojjWUUc7NAa5TEBWw",
+            "1DfnNKhPz7FqEJQhwFPoDyFE4oywShZBp8",
+            "1DBAvwzXGF941S5HqFeAjEXrPbjXxEmofd",
+            "16oGA2zLCodrzj2gfP621SMTVWxc3svm9H",
+            "15m6vNkn7g1xJkgRJyW65zvv7Ly9T375vT",
+            "12amjAaXJXAVt7ApWwCZ5jQHJxqsgKMeAe"
+        ]
+    },
+    "keystore": {
+        "seed": "frozen coral penalty zone until quality neutral ill cinnamon wait ill august",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4Ldoid5mVdHPqWaXJg62NFYTk9PCptnmoNK7PhXTGZFgZoVH2gm7RnDofmR2DSpRyyqNCiu71Fd4mDDK4URmhQqvUdrfovt",
+        "xpub": "xpub661MyMwAqRbcGpiGpecmrmE8PYR1i8osjUU4YXnpPEKkgAeFwEqhpMaAR3GF1a9mxdn7zwWpVQknpWfQpuaHUqf4pKVphPcHDiUrf7gvyXW"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

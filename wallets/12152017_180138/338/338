@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1J6owDzxhTQDoEWdrmWsRyfr8FzjLcox3v",
+            "1F28ZM7dCXTQK1hkYtnvgZcpMkBiXVWam8",
+            "15x1AumcrzuMcZmzsL7TiqtBsgu5jQoziT",
+            "1KdqfWuo1fchn3Ut4a6sNYpL6bHCQqG9cS",
+            "1F3wgYVeFJZGhQTEFoYDuG2dti7C9HeBao",
+            "1KpeNHUmtmmic4Xr5YQxHw43sUJWggWNAf"
+        ],
+        "receiving": [
+            "1Gusi7QTxhzj9ngxWCpL5aqPnkb1Lqb83c",
+            "1CZ3moA8fRGFmKVz4N5W21gBNEE2AnY2D5",
+            "1PtvECSUuYwN6Xg64gzBvX7wPCxQ3FCxbe",
+            "1Jw1vRc2Ho61HYqKRvv2ZzS9jLfmKLnS9V",
+            "1D8sEEqy4iRrsqJ3QYuWrjJtVwaYhPuvNz",
+            "1BRUgYZnJEotMaiXRrRedeouh9kAWCUzTy",
+            "19VXTRZVC7g1v2zfrRzZRZhKXKWZh2htik",
+            "1C9ds2BS7zFvxFwqGeb1udbgjjpENn6KKn",
+            "14Kki8FPRzbso5XPwY8QQBunJoZxYbFb6Q",
+            "1xMi8sM1foSisLVJBAKinkr6ggynnYUsa",
+            "16r1enSV91pm2tHdE9p3Gbp5vXqDZJ6vyR",
+            "12B49nr3PQW3VoDGEBi9AuzGDorNBnraUU",
+            "1GAn1DD4EdBrYWJvthszPpAHLMefGXu1yD",
+            "147UtNSe12dWVRUk81mSPcVVLnH5UCdRAP",
+            "1Jj85o6bZowauc3hr4L8pL9JNRdje6dRhw",
+            "1nUwucf18QJxiFBi84oTRK7ysppy8DABj",
+            "1DYqmViiNSJ9uF9TUwir4FibMTrRCiPbqo",
+            "1JZaXZXrg485vYCJpFr9s5iMLqkdYivpe2",
+            "179WoB2yUtaPzJw37vcyazyzNYUTX7ZoEK",
+            "13H38tXT79cetaWdQGJDdPvtX9UjziC47S"
+        ]
+    },
+    "keystore": {
+        "seed": "type carry climb expect stumble orbit cheese spring antique tornado mind assault",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2k6JCYCbsZfNsLAnPhR81TfGuHYaY1GWQ7oqMCPbE5uB1G47Lct7kH9XDLa1myGDPmpHH3ykHqSo4qupfEFFLfx9jKUXfCE",
+        "xpub": "xpub661MyMwAqRbcFEAmJZjcEhc7RN1GoA8yNgashfxC6LoVGv8ytjhqmtDerYY4y8aG5AXjB4aexC8GEPBAHsXtRvzCW7orPmgXaBvAJCbRLkm"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

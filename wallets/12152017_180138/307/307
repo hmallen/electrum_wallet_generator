@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1PNyhb5zsPWuPbwBdMWfQ3zhJooNwqDvNv",
+            "1G1x8gzCCGPwpp8FdiJxd4YXPNaZpfaoRy",
+            "1PukvW6tkwBuqYUmUUqVLfeLkKM5wCuYpA",
+            "1G2aLuejJEQmmRRKFczCr7kBgoiYBuSc7j",
+            "16vHwUg9f37XXTpcutiiWoGdKC8cV4HVMJ",
+            "1AMV1ujB81UL1Jbarpv9thkyMccTgAZyvm"
+        ],
+        "receiving": [
+            "1AeCV5TYbWVwuvJLdQSYUE932N3NxnSwii",
+            "14hABfXPRcs3n2Ut2rx1UMPMdK8ompCc8i",
+            "17bnuMH6ow3wFaXTJiz9SYAqprVrw2dSA7",
+            "1K8gijrg4woEgBvQNuyB6aacZxP6Exhvn5",
+            "16wAiMGcrYNbmsQAFcvXXGvuqnvqUjd9cF",
+            "1Ay34quFXQ2WCKrCpy4LZKLaFGtmbBAJ7f",
+            "1BYEBpLy17zC1MmF3GVmdLfFDdYqSj7zsc",
+            "1HzEuZCAvA5cHCPD12Uogo5JtLcNtf2d9D",
+            "1CkbG9kwY7gDRDNnZajD99sP1LCw38cZre",
+            "1DW4RgFMHL9ToeXbWoLYLABxERmFZb42fb",
+            "154BW3Pdve5YVuTB95caxR6hfxkDUo6s6q",
+            "19wVfu3YLiAed6UfTJRzyZ36Y4LuUfKvfR",
+            "1Q3AEVeZfrXBBret1N3bnx47Uy7XWaUsvG",
+            "1MhRttYCorJqDXTDsunnjmcGVhS3gn1N5m",
+            "1AUxoP5TRYUKe5ZBxqckgFjXKjg2vLZYWn",
+            "1PFdvCP6aehfS4CEkycq9hs4a84FspgKJ2",
+            "1LWpXwQr7vmqq3cjDjJj9gJUszuPCEGCbT",
+            "11c81ptkBG1TJ5wEGsHT9gmvsj4AdqyPN",
+            "1GUSGvVmwLwn8K7JW8ZptTinsnygerSxkB",
+            "15ic2kJSN4WC3fjsYw5WkRZgqFUzkrVwYK"
+        ]
+    },
+    "keystore": {
+        "seed": "latin become seven excess pair jaguar scout master vessel subject ask release",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K31Ga7a8XNGtYvPKtm3VFgYPw297bj1MUpxM6iG8MERSaykdiASNdfjqRtNSU36KAXwBzW6ZmTKTLaR7qgUPNHznnku71Za7",
+        "xpub": "xpub661MyMwAqRbcFVM3DbfXjQqHURAPAWD73mKXpXXDHLtThkgFFoSbnDm4q368LTrETrySu8B9Z8pxVJbbQpLncd9QzPs3yYxKRcFTATKhSkW"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

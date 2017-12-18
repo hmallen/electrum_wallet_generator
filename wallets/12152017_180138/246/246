@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "12FaXBHPXH7VR9KcK7u9m3FTf2ns6xorfJ",
+            "15QLchymBac54tcACgLsztPK89uhCR6TDx",
+            "1JQsYZHh69yqfZZYqc6fWXtapYhtzGsPV1",
+            "1Bs999V6hqfRYfEqWGdXBgUp6nNXDWJ1ou",
+            "19jy19ZqeVAJRjK5kwENhESpPnxRxHJDND",
+            "1UDa7jMJrXKF9SP9uARV9boKP2DRJSqy5"
+        ],
+        "receiving": [
+            "1BNu6RqpMMeAFz6bXJseGsnqycyX8yLKPV",
+            "114Y2ArbgLTUrgXCBzqc2nJ1mMKFfDHur9",
+            "1JtkN6mJu1Rtm6oN5xJohGmJ1kWwYvreTX",
+            "17V3iftYtNsLHsEM4B6eF4B5883yMwJ7qa",
+            "1HVLXH5YWQXRAbBE2VZW4MTY3PGJC1bJCe",
+            "1Byn5CjUKU26KWRLVduo9rwiW9FRwqthw1",
+            "1EFQ5TD5SgzWJ9PKnG6swVRVBviNz4jT7P",
+            "17iRL38amEnRfsMJyqEzCMHbauDPADSNFb",
+            "15Vo3jrXn3Jv1g2cHkeaP7VZeWskepPzBQ",
+            "1gEf88kJ9zmXxzVCZ9FmCpH9iVMFqUPpJ",
+            "149v7B9qRnimUEVsfp4R28DJJWwumThmgK",
+            "1isAzCbJEZMjVsxGaDv13jsghYZZgXLpv",
+            "17DHxS4cxyqTmxmRUG2LnJUsnUwWhx8a3j",
+            "18vyd3QNjvMG5or4Tick22djqCiuk23etV",
+            "1EaQEqpwPW3HeY54D75UZrwS2xz3ndaVcz",
+            "1KBE9uaxBW4UW3FjohpXvqiKaYxYZ22JzD",
+            "1N6Tdty777NpWpxg45NFLvTCpveojBpv1D",
+            "1L9qdbPXpiRpWoFQ6AeL2D7Kx6j2Az92ZM",
+            "14pCMQctdHFn1tuuUpEtkC4mxqNQcjkUMX",
+            "1KafZsP2dRuc1MeYjX2MqV8q4yXmURf14g"
+        ]
+    },
+    "keystore": {
+        "seed": "pottery agent hotel empty pioneer library cup license middle system supply crazy",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3kegsZK2sDob6BqiMgyZLJuwgcJAoAVPuiTm7XiijGVaUhHKp3ZQSUtHKLeBwdhosC4YTDobTh6rzeRYky1ZvmUUMa7hTaV",
+        "xpub": "xpub661MyMwAqRbcGEj9yar3EMkKeDgCm9hQhXqYUzhnMW2NnWnuf52yH4p4L1bKVXjuPD98hmHQ3wR9ovTpaM4K6rZ8zfqEG5PPKY2RBze2CnC"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

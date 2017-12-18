@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13ceamZ2WETTDquFofrm65SdKuFagpZDZT",
+            "15ramoFWasur9Sjkuamkb2WLjZWPuvDf7D",
+            "17zyQyw52pinwYtmCrM3d2pgT9KQvsTp9V",
+            "1EPbauW9CzaAagGDZxNuVMA5yScjzTWuAd",
+            "157SLSCpZGPzksyfYauPP1EvvxSKRbV3fF",
+            "17gamGt4VXYG2BJMncokDKPXwDasXVGDmA"
+        ],
+        "receiving": [
+            "1AeEPH525x9wi2UKpzuyaKkNdR2MBQ46dq",
+            "15FCYuJKmntTRzBYreVwF6uMzUEsZF7WSP",
+            "1Kcb2Eg8frBbojUypWL7cDD6vSnDHMzJBU",
+            "1PoWfWsS9Ab7hJgG6JonzeSENDo1HN2J6q",
+            "1Q6YejNn7iJf51uxHrSViaDNHnrhsTNAC9",
+            "152S5McPjWxRi69EchcpsuP9Ave9nmVQTh",
+            "1JGoNnLr1E5ae1MrbPekM2UnftVPzKmvBf",
+            "15VTQYJrpdnA7koZ3zromp1Ju6TRbfRPbU",
+            "19qGJhHFmWdGG63cs2VLsrxM82NKcaqCgS",
+            "181akupRavcpZUiVMANELTwbxmo9JFsfgu",
+            "14HK6PoMZg186U3FFCPRc1Ngf5hG7diJyq",
+            "1LUaTR1PmYRC6Cz6MTrrWhamwrjqYVVeBr",
+            "1FEwUnKNPRbgnpCvh4wFoGcFgZf4V2zPpJ",
+            "1LeZABTYUtSVfEkWBaCpbi7GK5ct8Q2dc",
+            "1GkrbETB4NUZsEzCM69mUr7adwmc9JqtQm",
+            "1NaYpnWTirHiJNx8ueFZVHkXfnFWaHnYkD",
+            "18UnnWRFAarqHh1YuUeQErd1K58ktB2B5X",
+            "115vtu8Afj5MdXMM2qCzkpFFDgnR8iGBqM",
+            "1B9ZaEhN1Z8b2XuGmcZjw2wvm5A6Jj7F29",
+            "1BHyKEByudHozfshXQGiqqBkhu1wnXChpX"
+        ]
+    },
+    "keystore": {
+        "seed": "trigger dirt multiply volcano style peanut victory action wife funny asthma rent",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3wwANXNhzrdy4BnmLhVE4kVfC1D793YNR6yPoVLMeNQNHBbNxhn83TZ7PwcUQ5nykzuTcWaTqcZ6rLguU9J6F3yHpnW9oVs",
+        "xpub": "xpub661MyMwAqRbcGS1dUYuiMzahcDdFkAD5RyRFzPcihP5MHuJYM2ecCAir8Uq6WwxqWNaTeMq2NE3meSzF4t4nYwMzyTUU25z5hxaqmCbQT24"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

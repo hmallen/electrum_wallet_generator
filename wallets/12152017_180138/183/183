@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "12XVSmy7CpMkkcsie8GBS3ZK89qZx2Tz4z",
+            "161XWtTp2YnbxLQFDbt5rcjDcuyPR87ocP",
+            "18yhWx9FvkyKpgpTPaVGmdeo7jgG6pmHSy",
+            "1JyzgdU3ZWpTZo9jtg1YVtXGWCkk1bbuq8",
+            "1GEnCAXVeTzcJTvuQb3keTAEZufZB2ZA1V",
+            "14PBSvcm7CNDmzWBHZCzBjFSxw8ZS2qimC"
+        ],
+        "receiving": [
+            "14hrq29mUGzMaMvqAycUZESwDc1ZbfP3qi",
+            "16RHSvtzvqkb2Pb3UBT25sPK8ju57VCXKB",
+            "167kSDa7gi4kBNKCNy3xiPuum9HURYYyA5",
+            "1FB8hbMwBcadMJJrMRQ3H4H7pd5saYL8xq",
+            "1EZwDokoFfyEarsVCWcfGbHLPLCJzv8jch",
+            "1NLoJJfyTzkz3Xv2jNskjFwx1ybBfNWbo7",
+            "1324uZkuK1x2rpx6LoofroMT9y3wBZdzEV",
+            "1AxtejfGo1SjcLNaMyexFdr7YqDX9ZS33j",
+            "17TLifpftTSSJXFyaz5hrUAMrdHcdAiitu",
+            "1QgD97KdDUfFH6ARefxW2aso6PXBU1icU",
+            "13cDpKpw9dST8Pr4kLeDj1cmyXX74TdE6c",
+            "14cEeQnjbgS9SN35WYVAwS5ds8SZe2xdqx",
+            "1HaSR6NTt6J55tWh6VovS37LciwmDQqHSr",
+            "15uUjS4VZeDmC4bTPJtaT7FFMDb19rbzkg",
+            "19BdJ6CvYDBZt3mtUjH4NmC2vsngqyhsue",
+            "1Fj4BX153BmRWvfhEPGSN1QVi1bffKkjBb",
+            "1GiweRM9RNp4gw4MavAQv7WoiVgaMKRFwF",
+            "1NgrBiMWQ26HSJo7254JHNU3RzNbiYEH3u",
+            "1JBRhyoN5LQpaS68NCN4vrHS2ufRETECBb",
+            "14kcsPdM6GnAJuhB27xS7FKyhhkKaUCDhd"
+        ]
+    },
+    "keystore": {
+        "seed": "panel flip sauce rubber bar calm around labor dog point hard brain",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K28kUcdm4GczS7E8hjpk9JzEjDBXffr9ZpRjf6qhEXTxSwm6k6XqeARE94TXMkZscWQMb2fmRy4UvB37jGKKyam4n7XwJpPE",
+        "xpub": "xpub661MyMwAqRbcEcpwifJ4dkwAfFyC9HTzgDAL1ZwHEBgYhE4oeP1V5GGvo2FeqEyRFbhPtaLYb9drpE63CR1ic6iQ5GaKyCjYSxp5uqxBZtz"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

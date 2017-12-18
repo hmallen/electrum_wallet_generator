@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14hNzTZSMsu1vEFPQJyyqGbsnTriRx6fKB",
+            "1PeJqiQRPvGDT2YqPoCktw66wM96nzGipk",
+            "1PFYpfn6mG39ejP46fGzaLYN6hPFHRzuTc",
+            "1GN5gh8DdZpCCNJxD1LqQkRdXCF2xo2wQS",
+            "1PCBUUAxDbmXDwyJ3YtmDzLruuMi9ExxSF",
+            "1B26iq8P1xsjBU51Eqz2u6iapHva48x16H"
+        ],
+        "receiving": [
+            "1P5ChYFNPQgYbGNJWFFiY4vL3MgVQmhMMH",
+            "1B7rg2WDSsn7y185VxHAMSst1vsjZBVX44",
+            "1CAj1VwyNFNyUty8cPUgFiHuS6gqwSrXSQ",
+            "1ECSjBTaA7PgiyaNsNWnoZTBudTaumqNZ6",
+            "16JcwmB3v19UJzSoWczoquneLmSS93LJzp",
+            "19JUFKAHBHWHMcTNATVFFET43Koq1Q2H3g",
+            "19DbBUWUa1GVtdHJwiSmfUUvzDP5iAorAT",
+            "15qh7M3v1Qy1fHBawvmT2TTxAukm3QFLbD",
+            "1HXAWdxBujv9LbF28ZbdgaV6EkkGNaM7vP",
+            "1BaF9iR6EGXogyeaPe2UbH6vSxg4dQ3ZM7",
+            "1HBdGtCzVMCaG126sWQvqrKtiJ3jFMp6om",
+            "1PW7aG3M39Aau49j79pjxnU93EqCt3H3jV",
+            "1CxPyDTEpf2NQJPMQ8PV79VZ6JCTY5rHye",
+            "1KUfEFjxLPmBFBiwNRDPJ9KZVqThsywxn2",
+            "1JLe8Lv4NSphgVmEdPqNogCtznx1Y5WES6",
+            "1L2kU2iP2oBMqPcVDLFqVLKa5THRkePgty",
+            "14FMwEk6NDQX5oa3XPRdibjaDGLF6gHcnS",
+            "1MH7Fbp9Stww6otrq5xpRhg7WwjM7BFsaF",
+            "1KRPZLPnBodcdM6yZ2UwgDsw8d41siZFFe",
+            "1H9vMTxk8cwbXFxaHXUCFCHYDMLSkhNcpB"
+        ]
+    },
+    "keystore": {
+        "seed": "prefer casino between canoe fish else like oxygen veteran model bargain jaguar",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Y15DePCNW3haACmJiKoB46hNiJTww3nD7txCSeRmdEsypp6Go9iCxYqCcaungLenFo41ggmRR3a2SjMD9J11PLbcbg1awq",
+        "xpub": "xpub661MyMwAqRbcF25YKfvCjdzS8C3FiB3eYH2JB6i5WGam5vE6jyxgKRZMq78dY3M7Dg1podtdUXskJALisirqZAWewQsCcX1AHzw2uodFwXN"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

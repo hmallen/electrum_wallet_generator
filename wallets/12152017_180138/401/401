@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Crukw8BGvwfgDzFg2L26BNV9hqPX9wpDA",
+            "1EHoehMtuGPxBPKeYHYTBCPr5U2mxgTnes",
+            "1Agm2WQ4w4DbS2AgFQP9YAZnzSZoUT56op",
+            "1CCP1AKiaVNmGzUydsXMto2EQyEEXXkpUX",
+            "1HAMKu83RDX4s7mkHgNRh5jTtiJisCvaRc",
+            "13AhYB41dAyxzvgJ3agQzdFmioZPALLx2y"
+        ],
+        "receiving": [
+            "1LZXVbwrZCKVZQoryeQqc6p5GoBFzeWiNe",
+            "1Nr958PNbhqJBhERW9eaDSEPBWc4rnbExy",
+            "1Lzhr8EQPt2EFCJ8szdvK7BuiShBZAMscK",
+            "16q7S1up15nWyAURUDzrdXHTsNKeFWFMdN",
+            "1Bs3kwF39uk4obrw8KFVacrD4uLuVHAAik",
+            "1JxBuRAkez2yvF6AHnm8kjpmc1Ewy3dyLj",
+            "1BCQ9995Y5Jx8cT3UuTEKf5PmMUGjztNkk",
+            "16jtQBTXjn6r25SfnwYEAe21CnHZ3zExdR",
+            "1FH5ACAAYbbfvCvJw9tC9bRKcNPiwhkZXQ",
+            "17LgnFJCsp3bvtu33KerJFPVWyKbgGmfRb",
+            "1MW5NGogPWvsDP5e1TbedH5ebEtC4xas2S",
+            "1B27aSAAFeBZ2bBDkd8stQ3aHtPcyjEB5b",
+            "1Ah4Z6r4zX5hREpiNHAVDUoui4K1kEugyp",
+            "1Zm7AXZQpZUcruEUjTkCx13GgCfK4HqiH",
+            "1Kck3qECiBHtJHRskqsx7C43YtDtmvjUDk",
+            "1ELRRFo9x5awFP2vKG7gY1yQdanaxhYCNj",
+            "1CimsUUdTGD4BYJaMK5DySsCQmuMS3f3mx",
+            "1L4cVnZNEcj2jtYTakj1ARdiZg4utNbF48",
+            "1FhCKdH4GKbM6jnS5GwzzuHY4Q1YHR2E3y",
+            "1HThuXUARG2LE26WaDD3Rhr2xyMuxRoAJT"
+        ]
+    },
+    "keystore": {
+        "seed": "pond flee spawn possible assist rapid grocery also engine gravity wealth bonus",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K31SKTKYm2aLBpNfi38VgBf4xqRtT337gUJRc6wPxxbAGcbQ7DkbydFxsWbfKzcnK6pYrHZNLVAeka9h9ZpANQZY99wrxA3o",
+        "xpub": "xpub661MyMwAqRbcFVWnZM5mPiGvNQWCSbDXYszZdpJ4bNefM6kkeUiDWPUkTqbmHtS3VA4B4u4sGNSP28GCPJ3FvLC4ELdVSGf3HVF7cWfPa43"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

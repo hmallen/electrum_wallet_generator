@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1NjkNFT7TpBg5GvwPh1ba3pmSdUN92Uhwt",
+            "16bcU5KodbzHS2uWe3vSyHkThJ49PBUgkH",
+            "17qyrzogsgiBUKWPfKfBSBA5XEa2mpAxVw",
+            "13ARcyk7gvnXo2iRvHiaRQqzApgseVU2RV",
+            "12kPNeqt6R1ixvJPFjMuuapykRkMA9JvQ1",
+            "1G5YRdFXZeidxR6PGEy637eu38HDhGeQz5"
+        ],
+        "receiving": [
+            "1Mb2QanCTmDQmEDidaJ9nXbKtQXYuXr62Q",
+            "1Gs365sHRg98W8ZYEC9zExvt3hF9aPy74N",
+            "1EL8VSjKRmSFZN7KNoabDFzSnJMKHGyop9",
+            "15GvK6vpxmYobmopzWiZ2cWKQR28fKeBZE",
+            "1F22RSADeya357TiSQsAiLCvQDuQPK8Kmv",
+            "18qLP8CmW3GhoZatrbYRhDRJwCKaQ8BYYh",
+            "16hPbSzuV3EK6Ty8nfbhjdJf5jRK1E2QGu",
+            "1MNx6pk5pwKDFGYJ7kNqjJxT99k4UAuEzW",
+            "16AsUBpxH3uqvYoYdPkGtf721A99cCPoRz",
+            "1F4ScYksfUcaWFHdDk3qzzhh8hhRNd89CJ",
+            "1Aq9pbGAn8WjHvTgu8vkLoXdsJZXFTTFVS",
+            "1Ng3buCyVKkhRBrW7Ci4iBC5qnjzpnSZKQ",
+            "1FhrwZUK2ngtxhAg7mdgx5JzFo68hXR57L",
+            "1N3CgjRMxMFRj4ZGLhD7sPhigtGyzQRwVv",
+            "1KpDgnv3UPs7NxkbJ6igc1UX5DLNjZkc1A",
+            "1FBaWL4iR1V7BJsnsyMJVT1gStEmCGzizU",
+            "1HAtqwFCCNBGchdq2Hpc3cbnWVarXs8GLV",
+            "1Egpi2vFrwKR6DpkZTvqUsAaAxxFsEvJkf",
+            "18xgFaXHfZNk27Q8Ty3JLQTmFbrzyFHsih",
+            "14QoqX5eGNqQT6UYAqnriHAaRVzcjXZ9zK"
+        ]
+    },
+    "keystore": {
+        "seed": "shield myth finish coffee fetch decide disagree camera mandate pull syrup cushion",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2gJ3cuU6My9XrWkTunqiUzBBM6VdcndWW5zs2MCwA61FjwaArFUfjH4HsQBHeyV3fC6eJnnSHfWFSkHa1K3zHETfsXPBcbs",
+        "xpub": "xpub661MyMwAqRbcFANWiw16j76GQYaxKFZZrD6n9UuFB8AVNtL1ZtXBhtKjbFDbXaD7sbP2MgmNU8p4TakAdy3QNUrzmBZaAPyi663e3w1DhVi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

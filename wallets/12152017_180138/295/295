@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14NGmdquqY2nfmAYMb8W1ibMC5nrNEZR88",
+            "1LZa9KJFJ2uDqrhTsNRmasy3Yy5Z1spMEw",
+            "1JFRZgmJVpgZ17GDmkgNHgNnXCTQMoFKA1",
+            "1DkgEaZox5J3D1pSoJK4GAMnsUUMeh5i7o",
+            "18MgYnRrGeyBZkes5AqbBHHnJXwX4yWBgh",
+            "1Gmk8wEwG5xfyerKjSBWk49MpPVGeHZrQE"
+        ],
+        "receiving": [
+            "1Lk3E6qWEP39cVMK8R4G9mxVZTSd1HEpfA",
+            "18M7qqZg9UL25YmRYJ789UdwKrbQjkVZgx",
+            "155ZNdBPGJxEYuuNsrYKw2LnuLeJi3Ewi6",
+            "147LeTuG5GPKWgf7Bv4k845C2cuPTuQgRU",
+            "1DPD6UbTwc9PCvFRNG31UKHVbe1BYcXQTA",
+            "1B4AAzKhZLdxvYQjCSKeYPdddBJoMhz4k4",
+            "1KvzVTGkRzZXdpsnZH6VTFf5hmZ3oiPz6p",
+            "1B9e7DMwAeC6WHqmWfRynBf8vVLWsb9DTS",
+            "1B34mmPjPD4YLMwUzrWHATJtVcKWtzUcaC",
+            "1LqPbxz2pPAmHvUXLC6MJ4ytqM5tFEa7XB",
+            "18b6UKvWKW1qoXoER4u25LNYJL21muvDzu",
+            "1EsPzUt9eE5QiQn1F6ALHM7tef2b1cgvJ3",
+            "15qNvwUzEz3XzNP9VDp7MRQcEThAhHnUQa",
+            "12aMpqZuapsQaF8ygbA6gfkjZNU3q4pyFz",
+            "1NUmhLtMGeg4aku8Fpbb2kWRBVxPkqty2Y",
+            "1A1cqYAuXiZeCCoWt6YF255P9QBd1MpbP7",
+            "1MbYPhUAv35HLSrrpVPFBz4u8mjzzdhE5w",
+            "1CF5UXv5SUf5HytRT7bfXad9uEMpmHahXU",
+            "1JYpZ4q6VWta3gcWhdZCPjgKvEe99zB2Wj",
+            "187xRqJLP6MSAA4PwZkhjgM2vJQQAYS3M8"
+        ]
+    },
+    "keystore": {
+        "seed": "rich east hill ride chronic tooth swap various protect hollow hidden direct",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4JX3fQJaBvUzjD2WGiYaHsSYH1DiLUozvQunVJPDgCtDymmsH4rN5NdJ2iT7gNDvKkX6ww4yhTxyym53dXqWNFKvDYoMqwm",
+        "xpub": "xpub661MyMwAqRbcGnbWmRqaZ4RjHErzgBGRf6N95PdKtpLyoDEw2qhUE1Chq4VieeRoNh27LDA8oA1nEFj1XcDzWr2eyQtpdBESTNCUyE87PB4"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

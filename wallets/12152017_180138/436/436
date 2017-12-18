@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13xrbRgWUUphsXzxZPrkz43kUpCSNKWGKr",
+            "17GR26J7EoyLr7Wx9sJNYLZSsijWzuDetA",
+            "1AGu74BLq77Gx7RQ7zMwBT1L5KUi7L2iHG",
+            "1345qLUo3s6v9p8H7xVguJsPBaGgeEoKiA",
+            "16XvWuyCBGvC7xKamKriiFGJBqpJTZ1L2f",
+            "1CHsoEb76MemHyAT2xyMq8Gu78Ss35yBfH"
+        ],
+        "receiving": [
+            "1BcgagZJsDtw3neWoc9LxXiuHqDvuCq4zW",
+            "1EWpYuKXQgnv34C79UvHDZ8yuxsEenGwzo",
+            "1CFPjy1oQhHZrY798AEuUqRSEchAS1DstC",
+            "12hDv7q6kymKjx39Vz5y6D9kbphU89oQ3s",
+            "1ivb6zSAjUcgkaiEyD3ewwsasHivk2EPw",
+            "1DbTLLj5fR4wUbPysRGEQmJUyNj8hkPoHe",
+            "1FCNQKvFVy2a3x5vqqiyUXCUbHNTZXx663",
+            "19yJuQwJNYUBod9orw4qtsKggxs6nGz2eS",
+            "1E7iLVsFfT13SxT94ppa7LMjPrY71HBKGU",
+            "1DyuRgbCuqBjMDzykaBteVh7SNse2MoWip",
+            "12CZ63JS6EG2X5NDY6guF7oaki8naaa7SV",
+            "15QoK3ixZ1EovSEX3SJTJjLJ4eFtVYWTc9",
+            "1BACq3CjwJ7cL9TpRJmYdVYBwiq6Rup4Ce",
+            "1C6MRBr3svYLud961Au3a3wjqyWuiwy2vh",
+            "1CdBAtnJba3iZgP9A1fz1JRUZYQUs1cLfB",
+            "1AhN2kQ27XHoYFaFqeABRQHpiVPvUi2hw1",
+            "1AnzdgGXFS4csuC4FnfxSQ7jGNBFXuXVnU",
+            "16tJDycQSuXj8ba7MiCfqZGec5ytKp21yW",
+            "17iV3xFcRyrGLLn1j3ViEfTgNQ6cJvHyiY",
+            "1Hhcj5vSj2M7nraB1o3yMtaQdqQXWf2gc6"
+        ]
+    },
+    "keystore": {
+        "seed": "hidden ranch still hard mean example device twist call say question huge",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3shEQGbmHKWPjb7LipHL7eWmrKjiMwfM7kH7G9eedGXrYWbNqSsS8uYfEAMQgDB4mcGErxync6xq92KmYGJEfMBHXzXTGwv",
+        "xpub": "xpub661MyMwAqRbcGMmhWJ8meTT8Hcwq8H1BUsSNei9KvHCKzYcFogxuB4rLPo5fmq5kj3dSEbrS3hPNtDhwELa3nBpe6it4vYNJ3aWsQuNBwmi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

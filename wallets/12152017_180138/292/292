@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1C85pUnijrMr25rZ2Y2maUrqRr9UVZiDHQ",
+            "1N7CrQukYoowfYi2kHVpmr6ibzcTzqf6C9",
+            "1ADx2mHbDsWLiX4qhiMhS5pscNiXaM44Bs",
+            "1KuP1XB8PrApPE7csf3gsYaZrQvQp8rDud",
+            "12dh6pDcbYhc82x7DJJr2v4jQqZ5pMBXm9",
+            "1G6bG7oJD7RmtQZtMQ5RCa8TQ8SwCKLxqT"
+        ],
+        "receiving": [
+            "1Btams8pbx2JXeqdLXMgQXaHXcV5d1dAmP",
+            "1JjxSesTRzLX6g9seGzEGrg7US5thVUDEB",
+            "1CMYNsiERSYyuno4oMen5v6Thym7SyK7x6",
+            "1JhYTjXcCzPpHTXC8q8tT1Riv6a8Q7rUYA",
+            "13YchthwKwuVw1mvHtg1q2dk69iK8LJkPe",
+            "1LAaqsSvXc3FWMhahmESf3q12NecLe48nf",
+            "1N1B45QbEWKkKko1wBYTQTPPcc34ov4AfJ",
+            "13rZGxELtu25Uvg15MVjTCAxgBRpbv2UM3",
+            "1EFa91r9oxYF2J4fueoNkz5jqK4diumDZL",
+            "1LmrGRH5yzKoYVtVJvsZ6efcNQc5wpvAtw",
+            "14fHHREc5vP3ijV6xMPxhshgNE2zjEHa6Q",
+            "1Gpvi5QCxRT77czomoYvuZGd1Qq3Qo5T4v",
+            "1EhVd9A8sd7qqQkv2qhT6c2a4M13gUqozB",
+            "1LkFDt2wifucQDinekRPEs1Drhc6SuWLyw",
+            "1BmNtunSd8k64Pnzv6ZtDKKtBZDb96hJz9",
+            "17sJDgSMaHiXkjGXayZ4mETRikJudnBq7f",
+            "1Bkk99q2E58ZARapsKsMLCzvj2VepZWSYX",
+            "1BWULpgbak8Q6pMBeVEjDZhbbytviyQdbW",
+            "1ANPRBCLFovvShmKDKGuLanixpiWTbDyvs",
+            "1JGbBUYEFfXzNx4wZVFSwdFc3LiMYg7Xc8"
+        ]
+    },
+    "keystore": {
+        "seed": "welcome rare cloud early blush post silent bottom tunnel autumn whale casual",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2Si2x1p2UKRAta29DguyENnGitojEe99uiRuqk6AN4DeuTYcPxQQQxwQiwCS5UgUffzH215gc4wvugS767Cv5RpGnDyMf7A",
+        "xpub": "xpub661MyMwAqRbcEvnW43M2qTMuSbrdd9dpbbhsXHDLnyg8nWm4PHQQurY8kjWYMg8qqCkogb2BySUmKkR8qnxyZLq4zX2wsr94LTBMb3FBrg3"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

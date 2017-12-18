@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1NxbkGEGC3G1fMHyqFJ74XtR8Nr1rMdHR4",
+            "1ACwopqS4jMLUAgFZLCn8o8oGePBS57ZLg",
+            "1PXAnV8eDDSEvmsvEHAWKPc5NFnz7KhXUU",
+            "1AEcj5XqBsiEoBPZ9MaJn5GbbbWThq3B9H",
+            "1CvSMQEXpPS5spH448UScf9QLttBPoyXer",
+            "1Nds8NBhTV41G2vtyYzChCQrepcRYeGxNF"
+        ],
+        "receiving": [
+            "16LsNET7mNkXF9eX5UP7TWakYywmrjEpBd",
+            "1GJPqWG3YknWdymcDU7BpmhKG4heDCYsL7",
+            "1NZsGdZRyTh8Xu8tvQKfcDt3PeGFhfZXYH",
+            "197MNn5EytE4c1HF7bTWXa77t3Z7zXNBCe",
+            "1FbXYesVoijyrtX22ryUEPAbYref2Jz6x9",
+            "1Dz7usft82Fe87MDPXBfeEcVed3MnPff2f",
+            "1D9hNeDH93n6QXwjsTfyj7LMqf9bLcFSt1",
+            "137SPCpDTNfNuigM9zyK5d71RrKMJUHS33",
+            "193R4kvdPm1pnxe5u5tVXC3EPY9s9p4Dzd",
+            "1NutNgPaiWS5XERatFHqcRnRFzRyhn82aG",
+            "1FtFPJvQUnfwso9SoySAcDmEjHqeMDw82h",
+            "12WufLzzzsBhCGNMzpL2GjrvraEDBtqmyi",
+            "1BWsgCXDJw8XcyzgMGPsHDGbbYni9ifPZV",
+            "1QAED27o1mtUDf5fKGkcrJonNnDcvjBTY7",
+            "1B6LbdaCLp3gHpaWWMUTRifBkhNwH1Nusv",
+            "1Bn4M4hchHBGtKRcM1gVZX7vEXM5LDPXmA",
+            "1LoGpPYVPF4S4TzuqXhAFnLnXzEWJzNg1J",
+            "1FtbL724Kw2YthLdGCP35p3ECwqWBKUW2g",
+            "1CQBnDbQyr4qxdEdctsFpyHzxqcuVnTBmg",
+            "1MGfUQWe1b1hkaBQYR5Fqpi8RvBbvWbegT"
+        ]
+    },
+    "keystore": {
+        "seed": "silver bar jungle system total vacuum certain shield clown short broccoli ugly",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3n3UUDXBfPQEHPjG1GsxbyQ9B4UE6M6sUYbr7ccB7bmQc7rTzeWbKLtGzdMTWkywsZw6PNkhySGxB3uByHdFmJCqTZuNTWA",
+        "xpub": "xpub661MyMwAqRbcGG7waF4C2XLxqRZkQjboyCKjySsqegdrMLvzf9vRfQ5tTP73KFsFHG6JtYqCqRsnwhPQKA3GsQNpVHBS2vdKegn18RXUVXi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

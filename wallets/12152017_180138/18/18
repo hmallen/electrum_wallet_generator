@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BWP998aR74Ljn892EMCKERBPo1XLSJwDn",
+            "1PxNT9sLNiruSJ2dbJ6L9LqstVbGVhGYxB",
+            "1Lj6CJrx4Tey9Tkb71RcYdSZAYZUPvLydE",
+            "1ACoDLeyDES9mxNnLcdiW3cc9SMCL8kPr3",
+            "1KoGLsFBp2iQPkNecAzM5Tj5M6mxwSsPFz",
+            "19bCTaBk6CUsvZiUomSpZp11rShKHgowmS"
+        ],
+        "receiving": [
+            "1FbPDD4t7cFH2NEvDkDBHAfDjiYKxyWGVt",
+            "17DykLzE3bLkYA7M5qwi3mz3SYTMbdVq5A",
+            "1M3KqzXzV3tG7chEjws9hYF3uPfL4jXMj7",
+            "1DhFTqnW9kfUjWKpgTRzisVJks7h9zoNke",
+            "1Na1C8yGB8xEU9ept91Eo1pP8veypZkxev",
+            "14RJ15bQokk3N8wUp7QUHZvk8zHSKbPaEM",
+            "19XXUe2JSnFTBMrA4jgZuAPnQGsdR5GQC6",
+            "1LbdDXMKdBMcvjnmNQ3kk1cQ9nUeViqEaH",
+            "1Ne7xLXZqLqpBjs9T3qG5JZaazSVbDLztR",
+            "1HK4Ke8RC28NmUm3gDEckVxcVvCpvdmcfo",
+            "1JJqLeFqqWkqSVo7QmbcRBprpWDJvSYHYW",
+            "16Q2zu2GrdLXf4LPGMFh8iMayEjYruWrhN",
+            "14jRBV4c483fxr4rT6QjRnARyK7dRojqsH",
+            "1Hu9Q1ovk637r3ZwTTbNjfAUwyAqy95udg",
+            "1MTn7dTTw1M6tdZHuPbR4xGa5CvkuX7S7e",
+            "1DqCQgPLQkVZegahiK1tdMQoJDEnBnErgk",
+            "1NQoJA5gN17noEH3qLVDX3SXU7GozGVn2v",
+            "1NSiSpoZYUS5RdJtd7f4PmuUBzEnj7rvfy",
+            "1A3gahQaTCg5L7iPwjm2xqhX9ekBgigZq6",
+            "1D842mmMxrSXJauzzdigPX6iB59fE9odec"
+        ]
+    },
+    "keystore": {
+        "seed": "region dice power drip blast ancient fit empty because float there code",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4XqG2K4usDjg9fphUD9mg1crJPq1eeV4UpKLrCnj3vqMzkh4VcMQoX1Mp36i9kHhDaG7dLCkv1gfVGtvqjiW9gQEJu8Er54",
+        "xpub": "xpub661MyMwAqRbcH1uj8LbvEMgQhhfBsfsd3EYT6nEdCz23MceVPk6ybj9qr2VB333aUGFEcS5HBSep6KsTUAmsG1ngnSRAN18R9UZrm3HPysy"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

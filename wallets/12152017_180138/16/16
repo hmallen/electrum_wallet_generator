@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14SqS8qVaxNx625qg3H9xGgcGt3qvuj9i1",
+            "1FMUVMS6PwxA6cNb9fi1jQiipKQvFbTVY7",
+            "1DcH5rzEYwhFR98qzCYLjwgs7ctkKdiLfa",
+            "154brpqu1UajwSJv8CBeyRAhSnpThMixBo",
+            "1J71eRBm6fZCWej8fdF4J5C97wzbur4JbK",
+            "19FdMoLFKMmprysHKkzzmLqzCnXHNGhEGs"
+        ],
+        "receiving": [
+            "1KGUViBT5C4j34UKLnws2J7vKXXgN7ruD9",
+            "1DRbeaQ23T7c2ssAH6xfZ25XfeLbbNab5Q",
+            "18k5isfkVwR1oxb7ibgR7Vcpb5Cak6sKgK",
+            "1E4PtwZJob6RD6CBgMKX3fKYiEMbbjGh4j",
+            "14syaNKajwTMP5bJBWMRbdWmvx4T9JEG8M",
+            "1NgL4rtEwkEH2J3VuZ3nXTufMxHcoxAoTq",
+            "1ACMC9qs9Kn8sSEZP6eBYm7V6kdJr8k8HH",
+            "1EvBbQWYHTGewwqvGKGvLsGRXhpPTQuset",
+            "1UxDMUPwP59yh5X7s4dYfx3qNoKeBEoYh",
+            "1sw2jj4dCFG2dJ6JspQYWp9p4zqZ27sAd",
+            "12jJbWuNvbdZfTq3gmVH8d6azfBELMTAkf",
+            "138xrEusdALomzwEaZGCaeX7TtU3R5A7Nd",
+            "15oRzuCfaz9nVYdLABzqGVCZwM96ebPumJ",
+            "1AvXEXqJPqkYNUpBovd9kbcUFvEwLpXgnX",
+            "1F8NYp3gn7H7AJ5JaVq15rDoAzSjZrQnpj",
+            "1ACojShJvem9jPWV2aM9KoWkPfHmraBCuF",
+            "1NKFA1VBGozCrvKPptmBtZPPa6pDkLccpE",
+            "11yNtcPc4YRbYmwwSxGLGqnjFHaJhtLo9",
+            "1C5RR8XUbEeAb6yycSqjzy69qDQNKnZVR8",
+            "1LthU15YL3jXSbJ3fhcAFCVaWFmQA7b7dB"
+        ]
+    },
+    "keystore": {
+        "seed": "race rhythm ugly broken mango office brick parrot ship violin intact coconut",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2MHK1t4AzBvMdcbsF41fHFwpnxEN8hkmoAUpSHVuxzVPoc37SJEJUTyjTrMrNN97E117uTZN3fzbHbk1yPC439UPJwFw6QL",
+        "xpub": "xpub661MyMwAqRbcEqMn7ubBMKs6BeSMeWjWeUsRbLdyh3HkfxoxyppAWnoser3TbTgMAmFpdUhBBsRzFL3Ni7TzDT1mBEFXBAYQ4JAR3Bh2KGi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

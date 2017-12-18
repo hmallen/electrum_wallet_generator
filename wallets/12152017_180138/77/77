@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1MAH7qBSGyxwuJaWD2ZdpbkNxkmX9PUBS5",
+            "1DgpGZVpxLkJAo8ztnQyUJimBVSAwHTQKm",
+            "14web6StLBbykoMAsRzabbwZhM1yQnLqeJ",
+            "1Ao16e51NfcNkrTvBpurpgjrGuftwD3Zx2",
+            "13TGmj3uNgVANLEHjkWi1TBwgqMmBb38tJ",
+            "1zbCqG545umfvubvbctwnC9Zij6oVofsZ"
+        ],
+        "receiving": [
+            "15qJ5ugUi7aCYcjqHgGw7MUL9LBLdNJkGB",
+            "17hCwf921QHjFbr1FPSFSBnhzHxMrSAcPH",
+            "1CTnrMUsXkd6bY7igqJCvSaRHwsuWH6fLi",
+            "1KysSZ7pcQxYuaZCQZ7nZexmJv8js1UwfW",
+            "1CinSXG88WToSRQyWiK2wPSQjbzpQ3xbdJ",
+            "1AsFCWnsWJsbd1D4oKPeU63cPWFSXCLXAq",
+            "1FSkWorCMAPKkuKJywBj6d52RbZSKcyboD",
+            "1F6mHYRKoajZ5MiPmktAy2voyxjwxJshgD",
+            "186AGLBCDLKfevyLqjjWE1EacJw2KhUM84",
+            "19eAbtCJyDg4GH3s2PMQ4vaxrQnT9D9qFU",
+            "1PES5tJce6FEUsNqP9LAH4ibyQuwUQkPfo",
+            "1Ea559XgZChipibSCMqhcwqBLjDQ3JQcYN",
+            "15ynRH39nhktuaf8nxMbcpiKggrKeV9hhE",
+            "196ZcswEqWr7NTzuVpWp4koRuKA63rtu22",
+            "172q3uYCANDxJmK2FrvL2BG767o64JyTmB",
+            "1Bs7VmZGyKwZNHbzKu6YyMuNeQymWhaEq7",
+            "16LjN6kkuPkD9xr7FpzWNHsizsgk1k4412",
+            "1KFJarscHn27szwsxTRLcWDmfMAKf8mE9W",
+            "1EUZxgbnFcKiRfkcSEzZF791RqYGBhQx49",
+            "1HpDpMY794iTzMd7LZjc26db3dyMmnrJTL"
+        ]
+    },
+    "keystore": {
+        "seed": "amount egg lady shuffle rose wild category upper panda buzz buzz ticket",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3KP9CmoSCvssQMR9whWzmeNUY6nAgkoa4Gy6ZdLu9rToBQA4uaAzUibdgXqjcCRkjNRHa2zzEaB5Ryavuumd3XPb8dxLcGz",
+        "xpub": "xpub661MyMwAqRbcFoTcJoLSa4pbxPFeMAEr8sJ5LVBnF6LYw5JF7Af9henH2f67qM91TBdVeVFdKv2d7zSxCPGosgcY9F7CHYwJYDZostGLpf4"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

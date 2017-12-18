@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1E1PYoNpDgDKoMQeteE4mZmAm2e5nsJ6GX",
+            "1B2A7JTh5TEqfxTnDt36B3BCFBD4yF6azz",
+            "15Py9argEbCbVoWwquXMYniox8vWjRnKWN",
+            "1DdLgbvisgpRmtTTHQSGQRbc8fJASLv7fa",
+            "1TevvDmLoH7cy9ZMfKXPuLFTZgGrKy2b9",
+            "1KThUVZu2FaaYmstrXvSkDMBHSXY2z2mK6"
+        ],
+        "receiving": [
+            "18BMQD7B71jV9PjsxuYfJMvWtmPdHBSTmN",
+            "17iVha8Lu6XQMJfyKRsrmCp2PkjixS64D4",
+            "1JYzWgwHG6T3vkwpiVKBnMon9Hd2P5wnqF",
+            "1GP4S7i6WQXUym8ybt1N8e2FLkFws5QXcm",
+            "18kz1ZJJww6wsmsXD2ezDHx88pbk9WugsC",
+            "15kMY7UZ4ytUirM85hbz9sZKEzeufVxKrj",
+            "18BHHjyYqpUHkoJTYgEecV8x4qGxz8SUyh",
+            "1Mm4jjFmGmRSrQa3bHRAbu8umfjPqm7ciJ",
+            "1GtrLnCM6YG69q3518x3BJNwYQQk7hRgRB",
+            "148Sj94AU5bY5FbMDhQKbcEsxx2cday3op",
+            "1Cpj2tGBaSGFqXssL2xKpdH9QSKdRyCWEq",
+            "18ZMJvXyEoX2wZJDjMxQ6FhLQzHz5Q168L",
+            "1PzmrfmJRUipx4swnWDkHmA8Pqzq7cM9Eu",
+            "1QDBW7JkQTYHkvWBhGbZEkrJiV2H4mWqFw",
+            "1PmsPJj6RV7A23chUR49TT4iSvj9vy3QCV",
+            "15pU3k2G629m7PoZPUMSNgUjLWdF71thUs",
+            "1G6Uuc9itjv1TRW6yB8Rs8qmNxb1tqfAmQ",
+            "175UUMD8MxktebtaPjFoYyDiittzZj8WZX",
+            "14KWXVh838ir4zacyE8cfWaBgzwwGtNh97",
+            "19hMZKtPP1zP3PhUky1UdERdm5zRzsHZV4"
+        ]
+    },
+    "keystore": {
+        "seed": "imitate this next eager apology office cave where report melody curious razor",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4CxDaAtCbqhPgYjPt16g7RD52RzH9ZwRvhg7939NZVMJnr4mhiVzkeCLbTrgYCEiUbaLHzF2XkcLA1n42rLkbBwJQkiGeMz",
+        "xpub": "xpub661MyMwAqRbcGh2ggCRCxye8EaZtHTpXUe8fppPthuUQoW1FgaTd7Hfne9f31xaZpRTErzksEANnVkKdVuowVf48yKAVbd5X2s2XnAJvHtf"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499505,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

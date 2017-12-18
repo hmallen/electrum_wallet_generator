@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1GHPqP8BbdPhz6XdcqViPSeu3rvuoLYSVw",
+            "1VGbWGFMQBMWyGSGh2FJAvZbRwKj2fUWD",
+            "16w6dvvq3XeoirpzqyRAw7W9m6EkfXgwo6",
+            "19arVooPkv3P19Mf2616XsF2mAEUgynCtD",
+            "1BWsnrEaiscevZz5BhxZsxe4HZ5Yi2XWL9",
+            "1NTbhN7kHvxLZTSHPqWSz7JMio4CxtreKJ"
+        ],
+        "receiving": [
+            "1GFG7n1kabvX8whTbZenzskhkQER3yWs5e",
+            "15MiSoUxJZq39hWK31oFu7nobx9WuruuWH",
+            "1EaiTYULyp2ZuccUoxmW49w1tsgg9oJG9K",
+            "12jqgES4pLPWbNhavrgxWh7YA8AQUPCNB8",
+            "1C9Vxjfqa2ET4jcigVTzssnp8az7fxQBg1",
+            "1718umovCN3DsFEZcGajWtHk9bvGpoJ4a6",
+            "1E2w9zAzx5CBrmBGoA7n2hvuosP61bQ11i",
+            "1PuaZgCnRjLsB3H3gDU1HBzMxhbeXzKG61",
+            "12sSxML6xqgDeAZTjo7iu7extum6vS8gdM",
+            "12EaqexZ7irbWwc8ueMjQ3p92p8YSz2nr8",
+            "1DvVL9A3XBcc1RpZvrffdYZYizxwAbJPd8",
+            "1ALzoY13nZr3npH9CZHo5gepuvniRY3LY9",
+            "1G7E8i8uDHdBD61nSTAfPzHDH1YENpwgZ2",
+            "1LFCM2KogbEKBKn1zv4aMT5nJi5BshwQ2c",
+            "1ADnr56LRQGLTYnB2qByTNMgDpMe2CduWp",
+            "18RnjeuvubSGFJ6rRLfjBEwLUf9z3PqZLs",
+            "1DDtmD9LCzwvens7dFS45dDQAmpuebGftZ",
+            "1Ckm8pH6pvHpP6gwXHtQ1YhtcFsZPdM2qT",
+            "1EzXUnHQcQvBZmHeUgYnY9pHvEf77m1Ht",
+            "12hzZmZRAg5Pr9HsGsVYZEJqy3oQDAAb1Z"
+        ]
+    },
+    "keystore": {
+        "seed": "adapt flock caught police picture cash push hand erupt furnace mind wine",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K375WdYbnG5KHBqSQAeHLFijFGbCyTLQgq35zaN78V1eRv4ueAgKnpqkPNL56bDGhKCocUcJGcQFqrdCRDK3FiNY6ckSd8hk",
+        "xpub": "xpub661MyMwAqRbcFb9yja8ndDG1jsGta71Bcwer4ycb1fwfhqR97uRP2oxumMdstdXu1rHWMPm5NPW3WaFHyuvn7fmHPzc7Mnt6EHVbDYwukRy"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

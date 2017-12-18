@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BmGCfotDqPpJrwy9vFZ8xmkHQvCEYud2A",
+            "14QPRExSeutrdBYqjbUj6bNsiUxq6oZVBL",
+            "1FAEst3yGUgAnkHT1oBV4CctU4gkpEZjRx",
+            "14hB6V6xaQxtRBEPiqhqVdRQQbwqoeFHsJ",
+            "14sSTmKgDXWqFX5weXvHG8T7dT1CSwrE7o",
+            "1J1jQpqrj41sEWK2UzVwLKzn78n1ioeMpD"
+        ],
+        "receiving": [
+            "1AX4aqC4keJt5z8PnnnEm4qiMedSo8wJde",
+            "1JhczZWAULSEuctoUkHGFejjDnWXn38Zrh",
+            "1MYoowr2RDAMioDPGAQt1ResmHrCjJTkdG",
+            "14JMvfuzcEKwUgcpcE3514CiTAYRhwSQn6",
+            "1MvaTYnF98xf2ma9GbdUQFUPgKSXe7zHKW",
+            "1FTrPMXKyWFXuaywPX89igrVVUBQauE1Rd",
+            "1GZGh23h5kdRtX1G1XZVoDYJ9eBY99JX1x",
+            "1KvSAaaw6h3mgGxF8xQaW9qqe7TXjB3H3w",
+            "16RkCQDXmzH6Lv6wdFk5dpGRpFgVWRp9L",
+            "1PxmysidL1sQ6HmqrV39MzqVNFb12Q7yLE",
+            "16ED79qU38to8vRXMYWd3kktjtStfWsT6p",
+            "1B3nASznaup9Gq9KNmsRi2DNnTUe53DHq4",
+            "19qTK7gVoa83q9H5SrUrNKCAhgzMhnmLuu",
+            "1N6JAcQvyZz8PPWQhB9RtUMv9qA7F9XimZ",
+            "18jHL2W27oR8yoydcZVxThVxi612CSvjbj",
+            "1H1gozovxEz3ZNbmNd58XgQyPCFS76T68y",
+            "1PdcQZwnfva51NipWeDYJBEEyPEUNPQVgb",
+            "1G9Kir2M71HxqNmvUs25puQ7LFnQAqF7K5",
+            "1Etqbux6g5Jozs2vLDrGfZwN28sB7KHQMM",
+            "1NJ3RxYdPNUBkJTLmKyLU1T7Nu8R8xudaL"
+        ]
+    },
+    "keystore": {
+        "seed": "work payment weapon salad route erase three spin satisfy announce warm palm",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3XrDkQ9cD7xniwLzBXdgGJrg6rMdtCUYMMZgsCZaryyi1f8vFefdJYX2oc2j9yDyCT8SUn93Z8YwBekXW3LJw1CvZLXQBBg",
+        "xpub": "xpub661MyMwAqRbcG1vgrRgcaFuXGyBUazMXdXnGuEmFSY1XE9tqQjsqQnJBruTAaMieRichxmoN6V65XdpJH3hAPvq22rviydqJYQhFvsSXiYN"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

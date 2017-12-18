@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19oW5LBG2Tn78mhiiyPfdR5zsxuDjvMFMt",
+            "1Ab2GYZVf5rM75nMXTLZQE3Xt1JvdomBH4",
+            "1LatgpkNouc4qzQ6tMK3igc1MKA4xcx6Bh",
+            "1HiqUYLxMwGVye8hgqKj28ncVt8xyH9UCH",
+            "1AkubQqwW2VZsSMrVxr1y1yjkWiTZ19nVM",
+            "1MYYvBkXyFAc473kANtTxNjoihiBJtDdQt"
+        ],
+        "receiving": [
+            "19b4JHHiggR2dxbbmtTnaR5GqgCaPKda75",
+            "19jM22eXCZ7xraeAdjhFiDSnNbwvujrtwP",
+            "1Nb2iun6FnCihpWV5USff7cUgC6SaNoaYD",
+            "1GXtj3bzg8DmbZk1FspMcKpcvhYri9K4dB",
+            "19n2asxmxsiJTkcnaHgVB9dtZ5eQw3Qees",
+            "19wrN7anizactyH498Dty1J5BuTHJ6akfC",
+            "17nMXTy6sJtUXw6s5aQrWH3RHjCmhgQRnw",
+            "1CpDtE5pB7RNXeKT3M1sQui9ksE3AzHy1z",
+            "12skJmYqWpM2YCJdND1F1pGmDBBgUvWM4f",
+            "1MpwAZ1WMMBJzBe9KnMneK3pYJwEUSMgkQ",
+            "13HfqQtN6F2eteiCh5MDHwz1EA8tAaxQGH",
+            "1CiAqHnMCNo86PM2CMVMokdRrL1zPKWPD8",
+            "12orrRzMKM6ghgHTmp6yUgFxeSy6Ug9hyS",
+            "1MgNDc1ueR5EL5uBi7JVykk1Z4oUSfUCvG",
+            "17aVfeE2B6ctG6spZWKChy1YctZEZBphqd",
+            "146YTNqqEk2BhQqKothwzE3YJ6BoDD8r46",
+            "17x7j4Tk5UaVGaCD2EZ7NZPcQqLPDqNJgD",
+            "1rqXXSdXkKX8wk5NoYnXSVPvSj3UZWsAf",
+            "12ozGRyqUVN6x2YYGPCZjUzpcvCgrDSvBk",
+            "1NgMWDnazuBZcbftSZvvzt7iHjRZ61KB23"
+        ]
+    },
+    "keystore": {
+        "seed": "own erupt goose tiny claim panic taxi naive lobster song pride glove",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4UHMCQyK6AukQUAwQ85rgWmzYhcfnpvMC3yorZBpy8KHxQde2iPcMkk8QHjsnY64rzzoE1Quxea5its5B4zNoUpY7dKbaww",
+        "xpub": "xpub661MyMwAqRbcGxMpJSWKTJrUxW1Roaoi3jhbM62HMATL4rJxQ6W5WvdmohaHzbYoQpCNHrLW1X1gZA5hHp7euVc7Cm3Gr3s8vWqEtjdSznG"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

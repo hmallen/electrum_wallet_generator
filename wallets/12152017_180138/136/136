@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Eniz7Ge2tvJxdxubxpNhoBepwaiiNUQS8",
+            "1E8mPgFj56ikZgbk3Yf63DTN4UsA8AyiXF",
+            "1Pw9LPs3pTCzBj7VBNyzvHKsiKMcJogQiC",
+            "1JTuoww2h15gcbAocfAg1DfBEHuZDPRD2e",
+            "1MfQaYuzCetjnGUxtQyYbXSevrbvdyb2no",
+            "1G8NuAfnRn6RvJzsdLQ35fPcJZinLDnHe7"
+        ],
+        "receiving": [
+            "1GnwB79zhPfeRgiKoTehaoGZJ8FfDTZiMk",
+            "1EQCAEYEAsXpcyVv5aFtkqPid4rpcUkvEb",
+            "1LwJrw6eqm7wC6ohQTNyTxd5pxCP48QefQ",
+            "1Ggq3yun6NaQTZDseDgTMgrrvqJ518YQzS",
+            "1NNgzE9zXQ8uvE4A4sWTgEjLyCQTVa86qW",
+            "1M2BsrgWc7jkDoKjAQyW356tsqH1bGfryU",
+            "16vjMbTd666YC5jfuHhfyQ2B8w2JwDdnFt",
+            "13Sntybum6MfNB52QEWjSP91v2SSX4B7c2",
+            "14cFHypCpxoRMfjFpM7yFRE2XEyMBqAiqg",
+            "1EjUX8Tgwu6vxw87YA1LYZpXZoB9kH1GPh",
+            "1EqaR3urQFHtTNHQN4a6nNLwiwsVPfBHpV",
+            "1MUy4wx99gk26njMphvja565wcT4wvBXaW",
+            "1AWAWZu25j8vF6UfhMz2Es85uX8uDS51jf",
+            "1JDszs3BimrCrZLZWLSojPTLb8j3mpk5Yv",
+            "1LrFeh25ta5ZCysE1C2SyrrC6hqzAnLfCL",
+            "1KwPKhvMAH2WZbVp9mktATiApW7oX1SdkR",
+            "1NNtXnvq2AhD13EZhJRFowxjmdBs1XW3gx",
+            "1J7CSnWZBsxavvMSbARuU7eFPhVrf4c8Kp",
+            "157fX2KB664kpmxJ9MSFXXgTuqGLXbFdC6",
+            "18B7H9zEcQfgj8ksAVfLZGWtxqrH8A6nyj"
+        ]
+    },
+    "keystore": {
+        "seed": "solar museum nuclear kiwi praise wash observe estate wink student patrol cause",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3hUukAUfxtjVPtjiHxtrHawtPj5d1PHPqNH5DMJQACu9NcT63EvUov3CrUdC1Q1P7af3wNLaXMCi6LdMDH1HkPgJYqj8GMx",
+        "xpub": "xpub661MyMwAqRbcGBZNrC1gL2gDwvaChRcheosVC7VEZipNiAcDktcei1DdDrN2SE6x4sFnpk6qrHhk8BvnZbVejAnVuh9o8Mm9SqHstQMCoVQ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

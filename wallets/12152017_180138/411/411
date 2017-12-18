@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1D9KZP2ntUqRPyyrbGUmsukFMz5Ui4E2Te",
+            "1LYsrGumzY35hn4zbvQMjXSuGDUkJkGVpR",
+            "14xeSh25Cke5rXf7jcHpsopvHgyttqPjfG",
+            "1MQTYURmCv5cFvWCgp2GWZaCHAhJfvmi6G",
+            "13Mb75uLSUohLpSmCK13Resc3fwuQNdz9A",
+            "17jZGF4sCnsoNp1SXi35h4ubBDX6eQYKgV"
+        ],
+        "receiving": [
+            "1KR4wegPj5i1Ffg5kEkbKwSCtjqTku4Q7v",
+            "1dsy6iwEwSeNaZ4NqKczPibA7Uo8pNvmm",
+            "1Laqo5TF4njv4Ae4Q7dw4iS4iLb9gf4MJk",
+            "174ER5t2s7gbmfx2zSpYChUjXTkV95VtP8",
+            "1FJaGtpE1zKhrPHNxKGUyfQADXx8tRhcGK",
+            "141LS6HswTEokqvhxwkaVqoLLYKowpqUmC",
+            "1CWRw6YVxtvdLEP6qgtWKpLsoCAPCh7Go1",
+            "1N9DhQ6rvLBThnSfSqrQpWdS8hEczvrPA3",
+            "17a3S11amdHBZmc2vJvg189EcqgkYuGY56",
+            "1JX8BeFzUyqhKLa8GrHYCt8BdZLY6VpHED",
+            "1FhcNmgk2ULneDwqJEYVV8kSjQrj4ZJn6G",
+            "1mvvyGcZJtfTHrGbo1Sp9tGfrJwsi3PDR",
+            "1tCm1CCpa74C6ZpD164D18wMF2Qdo3cD3",
+            "1Ct9EuGx6Bpd3cWKd1PzKS9XrS5Vb7BaJj",
+            "15DUAxHMVrvAytepPMY7ARLPdKAgZFphhY",
+            "1NF8v5pUuvFZ14avaSy98fJJ1SG5pc7YDA",
+            "19g8CQbPkKUs4uFvALGPNVEPpUPVGmJtjF",
+            "1FcmkGx29bSbM7JbAiqHT51owQh9bsK9dU",
+            "1BXsUih4Wfw9vyEu69hei9nUBxuVwvrvwS",
+            "1KxqRKidLWkeCyDjj6uDKbAoawGAwoJoCs"
+        ]
+    },
+    "keystore": {
+        "seed": "castle illegal vehicle license feel resist hero veteran quiz ski burger wheel",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3n1LgnqmUVEUX5GQNdtJG5VghkgMzVsFBVXSxoCkwkdZRSc8KJ1BMdsPPZDCtMBLP2nPJEfH2DCFRaDAf5u8Fx1SPsEYZvd",
+        "xpub": "xpub661MyMwAqRbcGG5onpNmqdBD576tn6c9dJRHW95yYqQE4HrbWLX1VYx3GidLB5iMEsXsUgLNjUmAvJBSskA7RGcrBkHKtoKDMxTQuag2Fzp"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

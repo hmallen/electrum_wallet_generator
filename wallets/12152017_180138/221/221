@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1BWickh15jUKSTneynx8jP5m3rEVFJwCmu",
+            "13zhkQbqb1yQau5vJbH2JqigKH8DeWVeRo",
+            "1N1RetapZZU7ErndiJGHpGtjGZJUVLNycP",
+            "137263tNayYp2YJq9Tgwwi2AYHdQZfaaGy",
+            "1Lt29Gyk8hSXZSdy2hB1VAPnBqs8cK1ZBX",
+            "1JTCNaF5kS22W1J1XrstgeVYKxkZcVfTT7"
+        ],
+        "receiving": [
+            "18y7jAMLujhTVaxby1R3asb58ah3cUqdq",
+            "14T9aNswPQwD77WYD6d6zh1eFAi5Pf42Jt",
+            "193SE8j4YQ5VBsuHqWLzjQt9YDY7bGyrYo",
+            "19amJ1geXNVft3whN6mb5vbKv2ZquBhkk2",
+            "14ZXd2xWFTYWFdqGJ56zaBRLRpVJnPuVur",
+            "1Hm8o9TxdcVLcWgRXLUe9svVAYnUGonzz",
+            "197i5d35WtNPDNYfRZJXauTtCDiswbJ9LJ",
+            "1LpfQbXtmLDnCFP12xgVwXEmsgfW5psaCW",
+            "13znXmErjheR9DrzNw2tKW8sDgCa6cJMyo",
+            "1M2gwGAe6dM2sJgunwVUANYRp3bQmqAwNX",
+            "1NJSkBNen9AoeNMS6pV7DSD6GtHmzHpUAu",
+            "1Eq3NH7GpngLhL56NWrhUAURD5bdDc72FD",
+            "19GKE6eXicnzgSDhyGZUcFCupe3L41sPFH",
+            "19gbQsuxGTVF5iN6d2S5R63S7UYPoUmt2H",
+            "1A3b2bm3XmM4GHJrjBKXL4zWBkaSxyR2pf",
+            "1LQnQcyBsQGv5akocczgKewTiBt2GmPwkK",
+            "1Hxcm2Pe4JfDJqcVgh7WiLkU5hkwoDMF5k",
+            "18Vr9D6kwsbDPWUwMU9sPRJkTUgk7E5gPv",
+            "1Lfdv9w5cZHmLGMgoMG3nBg7UUtedCjR9p",
+            "125iawFWdk6JfC1rVni2VvV5LiSQQV5cSv"
+        ]
+    },
+    "keystore": {
+        "seed": "uncover assault grief ginger thank tuition case business soul brown deny foster",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3Ypp1FVKxMSSFbjDZCbp9WdARDAqx1Eh7QFQwnds3GU47XgJspPqrX8mDXJCT4Mucy8PUGVTWRNKXWb4LG8U3XGnyM4KWcn",
+        "xpub": "xpub661MyMwAqRbcG2uH7H2LKVPAodZhxfKfWjYmDbaTWLmfzCaZVKx7b4nXxpdmchiHNDGrzEBxGHnu9HLty3nTtty6P4C2t2JWbhQ3RKyT9gB"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

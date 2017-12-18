@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "14BXDy42kW4JytPBohmnVAo8FwQTPp9KxQ",
+            "135sJQNQ4j9ixhsMBUBHm2RDVyDAQkUNLi",
+            "1G84q3Tx5QhLP1bCkHpcn7tvD1Nni2LeQT",
+            "1F1AHXJL7SUrMQHgKeaU3F4vkcTeRkhD31",
+            "17vxYMo68BkffW71n74aVjeYhb4Vood1fP",
+            "1HqiaFogysfhiDR9jfv57RoAae93JNWopv"
+        ],
+        "receiving": [
+            "1PXVz18z15gwjvJSAULEAHnhumpptHXtiR",
+            "18BFU26SWfK38sMzhLKAZjYj6Tn2FL1Z9X",
+            "159VLEzZ68qq3PRjAV6fxkEw24vxnSXqFU",
+            "1GX9iUQ65oLpNVRvvAhzcfqTu27zAj6PPq",
+            "1C88faaXEbRZvmnmWW8nBruyQW71y93TcK",
+            "1LFHyWx2iGpt27JvzSBfr1kFmTTWeWutxc",
+            "1E7Py3faL6i5vvNWtE2bzLyWaUg2syKJeV",
+            "1HfmtHHGVkBAAQXBa5SWPEqKjvMU1LcfCm",
+            "1NG3SKdUDiJGBzhgK3dXs18RsHpxSjpeB2",
+            "1MFDBpYvFkTBE14kAKZeKo7XY5d2QUH1Dh",
+            "1EuAneewABwpyWtiUR1YQFUFPFW9cmdocc",
+            "1zBsGR6LkQpTaY3WJ1BiiL61xvTUp5juz",
+            "1AyLLG5P8WvptwsRnjSBsES9kfEQUk8oGi",
+            "1LHMiyWhMnmFCrbDQ48FoCwuffZbFoRb26",
+            "1C2go16MSNT4SP6xKVSvPt2uTXQTuuo3W3",
+            "145Z1VmQz7NK9QWdwJyPDFeQ4WKTVcc8LQ",
+            "1ExotYNRXm5bBVw9dEF2jpSkyqJJZhYBP8",
+            "1M33pa54gRj1BJJH5e611ov3xpG1MqkRuZ",
+            "1QDkJoinWj22cxFgg2JufdaPDL93k5eVp4",
+            "1C4hpMME6hPmHtcaQsrzDJhQPm2kWZpuoo"
+        ]
+    },
+    "keystore": {
+        "seed": "faint lesson assume unlock hobby hard soup copy twelve lock olympic palm",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3Pf92FAQ3QQkgoFotQukr2RgS2C99qR8gM9cqfHjUP4U8iMAE6ujh47AcmmDDuNt3CaP6xMPKDFfterf2AV2YdkBJHVusVA",
+        "xpub": "xpub661MyMwAqRbcFsjc8GhQQYMVEq6JHsdcDFMHEQbkiAx7Z9UmPCbz2BNwz1Ai392uwZ8N4dc1gY3p3yRkdVQjMxg5Eq7qJdfXCAMY4FgmyVq"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

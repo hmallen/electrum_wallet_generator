@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1J6SvFAeSv6jYrzBYQGWuPzZccajJnSJoM",
+            "1JvLHsMERvinrN8pf5EffTZrWLQ6WF4UMX",
+            "1AKrSnuvXKmqeSh1ZfwKcYK6Le76XywWQv",
+            "12f19DN4cERgefjK2Q8QiXnapQQWgiy72R",
+            "19NEZKh8LzYdzJQ4NMqWe2D9qi1X3VBGYn",
+            "1FJP781RTePMJvvPRCtoB69M78coATNfMB"
+        ],
+        "receiving": [
+            "1DVohHndSh5Bc6qeHp9R8T6csyNajXN1wN",
+            "1K9SJsXRTmgH8vVE5DoA2ECkJ5jxiXfwAx",
+            "1BfkM8FGtbiTvGdXopfY5UYeDHQvTpGfpy",
+            "1A7HMZLqiMBpdBxvj7A7wnTftzGQPCgu37",
+            "1A8UuMtVsg78Dys4e1f8cJnQ9W1X8QBRBg",
+            "13vtS2AdLogYPb2YmFhtooF8zkxETToqXe",
+            "1AtK1rBfKKzMpwAUkCCR2T4ky13uggPB8b",
+            "1J35DbrHPMzWkXXYjyX3FKrHgqvNhXUwKv",
+            "16J2xvGP65nsYoyzyhdVc5MbSf2L14tonG",
+            "18zjBbkLB4oAcHpkysnqaYt5V79rSbQsyz",
+            "1EPM1PisRRAUsi8PgF751hs5B8N4iW8mrw",
+            "12xVAh5ra9Fi6qpYuJSe8NxdrEA4WC28Gf",
+            "1HNugoat71xSBzdKJGu9epqQmMstdLNP1u",
+            "18kXLp4sE8LFRYiF2gedUjjumw5mzCfxRo",
+            "13ENpR73Dqp1Dy5StyCocTohZF3gZfmRug",
+            "1H2YqGN66yMMzUDdBH9msq5unwRzdioJyp",
+            "1FiVafnSUjiTCU2pc63WQLsbeLCayoupH6",
+            "15xBjcs7TDoTFjDv9CFRAKe9iGHB1H8wM9",
+            "1QEvq52AYieKeAQhfg1QLrhAjp3DiBq9tV",
+            "1E1TM9MXHo47fSJR2P4movCEF8j1Mrmia2"
+        ]
+    },
+    "keystore": {
+        "seed": "canal coconut crouch tissue hundred spawn calm spirit modify element milk aspect",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4YxmWKWM312JvAEPnTytKKQWNQKQmURqwEApjmwqzDtJvTvXYAsiUZJwXnYX83EVvRE5hFhp1PvQwMJ4KSJkN881DW9BHwp",
+        "xpub": "xpub661MyMwAqRbcH33EcM3MQ8y3UC4tBvhjgYL7Anj2Koxpp2VyHKG6Y2CnmmcdFxRrRJSZpsfGeqyYtVduxmsE7qWCjFr8qzpL1xcXx3VpjyV"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13nbNu33RGDAmjygxwiTzdNTd1bXqwSk6g",
+            "18F1ibxFDANmKSaJeqTEyp85aiBhegm6yS",
+            "19XxZxay3BS9ea9f6LmveTEjNZLfF4BUP9",
+            "1HUFN8vGchNjUPGbMLPX46fbFsh4iXYNYB",
+            "17obp6e3VbNXRfUq8nQzc8zv3SfvWc3JcA",
+            "1D7iuYLg7GUsTRnCF2cFTJgFXjAscTz31x"
+        ],
+        "receiving": [
+            "1AJWBBcYq8FJAG1Uf3RbmiKcvdbGZa2Z6a",
+            "1Ev3huzNMA8jcrW5qPFveAf3mUHR5WcTb2",
+            "1JqJNLg61oiWJy4vekFTrJjhCmNLQUUHT4",
+            "1Gy6tiN29p2RgtYicTVsRG3zRuJZ9B8SDE",
+            "1KatZGHTRLeZ5PwnyMphasje8xRHRRC5kg",
+            "15Gm6nxv9UY8taVB7bvT1qu5fXpZPFtwKa",
+            "13yyqj2zdBZorBQpGikmoTnBtTmEYQMDgf",
+            "1kjeMVLi4zdqxk3mbn6rBwzspJxhNj9AD",
+            "1JuKfc4nZngEHzzQe6uk3yqCQd8Cc78xLa",
+            "1GmgeQy5HwZhiPYosx3TKiyRBtV5RJuiTu",
+            "1FzTXY6vhJ4UZfLtFg6tr82vrHVe8qCKfc",
+            "19p7kHcUGRpyikaGNVkYyzBtr9faDJNjr6",
+            "1DDxhw78RoMJG4fMpii35fUXKkK1oNsDA9",
+            "1N4zQttE7gJmrApy63N5922vYs7khzdcre",
+            "1Pmh7TaNau8Qw1ZshK1v5UiM34nPwn38JZ",
+            "1E2BQy1r6WKhy5W9XkV66tumatJTeqKLmo",
+            "1DAZJJp48oy51KL9S2iiiMpd4PU8GFGV6z",
+            "1HWA9MGZuFH72G9rE9w7Qq1PwZjdgdxe4b",
+            "1PtcHaeGgxkTHYntESycJTA6xB78jvAg3x",
+            "1D9R7WSTJBra5ojwFqxK1zy5H8QwvbE399"
+        ]
+    },
+    "keystore": {
+        "seed": "theory health pattern estate lunar adjust truly infant super legend season deer",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4NbC1r8mG8SGkSq9uojertADjUdoPS1tqz25ejwTuBNWFq57y5DacHdJrH2dctHXHWi8rkbCXZ62Gk1H65LvBk8AcYNXwJh",
+        "xpub": "xpub661MyMwAqRbcGrff7sfmdGP1JUfeKGTWE75pXs3QwmYsinMECHFiSygz79NiCRkfxvpj5wfKiX7Uv2SKQsF3nBcBxKJ1ZdL7j498ioAcRxq"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

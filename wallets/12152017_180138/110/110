@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "197SvNiuYo5s52iGC2cq6Lu5fJt3G4zKG",
+            "13knaB1uyUXaQq4a5bivV6Pq63mE4NRwhQ",
+            "1GYnQ1xrFzxYVkJn7rnKxjyoEKXkyvTnSG",
+            "17CYpZhTTHKnxXtAAhkwprUdhsYxdAUPqx",
+            "15xQwrGmuAnwahv6fQTz1jCEyHMjrxrWV8",
+            "1LseJkzNHeoGd8VMudMJqKviVRdY4xASE3"
+        ],
+        "receiving": [
+            "1AkzLucDGa8ziPgwhGZwvPYusweFbDurR1",
+            "1Fb1pfuWXPfkV21WQEsTYaxFYFyrj7dKtB",
+            "1KsLs6K8oL35yYzaLUqGnuBkD46TRkGecy",
+            "1CpxXcDw4yjx4BqbyPLkCK9Vt2CEtBFNzh",
+            "14QGD3qU44fREPJe5p2uEueG5kEje6svu1",
+            "1A6E8XcAsjFtzg3oej1bsRVmhz84Pk5DqP",
+            "1EjCHXpWBgMiLfsAfcJczdzxLsu6iqHxjW",
+            "1Pb5YQsZfeXSHhBx2yuGL6dWa54mFa44U1",
+            "15ZKVuvqvL3HyrGtyH6W6TjzSv68gab3PV",
+            "1J5wPy23XcZQMtqmcs64dkGFAnjFmSMnUB",
+            "1MBEf4QwgwS11Q8epLzoNauCWM18GLryMU",
+            "15MSzLQ1FtxckrdymtUgjPMwCHRdfbuyfT",
+            "19UR5uXgX1kg5PUjzGE4X4vJz2zViDaZPB",
+            "1Czmh7vzTzZcf8TFEmrzsZEJqCJ6Wgw8Ni",
+            "1CJzYV8rK2KfMtGA5h6BRpNgGGbtmihavp",
+            "16VVqAHuP14EE3kzXMAmSxwsPxxyM2gZPg",
+            "1LGnZCyDb5Y3R1WR2ag3VQrRB9gitM47cA",
+            "1AsE7S49kjKmR1dHiDvGdsxKEj4vfYFJiz",
+            "1EFf44QcbP9tUS5ZM1GzVnDjtB8iLLc6Dp",
+            "1EbAokvVz1JW8TE11mF8Y8aDvj9Ae64sn6"
+        ]
+    },
+    "keystore": {
+        "seed": "case crash crack hood muscle asthma renew bid snack slush raise length",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4PHkkBdVMPXyqHq9wEZ3q578f93REFstkug2srXFzYYRqzgCo3HSnfEvzmi1ucRcV9oyTfgw4iW6YZp1TadkzSrijRCJfza",
+        "xpub": "xpub661MyMwAqRbcGsNDrDAViXUiPKfeLhGuCJ2jTXT2nbQsdi1BRPqWYLruhH33HLLwMoYsZE2Bq4QwRJ9RmBfkRH9XACzj9WpdMyg9k5FZCaH"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

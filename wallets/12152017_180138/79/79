@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1NRqjDyLv4jR13RpuoUJ4xZhhG9njCFjKX",
+            "12fSBK8bhEJtbAUhgu33A534tsKDe3ULy8",
+            "18WVXyoLcecdCJWQ9Ewo8TFo7kiZYygjTz",
+            "1Nf4MsGnaKF2SufMuLe2bVmMmRNM6oC9Qb",
+            "1HMbpnoo7mAreSbvUyNnYezmKt57Ewsx7w",
+            "12FA9cDnQA6fRK5HNoKUhAHtC3gSRbvChA"
+        ],
+        "receiving": [
+            "18AXtPeGuVoLSbd1Nr2sEjZrDFPyfFEio",
+            "1F3zRHzyULEJ28zvubVxnFMXXHsLXRkx7B",
+            "14YCA7AT43AaGdZNJKCMm84gTWX6XAH2jt",
+            "1MEk9LzR81VzZHBek3JgSqXE4RwWfUTAe7",
+            "1AgfzRgSMKnskw9fU3me1BAjc8JBK6Kywv",
+            "1AYEkh4gaTAv9xJi4BghfnSTPJK3uutAso",
+            "12RcL5jUAPMqtyT1vYQJnisiN8FZDJ1hvZ",
+            "16bEE5XNtqoFVcT6PZPrnsGzkJUVJwQoRM",
+            "1DBvbSBtmvTPzhTGnPzipJNBdoihjY9XQx",
+            "1NHyHg86vFrD5zW37amWoCeca6ntbJHZYK",
+            "1GQVtBdmzAgdnNGBgg45YNpjpZkpBts96e",
+            "1C6R1QzNJ5fsc49puxzeVmhfbFDac53VgL",
+            "1MA94U4vd9RWWtsnh99dBpxbnyGvSvEztf",
+            "1C6iZyzwK1Kn3w7Y5EzyZ44NKPBFPaN3uk",
+            "1CCx5WJduVW1KgpekVvhiuvVj1LJSwbudh",
+            "1QAU1JyTRaQwLZpQyqgmgpe4L1BTUgW7zf",
+            "12k1FpmiMPGxwT7LbuQtcrLwRtibL2bfzu",
+            "16bA1tzqXJ4KreYZRtFFb9wiALxY9H4NYM",
+            "139UXwnd1dqDunbQrd7pxALjTyU6Fj4NrZ",
+            "1KxEWdvJKfsM9WTv4aUamYYsheAUu1qwyP"
+        ]
+    },
+    "keystore": {
+        "seed": "view naive girl kingdom good december claim liar emerge affair right office",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2g5nZLauArQkP3xLSoGGC2buF5CqFww4VG5zcJcs5pN3XPs9JMZCMCfUhLamcWQbLQ3ZL8dmLErD863J2Svvoe2NGK25Rdc",
+        "xpub": "xpub661MyMwAqRbcFAAFfN7uXzMUw5nprFz7ZFXW3TcSpHU3N4R99qw7dcgXNdXb75T64WkNsk2TiUs2kd8Afq9gkUtdXDybQwH4GDb5FVNRVpL"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

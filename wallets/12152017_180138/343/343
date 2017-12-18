@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1AVu7KiDqAVAD8XgfZxsuLbYLLymjG3HyA",
+            "1Ad6M8jR6oUVwAvBSudpiRGXMzLqwugSqH",
+            "16mcKZhQ5ceWZbEBtZ1dn8ckrF9KdydJnB",
+            "1P2MzvTUVSuqdZR1vr15HvouL1qoofpzX9",
+            "15rKtunFAcTrDP8cx1Zpv19TZUBL7zsZJp",
+            "15aa9pJLmRfTc8AY8tD99cmXqauBRgMMxi"
+        ],
+        "receiving": [
+            "1PcxYUYEDBd2o1EhXLHK1QTH98XnBsb4Xc",
+            "1ExCZXnhx55hQdg71dncnHmvuVx1cvjNbX",
+            "1JZedH51GEj7Hgp1VVihw1ca98es6GihC2",
+            "13AnhzesR9LeXnA2hJNdBToZ42mEmfQK2q",
+            "1LLEG7ftk2ZDDnnsrTNK92hcFi654PqS2K",
+            "135qYLv4etP8Qo69hCgzYJ4RAwAsMs63Vt",
+            "13d7hEzVtMxCGszKrdBCaNsqmXikCDNriz",
+            "1NLVYAUxNaUU3SwgxbtdF7SNEkG34fu9gV",
+            "1P92HqM8DHRLDQQ35Z1fYEhM1bMVDguXbc",
+            "1GMGh9wzhbPWBMDonrZD8hR6KDnNHaPQgp",
+            "1MQNgGYHve7RBXajxtiabNbvfVPPU6W4AS",
+            "18fDEiJm9hr9wy3hRzkxWwDShQ3VsRGXFH",
+            "16VEPMfNLkx5nS4sysnyQ8MUkzLw48KLCk",
+            "19WJFHhSTcvSBoPqhSpTgNdpQgQFXR2V17",
+            "1PYjyJzC9nVDvFA2xN7kBTh6a3N8zhYzqb",
+            "15swkJcniXzBCjBnymFgveU2cvqSFjHERy",
+            "16CdUYuJ2zvAhEXFZtTkmhmdMwcPrgzuxh",
+            "1DBo45JKXyBwxEtqV2dS4gMGHdhFJfvQZK",
+            "1CxfutnUfYQxxG1eH6DwRTPtLqJKQEyYq",
+            "1MMwTABFc2nGs4cXALSpGNmFYMM87FyVsp"
+        ]
+    },
+    "keystore": {
+        "seed": "duck category fan give melody uphold sort test model soda merry opera",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4NjBQJBsLhKAj81krUzbSYvJRd3tJRZM4bKjxgevFNuxKs6CLFKetPeFncqgtGe8kbBh7rfg4mUks7CotAfxi8xW5RaCYjt",
+        "xpub": "xpub661MyMwAqRbcGroeWKishqFuH9rFFwiSomquE1TVrm6KwPetWDyAoBESBBTF5mAm9Ey2kKjid6vhyqdNGpgbyjwSpFmyP5TEc21iVBWLRKX"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

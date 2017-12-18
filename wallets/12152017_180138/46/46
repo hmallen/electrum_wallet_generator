@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1J65LmHDHhzm2DfgZvtsc9fVuR1CWeo14x",
+            "1FZx2kttTAZ6AgDQGbyUDfp8TtcxzrY5jG",
+            "1EeCVCuVwovDYArpMT7MqKzZZoFixhKK8i",
+            "19ttEWjkw5kS3KHJqoXSSGyLru9yDkCz3",
+            "1Gn8VJ7VhE19nb7iJA7SmdPhmAE1qGb8hp",
+            "168nx96g9AQGCAdAkRW6LbztVNAAhhLyNW"
+        ],
+        "receiving": [
+            "1J3WfcKrDB5nZ2ykbSSZ2j7nf6fhCwM8c2",
+            "1G34zbHDzVPHVYd1kKK8JkGMme5Wq7foxd",
+            "1oSxrizFZSKmXqZAKw46cY3N2nSZYZBhA",
+            "1MgmdFtYArfFviYSKu6aeNMqwMhuimxpau",
+            "1CXyHt6YC7MYD8AUBNRuLRr4xxpmAJGQ8b",
+            "1MU54FJb3GuhSUwrswdyoFoeDMmBTW26Hi",
+            "1KkACtCth5NJaCfbVNczMDJLrHdckDyMVG",
+            "1LRWcgiMkEsZdiv6BDTLrKVs1vNopZDCN5",
+            "1BtZxQwLGcrAKeVK9mi5YA51x3kiYLvPZq",
+            "1FCS1rXkYzv3vnYi3Fb8WD22ptpjWpvLJJ",
+            "1AosPc6KgSSL9H8N9PXdDtUDYWYxoLvsHA",
+            "1F9bvY9pN3X2BCbQJEhWUsukMWyHm5Cfon",
+            "1HeuGQhfws7DaBJfdezuPi4QZ3Q9SuPzAd",
+            "14UnJean8xRgQWeAcx3eR8nVKmGFtecRTK",
+            "13xbA6dUP5HKCfP7wJLXyXia1Xgo56ZeH5",
+            "1JmuURNNaqKBr2bmiuwtFM6GVZeNHgnxPk",
+            "17sj4rpdWKsgL6CQ8mqS2Q4iyDESVrDPN6",
+            "159BKGitCfSi9a4B7scuooKC1XXBPmhu9v",
+            "1JJAgQGc5m1CupjJAHqMmZmecyEVS7oABk",
+            "1PwUZZ99rHGVn69UMgHZMNcpdc4Mm2GUYJ"
+        ]
+    },
+    "keystore": {
+        "seed": "gravity injury excess help grid cake aware praise flower settle invest snake",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3itKPLoiDvnidDboAYqUCMG5JfdSEvLSSGzFMLhmEq8cWHVWkPucZ15ktAk7cF998RVBmtKMxRPHtUoDfLf1LdUVNxBAsfY",
+        "xpub": "xpub661MyMwAqRbcGCxnVNLib4jTBFSHa1ZKZaBg7433oFsRK5KPtt21ndT6MZSNbQi5w2cxkk8pcHjiVTDhy8pGbgF6EqnFYoj7vUA86LPEpn2"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

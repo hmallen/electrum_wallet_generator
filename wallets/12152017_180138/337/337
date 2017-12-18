@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1QApmpRj2p6vfqzo9d6NizFZTEvsAitwha",
+            "1KT45N8kYpntVrJ6AyiVLEb4tt65YF3rN5",
+            "1GaQr1uvpkfsGKQXkDxR91rvmiMwuAgKaD",
+            "1NeaYSeuED7zbWg1DfDuNiJ9ghPYWPbS7q",
+            "1LzXeGeRHT2kPftdTqwRi1cH7tu1zeckbv",
+            "17cxqHpTUoasvYmppYvDouneCKmCLsbrZ5"
+        ],
+        "receiving": [
+            "1CvLz2GLQguMkzBxsdkegFnPrHNa5jiYFY",
+            "13NtD8hr5HFhqYbUijs7u1HY95iNka1tRf",
+            "1Jzr99ZxExzbixPshZwAsKTJgaZhU15Ssx",
+            "17baMa3U7brEgx2hi3afT3dPH6965L7E5k",
+            "126FdYkEU5LrM8jqoepZxxk73Xmrk9CbDX",
+            "1PnAxfZ3D5e5D5eyjkx8JBXu8vPrN6dYPh",
+            "18FzJNop6PkY1Yvprcen4Lkr4febAHwKGM",
+            "1Mcmw9e3UnexLGkXMqtGrP56FMrwUYMCwa",
+            "1AeLKadb7Bitdy4YknebCVnZcvbHh3cykt",
+            "1GiU7yYUAoFcXqs2DYgnaVPLGYNjP2Vk7R",
+            "13XACoPhHhjAsXfFGb2hhpsadqujS8iPG9",
+            "17n4tKxZeFVry6CvdaxaEyx7M3swddJzqL",
+            "1BHwLouHXnL7KKbpDRvYkzRpzieExgAJfH",
+            "181jeYF3SuroVDTrvWcsieRhonnbyVRAmj",
+            "1MED7MjxRmecQ2K22ywxuVs6Q4gpcUPfGE",
+            "1CYVo7KAxZehbKJqRJ7cRZVvnuDGKdhB7X",
+            "1G2gkc4rxS1ej8DBbktGx4hLkLanZUPdCC",
+            "15w1bYHbtVf3ypXs3AfxYAryK4RkvXEZER",
+            "1MSs9tK9X6mbXmCECFaU6CwLwbNLLfDeGt",
+            "19TyTjtfB7zqgWVmAEszKpQQ6P4RnmmBRT"
+        ]
+    },
+    "keystore": {
+        "seed": "kiwi elbow remove amount always happy saddle weasel report seek car prison",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3N4dCBZMJ2bKvPzPThC61xxgG4tLodTsF4hh7xbo7wDqu6dRGTHMK9QZhDf5zjTuBA6NZoSTydnavbsHgpHRYLda98JQAKy",
+        "xpub": "xpub661MyMwAqRbcFr96JD6MfAY4URpss9uwPBtH4THxMxzr7s2qfVv3fjYKkMpbS3kmPtejuevsXC8U9UB8aFx5dL9Ni6e8fABUnp2G5ePs1cN"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

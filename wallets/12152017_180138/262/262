@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1JsTQ6wWFt43ohhZNiYM9XkRs1TMAeqycW",
+            "1LyQp3An6oZdprBuTey6aDg7HfgRqRCCCF",
+            "1FiDebM95wDadWe8zB2tRLtEviAFSvR4oq",
+            "1EDT5tLvphkATup65L9ZNvYAHwxyy9ZBd7",
+            "1H2RWw6umTZci92xQg8D1uF6oAFfXUumeN",
+            "1DbtMUkiDGvPuJ6Lfjj9gVMo7WGqSnRt3a"
+        ],
+        "receiving": [
+            "12MmYjC1kRobm6em5NnxdcfWrPGQW22ng7",
+            "1BgZVfWq2i2xCCGiud29wjo5CZQrtq2yS",
+            "1EGVuEWtSsZeZYQ8moCf5qiPirVXPzt4eV",
+            "1CCvxxYHYJHgRYa1wayHyYyZCqY3sWcQp1",
+            "1HHswrY3MTaTucsD4a5DtXaZWN7ZRvWHkz",
+            "1HxcWXm4EUpNAPp8UnKM1MAHrGu9qm78DC",
+            "1BLD7qKJTKzvJHBAxpuuXNGiXweWw7rzjV",
+            "1NRKXct6XJfzEUaEW6dLGQVJMi77qFYhHG",
+            "1AUr4ScZY8DoYA1Mu56xbURHGaeuzAgcPU",
+            "19FnDNGHtHRgZzS5aXAo27eU2vC1YB2uWv",
+            "151iPWTpbQGnB1Qxo7ch646ymuyQEgvqPZ",
+            "1CUuGXseD6kX28cgBjr5wJMqJdG933uJKN",
+            "16mjsK68REdFwgwAqwygE37DCVQ6j3o9bv",
+            "1PraqM9kLbzZAH517SUosjt4mWztHzLotd",
+            "1761HbVrcpzDmXeGXMeopu26B2Z3pRkDbT",
+            "1JxEVUQDytfFeBFY1o5PBNYnPP4rhV9hrp",
+            "1HxGNVqm1kbqcxfdRUUmV1imqELk2ijfEF",
+            "1KwzcSHmjKksVgevGVD3jspy8jYF9jFz2j",
+            "16ZtCA53NCLkEx1f1EU7KZd2SfHABe97a1",
+            "1Ar9SzTBXHc8VgKNAMS3nnGWotmXUx79cq"
+        ]
+    },
+    "keystore": {
+        "seed": "tape exchange insect patch return cereal attitude hour shrimp fire camera any",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4EYiBJxjzeg1QMZrFaBV3bq5dNGJe7r5T5cFESQ4FEyteNL6MBjxuRMepa6FHe4gfaMZUm5MRm7w8FMtHEgKG8FJHjDBivV",
+        "xpub": "xpub661MyMwAqRbcGidBHLVkMncjxPQLf2uLQpkgRkfvCTP4KswPmyiJo3JNVeZ7y7WPejtFo6feMCJQbx96WB9kWWwkGVASAnU8mwG3NzeiRZA"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

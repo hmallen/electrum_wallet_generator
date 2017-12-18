@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1FUMnvGebjgptdQf1rhiN87pNfVCFXT2Aq",
+            "1NrwdDTuAjh4A6iXJiTb2Tnbdn1jdXU2yi",
+            "1Ai6jTJeJLi67FhqcGtYmotJePzyJpcNhM",
+            "18vEWa3L46mg5QZvfDK1fHUjbx9B3VYUBg",
+            "1EKR7ne3dqVXJukJ3XJiAwrnhRS1h1j5fh",
+            "1Q9urunTRC4iycGwzTrMJDaDmFudSvjEnp"
+        ],
+        "receiving": [
+            "14YNVkYBU3GAFvDaMZHLp5rSAW6Stew6vP",
+            "1ED79NzsN6ijpE5J8mGf6CtfMWPv36bLyC",
+            "1Dpc8dvqtrSpL499pz4yZg1k3jDARdKRPP",
+            "1FyeBkDE76cCqgRQcDYdrb6jMd7SkCXznj",
+            "1KoVXM9ftrjajRnhYK4hfs5prm8j8BXCNd",
+            "1FBiFQVZ2t9FeU8JSqYcXNN8mEQxmam3uZ",
+            "1FSNWaXYCiK4yYD2VHdwz2DkpmiX9LpB6h",
+            "1LGm3SnpmATMJTs1hCezb1Ca7maCbAGE5V",
+            "171DnNH9RvmAq3DkkeF7auxcWEE9wHbgfG",
+            "12jAsXVZX5a9L2GQDNYQ2eqcTUdkFmS3eQ",
+            "1FZjb1c6zKhuR2DufnXoNswf5GHvnjFQmb",
+            "1AdX9hXqR2JPBmLwXAvigMTBHTRnS6x7v",
+            "1Jwudu4kK4RkFLDr5YS8muNV55J1YnqNz7",
+            "18TPcmnd3CSZwgTJ1vbtsPGekKyYfXZncF",
+            "15NQkmEDjPghP7AS8NxSUNcH1ZMgj3wjsg",
+            "1FyojmJLto6boHBW7i8XonhpQNTYD8ra1Y",
+            "1DbGsspp2WwcYZDEcgLkmhj5mRVR8PVDLL",
+            "1Lz4VUiyAFvDvf3dEWgRhFHEiZ3qdXpvsk",
+            "17HsbPexu5a8dKhBBPNcLTGeuaytJDypGE",
+            "1DgtqVnfKuhzc7DXVYX57RZsJkbk1SMVrj"
+        ]
+    },
+    "keystore": {
+        "seed": "pledge joy output harbor release fantasy depart present injury parent tomorrow cereal",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4YLgZT3eakoLhyipUDJBtZ7g8CkGAhvsoWb2Qwgatxzi9pXPZswN5mRRJHMrMfriekU9LxNdVK2QMy38YC4R3iRibQwkLye",
+        "xpub": "xpub661MyMwAqRbcH2R9fUaewtk5G1ZJsg23Fn3Gvb9sj3TrgJvAxUzqSmKC18NbEz7ZHcQcGj7eAqjpAo2c36W7fnk49ynNr7YPUAsos7LHZ8R"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

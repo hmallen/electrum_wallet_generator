@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1G5RAytqGYDbtuJYKWR5Y9ekRyV2tpXoFC",
+            "1NKvXojX4M1Qs7zhqsEt57eSismqpDGswS",
+            "16KAZjmaYEQ6Pb3bgfjwJL4XQtp6Q4NLCt",
+            "12zUy5oyYGPf2PK4kqaFyE35dV129L4vce",
+            "1AWXkbxPc7NAC1oM8a1dYnBpjkhnCUvmQC",
+            "1mVpxfcjZ9vFxGMoZC7seubP4U9wzGGng"
+        ],
+        "receiving": [
+            "14Qgf7KzqRtqhNYgrML6Z4QLfpT7Mi7HCU",
+            "13VtufpqHASTNePXRftsu5soTZMxKjpjpQ",
+            "1FeKMG5NKhQyUbTifKzQyEpoFZWbG65SqK",
+            "1PdQ8X9HTT9LSNaD1pu1UH9wqnTcjbrSbt",
+            "1BhF1JtWR3Uf5cgaPKk247pgLAKzFF8mb7",
+            "14pncXPt31oJjQRS9CEqFERz9w2PzxpuWm",
+            "1Niz67oQ361z62WhvMEVdhHf5ti5uavuAt",
+            "1GyiSQ5VHqMJe23NnBQ722WRhXVKKatgtZ",
+            "19Rp47hPrY4syoXGWMXKWnM7mPLR6yn4JP",
+            "14zHWYpMj5xBBtf7AUfK3bipyuSBZsnvVs",
+            "18RCncJuGkyseMDp3WP5jjnrYBn1VZyLAL",
+            "1HxvEBgpQd6hZ3xYkxM6YvtWWvsZD2qbHy",
+            "16pzpx63vX9ajAK3W54CpkWTTuVWeTEwNj",
+            "197HKanLkRDqcFPxYnAy1zHTtrkXMu1Noq",
+            "19g64E4gszYQvrunoKNPR9n9pKTx3GMwyf",
+            "1LjPXBMW6unwNr1eWBt7Vyt8zSNdeMja5T",
+            "16Xfvo8U2uGPxXpx7ghi5w9C7kizRMis6t",
+            "18BQAZrw4SzqtX7SXzDzMZTDku85vgyzLr",
+            "14iGsVM1bKEZ5Ge3MgXbQJRSwkTwn1pmMZ",
+            "1Geg6Wk81Y5uPLMXpKk5N63WLzuK9xL2eX"
+        ]
+    },
+    "keystore": {
+        "seed": "walnut symptom unlock divide pledge olive purchase target correct galaxy ethics whip",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3mrPkTXdEuYRa3jWSz5QkgBgu9XoWdEhQum4rZfBYDb3Cog89s12oWxNSvrAF95zcDnVDy5H155rYJNNGiWuW8cG7B8UutU",
+        "xpub": "xpub661MyMwAqRbcGFvrrV4dc3VA85ZzrSoG7u7HhXwR4xmgHi6DQ6yS61uX46d3jXqnEPxrkWoKLnPBxXnZBDVAbMDwr1wRpQ3SqdfQmSvStpX"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

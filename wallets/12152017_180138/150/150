@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1PMNoUXDiVStPLChQYHwiNfGUJodPsQEpN",
+            "1AJbhyAHxJxx5jzdX7q9MK9egjLDYyiEJ1",
+            "1GD3degu4HLTH8aewGS2TScWtJB7yd5cq4",
+            "1G2bGtK1yosie8sdSFdhVeiN7LvGXib1u9",
+            "1E2iF9xLQHJ6dSurSdKDD7t4MGcSZRStoV",
+            "18tWqJCepPFMrwQbaKePCTsafTmsMJaBnf"
+        ],
+        "receiving": [
+            "1JH6JZmnWm4XViyTp96L82j5oEEt74NwKE",
+            "17jeLBGoDH6kygdKfhB7JVsZrC1Z6kK27",
+            "13Xy4dj2opMSsTPdPETHPoLFSimgpXrD1P",
+            "18eDEAWWgUXNwMdJBYf6YzpynsReR38fQf",
+            "1GiW2DVXZK996LeofgX2CdQiftGHj73CHF",
+            "1GMY2L2X2zQxLAPCsRhWeerSRSZz3U2zqn",
+            "1NRvaavuPeDHgX6PFN795HLjYLCz4kNdqb",
+            "18yrYJGdYEVJroge83SYYehzPjsTEVAeHV",
+            "1Nvvy1TSfeHYfSLbrbRmL8Fk5uCf8FjXsQ",
+            "1QFVF1br9QW7GZnRuBT19E1BeCmE6Hifdp",
+            "19qq8RQeBcrFQJoVhdKtGhQdiy3gc6fvSd",
+            "1LPEQmE324iYKCBGbwGAeA8LK6xaLHh2et",
+            "19FEG2kWZ5dMFg7BDfh8B4sodfnL2W4JTx",
+            "1Cy2QfHRhSwDBvQ3i4RhKpJGS8uZPEGc7K",
+            "1rEfocENQHvJ8bs2UvWcc9MrBUC1FgLkH",
+            "14Hmpj9aDJZMeP6TghMrpH5wMzUcZuW2y3",
+            "18A2CNz9YVh1gvmYJonNvMPXd7pbNMWu5M",
+            "1DiH75EDMhJAT1t2uRLV1gtgJXuMQERGij",
+            "16UXsmG547d1fWL7SS7dQf4jevY5A7V6Ec",
+            "1JGLwvR2DaBx5rPsZWUoaWYCinVXy3u6be"
+        ]
+    },
+    "keystore": {
+        "seed": "weird anxiety false radar load craft hub business toe creek nominee symptom",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3fMBFh5gmM2sqyrgW9nvG9ojphAurYdDo4CajQ6jMfGVjxJgjQwd9MDuhE1pcqWN7AwFrXVRLNw3C63VApUCoWnabYGym8H",
+        "xpub": "xpub661MyMwAqRbcG9ReMich8UycQ1hAucWmdNjLd5aXQtACfrXjGwQyuTaybEUsSwhxS5j1otrb9cJVBWxG3Ks2MEVBfGMca8y1GzraTV6Gaye"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

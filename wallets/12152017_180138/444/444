@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Hy42VxjR5XW5SCUJyhGVAX8iUNPEyCQb5",
+            "1C8aX8kShevLA3uYoVgMB7njKpBoGU6mbd",
+            "1LhwG2bn1HJ9f6AtK23t9eTZJtoiv3FrzJ",
+            "14MMAmxvEtK8vy4LA5UQemwyYMHUZkJifc",
+            "18BVb89gEGacknYzUxrk9BcNLTcb1ffdUf",
+            "1Ky4A7xZm2M9nyKaHaWXMLmnkwbsQAQyBX"
+        ],
+        "receiving": [
+            "17e1H8Yk7TRMfEgwmemHcB3KfB77SdvDsi",
+            "1JYtARcZBFAg3NbX7Wnk9QCFTwCVjVEuZs",
+            "1A47JYsdknTHFQF2aZLBmxatCAEAVjVMp1",
+            "1GdYBHyB5uXQQ8Ncv5CipBF4FsHrwvzhjz",
+            "1P62QiXYsiT1jketL4NzkKZB2tuxg5ZmK",
+            "1PQfyr5oCQ6BHJtuZDzF5WfeVAiZciYfT8",
+            "12zY9pa8Y2FMotVrpv1FEFidgqnbpb5J21",
+            "14ZfZ6Man5XgKzdas7VubD1DmdjMcgW4Hj",
+            "1EWiVnqxddfxrbkXQqdtDmWoxQ9JXVnvDo",
+            "1AUWHG9po1Hg7b8edMcmVPzdtDWHsf8Pvp",
+            "1GkEGT212W7RYwqKdLP4U3Sgi7dhXNJD4E",
+            "1AvLsRwzz1U2YsXZTmYSdpcWefMTDUf9dS",
+            "1Gopt4Ck2VEjtaLLP6C4ZAGp14jaCYKsCf",
+            "1D28hidg4NGNXK5wXDCcaEvJwhCcYZ78XB",
+            "1NVcenKEhYgyS9SHYwQ7CSx4uMjhFgH985",
+            "1KHvj9GFAEagvk6Tfw66J3PUcBZGDxM5W6",
+            "1QKKsZQTXj1L2Y2uyrCMSvsfoPHRXSeTPA",
+            "1DdvEuJM8rPkhYckCecHK2ny8Gg9ctrSTb",
+            "1D4mxjZjp1xnFY14iPADmXad7zTGUnESs7",
+            "1Bxq3QA7qMNKbAt98SYxLQWVLfahNUMvAz"
+        ]
+    },
+    "keystore": {
+        "seed": "wall prefer aim resemble slim eye parade page quality broccoli thank zoo",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2mx67FkfBM4QnoR4LH7KEFvpg1fqL56rL1EkcHC4eUE8hJN2HcerMmQ5T9uG8ix7cCYvqywLVoxbv4Hyotu5igdcMHm2cCE",
+        "xpub": "xpub661MyMwAqRbcFG2ZDHHfYV19LqFYjjqAbUrRUQ5StQdqCoZu9pWKCGYcYa8CVkW9PXhfUCL4X7Lwu4kcnucVRSoDfPfpdBCnftBdGb79sFj"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

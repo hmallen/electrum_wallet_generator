@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1NPRbiGrZiDUZt7dEzcYsUBr4deQJQYLJn",
+            "1E1J9pu9wsjHwBV9tVdRjyXt1GXh2oUB2j",
+            "1BYYrmkZ42A7fTJtPKkpf7ywjALMEJffN3",
+            "1P1Qub2WX2voWePiNoA1zwv3zMnL77HUxk",
+            "1J5ie8RqawJ26vq4sxmKDADhEk8hPEXgHg",
+            "1DrJooCTq6CUzH6CXnq7mjiMtWSq6Yqfxu"
+        ],
+        "receiving": [
+            "1HYRSiobTddFvXJNPFHwsgpMKUmqsrjXqM",
+            "1D2eS7vb3A34aZB2LAqYbnN7den6hhGRQL",
+            "1EudhoCep8ttQDwd54ysT9NRqFStyLCDqt",
+            "1PqhFxUNXZ9zhQJHTc5bp7tsBWmzqFjqdJ",
+            "1EeAJTZtEtHadbtTn3XAkbvf8AmWspw4jk",
+            "178zwY71shtWDKCvVjaJriAfeVbNJSe4r5",
+            "1NeMYaV1TCK336xRc2FJsmm5CZq7uRjdAb",
+            "1JnZt5J5jksf8x9YWChqBCisLSbq18465a",
+            "1MQQYKGgWssjJJSQ6eUyAVR2TpX4WWvH5s",
+            "17UWAAkcqXt2qbY3nK1ucXE8Tk8sZUPmUN",
+            "16WqreoHAmnusWnfxMkGwCU6mMohn7QqdA",
+            "1EmhxvhW9L5Apt2T9z72d7UD9Q9pL4DAsy",
+            "1JHzWMUJiWPR89AsCRdJL5ZnTENL1fS4Wb",
+            "1MC1588S7TRNEMkNg6cPGfe6XL46xjVejg",
+            "136WQdeRcoFe2tUmJrvgGkyh3hXH4y1iRe",
+            "1EQ9RCkvmpXvsJrdExJ9Gf9nW9y2BThVNw",
+            "1MPSK4XrEvY2MuJcsQBbLKaiU685rApk1E",
+            "1KHC8KV9B5AewyEibKYdEfT42wtrm7mpD",
+            "15eeUmTDXL8nfv834VBmTFdo6q9YSNvEzU",
+            "1GYYVdwV5cw9eRM1rgPxT2CzDZwrWtzVHf"
+        ]
+    },
+    "keystore": {
+        "seed": "theme bus daring select recall cover shadow island clog design circle laundry",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4WMF86Tc9NfSwxtAD2UyM7sTm8UkTaA1rrj8fArE3ZPQYeVCX8Jf1vTjLBr1QCQg1KiUq33qCkKFRYES9KG2jpuaUWZkoXj",
+        "xpub": "xpub661MyMwAqRbcGzRiE7zcWWcBVziecVCpiLo4ZWtN1ugzjf4HCiAUbMhtPwWNVPfy2zjBhqxpdro71eZfK6NBRjQ9QCyGXBKeqBMqg37yjmL"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

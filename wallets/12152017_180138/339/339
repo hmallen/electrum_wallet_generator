@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19HLjhxuftzjNbTSfXcTDjfBbtBmZqSxpQ",
+            "18yxeyGsLc1PFyCZjdhLspryXJje2zU39p",
+            "1K51LajUygWQGoQhtHaPJPGgHz3Qbjxd6U",
+            "1QLXSDoR8VjzTrDroPN1JmhPnMygAq3XgL",
+            "1HtrPyiwQMv9HdDFA5LVja7CzVTD4dtmqf",
+            "1P1mKtjET4Tu1Ussp2oUUZabQA7wNcohSi"
+        ],
+        "receiving": [
+            "14fuenXH93HQnpzreTFNT44uuMhzTVREqW",
+            "1A9N4v1aJXVh7BEXiu5zUFuhyTrJAPGCuK",
+            "17deQsZQyxHfgUxucoX3sP3d44zmGdFuZR",
+            "18H9uiuCPT7PJVRgVLCsqCbgUcL91e7eAJ",
+            "1KetmyWbARGHuitWV4aP8TmRMAuaWFm8nc",
+            "14c35certMkNvy8UdmB1PJn4YLEo6BrXfp",
+            "16ibym8bdd3kuzBmqo8LdkReYcxq4u3cfz",
+            "16AstuTZgDdWnsvCeqerMTGwkHGvtSriip",
+            "1NzxoEKDEu3c35q3jn7XLXULSw4UswYCZk",
+            "1QEQ771spnbG2k345s272trdN3Y7aSXMZy",
+            "1K769kvHhurX2GCbWTZXfCEesWHgxy4qwm",
+            "1GJhbWXQL3MMuRViiv4fufrKGwgcRqXZtQ",
+            "1LmKic655YeN2xwKqUH1eGbSDqDLhSGVik",
+            "12ELHa4EumqYFaaT2QXwMr1VqeQYD5vjgp",
+            "1P9iCUbwSV57BZeGZiFqtBmet3i619eeHc",
+            "12Nyj8BYziQobg4vp3eBxqvCpJdUUynjZG",
+            "14zuUGqamWGQSWKAgEH8i5EyNpcAUYVpnN",
+            "1GPTemeRpjaNoCXeMWaKMF6bfe8EWmHDAD",
+            "12Gj2AdvSkLmbT6LTgCLVqfsitPevzmPBm",
+            "1JWHdui2GzxgYePt7fiJUmmSKsZoR7WxMz"
+        ]
+    },
+    "keystore": {
+        "seed": "next arrest dice input arctic egg depend reopen crush stool unable car",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2ehMLarZDkd1dWnR7nZ7YLxusTnU5bHRafCrxvq9iJViFTGweSnM7jAXd1nNU1yiQUvThPmWUci7ZfV18KCV6DrNSAQr7g2",
+        "xpub": "xpub661MyMwAqRbcF8mpScPZatZkBYcuXFGxuZtWfrC5dvpQTTY1WU9QG6pC6mtmx8gcxRUr5zgEB7FLSDFpreSjHk1SWpC1jQ4UnDk24tzL96g"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "146aGddL2TDH7hqVBQ6w9KrSMdb8u483zF",
+            "1NfrvQpA48hWkYLqypwZRiQwnA85aaUWDi",
+            "1H84tQDV8fgWi3hadQSY7cjVVuo5wpBG3i",
+            "14ZQjc5YAsASzMK4EEWPnpHKNaQbQTNFLg",
+            "1HFqtrug9fH1RXArwyZVKEqrgPtktjCCXz",
+            "16cYuq7t9yZb4HwQiRvBJgFLNhGkfZhX1w"
+        ],
+        "receiving": [
+            "1HVu3UUiDKQaYTzGyWKXqXgC4XuAPWHJ9W",
+            "16hmebPB29tAJpAPjDBVaV839DkPkJMjGC",
+            "1HmL5X9qmBnvNh983a3JPkkvnFSGYzQnVu",
+            "1zKKToznM5s2qxbuJDzAUnkXuVwHhTtjk",
+            "1B56W8xCYtxaN2Cp3T5gpBiVkNgricXBku",
+            "151y3TsTHu51r9Tsbf7eqFURxaxk6Pjv8Y",
+            "1PMDZp6aWk6b56ChQ7JvBjDCxy78XX6EYC",
+            "1Js93PU2eRwQehajDKm5jmMsgnhg3zQmBg",
+            "12J7GYz4WHCFqKVcnMichS4syDxhWsQGRg",
+            "1D5Rmb3WbpdxT4hrETMfdezrijyuafy4jZ",
+            "1PsTD5LBk3o6dx1rVagBihyBohTdrqBjeu",
+            "1AhpHNLPj72pH3NN7srjcoEPta3TP7Cg25",
+            "17Wz4oMX4VC9xg5Fe4KcKm13oFbs3CHtTk",
+            "17BzywzCgj6outLUVCAzNAkzjxxrLiPipr",
+            "13xZJYgtHvNiaB6u5y2Dic41atoVcAhgEH",
+            "19HigWXdfGqbsAUEWR3iqK1UdA964vUgVS",
+            "1FtDbm7XsiERD7bFM5GhpeHiDSZ9EhJ1n6",
+            "1Ms6kZRH3FPkjjGuYuMPUqaLqS5hkeJDx8",
+            "16mLbLdM6FzWKaNaN7A1M3XWZiwZp8Z38H",
+            "19VVESWWveUCcTptEeqQJbuFCwEanFj3XV"
+        ]
+    },
+    "keystore": {
+        "seed": "general border guard proud human deer orbit battle crush ten remain cash",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2TsfVVxSa7yRkryhJwqJjTB6HtZtSyXZR4YGtGES1ymsoXCVB7uhtZHETBxkqyEV3RqxcFbDdokkWbDhzNiXne38wbAAvbj",
+        "xpub": "xpub661MyMwAqRbcEwx8bXVSwFvAJtpBiQZA6g6h6GyW1K4YHrsRRoYgZn6MenLGAXH1tGRy7YhSaJwZEQrv2bjKj73udYskJyYwJj1Big6bUmu"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

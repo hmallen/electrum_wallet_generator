@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "125mqVLAgyeS3RjhJF4zdyprWxpfyYsDwS",
+            "1DDhmxeTCML6yYBTBNHQrZDQYKrX3NZd3B",
+            "126vCLezVYtSS8kiFijVbSck8vwhESPKvz",
+            "1FpQT7koH3QiMfN8ahZuBhVSCWqfqnw6Em",
+            "1CTvvjNYioN7KQoekTG4bJ5aNs5N1FJxzR",
+            "1HfXvdij3Rc3SqFjkKggG8YjiGivn7372T"
+        ],
+        "receiving": [
+            "1AD8NL7sFz9CcUnUaQbScffXsdF6Z3idQw",
+            "19kPq9yVwaHm2X2xUhrgX9C8XwQQjjz1H7",
+            "1GEA5DMKpGMiQPid64mMyjh8pk3Z8nBV88",
+            "1Eh9BW7jtte6m1JiHi4giWuvKSnG1oMnBE",
+            "19Du8jqnFg1nhZUoWwFqS5AFNyBHbeec8d",
+            "1AvsM1raqu5B7mLQ3wBbSXggeTXy1hi4gK",
+            "13HKB67gKkeknqQYV7fk7rMYWRjDGx5rPj",
+            "1FYkxymNJf48EXSFxT5NMgXzeE8F4zrndb",
+            "18BtVVyNeXxhruaPUuCqwJnsg8SvwZxNdR",
+            "12qWKWBXwtgo9oVcuAMrsSryWrUjReSRnS",
+            "17Uw7wN25TBreJuPANB2shnA51Zx8csjqo",
+            "1McdSXg971LGLqScb2ZtgXcpUQKN7bC8XS",
+            "1DcXwjMTWAFrrBVZNe1AhQnrGUHBgbTeYW",
+            "1Eb5SBybioCWoEcGqVauLncyJmY8RFmeP5",
+            "19885N1Xr5uPYbmJgdb1cz8d9hVaTigtzx",
+            "12Eb4D9YRXQeeJYF6ERvEyonwADDDJj5Ap",
+            "1NjZMc9LbSZjNjtwrTAiuuEM9oHah1Uqjj",
+            "1LrRfwPKhYEJbpQ6ytKWWzyM93Xq1N9MeC",
+            "14fryWsDvv854nX1cn6VfUJ4TXL34YAjws",
+            "1EhYug29h5rACx2Ban5ytAkp86c8WzsUXJ"
+        ]
+    },
+    "keystore": {
+        "seed": "spy innocent mother useful embody clever damage urge gloom work produce success",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2pKFBFrZGGcX13BwfJuxGaa1hQugBjrtmSSoRYwsncXV7pN4MzS6aqTH5wseykqAeriX4przNQd7sFjxVCjPoKW1hWRBnUe",
+        "xpub": "xpub661MyMwAqRbcFJPiHHPZdQZFZ52S4mdodoVcVoKHk5PseEmwy6G8LQqxy55uWyRJR4Kx2nLufio7pp53EWyt7cU8ewUu8c2fP6RoA8EGxAT"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

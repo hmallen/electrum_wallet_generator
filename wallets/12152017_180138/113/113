@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1Ph1AFsQxT4pTKW7gvukktdNBcKLMyS8jv",
+            "1NZsCFW2yEeYU3bynBVQV1sAj8GA4w4GgE",
+            "14J7FhB7tmNHLon8VDR2LUMLVLpMWF6iAi",
+            "1LoUHmP2SwZVLQWuuNZTfFXpG7kEDCzKCb",
+            "18KoBDnP6u7NcpxdkK4HMxiBYyojJvgdt8",
+            "14V2wFJegT2etL73kVYdNA8GqrDTubZQti"
+        ],
+        "receiving": [
+            "1Q8KXxbWMDGTchEtcD3nsNVu2qmw6vg8rn",
+            "146LGRcXywGym8i5mfV6f3Je6oU2obDYZW",
+            "16GKqXKpKPD6hQaMPjpmDaYHeEnwTZ78hH",
+            "1FbEXwe73FHg2M3HrEc2JQToxwztxR3YgJ",
+            "1JZMvyyJMWstDsUQj5CZRYz6D12AUJrrwz",
+            "1PdnEJRzrCtBLLQYi6P8QidFEvVaPjC2rV",
+            "1Ed1XNnsEwWLJNS2RiQhjZCvEsjMV61zM",
+            "17ihMRmKYYodMPE6d4QPnKWxaWxZt1ghRb",
+            "1G9W9SCKBn57FtzAD9psHnRGgKhmHZo8pq",
+            "1PtLo3Yjs7AyomdbuD14AiH6orz8rLCH1V",
+            "1A79z8TCLaEv844ByNVz73Bt4ka6nPDCFV",
+            "1NCE4zLHLiUS3sPErygyoheWUgzx8tCh7i",
+            "1FwmcVaU6pGbXoJVpPqHwuvMXMse5AR3hf",
+            "1H5JQ1xmB5BLVZWHYohRTTxHiVzXnoLbnX",
+            "1JJmVkGYPhw6VVbH8ADEDsrmnsxncrPqP3",
+            "1HCqpwifs9KZ71fr97dTn8PPdnNbRHUX3G",
+            "1J3BtMh46MKTP3X1LaxGQtAQnqspNzCzbv",
+            "14EepRPQdbax5MUCeJMaN27roMxn4xkZZY",
+            "1DrW2kRejfeo9prKkoRovyPxtKK6s6d8sa",
+            "1cs8rQGQzMEK1zaoWaWitP2kbwbFoeJ9i"
+        ]
+    },
+    "keystore": {
+        "seed": "idle loud august blossom roast awkward lift athlete guide reject salon logic",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3zURkyoSERJKizR9R1EywHQTRm5WN7vQpWxWwUGoCVXm34vkwNJDfh9HNsSP57ygUbdcPzmiikNSHzNyUzRTxGqF7f8SeKQ",
+        "xpub": "xpub661MyMwAqRbcGUYts1LSbZF4H2FdpTxqJWL4E9V7vTTPhKHfV1b3kHrEtK7vuVrWezbMCaeU5EpKEEXcrVnbj2VSKN3vwrUziu7fQSHEMEa"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499507,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

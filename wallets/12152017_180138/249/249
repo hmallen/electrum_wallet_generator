@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1AgoTULJv7g8KFLr2NsFpoEP2d4QzJUJ1p",
+            "1ERKgcac5D6jZeswka3untHRbLUfESYSQh",
+            "1EpqEDxEyWDXQYW15JWk9PBKjKH9PkoTWi",
+            "1G3SgA68SkDuRM5Fmooiep8fKR4gdaR2nr",
+            "14fCe2aF5zKnz5TTChLKVffCkfKgsWQViu",
+            "1E8rrnwAX4ZtetPRVd2uwSynfMZGnLckva"
+        ],
+        "receiving": [
+            "1Py5SiBAkApUv3AERrS76fXhGhNggLoNvr",
+            "1MB1TF1Hxqbap5T5UQQEZkRQdQKXpwNSwu",
+            "1AVpK2XaTbcspHDi2b7sHorixWjDzS13Dr",
+            "1NYsrWaSthPfRdNuRHVj4cbS7m3kZoDcjW",
+            "1A2M8Yw5fzQtExuWAUM4JQBMB7s943QrHm",
+            "1GUScuFLUvM33Bb2HGtfKpnY2iA4kYzSNs",
+            "1NpTWKBy5MyYABeWRrefLHchhsExpsVthB",
+            "1HHpazEWixdUMeaM6jU36qrFSMJp9Uxwr5",
+            "1JBYgceAvxjDq4SzFnzuAXmmuKSNEPd8k",
+            "15cG5CxYfzsTJxXsWvBqGPzhyxcWQDctQo",
+            "1A7zJ3EAhJbh7grqshBdBXzG8UJ1dvxUfP",
+            "1SbezWtcnkkV7tDt48NdXBufvhBYUUPMb",
+            "1C7YW13PEQP1UygMxePtrHYQyzBUqas1xi",
+            "1D5zp7cggbJxzGQ5WuFpr9qwQzBj6xH2qz",
+            "1DwJXo1Ao4cnuD1kDMrdrkryEmyucWipeZ",
+            "1G5TZ44hX38EWY5ciYchn7Mkw9XCDUhegT",
+            "1NSoYqVMxoJJqFr5gSdh2mEyZhRKFcF4g4",
+            "16RQFVfYxSzUCsPBWQaHuZBcj1ugJGHCgV",
+            "15dVULibncXGoZPro2Fs2h3UPPvQ5LyJaK",
+            "1QAHP3KbhRanQxVfznHLAzFA8rDFvRecoY"
+        ]
+    },
+    "keystore": {
+        "seed": "deal lunch sun spell display raw square dignity unfold violin embark final",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K4YfdaeLKaX6VoQAuZ2Y3Yo4Nq3nYyG8Knd82nFkZqHzq1ES6qJH9raU4zXmZJixrvf9PAGMm2R1pDebhe3NBW62CmUjZRYJ",
+        "xpub": "xpub661MyMwAqRbcH2k6gfsKwf3EMS1PxVFtv1yydSCAXbfJfRTBKo4pP6KJrVmQ7nYrQkvMeR5Aym5yawrZYLuCoWduSJW9d9PXZ1ksR1HPeuP"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

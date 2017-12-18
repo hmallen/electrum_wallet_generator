@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1AAPK8s9iqiKDZgY3qEePUtiLidFk1Lhgn",
+            "1KHSfT5TbhL41eRte19c9nzST2PnADEkYL",
+            "1DMh3ak3QrH6oXfJ4fie6jjum9VMxbFR7v",
+            "158PGQC4FvpwNfUmNJnD5DJv6PfxiqLFDV",
+            "1ANuVQFoKaL4P3nLfpd9Wcps1DwB5zaZBd",
+            "1DFQJ3sudhJsZb95uph88H9hYH3CVAtkj5"
+        ],
+        "receiving": [
+            "1DUxCCNn4brz71HdnQ3X9N9pt2oLJxsBWJ",
+            "1DTVEq63ohmTvdARyRRrasr2tw93iGa5fe",
+            "179eWWGRUVzKt1GNX7nfyFAyk7ZpdK6Lca",
+            "1PbwPjyAm5a3JDqaCcSLiWrZLgQHNUJ55j",
+            "1BkJ7SjZLyjFnprXzLgpbzHfb74rG2L5u3",
+            "1FLyR9Hk5igFTxRaiwPcFoWzfxGULhWvW7",
+            "1P74sa3k21YR8SqBMvQx7WqRAP7mEB5NyP",
+            "1H78A87hwuapJbWpfTeV3BWgvRF8HMPpeF",
+            "1PZLcxNBEcAwt5qazeKmXGkR5fmKrERSG4",
+            "1FsqjJ34vPe1e9q2LHL7HEABA6pB499Urf",
+            "1NQzx9PzrAg7RuDJSe5aAfaGGSAXr9gaXw",
+            "19FBcpeHwgfT9K9bhWpGRJY8FhSszPoa2L",
+            "1AqZ2WFhkCspvYxFocCWwhzSSWVKyZSnBC",
+            "1dU2ym8G6Zhbza6t8iv9zuDCQKSGXLGUz",
+            "1FpDKjAJhKdFK5nvHgPj1SMs2g7UWevRYb",
+            "17H6i37bJCWBCDpUpY2HYTAJNJUYY4Z3FN",
+            "1JCC6FTNfPtMzM6f1TLgMhvG7YwknbRWxR",
+            "1MaNZLSE7d1a7y3YUdev1FN8HRHh5G4uSA",
+            "1JoPdCRMPLXS6Ny3dnZXJgoKV5ZSb5QcSU",
+            "1BRFParmBenY82UHGzSLyuDHJyGDwZUUeB"
+        ]
+    },
+    "keystore": {
+        "seed": "pepper together swear ritual ribbon electric square sorry erupt excess frozen town",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K254duqk7zaToDFd8DLZWw2WHKoL1tLNuPC65zixwufcwDv7CJJnD1LGBixGSGTEJc2ffrmWNAPxMLZ3t9E6iUtZASqyAwvN",
+        "xpub": "xpub661MyMwAqRbcEZ971sH8MiQXmHTccoHNJFRt8BjdSfutFzREYGHCTTwR59PyzqjkYXVu8dT9Eb6ExAyLCa6QP5ivYxQWFrDU8e3WsEtpNkb"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

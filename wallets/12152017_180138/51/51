@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "19EFzcB5BnHFja9qtRAR5iXSz9dAu6XXwq",
+            "1r2nYLEWW4NHV5nDhoaLKHzfeP42JGi7X",
+            "1AAhHcaXiUTaCMV72RvLDxje3PEpUrQjbp",
+            "1BUxFrtPye6HqNy9ZshBAx9vy58XLHD4T3",
+            "1CYDWnwnwLkhDoMjD58mePCgvZeDaqmXoa",
+            "18sWtjCJibjchKM99Nh2H1Qd28PiyYbeoa"
+        ],
+        "receiving": [
+            "16xznUhTXdkLgmTQigmXLz2FBcnLqrbDds",
+            "1GiQqAwsLX9HdGiG2ucoPDdLnJhzshCPpc",
+            "1CKamn9rQXSc7HZKSxBJ5coedsQHnNZjVi",
+            "1B7SRSBGLEPdFWnbQMTYs4jY3CGprJDFU1",
+            "1KbaNqYW62EJtPEfzaigY8oH9hXh6jM8Hm",
+            "1Ed8NZxDsRdzZPj6dwatkwQ6b8LUqRP61M",
+            "1ExDXrubxgnHs45DeVukEh27wZx2Cz5Bza",
+            "1HMeC2MrywWKWgoBRbJcLtgTTUDNnmqoHw",
+            "14DrJjmkkMeXH67YyEEcEhcUubABpdFMrz",
+            "1HDJ62idVFhs5QYyPdMJ7F7BFGdecLpmjA",
+            "1ArUVtnB7KfhFSQ76ec29r3f3gfPziNQvJ",
+            "151RBkK9Eq2VCsTqM7KXFDEi8679pkik2P",
+            "13bu8WTp5sdC37NkswDLGs1BFW6tVNowVF",
+            "1KTb8SDtmv8xmmpcjoDoEzGaTdp8VJFMC",
+            "1NhgEuhmsoRmh6GT3UknL9gCLVfbrRBqfE",
+            "1BJpJYZ8jxAYcy14bMMLcgSXW6NTjc2MG",
+            "1DZMEdvmSVSPtrZiCmR2JJYx3C92Qripcu",
+            "12wF8b3QF1x3TtAm4nxVTTnqzdAhyEwffd",
+            "1CaJmcnWw5YEzmYfyZKfyQq2dSpSFcxJfB",
+            "1FEP8GLXGkBuwSxTyiF2aEHD8sdBtzXAhe"
+        ]
+    },
+    "keystore": {
+        "seed": "theory carry robust wolf allow begin marine record robot mango orphan sell",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3qcove91k8WVp4RNeJFBDKr2ccf1ZYSKSENxTdjvoyTSvAiTUEZJydL8GJ7avN8mDbovq7MXGCYYQxMaDkWpz52T4g5L2Yi",
+        "xpub": "xpub661MyMwAqRbcGKhH2fg27GTEN6Fs3ky2aYmdR14d7syJK2i71B4BMmmvmS3pMqbTmdTxifZSWj2McJkz66C2f4psFVeK4H3TEUJD7V7cXFi"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

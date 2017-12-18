@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1JxypsvLsrCqhDjcSCXTHkqYdUGaPnnQDY",
+            "18d7iFgjvFGjYEhvveZCysQo1AzU3fyVJn",
+            "1GRc4LRRkeNR59AqXjYRA3H68pkqD9oEs9",
+            "1ML5UYtfkf1NupBGcEm5mDap8FoTCiV6u7",
+            "1HMrye5ESZBakc1fAjrzQ2NA9gs1HR57iE",
+            "17i6r3vsAV3rPzJzUhGCYsctB5fRgYpnKy"
+        ],
+        "receiving": [
+            "1Ec79yFfC9aKbbRN13oXVbeZ5UVT9MJmj7",
+            "1K869BPQhyXqLMkT9eXE61tKzUEuddStG6",
+            "1Aq2DXnX9p4ixdg4NHCihZJfv9k9aq9nr3",
+            "1HCm5sAg5MhZN1qAUFfdV3Hod3nJd81QQf",
+            "13LCTgAR6PoiUuxr5EHM1KFgTDqpi7iAuT",
+            "19jPNBSH4QEX6EP14zactXbq3bnWzhRwKm",
+            "1JF94GRWcedzSX3J97GDz4D4HgpMTfFW2e",
+            "1EdQJLB5UCY81HWnmpXCYmuik5RuoviEJ4",
+            "16wiv3rPX9QQQMVKMZjxvgw81DHcnPoWWC",
+            "1P5EdTccsKoXpwDqQyVX41LFGhbSW2mNdY",
+            "14upkwPhA3VSR6cQ4YbrMp2tW76tyhGXcf",
+            "1KZV1utYYugGds1R6eTVfSXFvWx7XMZvn7",
+            "1DXyqvrPMXWdSEENfdf4gUy3aQqxcaLTcR",
+            "1TMAShhunEQuvS4YPR9nQD9ZLKqyYG3N9",
+            "17KPUU84mTqJdPoTdWHT1UwZ79NUAxfZWB",
+            "1DsJdz7RMphJRud2ehZWy9vmHLEefGBvbh",
+            "14LQ6gDZsLH6cdtVJxPaQcDWxk6HA4B6pD",
+            "1Fs9s2N7Gs3wLosgBdVaCvVCcgsF3ATQKQ",
+            "17SKsR8unVJ433rft8DEQgqfvgZjXjk7qw",
+            "1JWNuzdKWaEegxLqby13SnZn8RyRThyxBk"
+        ]
+    },
+    "keystore": {
+        "seed": "joy pond smoke retreat laptop hole increase soup grit swing option merit",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3eRnQzPuvQYbRorGTqQbKvNffpMpb9iQBWiYmrjNwm4Dz85prTrRz28FZhDbpGyJ8xnaApumUw4wKEo9TF9zKzzA3ZWEDwx",
+        "xpub": "xpub661MyMwAqRbcG8WFX1vvHYVKyqgksJ8Sh9JGUCmS9VFP4K3hKQ3dVZNhqQPxtX7CjAmmnSvzqYfd6u46QRECLH7Ln5Hs6nSivvnViewGyqe"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

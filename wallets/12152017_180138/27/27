@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1D7DNxYf4XVTwD8r7ts1fvHzbneRmsjRvr",
+            "1BKDHS3AA1KpGEgB19TuoEqdZcArPyfHUj",
+            "1B35ryipirpnbFFzvLxSCiQKuvN27iY2ka",
+            "1aq6EH2xak6Vn4geubP9z7fbJzWiu3DvC",
+            "1HPwTM6u2Pt6QwfjPHS27qTy2peBtFG7Y5",
+            "1Pxb4d2XXswztXsng4FVcas8JvvF7z6Zd4"
+        ],
+        "receiving": [
+            "13SYMyihj6eRcbKoygevYj1h9U1FogurQW",
+            "1Kw9KpAQw4u6QgcWPTGDqaTAnAN8JucEgS",
+            "1DYRnaHhDFDEJ375ePDhCxfF8WnH3FE23T",
+            "1Jef9Ga8L7rRprDhNcdTgsJdmka2zPR2X1",
+            "1PGxd2RzPkfEc2PdZZsWYe1zHHGtLMQS9E",
+            "1Dy7i97gAVMXVisjskiQjywrZBc1fFbXgA",
+            "1C5JEreFfXmEJESBXvbTr7gebYdKMWuoyt",
+            "16PH1Ri2zSbUaXVu9VBe3Gtp9ef38UPfyU",
+            "1JjCw44we8u5AKWo1RQuYZ8HvsPjv1HcnH",
+            "1FjixcR8DvyMKW9GHp4BxVBWmzT6P9JKV6",
+            "1AbzxaH3ny2BmuFNLrThMCqux25A7EVm2D",
+            "1FYdQYttA7C6wH4SCrrJntBsUk6UmSQcRa",
+            "1ERFHTB34hHd3rheAyyDzLZeAj6GABKHy9",
+            "1K2LciFP4h6sHXpybx8EmDzK8JvMNgtpUL",
+            "1BRco8eac3uHTCqkSUb59n69RCB6mS8erJ",
+            "1Pmdxj9RP8xwF6Ny9snZR5SFoTK45G7M8i",
+            "1KvwUKqZ6SEoS9uJ8eQ7fLyK2erxdQpmUL",
+            "1AH7VtzwrobiHBuzDshVQftSiZ5TPWkWbF",
+            "1gAm5Dj7d9dCjK9zyAgA7mRWtpjzHCSdW",
+            "18twb3LrwAzqHvBG7KqAtCD2vKs4KnLcFd"
+        ]
+    },
+    "keystore": {
+        "seed": "build swarm april evil hunt chunk park rally disorder gain night ritual",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3C5Ap1y6xfQAAX2iCqdDyxT1UVdvnW2stmgruVhwGTAXfCwTQC3zQMghjb7KnnG8e98P9S7C65EBxrTgm4Xww3dEq6vLbUB",
+        "xpub": "xpub661MyMwAqRbcFg9dv3W7KoLtiYsCcJM5MBNcGt3YLqZrma21T32BpFV1WVswYtb91mkSKQZ49Qy3jK5LZp2kYV65D8jH37C4iDZTv7HAUCf"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499506,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

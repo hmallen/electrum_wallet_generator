@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "16HiYg42usBbjh6PyddXDzM66ykCGxDGvy",
+            "1MD2mFwW2nCwuox1eQHnVpzeTkxL2m1e45",
+            "1HVTA9pcqQ6z1SXHy7dogEci19YftvHLDB",
+            "1AphkSz9SUJqw7KKuz8M1aoKgZq5bPLtiU",
+            "1NhZeg6qFW4TciofYXJbVbXMC41cYYr3FN",
+            "1JwYQnAEvWjvUzY9ErMsorNJyha8jQ7fMS"
+        ],
+        "receiving": [
+            "1MHWEhbBBCjbMptq4WprXVzvR9hyheZTrC",
+            "1PepqShJt8id2pRyoTruCPSwP33RVpwNkA",
+            "1NzrPJJAUXa7JBJi1bU77jZCSEQU1oooT3",
+            "1GDCsgwKmT5iPdR2fCvevaqSRQzZKxabNi",
+            "14dae6brAHsFqj57shNUxCzjBjpeC8szaK",
+            "1Fon1GgmSpwGHvwTKU2PF7zrvFpDkRj8kb",
+            "1JdyZPsezt3aGy9spvsECCxvsChtrJid5p",
+            "1EyfbJtjnsY9hScXHCH8Qr94kiZCaYXG3A",
+            "1Nwdfo4xgKQHi21oX43t9YaJwViNd94yFA",
+            "12QSstmx4w2eoaueqaMSgDMKVYL8Va86JP",
+            "13RF2YEH5EWzfiB2XqLyDQqfaUAprc3uLc",
+            "1BLkn7ujfmubaYHACLJ7fbmrWAUGMQxMxe",
+            "1NTUm6cdAVQVntq1CmMHEafzbTjgKj7q46",
+            "12XBe39Bv82ZAUfqbh3sb2HcquytGrZYti",
+            "1DJ2vo8Wkxq2n1CD1zL8v7qy5Pa4MEAJWZ",
+            "1KafQSHPrfgyPfhQB1FLAKKTtbZyx1SGsH",
+            "1NQ11opUBDgzBiAuo5Dkx6yQnNKxn5Q2y4",
+            "1LW2rzrvtjEUtwirdf1UBPXW49P4qDPs7z",
+            "1ChpLkQTaTRAW6Ci7wTChw1mS7k5ycEiJB",
+            "1PQ8fa1iTUULC1QNMecBPQXBZaS1p7RXgS"
+        ]
+    },
+    "keystore": {
+        "seed": "ignore clinic inherit valid spawn already lamp verify confirm youth one invest",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3oH1SKnvbWX1RXjP7NjfVXAv9Y4zREzTTHkkDNxEsCrjkf3xXpg9zpjLecjEvgff8RSfTyMw3gUsTzkhEuJZ644BVg527ki",
+        "xpub": "xpub661MyMwAqRbcGHMUYMKvxeTjyZZsWqTWrk6WwvUbyaXSL65tkvGVR1BDbvN1u9TQXYFUmzaDJJsFGXJPg58rR1LRPDTdxWPbJnA22dQ8JUL"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

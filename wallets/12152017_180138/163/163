@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "143wAcSBSDCy72r6MHoBHhV1xifNrhhiK5",
+            "1FsiqmKh9hmhy64nSRgLwYP4TFhWRAbpy7",
+            "1CT8WkRgmtwJJn5eYFW371XbuP3y5ygVbK",
+            "18E73P8uXMoWtXLkiZxiD8CoQhwo7nMX8K",
+            "1C6pWTKBGnxfyPSrM8eERisyDMFuYgVats",
+            "1NyYKPPYUXzUcKsaFLfccYwqAWZeR7qpLG"
+        ],
+        "receiving": [
+            "1C2tquKkAY4Hb34USvgYiVs23jCRyrk93L",
+            "1DVo3MDbQh8JBqZUsWCzgouhzsQdgxtK7S",
+            "19NnAk5Dh6DfuE7BmzapuXXMERrZztbSFJ",
+            "1N2zyPjzVsuTzX67oZwRgGNhmyukGdqLa6",
+            "1EnhtewaPGDdsxFvqtgFATMbFFtCFjdFxr",
+            "1MKE1WrnRLKMAoenDugfiADQhitYYUzVxN",
+            "1MbZj8yRb5caHZpT2C1pRSzRSTEPYj2aHM",
+            "1LuAbERRgQcSzcVgDo3dnxBchdcUDncPrn",
+            "177hh1cf8F7PpUnVy9JfuiwKqnJV3SZoCF",
+            "15UTyKFZZED2RSvZitvmGrMZf36iRY6vNx",
+            "1FXy35NkNcKeuUHNTW4u4AKZmSRx63gNy2",
+            "1LurgdDuhL3gwkR9a72q8bgFDGaifGMsUe",
+            "1CbSfweXAds8tbETYu8Qzi9kQ6KuhXtTPD",
+            "12mVNMWfvSRKQ7oRfZTaphA1FKWtaQQ2Jb",
+            "1F7zPVCbmcghiTHLukkNoPpCCUXHtweVa1",
+            "14r9dtGGdjcDiMWe2ScpEFiU6wFA91HDXt",
+            "16djxjXxsgkeg793gGndKtsq8981RhAMxD",
+            "1Cdd8A27Pdd9Xd9yvhqT3sVFzPEgHWuGxP",
+            "16MimD7wmESpfL9x4Z55HEKCV82jyCgmuX",
+            "1PgNuZSf9BgAhwAS7uBiciPqxCV3zdBFYv"
+        ]
+    },
+    "keystore": {
+        "seed": "bundle crowd shift body erosion column forget lake whale soul magic feature",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2oU1Mfuzf2MRmxn69tzJq6qDBeb5RFuzNCwKgj5SUi7MKpFftzrTXekHrjdJcS59oLN2eNHZrxBd8PEcqwiUtxRmfwz7NQK",
+        "xpub": "xpub661MyMwAqRbcFHYUThT12AJAKzcaZMiACKkoz2zgybSyF1GUEGPh2WRqB7Eo3ZiJwxery7GSeiGXdkBdgR2yFRwaUj6ZPYFQnuwydQwr5jQ"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1HimdTqwZnyLci2FiJnwzVd3NGmH2uDvxm",
+            "18N3PgPAHEdTshuJCBVEka9PEBk9kUxhoX",
+            "1Cg1FmWTM2XTqmG4NLXXRBoxgn1KUR7o4V",
+            "17PRtUac1yvtTcHqJ7s65sy5dibnhvenNF",
+            "13ctad3ZbnWi6msyAFLT79fqcHJhNH8MZ8",
+            "1JgHpA8JyN4z37xnkC7LyXiQiSpjNFRF64"
+        ],
+        "receiving": [
+            "18LwJXNvuTxBF1Rqa7m93pFbHasmwWspzu",
+            "1AfxNtLjHH7vehSsUbSxhrEhJ73stKoDiB",
+            "1GcjwmCq1F9JEnaEv2HXtA663fRDgpwJXF",
+            "159L7qSftbkxPFoAtqAEGZubDbHiQ1LAnw",
+            "1JbP55HVhxu3ebqfQbt8MT962Xqv78aivR",
+            "1Jsxt18Wk9CvAyNYuN6238h7SVQKPjFpg7",
+            "1FqP3FGT2QN1bKUvvZVo8Cik9EKXjpJAEw",
+            "1KM6PHdJpqTZJiQHcwfkFr5punA1dhD3oM",
+            "1FmPm97ipPb5rUo2YXEjsrmqFzLJprJpiN",
+            "14KyXX9wLhXxrSYLHje8f5ymRCST2bCP2H",
+            "1Kf3WcaaN34uYr4cwcuXnXEq5LSNXt6AQu",
+            "1NjbyjkwMHkcPW3abnoLqbX6PkVfRikL8E",
+            "14Tf6ry9RmUsVyiHw5zxHfkRg1bdRWCJJw",
+            "1EbPhw4sgfMLLGzTJfHUpMREg7weDLcbgT",
+            "12gnsmA8hxT66aWhvtS5No7KfCtw1NRMhV",
+            "18Tt1AkQpg4FESqU2GM5dwHEZA7GDLE7HA",
+            "1Gygb3Pp5gHaprA3ogHhw5NDMgXD1ZwPKf",
+            "1MtLbcwaRkoKf4ipPKoz1bPqEhkxyLPJQM",
+            "1Czjrh5rxrXUAXC98DP47PSRybLLFDQgRS",
+            "1LE1LEFHD6akxk2wGXq82rxB95X1eosF5U"
+        ]
+    },
+    "keystore": {
+        "seed": "street limb gospel horse arrow shoot pact security diesel tennis guitar cliff",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3u96JKUFiFx8GvLnC5mgn9BWQ3wFCjfGMzz4WnborGZLWCHSfRQ7gMZ9ZVBG9dxBHXc7tLFCsq2yofKMvCYV9wLx6YbmkLJ",
+        "xpub": "xpub661MyMwAqRbcGPDZQM1G5PtrpxBGbYVY9N77CSLrm5CFEoKD4Kv4Q4spMSrUt6eVBiMKNZuc839wtGh8JKq5EULRoSNSDs1MeNTGy4sJBXr"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499510,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

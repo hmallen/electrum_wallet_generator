@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1FNEUjJQjaLcKd8VMaGX9E1kXhhbCEGJgV",
+            "1PHsfH6Y4XBv4REX7ZGUY37Vm4YJYAuBJo",
+            "19zozNHz7eVd14fipRUoR8TzX5CVkdHBDr",
+            "15HkxnqX5yDVqASs5BgPfXnKgA5KRztaqD",
+            "1HYjNiZZSHzTVCmC6QbYW23Lnac4gk2Efy",
+            "19X14Cuc4ySbJZbqmMnZfUMGBu6nb7iw41"
+        ],
+        "receiving": [
+            "1Fv4prcAjhAqDd9SDuDhCfnsZmo3AhWYx3",
+            "19pqyB7qNRRJCmiycamhC9fTkmH1dE4SeZ",
+            "13xjKtpRhEWDfwRGyx4ZPFqn6YCE1ubRy2",
+            "1HdyQfR5cxJWJxWS5MaoMd37Vq5doUjLDe",
+            "1LGyQ4A8HgooFwCSRqZvf43WwMyT7mHhsW",
+            "1Aogo6c5stkAz3vP9KA3NCCG2w5KGjaH61",
+            "15zJQrQqWRr15Af1oW2ZBEbGRuTM64ycY6",
+            "14UqhbmEqqjVDfWqF2NkYzXEvdZR3kK4xm",
+            "1F2mU1fVd9DiTSUQMQDYasBrLMFmPfvMvN",
+            "1P4xv6bhQokvoc7g3xccpvkpgNKH7nHDEc",
+            "1EzY41MfCqU3iX6Hz9ittkVcjSnLGNHvk3",
+            "1HbaSnqMSQgLM2JrR2y9Kivd9VfRtJ99MB",
+            "1NW1WjFV85kmtkQZD1tKEQkoGz76Co35Wo",
+            "16oZBf57KkwTzatcpSM91sWQaCG4ttXG3T",
+            "1B9a1pzvhJK2VdDdA916MmMuJUM3H6kKbB",
+            "1KAi89a4UXGnWPnPPQeCXkpzG4v2XEvViQ",
+            "1MSq5yXU8syLvDeWMT8iVahG13aRzwH6Qp",
+            "1LQghEZCa2GhnLeUjTLJiHTjJ3igZitR28",
+            "1M874y9a9GsbzJrtckjPWnnW34r6Sau8Bi",
+            "1FGtN5JKvSYDNXRzFDYbmk9q5kojpzE8gX"
+        ]
+    },
+    "keystore": {
+        "seed": "whip excess chicken member alone dumb ethics soldier ripple place slush mountain",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K2KaRvwdWSj2HCufTKrEAJk91hENfBkvLtZZYfYZuGJVxv3sqUjXc7LcEhcE6kgVjPjACE3qgqoocDgxwzazN1XrjQDb8GbV",
+        "xpub": "xpub661MyMwAqRbcEoeu2yAWory1kwVwjJx1fy4cVcnGk6TKmMthD5t9p6pSmJrvE7NkcWSSivyMm8KYT2sY8whALuwX8Hm6Dhyf2da9GkcDoWa"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499512,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

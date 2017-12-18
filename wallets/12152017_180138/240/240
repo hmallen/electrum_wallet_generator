@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "13ZLD8kXrGsSzJdcM4Mj2hvu9bqDhkEDiS",
+            "12Tcnmu8CpSQEd1TqSj9x4U9Juu48iYf1C",
+            "12VYx48DveBdPEEiveLhafbMzZWZNSwPxn",
+            "19WDeRTvFZTGxzm6SWWkddS2ttTP61Sums",
+            "13Fk4V9Gq4z3RomiXfh9sSJKUbb7jibS1S",
+            "18jXsUS4ivCRa9a5P3wkR4tbWwjt3zToov"
+        ],
+        "receiving": [
+            "1E9N6yrNunh1zKsYt7So7fRRpqXNRRBYk4",
+            "1F1xMvkXsfSCXtUtbRjgwPB1hjNobmu3Wy",
+            "1DUfwA2cP2WyUQcL7HRLAVshUGq64Zxo3X",
+            "13RpAtEJA5thtSny7UEr1tBNKizNTS7k4X",
+            "12pk1zRkndDkhdrxWBfwoxR7pWWwS5rMNW",
+            "1277DpeJzd6jq4MvRJns3tKEMZxHuhkDZ9",
+            "1PhVhLHfocQpvFrbRbWbjJgm7FqYHRex8e",
+            "13tTh6P3xD9yLsQxhLsFcBA1Mf22YB6uce",
+            "18Lf1nKfpCKZuoq1vjxdFAL5MYx8vvN8Hb",
+            "1Ad791UQPRMuwi6JDtpRV1PdhZideuaNSr",
+            "13opRfmASc9feeDajqjZY228aDHKpi6jSq",
+            "1PCF2qS2LRbkUHLHXF5VgtW1fpsRc6JKEx",
+            "1478v8i6PcHrMV9EUKcBrkgAwmADyjaXTk",
+            "1ETpLzeT3B5WqhxeY6D7dXdV8NvUwCkWyM",
+            "1Pe93htxCpvqTyhYCLVhYYRkVBLbxCCXH3",
+            "1F5QS6bQiaEe2zMWdJcjtKiaDkQg75Kbkz",
+            "1AwewM4o9PS3jx5UpdwWhd2ccej1j3WEwt",
+            "1Nwn7kRFkyE5Ro7gWvsAfPkDjf5SUZq8Gw",
+            "12REPazZRkeX2cTELLXn59DaEDQJAf24Qv",
+            "1LmMQhnvUwyGifTyKPRu5AashUZCPnijPk"
+        ]
+    },
+    "keystore": {
+        "seed": "stem amused kiwi meat ketchup family poverty chalk scheme avoid tunnel soul",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3k5q98hzP2F6BAAiMcoRWD5sxL3Cz4v6fntZDbK8PTM1FaPVPA4ae77J7FZUc1WotiJzCJ6BBPnja8xBfMfy6DhQWi6v9V6",
+        "xpub": "xpub661MyMwAqRbcGEAJFAEzkABpjC1Cm5XGsS1UkiSpYQT5YbDhm8dNwFfV6sMXhAkgHbxxUZ1f9Deu23Qj77t3NBaopyhuJ2vFou1xs1aFbQW"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

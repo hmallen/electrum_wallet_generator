@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "17YG7hmBd2tfs8BWVbWacxJuFjuBacjsp1",
+            "1LfS3ZZLBMVbjZRehdUNMUXxvVrujZvYCc",
+            "1LqH6DCBwrK5Fdt7p1D7eWifZorvWLHjZ7",
+            "1BRXazUbTgGEoXbwYyUT4gqVBu4bXDnAZ3",
+            "1GF6DnojugUZQCB2eWRCwmMfRiQ7ku6ATW",
+            "1FqAsEcWN8ocj6yCgjhkzQZouV4vre5jZz"
+        ],
+        "receiving": [
+            "1fRW32f1CmwQtx53EGfkBVLBifFVyaENK",
+            "1FyY9FKxfd8QDA3TRCZJi7ZvyUv7youqoL",
+            "1Cos8Y1JW5aJfcWMJKLGHZrSE7Bug9Mxod",
+            "1EVGiDUMQZLQQTHwjRvSCnG6YoW4ike7Gd",
+            "1EPLVgFzetCfA3225z8KAwX3o3y6yCXduq",
+            "1HBjWn1ngK3AegxiUyo3P6757uTSxj1imt",
+            "18NfB9VDoRiRia1wCVFR8ifLXr7bdJqGhv",
+            "1KZ4TBtycwd1DPk8br9yZ2eSGGwHbUT4Tw",
+            "1EvNpuVhJPLEx1mM37PZ6qDiTB4MvT7chR",
+            "186qX3ndrPG5xZBbCVEPrq5JrBmL42qYkH",
+            "1DtMbEe1Q6RKSZJRCdCytefAMFngSNQ37f",
+            "14jonoqiCfTLBx37cpFu4Ey1dD6ZpBSdny",
+            "1Pjt47PFT8mHkM1MMjtVLbegFy2RwMAXMv",
+            "112K3xESsg9JKMn5vjr6ngRU6QhwrBLqp1",
+            "17KQN2qtm9KvgDZmoZWWGoHdgTDVZifb2z",
+            "1KoQiXKWMBXV8CMNdzAfvmd21EZdyNubuR",
+            "1CR9zCCV6vgtSH7xxbnp6ybWHjrFGT26Lq",
+            "17HQhtsKp5d2QKEdKqAp5zsS46BWFXzDtK",
+            "12PXEmGLuuHz9yN2u2kavNrCdrQG6wv7KM",
+            "17x8HYhF4xDPkz5YatWqjfPFaWRnW7es8E"
+        ]
+    },
+    "keystore": {
+        "seed": "swallow cream ask clerk hole fringe smile kiwi defense have panel cabbage",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K3ftHQVURY9943pmK88ySByqyoWvA6Zc1g3gmo5r8tdiu2jKvqVhkQVY3an1VpwpWeSFV7ZNwbT7cpXMAA6qz6ph3GQK5uhb",
+        "xpub": "xpub661MyMwAqRbcG9xkWX1RuH5nbrboXbhHZCmabuKmeu8zYr1vLdAPSS3Nt2bgQ7J8H1B2YLfU2x31szy6KGhCT2nv3snss2DGwEFApZchyNP"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

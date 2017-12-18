@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1EbbnJu2HmSDLaQdSmpZi9kGAxWPXTFr8e",
+            "1JRk9gqY1r9PrvrqmM69ZNvyg4TG6qcwPh",
+            "146napY63iMk8URYGVY4Zp2sFE9PnPtb7j",
+            "1LVGadZm5oYkayNUwqkE5iBr6mTSTjr5cc",
+            "17ZCgLBCV72i32PXBpX1mjoRaadxktjKXa",
+            "19CpWDWLjdcTWjseS4bSk5fb6BHWUDoRFU"
+        ],
+        "receiving": [
+            "15DfZM5WkQNKdtW65vxMiyZioWa8t1dGY3",
+            "12eK4vUTsZA7nM7H51ca2GkzkZAgo2R4bo",
+            "12SjCeBGGxobLeCA1Rd1Gm6bFaHfKLxV2a",
+            "1LxCz1CnVrFfZydPkAiFJa5qgg5DVTgtoE",
+            "13jDt1AQVG3qfrZxDwRwqFhENne8cN85MF",
+            "1PAPcN7KdLrz6Ybizfex6sanhutuAFUFTx",
+            "1P4hc5UXhMvkMRRcaZydocHjabFJWoG511",
+            "1Db2mRbTL3nmWPDC3DdUFxPZPdoW9kE7B9",
+            "1FF1K8eqqRiKNkr74AYf4fJ7bAcZ4PiHNV",
+            "1LEcDCywebVqjvi3X2cwzA1J3GRCBBgHcJ",
+            "13B5TtsJ1LhkBWQVeCz6VdJ8HhhnyXeiU8",
+            "176bvcFUPyFuBdaAuaHbBa7sU4tfycgRq6",
+            "1Dxij9dJBXkaJHX1htV3vhPYticSbYPzTu",
+            "167KqR2ndhjxT7mjFgJ6miDz3jdvzQrMff",
+            "1426r17U6u3KYFqiK8aqcNfa2HGLjngdTZ",
+            "1PQyy9dNFrsgdyy6gZ3nzV53ZTczQt7x6G",
+            "125gi3oNWR1BDvTMxyXc6QFZukB7qoCNWf",
+            "1EK375fpa1vh3L52AryAj6ZpWSTAmGVNfY",
+            "18tbx3NPywJ9uHS83WvM11UHexAa3uUoyB",
+            "1E5eTa3n3B3jGRX5Ldk8VvBt12KAegmZu2"
+        ]
+    },
+    "keystore": {
+        "seed": "castle segment include lucky egg food column sad mountain dumb exercise machine",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K46UcRfiT1aygZUM17ogT9LViDi5MQamUxXWNayU8V3xSbrrmaFBBBgGx8eqibwPNtkgFwXjeriz63VqjGm8Djb3RreJBoWn",
+        "xpub": "xpub661MyMwAqRbcGaZ5XhFTNivR7WBVXGQJWZRK26UxxvJTqKqX8WnP2rGvT7v5e4Q2YYsFLjNQW3FYPUAT375XHLLwFXgUiA3s8mpETm3kGZk"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499511,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}

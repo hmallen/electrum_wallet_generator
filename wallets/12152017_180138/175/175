@@ -1,0 +1,51 @@
+{
+    "addr_history": {},
+    "addresses": {
+        "change": [
+            "1ArdeSGcEbPRGpdFgrJFk5kR6SkppRXza9",
+            "18s1AR2JKgWY5ZE5t9j28WNGi5nMr1nRQu",
+            "12Tbbk9f33dU5ty1deE4XrAqbTLiQJvXV2",
+            "1774t5kRbHuQ2MNyjnNoHQqKg4TLXA3fKZ",
+            "183kFZeUw5LJzZynsDxvg5d5kem7sNvgz5",
+            "1Q4BS9ei1HotAC2TGUkcDF5zdqkaNH4Ghv"
+        ],
+        "receiving": [
+            "1EPgTcoswDiXU8Hbp8svYJde38qQpTvEAC",
+            "13mUJHcauEYhurf1KiB6ZyNFS9CQs9gxHZ",
+            "1NRKdxT5ebsfxiDYNHLeR2M8p5BE2Hpfku",
+            "1Hy3YjTTSuLTVjmqczcAUeLYFhQhHEEem6",
+            "1Ew7TsQE5BttTx3yuUVj94NqsDS8MS9Bkf",
+            "1NgBFwfTrLsJNtmncuZCiP5HFFuxywvu6E",
+            "19C9acJypyFvo1eieBUpUhmFW5enapefp5",
+            "1ME3mdppfbDQiMJLfCrYH2tubRSt6LaYhP",
+            "1P8LZWy6HZKjxH8XRR3RZBGWGjehNNYZPt",
+            "1JXhNFimcud9YGryGL8gNyV3CwGhwT6DMz",
+            "15i9mBrn82nrMAnLjP2Dj4L1ve5ePwY4a5",
+            "17i1n42fPkHheUCA24UW9RzaYV4xEJJfV7",
+            "1LQqeLK64nArmLhwimcZsi2MU3CAaQgASP",
+            "1D6fYZ7yyvGG4gmghPZevGC8TduCpip3vY",
+            "14EiWmCkiQQ1Ms1tV4DnpKgdJmS4QCdPyt",
+            "14uP43eGhGZ6oP65EQFjWb9MJ4cAtHyR5A",
+            "1Kano69fpq3EYaPGWdaqRn4k1XjfJwMQAo",
+            "13SX9T4dgUo4LsLACYkqE9Dc2YQvjoKcF3",
+            "198WVDqVXLxjQyhBc2awppvt4DivqVfubR",
+            "17ZGHWumnfoynR7ocWTGGmqhPiv3r2NmjB"
+        ]
+    },
+    "keystore": {
+        "seed": "accuse sense toast combine pause monster buffalo ticket rocket wagon suggest explain",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K46kAaiwCUVbLH941E7HhNh1qEA8SxrbeTAPQiP95j66Npr62Rgf5bJzWhQVhNxNgtdcN2RjM1eDorapxfBivMisMje63wZC",
+        "xpub": "xpub661MyMwAqRbcGapdgkUCqdY4qAtVda1YjuwS2YY4XC8dKxiZFvTLGtQrg7CNZi5s1a8in3twjbNTijYJhV8yBo1zds1DwoLucHMza38x3XD"
+    },
+    "pruned_txo": {},
+    "seed_version": 16,
+    "stored_height": 499509,
+    "transactions": {},
+    "tx_fees": {},
+    "txi": {},
+    "txo": {},
+    "use_encryption": false,
+    "verified_tx3": {},
+    "wallet_type": "standard"
+}
