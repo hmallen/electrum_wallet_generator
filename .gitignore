@@ -2,3 +2,4 @@ env*/
 *.csv
 output/
 *.DS_Store
+wallets/
