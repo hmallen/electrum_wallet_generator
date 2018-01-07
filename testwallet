@@ -1,0 +1,43 @@
+{
+    "addresses": {
+        "change": [
+            "1ATSjHi1pMxTXSmRTjP6D15kRuhyPDPraJ",
+            "1KWFtH1rfmFxaoZaH8c7FTRuDGkP6kcWJ4",
+            "1HAVFza94q8HtgtV23AKY688L4wEF1Z11T",
+            "19GmuUCdj3WU9vzU7EHsFr5Un1mPaUGKZt",
+            "13Kk6WbukfndGAkc3n1kqnKqsyTLASLYSU",
+            "14nVPDYwRtHNmqsBuWJp7p7fzdKimYGbod"
+        ],
+        "receiving": [
+            "19q7Nor8sxSinXk1VKgxjfjqY7ZyA75oXF",
+            "18zhmmGvZqyucvWV3Lg4ARg8tp1PBer1xt",
+            "18SxA8gueaFwtNYSBirJHQAtk25oizbwix",
+            "1EQobXRSS2GaadoZxeuJKGLx33zcAv1RAH",
+            "12f5tCkfX7SeHHwRAsUKjJd17pb8ZCFFrK",
+            "1NAfLdwww9z4QVyMCUDMVzCc9BohbQyGfZ",
+            "18kxQP2UF1KC1M7yozpeZ1zyGpo6SKWE6S",
+            "17jjLLhEjPNvQH9wMMkFSi4osQFnpRP91m",
+            "14G4qDT8q7yDd9tqFxqbqFcbSQ9dDNHKAP",
+            "18LMJMXYRbwkLZvceevan2VkDfCjTPiudh",
+            "1Gd67QXkCM6HCceS4PeH9kw1H6WhQjK3hC",
+            "1PJbqLovkD4FK6KXo2A5qA872d7eDcZQby",
+            "16BfadKGFjguSSdNQ46SDRnVGbxLXVWaZa",
+            "1JcYkY2Q9qsdrJKx8Lef5RyerWZWPjZ9Ao",
+            "1F6BpATw1umkRMvD6CgEZfBEgAmpeiKQyf",
+            "146YApiyRsY7qrPokLTKeWDh8DMvf8do1k",
+            "18fsTEoue3ZPh8wJMaEunCmsQ3sTWZ3aTs",
+            "1Up2c4n4sUa3dCfLC64nm8Q3NEqNjjaoC",
+            "1AUsop8PJPvZQK7gCLpCoH4ZFbWTRZVVgU",
+            "14P81VTVzjGkJvfsjH7699KB1AXAc8D1Lc"
+        ]
+    },
+    "keystore": {
+        "seed": "tide off vote globe annual jar slam image bomb supreme rural heavy",
+        "type": "bip32",
+        "xprv": "xprv9s21ZrQH143K26aXtwYMWohrTMnFWa1t6meQnQ9eUKsto45pJp76dakTTtdaSVU1gmAMcdPgtMVmuSXFCkWrKASG335YiCePvM44WgR6KNL",
+        "xpub": "xpub661MyMwAqRbcEaezzy5Msweb1Pcjv2jjTza1anZG2fQsfrQxrMRMBP4wKASCpxdbGHr9dovFw98orEQFuLKXWNadT8fSRjp358x2Axu4aZU"
+    },
+    "seed_version": 16,
+    "use_encryption": false,
+    "wallet_type": "standard"
+}

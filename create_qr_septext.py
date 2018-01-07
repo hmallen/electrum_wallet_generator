@@ -46,10 +46,13 @@ def create_svg(addr, name):
 if __name__ == '__main__':
     try:
         os.chdir(wallet_dir)
-        
-        for file in glob.glob('*.txt'):
-            file_path = file
 
+        for file in glob.glob('*.txt'):
+            logger.debug(file)
+            if 'addr' in file:
+                logger.debug('Found!')
+                file_path = file
+        
         file_name = file_path.strip('.txt')
 
         if not file_path:
