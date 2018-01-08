@@ -13,7 +13,7 @@ do
 	mkdir -p wallets/$DT/$i
 	./electrum_modified create -w wallets/$DT/$i/$i
 	echo "Creating info file and QR code."
-	python create_qr.py -d "wallets/$DT/$i/"
+	python create_qr.py -d "wallets/$DT/$i/" -n "$i"
 done
 
 echo "Done!"

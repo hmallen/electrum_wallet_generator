@@ -1,5 +1,6 @@
 import argparse
 import glob
+import json
 import logging
 import os
 from qrcodegen import QrCode, QrSegment
@@ -9,13 +10,18 @@ logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
-parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet and txt files.')
+parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet file.')
+parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
+wallet_file = args.number
 
 if wallet_dir == None:
     logger.error('No wallet directory defined. Exiting.')
+    sys.exit(1)
+elif wallet_file == None:
+    logger.error('No wallet number defined. Exiting.')
     sys.exit(1)
 else:
     logger.info('Wallet directory defined as ' + wallet_dir)
@@ -46,24 +52,27 @@ def create_svg(addr, name):
 if __name__ == '__main__':
     try:
         os.chdir(wallet_dir)
-        
-        for file in glob.glob('*.txt'):
-            file_path = file
 
-        file_name = file_path.strip('.txt')
+        with open(wallet_file, 'r') as file:
+            wallet_info_raw = file.read()
 
-        if not file_path:
-            logger.error('No txt address file found. Exiting.')
-            sys.exit(1)
-        
-        with open(file_path, 'r') as address_file:
-            for line in address_file:
-                if '1' in line:
-                    public_address = line.strip('\n')
+        wallet_info = json.loads(wallet_info_raw)
 
-        print(public_address)
+        seed = wallet_info['keystore']['seed']
+        logger.info('Seed: ' + seed)
+
+        seed_file = wallet_file + '_seed.txt'
+        with open(seed_file, 'w') as file:
+            file.write(seed)
+
+        public_address = wallet_info['addresses']['receiving'][0]
+        logger.info('Public address: ' + public_address)
+
+        address_file = wallet_file + '_addr.txt'
+        with open(address_file, 'w') as file:
+            file.write(public_address)
         
-        create_svg(public_address, file_name)
+        create_svg(public_address, wallet_file)
     
     except Exception as e:
         logger.exception(e)
