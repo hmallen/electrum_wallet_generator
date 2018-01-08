@@ -1,4 +1,5 @@
 import argparse
+from cairosvg import svg2png
 import glob
 import json
 import logging
@@ -12,10 +13,12 @@ logger = logging.getLogger(__name__)
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet file.')
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
+parser.add_argument('-c', '--convert', action='store_true', default=False, help='Convert resulting svg file to png.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
 wallet_file = args.number
+convert_svg = args.convert
 
 if wallet_dir == None:
     logger.error('No wallet directory defined. Exiting.')
@@ -29,8 +32,10 @@ else:
 
 def create_svg(addr, name):
     os.chdir('../../..')
-    
-    errcorlvl = QrCode.Ecc.HIGH # Error correction level. Need to determine best setting!
+
+    # Error Correction Levels #
+    # LOW / MEDIUM / QUARTILE / HIGH
+    errcorlvl = QrCode.Ecc.QUARTILE # Error correction level. Need to determine best setting!
 
     try:
         qr_data = 'bitcoin:' + addr
@@ -42,6 +47,10 @@ def create_svg(addr, name):
         
         with open(file_name_pub, 'w') as svg_file:
             svg_file.write(qr_svg_pub)
+
+        if convert_svg == True:
+            png_file = wallet_dir + name + '_pub.png'
+            svg2png(bytestring=qr_svg_pub, write_to=png_file)
 
     except Exception as e:
         logger.exception('Exception while creating svg files.')
