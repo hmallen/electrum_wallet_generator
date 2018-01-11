@@ -77,7 +77,24 @@ def create_addr(addr, name):
     logger.debug('Address file path: ' + addr_file_path)
 
     try:
-        logger.debug('---- NOT YET IMPLEMENTED ----')
+        svg = SVG({'width':600, 'height':5800})
+
+        svg.addChildElement('text',
+                            {'x':2900, 'y':position,
+                             'font-family':'Ubuntu',
+                             'font-size':600,
+                             'text-anchor':'middle',
+                             'dominant-baseline':'central',
+                             'glyph-orientation-vertical':270},
+                            addr)
+        
+"""
+        svg.addChildElement('rect',
+                            {'x':0, 'y':0,
+                             'fill':'none',
+                             'stroke':'black',
+                             'stroke-width':0.5})
+"""
 
     except Exception as e:
         logger.exception('Exception while creating address file.')
