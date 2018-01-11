@@ -31,7 +31,8 @@ else:
 
 
 def create_seed(seed, name):
-    seed_file_path = wallet_dir + name + '_seed.svg'
+    #seed_file_path = wallet_dir + name + '_seed.svg'
+    seed_file_path = name + '_seed.svg'
     logger.debug('Seed file path: ' + seed_file_path)
 
     try:
@@ -72,8 +73,12 @@ def create_seed(seed, name):
 
 
 def create_addr(addr, name):
-    addr_file_path = wallet_dir + name + '_addr.svg'
-    logger.debug('Address file path: ' + addr_file_path)
+    #addr_file_path = wallet_dir + name + '_addr.svg'
+    addr_file_path = name + '_addr.svg'
+    logger.debug('Address SVG file path: ' + addr_file_path)
+    #png_file_path = wallet_dir + name + '_addr.png'
+    png_file_path = name + '_addr.png'
+    logger.debug('Address PNG file path: ' + png_file_path)
 
     try:
         svg = SVG({'width':700, 'height':32})
@@ -97,7 +102,8 @@ def create_addr(addr, name):
 
 
 def create_qr(addr, name):
-    qr_file_path = wallet_dir + name + '_qr.svg'
+    #qr_file_path = wallet_dir + name + '_qr.svg'
+    qr_file_path = name + '_qr.svg'
     logger.debug('QR file path: ' + qr_file_path)
 
     try:
@@ -130,6 +136,7 @@ def convert_svg_png(directory):
                 svg_files.append(file)
         logger.debug('SVG files: ' + str(svg_files))
 
+        png_files = []
         for file in svg_files:
             svg_path = directory + file
             logger.debug('SVG path: ' + svg_path)
@@ -138,7 +145,6 @@ def convert_svg_png(directory):
             png_files.append(png_path)
 
             svg2png(file_obj=open(svg_path, 'rb'), write_to=png_path, parent_width=512, parent_height=512)
-
         
         for file in png_files:
             if file.endswith('_addr.png'):
@@ -148,9 +154,9 @@ def convert_svg_png(directory):
             elif file.endswith('_seed.png'):
                 seed_path = file
 
-        png_files = {'addr':addr_path, 'qr':qr_path, 'seed':seed_path}
+        converted = {'addr':addr_path, 'qr':qr_path, 'seed':seed_path}
 
-        return png_files
+        return converted
 
     except Exception as e:
         logger.exception('Exception while converting svg files to png.')
@@ -163,6 +169,10 @@ def rotate_png(path):
     img_rotated = img_orig.rotate(90, expand=True)
     os.remove(path)
     img_rotated.save(path)
+
+
+def cleanup_directory(directory):
+    pass
         
 
 if __name__ == '__main__':
@@ -188,12 +198,10 @@ if __name__ == '__main__':
         with open(address_file, 'w') as file:
             file.write(public_address)
 
-        os.chdir('../../..')
-
         create_seed(seed, wallet_file)
         create_addr(public_address, wallet_file)
         create_qr(public_address, wallet_file)
-        converted_files = convert_svg_png(wallet_dir)
+        converted_files = convert_svg_png('./')
         logger.debug('Converted files: ' + str(converted_files))
         rotate_png(converted_files['addr'])
     
