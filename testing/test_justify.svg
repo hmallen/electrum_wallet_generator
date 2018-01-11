@@ -1,0 +1,16 @@
+<svg version="1.1" baseProfile="full" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <rect x="0" y="0" width="58" height="58" fill="none" stroke="black" stroke-width="0.5"/>
+    <text x="6.5" y="6.5" font-family="Ubuntu" font-size="6" text-anchor="start" dominant-baseline="central">leave</text>
+    <text x="51.5" y="6.5" font-family="Ubuntu" font-size="6" text-anchor="end" dominant-baseline="central">mistake</text>
+    <text x="6.5" y="15.5" font-family="Ubuntu" font-size="6" text-anchor="start" dominant-baseline="central">radar</text>
+    <text x="51.5" y="15.5" font-family="Ubuntu" font-size="6" text-anchor="end" dominant-baseline="central">early</text>
+    <text x="6.5" y="24.5" font-family="Ubuntu" font-size="6" text-anchor="start" dominant-baseline="central">head</text>
+    <text x="51.5" y="24.5" font-family="Ubuntu" font-size="6" text-anchor="end" dominant-baseline="central">expand</text>
+    <text x="6.5" y="33.5" font-family="Ubuntu" font-size="6" text-anchor="start" dominant-baseline="central">uncover</text>
+    <text x="51.5" y="33.5" font-family="Ubuntu" font-size="6" text-anchor="end" dominant-baseline="central">stairs</text>
+    <text x="6.5" y="42.5" font-family="Ubuntu" font-size="6" text-anchor="start" dominant-baseline="central">merge</text>
+    <text x="51.5" y="42.5" font-family="Ubuntu" font-size="6" text-anchor="end" dominant-baseline="central">hazard</text>
+    <text x="6.5" y="51.5" font-family="Ubuntu" font-size="6" text-anchor="start" dominant-baseline="central">swear</text>
+    <text x="51.5" y="51.5" font-family="Ubuntu" font-size="6" text-anchor="end" dominant-baseline="central">dutch</text>
+</svg>
