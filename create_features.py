@@ -5,6 +5,7 @@ import glob
 import json
 import logging
 import os
+from PIL import Image
 from qrcodegen import QrCode, QrSegment
 import sys
 
@@ -14,12 +15,10 @@ logger = logging.getLogger(__name__)
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet file.')
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
-parser.add_argument('-c', '--convert', action='store_true', default=False, help='Convert resulting svg file to png.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
 wallet_file = args.number
-convert_svg = args.convert
 
 if wallet_dir == None:
     logger.error('No wallet directory defined. Exiting.')
@@ -77,24 +76,19 @@ def create_addr(addr, name):
     logger.debug('Address file path: ' + addr_file_path)
 
     try:
-        svg = SVG({'width':600, 'height':5800})
+        svg = SVG({'width':700, 'height':32})
 
         svg.addChildElement('text',
-                            {'x':2900, 'y':position,
+                            {'x':0, 'y':13,
                              'font-family':'Ubuntu',
-                             'font-size':600,
-                             'text-anchor':'middle',
-                             'dominant-baseline':'central',
-                             'glyph-orientation-vertical':270},
+                             'font-size':30,
+                             'text-anchor':'start',
+                             'alignment-baseline':'central'},
                             addr)
-        
-"""
-        svg.addChildElement('rect',
-                            {'x':0, 'y':0,
-                             'fill':'none',
-                             'stroke':'black',
-                             'stroke-width':0.5})
-"""
+
+        svg.write(addr_file_path)
+
+        svg2png(file_obj=open(addr_file_path, 'rb'), write_to=png_file_path)
 
     except Exception as e:
         logger.exception('Exception while creating address file.')
@@ -134,7 +128,6 @@ def convert_svg_png(directory):
         for file in dir_list:
             if file.endswith('.svg'):
                 svg_files.append(file)
-
         logger.debug('SVG files: ' + str(svg_files))
 
         for file in svg_files:
@@ -142,13 +135,34 @@ def convert_svg_png(directory):
             logger.debug('SVG path: ' + svg_path)
             png_path = directory + file.strip('.svg') + '.png'
             logger.debug('PNG path: ' + png_path)
+            png_files.append(png_path)
 
             svg2png(file_obj=open(svg_path, 'rb'), write_to=png_path, parent_width=512, parent_height=512)
+
+        
+        for file in png_files:
+            if file.endswith('_addr.png'):
+                addr_path = file
+            elif file.endswith('_qr.png'):
+                qr_path = file
+            elif file.endswith('_seed.png'):
+                seed_path = file
+
+        png_files = {'addr':addr_path, 'qr':qr_path, 'seed':seed_path}
+
+        return png_files
 
     except Exception as e:
         logger.exception('Exception while converting svg files to png.')
         logger.exception(e)
         raise
+
+
+def rotate_png(path):
+    img_orig = Image.open(path)
+    img_rotated = img_orig.rotate(90, expand=True)
+    os.remove(path)
+    img_rotated.save(path)
         
 
 if __name__ == '__main__':
@@ -179,8 +193,9 @@ if __name__ == '__main__':
         create_seed(seed, wallet_file)
         create_addr(public_address, wallet_file)
         create_qr(public_address, wallet_file)
-        if convert_svg == True:
-            convert_svg_png(wallet_dir)
+        converted_files = convert_svg_png(wallet_dir)
+        logger.debug('Converted files: ' + str(converted_files))
+        rotate_png(converted_files['addr'])
     
     except Exception as e:
         logger.exception(e)

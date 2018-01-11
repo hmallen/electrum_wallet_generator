@@ -26,12 +26,10 @@ def create_addr(addr):
                              'text-anchor':'start',
                              'alignment-baseline':'central'},
                             addr)
-                             #'dominant-baseline':'central'},
-                            #addr)
 
         svg.write(addr_file_path)
 
-        svg2png(file_obj=open(addr_file_path, 'rb'), write_to=png_file_path)#, parent_width=500, parent_height=50)
+        svg2png(file_obj=open(addr_file_path, 'rb'), write_to=png_file_path)
 
         img_orig = Image.open(png_file_path)
         img_rotated = img_orig.rotate(90, expand=True)
