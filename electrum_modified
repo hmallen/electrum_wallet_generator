@@ -1,4 +1,4 @@
-#!/Users/hunterallen/Documents/crypto/crypto_address_testing/env3/bin/python3.6
+#!~/.virtualenv/bitcoin_wallet_generator/bin/python3.6
 # -*- mode: python -*-
 #
 # Electrum - lightweight Bitcoin client
