@@ -36,7 +36,7 @@ def create_seed(seed, name):
     logger.debug('Seed file path: ' + seed_file_path)
 
     try:
-        svg = SVG({'width':5800, 'height':5800})
+        svg = SVG({'width':5700, 'height':5700})
 
         svg.addChildElement('rect',
                             {'x':0, 'y':0,
@@ -53,14 +53,13 @@ def create_seed(seed, name):
             line = seed_words[x] + ' ' + seed_words[x + 1]
             seed_lines.append(line)
 
-        position = 650
+        position = 750
         for x in range(0, 6):
             svg.addChildElement('text',
-                                {'x':2900, 'y':position,
+                                {'x':2850, 'y':position,
                                  'font-family':'Ubuntu',
                                  'font-size':600,
-                                 'text-anchor':'middle',
-                                 'dominant-baseline':'central'},
+                                 'text-anchor':'middle'},
                                 seed_lines[x])
             position += 900
 
@@ -216,15 +215,19 @@ if __name__ == '__main__':
         with open(address_file, 'w') as file:
             file.write(public_address)
 
+        logger.info('Creating bill features.')
         create_seed(seed, wallet_file)
         create_addr(public_address, wallet_file)
         create_qr(public_address, wallet_file)
-        
+
+        logger.info('Converting svg files to png.')
         converted_files = convert_svg_png()
         logger.debug('Converted files: ' + str(converted_files))
-        
+
+        logger.info('Rotating public address png image.')
         rotate_png(converted_files['addr'])
 
+        logger.info('Cleaning-up working directory.')
         cleanup_directory()
     
     except Exception as e:
