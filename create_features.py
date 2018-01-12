@@ -124,11 +124,16 @@ def create_qr(addr, name):
         raise
 
 
-def convert_svg_png(directory):
+def convert_svg_png(directory='./'):
+    dir_change = False
+    if directory != './':
+        os.chdir(directory)
+        dir_change = True
+    
     logger.debug('Conversion directory: ' + directory)
 
     try:
-        dir_list = os.listdir(directory)
+        dir_list = os.listdir()
 
         svg_files = []
         for file in dir_list:
@@ -156,6 +161,9 @@ def convert_svg_png(directory):
 
         converted = {'addr':addr_path, 'qr':qr_path, 'seed':seed_path}
 
+        if dir_change == True:
+            os.chdir(wallet_dir)
+
         return converted
 
     except Exception as e:
@@ -171,9 +179,19 @@ def rotate_png(path):
     img_rotated.save(path)
 
 
-def cleanup_directory(directory):
-    pass
-        
+def cleanup_directory(directory='./'):
+    if directory != './':
+        os.chdir(directory)
+    
+    os.mkdir('tmp')
+
+    for file in os.listdir():
+        if not file.endswith('.png') and file != 'tmp':
+            new_path = 'tmp/' + file
+            logger.debug('New path: ' + new_path)
+            os.rename(file, new_path)
+            logger.debug('Moved to tmp/: ' + file)
+
 
 if __name__ == '__main__':
     try:
@@ -201,9 +219,13 @@ if __name__ == '__main__':
         create_seed(seed, wallet_file)
         create_addr(public_address, wallet_file)
         create_qr(public_address, wallet_file)
-        converted_files = convert_svg_png('./')
+        
+        converted_files = convert_svg_png()
         logger.debug('Converted files: ' + str(converted_files))
+        
         rotate_png(converted_files['addr'])
+
+        cleanup_directory()
     
     except Exception as e:
         logger.exception(e)
