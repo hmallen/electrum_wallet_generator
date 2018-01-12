@@ -3,3 +3,4 @@ env*/
 output/
 *.DS_Store
 wallets/
+*.pdf
