@@ -18,10 +18,12 @@ logger = logging.getLogger(__name__)
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet file.')
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
+parser.add_argument('-o', '--overlay', action='store_true', default=False, help='Enable creation of png overlays for bill printing.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
 wallet_file = args.number
+create_overlay = args.overlay
 
 if wallet_dir == None:
     logger.error('No wallet directory defined. Exiting.')
@@ -38,7 +40,7 @@ bill_features = {'canvas': (1836, 2376),
                  'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
                  'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
 
-bill_file = wallet_file + '_overlay.png'
+bill_file = '../overlay.png'
 
 
 def create_seed(seed, name):
@@ -80,7 +82,7 @@ def create_seed(seed, name):
         svg.write(seed_svg_path)
 
         with open(seed_svg_path, 'rb') as svg_file:
-            svg2png(file_obj=svg_file, write_to=seed_png_path, parent_width=512, parent_height=512)
+            svg2png(file_obj=svg_file, write_to=seed_png_path, parent_width=1024, parent_height=1024)
 
     except Exception as e:
         logger.exception('Exception while creating seed file.')
@@ -245,19 +247,33 @@ if __name__ == '__main__':
         with open(address_text_file, 'w') as file:
             file.write(public_address)
 
-        logger.info('Creating bill feature overlay.')
+        logger.info('Creating bill feature elements.')
         create_seed(seed, wallet_file)
         create_qr(public_address, wallet_file)
 
-        draw_canvas()
-        bill_positions = ['top', 'middle', 'bottom']
-        for pos in bill_positions:
-            draw_address(public_address, pos)
-            draw_qr(pos)
-            draw_seed(pos)
+        if create_overlay == True:
+            logger.info('Creating bill printing overlay.')
+            if os.path.isfile(bill_file) == False:
+                logger.info('Creating new canvas.')
+                draw_canvas()
+            else:
+                logger.info('Using existing canvas.')
 
-        logger.info('Cleaning up wallet directory.')
-        cleanup()
+            pos_modulo = int(wallet_file) % 3
+            logger.debug('pos_modulo: ' + str(pos_modulo))
+            # pos_modulo = 1 --> Top bill
+            # pos_modulo = 2 --> Middle bill
+            # pos_modulo = 3 --> Bottom bill
+            
+            bill_positions = ['top', 'middle', 'bottom']
+            logger.debug('bill_positions[pos_modulo]: ' + bill_positions[pos_modulo])
+            
+            draw_address(public_address, bill_positions[pos_modulo])
+            draw_qr(bill_positions[pos_modulo])
+            draw_seed(bill_positions[pos_modulo])
+
+        #logger.info('Cleaning up wallet directory.')
+        #cleanup()
     
     except Exception as e:
         logger.exception(e)
