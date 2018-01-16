@@ -4,15 +4,12 @@ Generates new Bitcoin wallets individually or in batch with BIP32 standard and e
 
 <b>Program Flow:</b>
 1. Use Electrum to generate new wallet (Shell)
-2. Read wallet file and parse json (Python)
-3. Save wallet seed and first receiving address to individual txt files (Python)
-4. Create QR code for receiving address and save to svg file (Python)
-5. Convert svg to png file, saving as copy (Python)
+2. Read wallet file and parse json for seed and first receiving address, also saving to individual text files (Python)
+3. Create QR code for receiving address and save to svg file, then convert to png, saving as copy (Python)
+4. Write seed to svg file, formatting text for square output (Python)
+5. Create canvas and place features in arrangement for printing on paper wallet (Python)
+6. Save to transparent overlay file (Python)
 
-<b>Options:</b>
-
--n/--number: Number of wallets to generate
-
--o/--output: Specify output csv file path
-
--q/--qr: Enable output of svg QR codes
+To use:
+1. In home directory, run "create_wallets.sh n" where n is an integer number of wallets that you would like to generate.
+2. Files will appear in the "wallets/" directory, filed individually by date/time of creation.
