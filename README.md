@@ -13,3 +13,4 @@ Generates new Bitcoin wallets individually or in batch with BIP32 standard and e
 To use:
 1. In home directory, run "create_wallets.sh n" where n is an integer number of wallets that you would like to generate.
 2. Files will appear in the "wallets/" directory, filed individually by date/time of creation.
+<b><i>Currently only handles creation of 3 wallets on each run. Update to fix this shortly.</i></b>
