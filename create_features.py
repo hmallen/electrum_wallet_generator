@@ -5,9 +5,12 @@ import glob
 import json
 import logging
 import os
-from PIL import Image
 from qrcodegen import QrCode, QrSegment
 import sys
+from wand.image import Image
+from wand.display import display
+from wand.drawing import Drawing
+from wand.color import Color
 
 logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
@@ -29,10 +32,23 @@ elif wallet_file == None:
 else:
     logger.info('Wallet directory: ' + wallet_dir)
 
+# Coordinates of bill features
+bill_features = {'canvas': (1836, 2376),
+                 'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
+                 'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
+                 'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
+
+bill_file = wallet_file + '_overlay.png'
+
 
 def create_seed(seed, name):
-    seed_file_path = name + '_seed.svg'
-    logger.debug('Seed file path: ' + seed_file_path)
+    global seed_png_path
+    
+    seed_svg_path = name + '_seed.svg'
+    logger.debug('Seed svg path: ' + seed_svg_path)
+
+    seed_png_path = seed_svg_path.strip('.svg') + '.png'
+    logger.debug('Seed png path: ' + seed_png_path)
 
     try:
         svg = SVG({'width':5700, 'height':5700})
@@ -61,7 +77,10 @@ def create_seed(seed, name):
                                 seed_lines[x])
             position += 900
 
-        svg.write(seed_file_path)
+        svg.write(seed_svg_path)
+
+        with open(seed_svg_path, 'rb') as svg_file:
+            svg2png(file_obj=svg_file, write_to=seed_png_path, parent_width=512, parent_height=512)
 
     except Exception as e:
         logger.exception('Exception while creating seed file.')
@@ -69,48 +88,29 @@ def create_seed(seed, name):
         raise
 
 
-def create_addr(addr, name):
-    addr_file_path = name + '_addr.svg'
-    logger.debug('Address SVG file path: ' + addr_file_path)
-    png_file_path = name + '_addr.png'
-    logger.debug('Address PNG file path: ' + png_file_path)
-
-    try:
-        svg = SVG({'width':700, 'height':32})
-
-        svg.addChildElement('text',
-                            {'x':0, 'y':13,
-                             'font-family':'Ubuntu',
-                             'font-size':30,
-                             'text-anchor':'start',
-                             'alignment-baseline':'central'},
-                            addr)
-
-        svg.write(addr_file_path)
-
-        svg2png(file_obj=open(addr_file_path, 'rb'), write_to=png_file_path)
-
-    except Exception as e:
-        logger.exception('Exception while creating address file.')
-        logger.exception(e)
-        raise
-
-
 def create_qr(addr, name):
-    qr_file_path = name + '_qr.svg'
-    logger.debug('QR file path: ' + qr_file_path)
+    global qr_png_path
+    
+    qr_svg_path = name + '_qr.svg'
+    logger.debug('QR svg path: ' + qr_svg_path)
+
+    qr_png_path = qr_svg_path.strip('.svg') + '.png'
+    logger.debug('QR png path: ' + qr_png_path)
 
     try:
         # Error Correction Levels #
         # LOW / MEDIUM / QUARTILE / HIGH
-        errcorlvl = QrCode.Ecc.QUARTILE # Error correction level. Need to determine best setting!
+        errcorlvl = QrCode.Ecc.QUARTILE
 
         qr_data = 'bitcoin:' + addr
         qr_pub = QrCode.encode_text(qr_data, errcorlvl)
         qr_svg_pub = qr_pub.to_svg_str(4)
         
-        with open(qr_file_path, 'w') as svg_file:
+        with open(qr_svg_path, 'w') as svg_file:
             svg_file.write(qr_svg_pub)
+
+        with open(qr_svg_path, 'rb') as svg_file:
+            svg2png(file_obj=svg_file, write_to=qr_png_path, parent_width=512, parent_height=512)
 
     except Exception as e:
         logger.exception('Exception while creating QR file.')
@@ -118,73 +118,111 @@ def create_qr(addr, name):
         raise
 
 
-def convert_svg_png(directory='./'):
-    dir_change = False
-    if directory != './':
-        os.chdir(directory)
-        dir_change = True
-    
-    logger.debug('Conversion directory: ' + directory)
-
+def draw_canvas():
     try:
-        dir_list = os.listdir()
-
-        svg_files = []
-        for file in dir_list:
-            if file.endswith('.svg'):
-                svg_files.append(file)
-        logger.debug('SVG files: ' + str(svg_files))
-
-        png_files = []
-        for file in svg_files:
-            svg_path = directory + file
-            logger.debug('SVG path: ' + svg_path)
-            png_path = directory + file.strip('.svg') + '.png'
-            logger.debug('PNG path: ' + png_path)
-            png_files.append(png_path)
-
-            svg2png(file_obj=open(svg_path, 'rb'), write_to=png_path, parent_width=512, parent_height=512)
-        
-        for file in png_files:
-            if file.endswith('_addr.png'):
-                addr_path = file
-            elif file.endswith('_qr.png'):
-                qr_path = file
-            elif file.endswith('_seed.png'):
-                seed_path = file
-
-        converted = {'addr':addr_path, 'qr':qr_path, 'seed':seed_path}
-
-        if dir_change == True:
-            os.chdir(wallet_dir)
-
-        return converted
+        with Drawing() as draw:
+            draw.fill_color = Color('transparent')
+            draw.rectangle(left=0, top=0, width=bill_features['canvas'][0], height=bill_features['canvas'][1])
+            
+            with Image(width=bill_features['canvas'][0], height=bill_features['canvas'][1]) as img:
+                draw.draw(img)
+                img.save(filename=bill_file)
 
     except Exception as e:
-        logger.exception('Exception while converting svg files to png.')
+        logger.exception('Exception while drawing canvas.')
         logger.exception(e)
         raise
 
 
-def rotate_png(path):
-    img_orig = Image.open(path)
-    img_rotated = img_orig.rotate(90, expand=True)
-    os.remove(path)
-    img_rotated.save(path)
+def draw_address(addr, position):
+    try:
+        logger.debug('Address to draw: ' + addr)
+        
+        if position == 'top':
+            left_coord = bill_features['addr_top'][0]
+            top_coord = bill_features['addr_top'][1]
+        elif position == 'middle':
+            left_coord = bill_features['addr_middle'][0]
+            top_coord = bill_features['addr_middle'][1]
+        elif position == 'bottom':
+            left_coord = bill_features['addr_bottom'][0]
+            top_coord = bill_features['addr_bottom'][1]
+        
+        with Drawing() as draw:
+            draw.font_family = 'Ubuntu'
+            draw.font_size = 20
+            draw.text(left_coord, top_coord, addr)
+            with Image(filename=bill_file) as img:
+                img.rotate(90)
+                draw.draw(img)
+                img.rotate(270)
+                img.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing address.')
+        logger.exception(e)
+        raise
 
 
-def cleanup_directory(directory='./'):
-    if directory != './':
-        os.chdir(directory)
-    
-    os.mkdir('tmp')
+def draw_qr(position):
+    global qr_png_path
 
-    for file in os.listdir():
-        if not file.endswith('.png') and file != 'tmp':
-            new_path = 'tmp/' + file
-            logger.debug('New path: ' + new_path)
-            os.rename(file, new_path)
-            logger.debug('Moved to tmp/: ' + file)
+    try:
+        if position == 'top':
+            left_coord = bill_features['qr_top'][0]
+            top_coord = bill_features['qr_top'][1]
+        elif position == 'middle':
+            left_coord = bill_features['qr_middle'][0]
+            top_coord = bill_features['qr_middle'][1]
+        elif position == 'bottom':
+            left_coord = bill_features['qr_bottom'][0]
+            top_coord = bill_features['qr_bottom'][1]
+        
+        with Image(filename=bill_file) as bill:
+            with Image(filename=qr_png_path) as img:
+                img.resize(195, 195)
+                bill.composite(img, left=left_coord, top=top_coord)
+                bill.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing qr.')
+        logger.exception(e)
+        raise
+
+
+def draw_seed(position):
+    global seed_png_path
+
+    try:
+        if position == 'top':
+            left_coord = bill_features['seed_top'][0]
+            top_coord = bill_features['seed_top'][1]
+        elif position == 'middle':
+            left_coord = bill_features['seed_middle'][0]
+            top_coord = bill_features['seed_middle'][1]
+        elif position == 'bottom':
+            left_coord = bill_features['seed_bottom'][0]
+            top_coord = bill_features['seed_bottom'][1]
+        
+        with Image(filename=bill_file) as bill:
+            with Image(filename=seed_png_path) as img:
+                img.resize(195, 195)
+                bill.composite(img, left=left_coord, top=top_coord)
+                bill.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing seed.')
+        logger.exception(e)
+        raise
+
+
+def cleanup():
+    directory_contents = os.listdir()
+
+    os.mkdir('tmp/')
+    for file in directory_contents:
+        if file != bill_file:
+            os.rename(file, ('tmp/' + file))
 
 
 if __name__ == '__main__':
@@ -193,37 +231,33 @@ if __name__ == '__main__':
 
         with open(wallet_file, 'r') as file:
             wallet_info_raw = file.read()
-
         wallet_info = json.loads(wallet_info_raw)
 
         seed = wallet_info['keystore']['seed']
         logger.info('Seed: ' + seed)
-
-        seed_file = wallet_file + '_seed.txt'
-        with open(seed_file, 'w') as file:
+        seed_text_file = wallet_file + '_seed.txt'
+        with open(seed_text_file, 'w') as file:
             file.write(seed)
 
         public_address = wallet_info['addresses']['receiving'][0]
         logger.info('Public address: ' + public_address)
-
-        address_file = wallet_file + '_addr.txt'
-        with open(address_file, 'w') as file:
+        address_text_file = wallet_file + '_addr.txt'
+        with open(address_text_file, 'w') as file:
             file.write(public_address)
 
-        logger.info('Creating bill features.')
+        logger.info('Creating bill feature overlay.')
         create_seed(seed, wallet_file)
-        create_addr(public_address, wallet_file)
         create_qr(public_address, wallet_file)
 
-        logger.info('Converting svg files to png.')
-        converted_files = convert_svg_png()
-        logger.debug('Converted files: ' + str(converted_files))
+        draw_canvas()
+        bill_positions = ['top', 'middle', 'bottom']
+        for pos in bill_positions:
+            draw_address(public_address, pos)
+            draw_qr(pos)
+            draw_seed(pos)
 
-        logger.info('Rotating public address png image.')
-        rotate_png(converted_files['addr'])
-
-        logger.info('Cleaning-up working directory.')
-        cleanup_directory()
+        logger.info('Cleaning up wallet directory.')
+        cleanup()
     
     except Exception as e:
         logger.exception(e)

@@ -13,7 +13,7 @@ do
 	mkdir -p wallets/$DT/$i
 	./electrum_modified create -w wallets/$DT/$i/$i
 	echo "Creating info file and QR code."
-	python create_features_overlay.py --directory "wallets/$DT/$i/" --number "$i"
+	python create_features.py --directory "wallets/$DT/$i/" --number "$i"
 done
 
 echo "Done!"
