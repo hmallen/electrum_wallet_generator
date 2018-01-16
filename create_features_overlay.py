@@ -38,16 +38,17 @@ bill_features = {'canvas': (1836, 2376),
                  'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
                  'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
 
-##################################################
-#bill_file = 'bill.png'  # NEED TO FIX THIS
-#qr_file = 'wallet/qr.png'   # NEED TO FIX THIS
-#seed_file = 'wallet/seed.png'   # NEED TO FIX THIS
-##################################################
+bill_file = wallet_file + '_overlay.png'
 
 
 def create_seed(seed, name):
-    seed_file_path = name + '_seed.svg'
-    logger.debug('Seed file path: ' + seed_file_path)
+    global seed_png_path
+    
+    seed_svg_path = name + '_seed.svg'
+    logger.debug('Seed svg path: ' + seed_svg_path)
+
+    seed_png_path = seed_svg_path.strip('.svg') + '.png'
+    logger.debug('Seed png path: ' + seed_png_path)
 
     try:
         svg = SVG({'width':5700, 'height':5700})
@@ -76,12 +77,10 @@ def create_seed(seed, name):
                                 seed_lines[x])
             position += 900
 
-        with open(seed_file_path, 'w') as svg_file:
-            svg_file.write(seed_file_path)
-        
-        svg2png(file_obj=open(seed_file_path, 'rb'),
-                write_to=(seed_file_path.strip('.svg') + '.png'),
-                parent_width=512, parent_height=512)
+        svg.write(seed_svg_path)
+
+        with open(seed_svg_path, 'rb') as svg_file:
+            svg2png(file_obj=svg_file, write_to=seed_png_path, parent_width=512, parent_height=512)
 
     except Exception as e:
         logger.exception('Exception while creating seed file.')
@@ -90,8 +89,13 @@ def create_seed(seed, name):
 
 
 def create_qr(addr, name):
-    qr_file_path = name + '_qr.svg'
-    logger.debug('QR file path: ' + qr_file_path)
+    global qr_png_path
+    
+    qr_svg_path = name + '_qr.svg'
+    logger.debug('QR svg path: ' + qr_svg_path)
+
+    qr_png_path = qr_svg_path.strip('.svg') + '.png'
+    logger.debug('QR png path: ' + qr_png_path)
 
     try:
         # Error Correction Levels #
@@ -102,12 +106,11 @@ def create_qr(addr, name):
         qr_pub = QrCode.encode_text(qr_data, errcorlvl)
         qr_svg_pub = qr_pub.to_svg_str(4)
         
-        with open(qr_file_path, 'w') as svg_file:
+        with open(qr_svg_path, 'w') as svg_file:
             svg_file.write(qr_svg_pub)
 
-        svg2png(file_obj=open(qr_file_path, 'rb'),
-                write_to=(qr_file_path.strip('.svg') + '.png'),
-                parent_width=512, parent_height=512)
+        with open(qr_svg_path, 'rb') as svg_file:
+            svg2png(file_obj=svg_file, write_to=qr_png_path, parent_width=512, parent_height=512)
 
     except Exception as e:
         logger.exception('Exception while creating QR file.')
@@ -116,71 +119,110 @@ def create_qr(addr, name):
 
 
 def draw_canvas():
-    with Drawing() as draw:
-        draw.fill_color = Color('transparent')
-        draw.rectangle(left=0, top=0, width=bill_features['canvas'][0], height=bill_features['canvas'][1])
+    try:
+        with Drawing() as draw:
+            draw.fill_color = Color('transparent')
+            draw.rectangle(left=0, top=0, width=bill_features['canvas'][0], height=bill_features['canvas'][1])
+            
+            with Image(width=bill_features['canvas'][0], height=bill_features['canvas'][1]) as img:
+                draw.draw(img)
+                img.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing canvas.')
+        logger.exception(e)
+        raise
+
+
+def draw_address(addr, position):
+    try:
+        logger.debug('Address to draw: ' + addr)
         
-        with Image(width=bill_features['canvas'][0], height=bill_features['canvas'][1]) as img:
-            draw.draw(img)
-            img.save(filename=bill_file)
+        if position == 'top':
+            left_coord = bill_features['addr_top'][0]
+            top_coord = bill_features['addr_top'][1]
+        elif position == 'middle':
+            left_coord = bill_features['addr_middle'][0]
+            top_coord = bill_features['addr_middle'][1]
+        elif position == 'bottom':
+            left_coord = bill_features['addr_bottom'][0]
+            top_coord = bill_features['addr_bottom'][1]
+        
+        with Drawing() as draw:
+            draw.font_family = 'Ubuntu'
+            draw.font_size = 20
+            draw.text(left_coord, top_coord, addr)
+            with Image(filename=bill_file) as img:
+                img.rotate(90)
+                draw.draw(img)
+                img.rotate(270)
+                img.save(filename=bill_file)
 
-
-def draw_address(position):
-    if position == 'top':
-        left_coord = bill_features['addr_top'][0]
-        top_coord = bill_features['addr_top'][1]
-    elif position == 'middle':
-        left_coord = bill_features['addr_middle'][0]
-        top_coord = bill_features['addr_middle'][1]
-    elif position == 'bottom':
-        left_coord = bill_features['addr_bottom'][0]
-        top_coord = bill_features['addr_bottom'][1]
-    
-    with Drawing() as draw:
-        draw.font_family = 'Ubuntu'
-        draw.font_size = 20
-        draw.text(left_coord, top_coord, test_addr)
-        with Image(filename=bill_file) as img:
-            img.rotate(90)
-            draw.draw(img)
-            img.rotate(270)
-            img.save(filename=bill_file)
+    except Exception as e:
+        logger.exception('Exception while drawing address.')
+        logger.exception(e)
+        raise
 
 
 def draw_qr(position):
-    if position == 'top':
-        left_coord = bill_features['qr_top'][0]
-        top_coord = bill_features['qr_top'][1]
-    elif position == 'middle':
-        left_coord = bill_features['qr_middle'][0]
-        top_coord = bill_features['qr_middle'][1]
-    elif position == 'bottom':
-        left_coord = bill_features['qr_bottom'][0]
-        top_coord = bill_features['qr_bottom'][1]
-    
-    with Image(filename=bill_file) as bill:
-        with Image(filename=qr_file) as img:
-            img.resize(195, 195)
-            bill.composite(img, left=left_coord, top=top_coord)
-            bill.save(filename=bill_file)
+    global qr_png_path
+
+    try:
+        if position == 'top':
+            left_coord = bill_features['qr_top'][0]
+            top_coord = bill_features['qr_top'][1]
+        elif position == 'middle':
+            left_coord = bill_features['qr_middle'][0]
+            top_coord = bill_features['qr_middle'][1]
+        elif position == 'bottom':
+            left_coord = bill_features['qr_bottom'][0]
+            top_coord = bill_features['qr_bottom'][1]
+        
+        with Image(filename=bill_file) as bill:
+            with Image(filename=qr_png_path) as img:
+                img.resize(195, 195)
+                bill.composite(img, left=left_coord, top=top_coord)
+                bill.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing qr.')
+        logger.exception(e)
+        raise
 
 
 def draw_seed(position):
-    if position == 'top':
-        left_coord = bill_features['seed_top'][0]
-        top_coord = bill_features['seed_top'][1]
-    elif position == 'middle':
-        left_coord = bill_features['seed_middle'][0]
-        top_coord = bill_features['seed_middle'][1]
-    elif position == 'bottom':
-        left_coord = bill_features['seed_bottom'][0]
-        top_coord = bill_features['seed_bottom'][1]
-    
-    with Image(filename=bill_file) as bill:
-        with Image(filename=seed_file) as img:
-            img.resize(195, 195)
-            bill.composite(img, left=left_coord, top=top_coord)
-            bill.save(filename=bill_file)
+    global seed_png_path
+
+    try:
+        if position == 'top':
+            left_coord = bill_features['seed_top'][0]
+            top_coord = bill_features['seed_top'][1]
+        elif position == 'middle':
+            left_coord = bill_features['seed_middle'][0]
+            top_coord = bill_features['seed_middle'][1]
+        elif position == 'bottom':
+            left_coord = bill_features['seed_bottom'][0]
+            top_coord = bill_features['seed_bottom'][1]
+        
+        with Image(filename=bill_file) as bill:
+            with Image(filename=seed_png_path) as img:
+                img.resize(195, 195)
+                bill.composite(img, left=left_coord, top=top_coord)
+                bill.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing seed.')
+        logger.exception(e)
+        raise
+
+
+def cleanup():
+    directory_contents = os.listdir()
+    logger.debug('Directory: ' + str(directory))
+
+    for file in directory_contents:
+        if file != bill_file:
+            os.rename(file, ('tmp/' + file))
 
 
 if __name__ == '__main__':
@@ -206,6 +248,16 @@ if __name__ == '__main__':
         logger.info('Creating bill feature overlay.')
         create_seed(seed, wallet_file)
         create_qr(public_address, wallet_file)
+
+        draw_canvas()
+        bill_positions = ['top', 'middle', 'bottom']
+        for pos in bill_positions:
+            draw_address(public_address, pos)
+            draw_qr(pos)
+            draw_seed(pos)
+
+        logger.info('Cleaning up wallet directory.')
+        cleanup()
     
     except Exception as e:
         logger.exception(e)
