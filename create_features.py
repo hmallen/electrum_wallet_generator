@@ -4,6 +4,7 @@ from drawSVG.drawSVG import SVG
 import glob
 import json
 import logging
+import math
 import os
 from qrcodegen import QrCode, QrSegment
 import sys
@@ -39,8 +40,6 @@ bill_features = {'canvas': (1836, 2376),
                  'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
                  'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
                  'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
-
-bill_file = '../overlay.png'
 
 
 def create_seed(seed, name):
@@ -230,6 +229,12 @@ def cleanup():
 if __name__ == '__main__':
     try:
         os.chdir(wallet_dir)
+
+        # Determine overlay number and file name based on wallet number
+        overlay_num = str(math.ceil(int(wallet_file) / 3))
+        logger.debug('overlay_num: ' + overlay_num)
+        bill_file = '../overlay_' + overlay_num + '.png'
+        logger.debug('bill_file: ' + bill_file)
 
         with open(wallet_file, 'r') as file:
             wallet_info_raw = file.read()

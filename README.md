@@ -16,5 +16,3 @@ Generates new Bitcoin wallets individually or in batch with Electrum (BIP32-comp
 4. Write seed to svg file, formatting text for square output (Python)
 5. Create canvas and place features in arrangement for printing on paper wallet (Python)
 6. Save to transparent overlay file (Python)
-
-<b><i>Currently only handles creation of 3 wallets on each run. Update to fix this shortly.</i></b>
