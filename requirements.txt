@@ -23,4 +23,5 @@ requests==2.18.4
 six==1.11.0
 tinycss2==0.6.1
 urllib3==1.22
+Wand==0.4.4
 webencodings==0.5.1
