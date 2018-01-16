@@ -31,7 +31,6 @@ else:
 
 
 def create_seed(seed, name):
-    #seed_file_path = wallet_dir + name + '_seed.svg'
     seed_file_path = name + '_seed.svg'
     logger.debug('Seed file path: ' + seed_file_path)
 
@@ -49,7 +48,6 @@ def create_seed(seed, name):
         seed_lines = []
         for x in range(0, 12, 2):
             word_num = x + 1
-            #line = str(word_num) + ') ' + seed_words[x] + ' ' + str(word_num + 1) + ') ' + seed_words[x + 1]
             line = seed_words[x] + ' ' + seed_words[x + 1]
             seed_lines.append(line)
 
@@ -72,10 +70,8 @@ def create_seed(seed, name):
 
 
 def create_addr(addr, name):
-    #addr_file_path = wallet_dir + name + '_addr.svg'
     addr_file_path = name + '_addr.svg'
     logger.debug('Address SVG file path: ' + addr_file_path)
-    #png_file_path = wallet_dir + name + '_addr.png'
     png_file_path = name + '_addr.png'
     logger.debug('Address PNG file path: ' + png_file_path)
 
@@ -101,7 +97,6 @@ def create_addr(addr, name):
 
 
 def create_qr(addr, name):
-    #qr_file_path = wallet_dir + name + '_qr.svg'
     qr_file_path = name + '_qr.svg'
     logger.debug('QR file path: ' + qr_file_path)
 

@@ -1,5 +1,4 @@
-#from PIL import Image as pilImage
-from wand.image import Image# as wandImage
+from wand.image import Image
 from wand.display import display
 from wand.drawing import Drawing
 from wand.color import Color
@@ -8,7 +7,6 @@ bill_layout_file = 'bill_feature_outlines.pdf'
 bill_file = 'bill.png'
 qr_file = 'wallet/qr.png'
 seed_file = 'wallet/seed.png'
-addr_file = 'wallet/addr.svg'
 
 test_addr = '1Dc3rcMhtycbavyax4VCp7ToMqfHjeTJPN'
 test_seed = 'throw thumb dignity link salute immense brand box chase whip ranch gasp'
@@ -22,17 +20,17 @@ bill_features = {'canvas': (1836, 2376),
 
 def draw_canvas():
     with Drawing() as draw:
-        #draw.fill_color = Color('transparent')
-        draw.fill_color = Color('white')
-        draw.rectangle(left=0, top=0, width=1836, height=2376)
-        with Image(width=1836, height=2376) as img:
+        draw.fill_color = Color('transparent')
+        #draw.fill_color = Color('white')
+        draw.rectangle(left=0, top=0, width=bill_features['canvas'][0], height=bill_features['canvas'][1])
+        with Image(width=bill_features['canvas'][0], height=bill_features['canvas'][1]) as img:
             draw.draw(img)
             img.save(filename=bill_file)
 
 
 def import_bill_layout():
     with Image(filename=bill_layout_file) as layout:
-        layout.resize(1836, 2376)
+        layout.resize(bill_features['canvas'][0], bill_features['canvas'][1])
         layout.save(filename=bill_file)
 
 
@@ -78,18 +76,12 @@ def draw_qr(position):
 
 def draw_seed(position):
     if position == 'top':
-        #left_coord = 1257
-        #top_coord = 471
         left_coord = bill_features['seed_top'][0]
         top_coord = bill_features['seed_top'][1]
     elif position == 'middle':
-        #left_coord = 1257
-        #top_coord = 1200
         left_coord = bill_features['seed_middle'][0]
         top_coord = bill_features['seed_middle'][1]
     elif position == 'bottom':
-        #left_coord = 1257
-        #top_coord = 1926
         left_coord = bill_features['seed_bottom'][0]
         top_coord = bill_features['seed_bottom'][1]
     
@@ -101,8 +93,8 @@ def draw_seed(position):
 
 
 if __name__ == '__main__':
-    #draw_canvas()
-    import_bill_layout()
+    draw_canvas()
+    #import_bill_layout()
     
     bill_positions = ['top', 'middle', 'bottom']
     for pos in bill_positions:
