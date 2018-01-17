@@ -75,7 +75,7 @@ DT=$(date "+%m%d%Y_%H%M%S")
 
 for (( i=1; i<=$wallet_num; i++ ))
 do
-    exec="$exec_string --directory wallet/$DT/$i --number $i"
+    exec="$exec_string --directory wallets/$DT/$i --number $i"
     mkdir -p wallets/$DT/$i
     ./electrum_modified create -w wallets/$DT/$i/$i
     echo "Creating info file and QR code."
