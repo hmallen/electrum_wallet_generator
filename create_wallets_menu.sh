@@ -1,18 +1,13 @@
 #!/bin/bash
 
 echo
-<<<<<<< HEAD
 echo "-----------------------------"
 echo "| Electrum Wallet Generator |"
 echo "|                           |"
 echo "| by hmallen@github.com     |"
 echo "-----------------------------"
 echo
-=======
-echo "Electrum Wallet Generator by Hunter M. Allen"
-echo
 
->>>>>>> 56d187d56a0f4d2c8b0359da1d4d68aca49cf2f0
 echo "Enter number of wallets to create:"
 read wallet_num
 echo
@@ -32,11 +27,7 @@ do
             break
             ;;
         "No")
-<<<<<<< HEAD
-            echo "Not creating overlays."
-=======
             echo "Not creating overlays"
->>>>>>> 56d187d56a0f4d2c8b0359da1d4d68aca49cf2f0
             create_overlays=false
             break
             ;;
@@ -63,11 +54,7 @@ if [ $create_overlays = true ]; then
                 break
                 ;;
             "No")
-<<<<<<< HEAD
                 echo "Not printing overlays."
-=======
-                echo "Not printing overlays"
->>>>>>> 56d187d56a0f4d2c8b0359da1d4d68aca49cf2f0
                 print_overlays=false
                 break
                 ;;
@@ -87,10 +74,7 @@ if [ $wallet_num -eq 1 ]; then
 else
     echo "Creating $wallet_num wallets."
 fi
-<<<<<<< HEAD
 echo
-=======
->>>>>>> 56d187d56a0f4d2c8b0359da1d4d68aca49cf2f0
 
 DT=$(date "+%m%d%Y_%H%M%S")
 
@@ -99,19 +83,13 @@ do
     exec="$exec_string --directory wallets/$DT/$i --number $i"
     mkdir -p wallets/$DT/$i
     ./electrum_modified create -w wallets/$DT/$i/$i
-<<<<<<< HEAD
     echo    
-=======
->>>>>>> 56d187d56a0f4d2c8b0359da1d4d68aca49cf2f0
     echo "Creating info file and QR code."
     $exec
 done
 
 if [ $print_overlays = true ]; then
-<<<<<<< HEAD
     echo
-=======
->>>>>>> 56d187d56a0f4d2c8b0359da1d4d68aca49cf2f0
     echo "OVERLAY PRINTING TO BE IMPLEMENTED HERE..."
     sleep 3
 fi
