@@ -13,7 +13,7 @@ from wand.display import display
 from wand.drawing import Drawing
 from wand.color import Color
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
