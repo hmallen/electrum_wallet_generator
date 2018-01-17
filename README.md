@@ -3,10 +3,11 @@
 Generates new Bitcoin wallets individually or in batch with Electrum (BIP32-compliant) standard and outputs mnemonic seed, receiving address, and corresponding QR code to image files for overlay printing on paper wallets.
 
 <b>Install:</b>
-1. Install dependencies: pip install -r requirements.txt
+Option #1: Run "bash install.sh" to automatically install all dependencies and setup environment to run program. (ONLY TESTED ON UBUNTU)
+Option #2: Install all dependencies manually. (Will improve this section with more details soon.)
 
 <b>Use:</b>
-1. In home directory, run "bash create_wallets.sh n" where n is an integer number of wallets that you would like to generate.
+1. In home directory, run "bash create_wallets.sh" and follow menu prompts to choose output and print, if desired.
 2. Files will appear in the "wallets/" directory, filed individually by date/time of creation.
 
 <b>Program Flow:</b>

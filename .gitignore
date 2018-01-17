@@ -1,4 +1,5 @@
 env*/
+.virtualenvs/
 *.csv
 output/
 *.DS_Store
