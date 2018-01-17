@@ -1,24 +1,100 @@
 #!/bin/bash
 
-echo "Bash version ${BASH_VERSION}"
+echo
+echo "-----------------------------"
+echo "| Electrum Wallet Generator |"
+echo "|                           |"
+echo "| by hmallen@github.com     |"
+echo "-----------------------------"
+echo
 
-NUM=$1
+echo "Enter number of wallets to create:"
+read wallet_num
+echo
 
-echo "Creating $NUM wallet(s)."
+exec_string="python create_features.py"
+
+echo "Create PNG overlays?"
+PS3="Selection: "
+options=("Yes" "No" "Quit")
+select opt in "${options[@]}"
+do
+    case $opt in
+        "Yes")
+            #echo "Creating overlays."
+            create_overlays=true
+            exec_string="$exec_string --overlay"
+            break
+            ;;
+        "No")
+            #echo "Not creating overlays"
+            create_overlays=false
+            break
+            ;;
+        "Quit")
+            echo
+            echo "Exiting program."
+            exit
+            ;;
+        *) echo invalid option;;
+    esac
+done
+
+if [ $create_overlays = true ]; then
+    echo
+    echo "Send overlays to printer?"
+    PS3="Selection: "
+    options=("Yes" "No" "Quit")
+    select opt in "${options[@]}"
+    do
+        case $opt in
+            "Yes")
+                #echo "Printing overlays."
+                print_overlays=true
+                break
+                ;;
+            "No")
+                #echo "Not printing overlays."
+                print_overlays=false
+                break
+                ;;
+            "Quit")
+                echo
+                echo "Exiting program."
+                exit
+                ;;
+            *) echo invalid option;;
+        esac
+    done
+fi
+
+echo
+
+if [ $wallet_num -eq 1 ]; then
+    echo "Creating 1 wallet."
+else
+    echo "Creating $wallet_num wallets."
+fi
 
 DT=$(date "+%m%d%Y_%H%M%S")
 
-#source ~/.virtualenvs/bitcoin_wallet_generator/bin/activate
-
-for (( i=1; i<=$NUM; i++ ))
+for (( i=1; i<=$wallet_num; i++ ))
 do
-	mkdir -p wallets/$DT/$i
-	./electrum_modified create -w wallets/$DT/$i/$i
-	echo "Creating info file and QR code."
-	python create_features.py --directory "wallets/$DT/$i/" --number "$i" --overlay
+    exec="$exec_string --directory wallets/$DT/$i --number $i"
+    mkdir -p wallets/$DT/$i
+    echo
+    ./electrum_modified create -w wallets/$DT/$i/$i
+    echo
+    echo "Creating info file and QR code."
+    $exec
 done
 
-#deactivate
+if [ $print_overlays = true ]; then
+    echo
+    echo "OVERLAY PRINTING TO BE IMPLEMENTED HERE..."
+    lp wallets/$DT/overlay_1.png
+    sleep 3
+fi
 
 echo "Done!"
 
