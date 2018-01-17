@@ -83,6 +83,9 @@ do
 done
 
 if [ $print_overlays = true ]; then
+    echo "OVERLAY PRINTING TO BE IMPLEMENTED HERE..."
+    sleep 3
+fi
 
 echo "Done!"
 
