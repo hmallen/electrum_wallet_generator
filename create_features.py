@@ -20,11 +20,13 @@ parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet file.')
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
 parser.add_argument('-o', '--overlay', action='store_true', default=False, help='Enable creation of png overlays for bill printing.')
+parser.add_argument('--pdf', action='store_true', default=False, help='Overlay output formatted as PDF instead of PNG.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
 wallet_file = args.number
 create_overlay = args.overlay
+output_pdf = args.pdf
 
 if wallet_dir == None:
     logger.error('No wallet directory defined. Exiting.')
@@ -135,6 +137,18 @@ def draw_canvas():
         raise
 
 
+def import_bill_layout(path):
+    try:
+        with Image(filename=path) as img:
+            #img.resize
+            pass
+
+    except Exception as e:
+        logger.exception('Exception while importing bill layout.')
+        logger.exception(e)
+        raise
+
+
 def draw_address(addr, position):
     try:
         logger.debug('Address to draw: ' + addr)
@@ -233,7 +247,12 @@ if __name__ == '__main__':
         # Determine overlay number and file name based on wallet number
         overlay_num = str(math.ceil(int(wallet_file) / 3))
         logger.debug('overlay_num: ' + overlay_num)
-        bill_file = '../overlay_' + overlay_num + '.png'
+
+        # Set file suffix based on desired output
+        if output_pdf == True:
+            bill_file = '../overlay_' + overlay_num + '.pdf'
+        else:
+            bill_file = '../overlay_' + overlay_num + '.png'
         logger.debug('bill_file: ' + bill_file)
 
         with open(wallet_file, 'r') as file:
@@ -261,6 +280,7 @@ if __name__ == '__main__':
             if os.path.isfile(bill_file) == False:
                 logger.info('Creating new canvas.')
                 draw_canvas()
+                #import_bill_layout()
             else:
                 logger.info('Using existing canvas.')
 

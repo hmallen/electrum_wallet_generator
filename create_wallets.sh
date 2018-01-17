@@ -14,20 +14,25 @@ echo
 
 exec_string="python create_features.py"
 
-echo "Create PNG overlays?"
+echo "Create overlays?"
 PS3="Selection: "
-options=("Yes" "No" "Quit")
+options=("PNG" "PDF" "None" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
-        "Yes")
-            #echo "Creating overlays."
+        "PNG")
             create_overlays=true
+            create_pdfs=false
             exec_string="$exec_string --overlay"
             break
             ;;
-        "No")
-            #echo "Not creating overlays"
+        "PDF")
+            create_overlays=true
+            create_pdfs=true
+            exec_string="$exec_string --overlay --pdf"
+            break
+            ;;
+        "None")
             create_overlays=false
             break
             ;;
@@ -89,11 +94,16 @@ do
     $exec
 done
 
+if [ $create_pdfs = true ]; then
+    echo
+    echo "Merging PDFs into single document."
+    python combine_pdfs.py -d wallets/$DT
+fi
+
 if [ $print_overlays = true ]; then
     echo
     echo "OVERLAY PRINTING TO BE IMPLEMENTED HERE..."
-    lp wallets/$DT/overlay_1.png
-    sleep 3
+    # EXAMPLE: lp wallets/$DT/overlay_1.png
 fi
 
 echo "Done!"
