@@ -21,17 +21,18 @@ select opt in "${options[@]}"
 do
     case $opt in
         "Yes")
-            echo "Creating overlays."
+            #echo "Creating overlays."
             create_overlays=true
             exec_string="$exec_string --overlay"
             break
             ;;
         "No")
-            echo "Not creating overlays"
+            #echo "Not creating overlays"
             create_overlays=false
             break
             ;;
         "Quit")
+            echo
             echo "Exiting program."
             exit
             ;;
@@ -48,16 +49,17 @@ if [ $create_overlays = true ]; then
     do
         case $opt in
             "Yes")
-                echo "Printing overlays."
+                #echo "Printing overlays."
                 print_overlays=true
                 break
                 ;;
             "No")
-                echo "Not printing overlays."
+                #echo "Not printing overlays."
                 print_overlays=false
                 break
                 ;;
             "Quit")
+                echo
                 echo "Exiting program."
                 exit
                 ;;
