@@ -39,9 +39,8 @@ do
     esac
 done
 
-echo
-
 if [ $create_overlays = true ]; then
+    echo
     echo "Send overlays to printer?"
     PS3="Selection: "
     options=("Yes" "No" "Quit")
@@ -74,7 +73,6 @@ if [ $wallet_num -eq 1 ]; then
 else
     echo "Creating $wallet_num wallets."
 fi
-echo
 
 DT=$(date "+%m%d%Y_%H%M%S")
 
@@ -82,8 +80,9 @@ for (( i=1; i<=$wallet_num; i++ ))
 do
     exec="$exec_string --directory wallets/$DT/$i --number $i"
     mkdir -p wallets/$DT/$i
+    echo
     ./electrum_modified create -w wallets/$DT/$i/$i
-    echo    
+    echo
     echo "Creating info file and QR code."
     $exec
 done
