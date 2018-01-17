@@ -5,25 +5,28 @@ echo
 echo "Electrum Wallet Generator by Hunter M. Allen"
 echo
 
-echo "How many wallets would you like to create?"
+echo "Enter number of wallets to create:"
 read wallet_num
 echo
 echo "Creating $wallet_num wallet(s)."
 echo
 
-PS3='Create PNG overlays? Choice: '
+exec_string="python create_features.py "
+
+echo "Create PNG overlays?"
+PS3="Selection: "
 options=("Yes" "No" "Quit")
 select opt in "${options[@]}"
 do
     case $opt in
         "Yes")
             echo "Creating overlays."
-            create_overlays=1
+            create_overlays=true
             break
             ;;
         "No")
             echo "Not creating overlays"
-            create_overlays=0
+            create_overlays=false
             break
             ;;
         "Quit")
@@ -36,9 +39,10 @@ done
 
 echo
 
-if [ $create_overlays -eq 1 ]
+if [ $create_overlays = true ]
 then
-    PS3='Print overlays? Choice: '
+    echo "Send overlays to printer?"
+    PS3="Selection: "
     options=("Yes" "No" "Quit")
     select opt in "${options[@]}"
     do
