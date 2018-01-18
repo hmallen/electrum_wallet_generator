@@ -6,7 +6,6 @@ import json
 import logging
 import math
 import os
-from PyPDF2 import PdfFileMerger
 from qrcodegen import QrCode, QrSegment
 import sys
 from wand.image import Image
@@ -22,36 +21,27 @@ parser.add_argument('-d', '--directory', type=str, help='Directory containing wa
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
 parser.add_argument('-o', '--overlay', action='store_true', default=False, help='Enable creation of png overlays for bill printing.')
 parser.add_argument('--pdf', action='store_true', default=False, help='Overlay output formatted as PDF instead of PNG.')
-parser.add_argument('-m', '--merge', action='store_true', default=False, help='Skip wallet creation and merge existing PDFs into single file instead.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
 wallet_file = args.number
 create_overlay = args.overlay
 output_pdf = args.pdf
-merge_only = args.merge
 
-if merge_only == False:
-    if wallet_dir == None:
-        logger.error('No wallet directory defined. Exiting.')
-        sys.exit(1)
-    elif wallet_file == None:
-        logger.error('No wallet number defined. Exiting.')
-        sys.exit(1)
-    else:
-        logger.info('Wallet directory: ' + wallet_dir)
+if wallet_dir == None:
+    logger.error('No wallet directory defined. Exiting.')
+    sys.exit(1)
+elif wallet_file == None:
+    logger.error('No wallet number defined. Exiting.')
+    sys.exit(1)
+else:
+    logger.info('Wallet directory: ' + wallet_dir)
 
 # Coordinates of bill features
-bill_features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
+bill_features = {'canvas': (1836, 2376),
                  'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
                  'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
                  'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
-"""
-bill_features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
-                 'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
-                 'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
-                 'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
-"""
 
 
 def create_seed(seed, name):
@@ -175,7 +165,7 @@ def draw_address(addr, position):
         
         with Drawing() as draw:
             draw.font_family = 'Ubuntu'
-            draw.font_size = bill_features['font_size']
+            draw.font_size = 20
             draw.text(left_coord, top_coord, addr)
             with Image(filename=bill_file) as img:
                 img.rotate(90)
@@ -205,12 +195,12 @@ def draw_qr(position):
         
         with Image(filename=bill_file) as bill:
             with Image(filename=qr_png_path) as img:
-                img.resize(bill_features['square_elements'][0], bill_features['square_elements'][1])
+                img.resize(195, 195)
                 bill.composite(img, left=left_coord, top=top_coord)
                 bill.save(filename=bill_file)
 
     except Exception as e:
-        logger.exception('Exception while drawing QR.')
+        logger.exception('Exception while drawing qr.')
         logger.exception(e)
         raise
 
@@ -231,7 +221,7 @@ def draw_seed(position):
         
         with Image(filename=bill_file) as bill:
             with Image(filename=seed_png_path) as img:
-                img.resize(bill_features['square_elements'][0], bill_features['square_elements'][1])
+                img.resize(195, 195)
                 bill.composite(img, left=left_coord, top=top_coord)
                 bill.save(filename=bill_file)
 
@@ -241,109 +231,74 @@ def draw_seed(position):
         raise
 
 
-def merge_pdfs(path):
-    try:
-        os.chdir(path)
-        contents = os.listdir()
-        logger.debug('contents: ' + str(contents))
+def cleanup():
+    directory_contents = os.listdir()
 
-        pdf_files = []
-        for file in contents:
-            if file.endswith('.pdf'):
-                pdf_files.append(file)
-                logger.debug('file: ' + file)
-        logger.debug('pdf_files: ' + str(pdf_files))
-
-        if len(pdf_files) > 1:
-            logger.info('Multiple PDF files found. Merging.')
-            merger = PdfFileMerger()
-            output_pdf = 'overlay.pdf'
-
-            for doc in pdf_files:
-                file = open(doc, 'rb')
-                merger.append(fileobj=file)
-
-            output = open(output_pdf, 'wb')
-            merger.write(output)
-            
-            logger.info('Cleaning-up pdf directory.')
-            os.mkdir('tmp/')
-
-            for doc in pdf_files:
-                os.rename(doc, ('tmp/' + doc))
-        
-        else:
-            logger.info('Multiple PDF files not found. Renaming overlay and skipping merge.')
-            os.rename('overlay_1.pdf', 'overlay.pdf')
-
-    except Exception as e:
-        logger.exception('Exception while merging PDF files.')
-        logger.exception(e)
-        raise
+    os.mkdir('tmp/')
+    for file in directory_contents:
+        if file != bill_file:
+            os.rename(file, ('tmp/' + file))
 
 
 if __name__ == '__main__':
     try:
-        if merge_only == False:
-            os.chdir(wallet_dir)
+        os.chdir(wallet_dir)
 
-            # Determine overlay number and file name based on wallet number
-            overlay_num = str(math.ceil(int(wallet_file) / 3))
-            logger.debug('overlay_num: ' + overlay_num)
+        # Determine overlay number and file name based on wallet number
+        overlay_num = str(math.ceil(int(wallet_file) / 3))
+        logger.debug('overlay_num: ' + overlay_num)
 
-            # Set file suffix based on desired output
-            if output_pdf == True:
-                bill_file = '../overlay_' + overlay_num + '.pdf'
-            else:
-                bill_file = '../overlay_' + overlay_num + '.png'
-            logger.debug('bill_file: ' + bill_file)
-
-            with open(wallet_file, 'r') as file:
-                wallet_info_raw = file.read()
-            wallet_info = json.loads(wallet_info_raw)
-
-            seed = wallet_info['keystore']['seed']
-            logger.info('Seed: ' + seed)
-            seed_text_file = wallet_file + '_seed.txt'
-            with open(seed_text_file, 'w') as file:
-                file.write(seed)
-
-            public_address = wallet_info['addresses']['receiving'][0]
-            logger.info('Public address: ' + public_address)
-            address_text_file = wallet_file + '_addr.txt'
-            with open(address_text_file, 'w') as file:
-                file.write(public_address)
-
-            logger.info('Creating bill feature elements.')
-            create_seed(seed, wallet_file)
-            create_qr(public_address, wallet_file)
-
-            if create_overlay == True:
-                logger.info('Creating bill printing overlay.')
-                if os.path.isfile(bill_file) == False:
-                    logger.info('Creating new canvas.')
-                    draw_canvas()
-                    #import_bill_layout()
-                else:
-                    logger.info('Using existing canvas.')
-
-                pos_modulo = int(wallet_file) % 3
-                logger.debug('pos_modulo: ' + str(pos_modulo))
-                # pos_modulo = 1 --> Top bill
-                # pos_modulo = 2 --> Middle bill
-                # pos_modulo = 3 --> Bottom bill
-                
-                bill_positions = ['top', 'middle', 'bottom']
-                logger.debug('bill_positions[pos_modulo]: ' + bill_positions[pos_modulo])
-                
-                draw_address(public_address, bill_positions[pos_modulo])
-                draw_qr(bill_positions[pos_modulo])
-                draw_seed(bill_positions[pos_modulo])
-
+        # Set file suffix based on desired output
+        if output_pdf == True:
+            bill_file = '../overlay_' + overlay_num + '.pdf'
         else:
-            logger.info('Merging PDF files, if multiple present.')
-            merge_pdfs(wallet_dir)
-        
+            bill_file = '../overlay_' + overlay_num + '.png'
+        logger.debug('bill_file: ' + bill_file)
+
+        with open(wallet_file, 'r') as file:
+            wallet_info_raw = file.read()
+        wallet_info = json.loads(wallet_info_raw)
+
+        seed = wallet_info['keystore']['seed']
+        logger.info('Seed: ' + seed)
+        seed_text_file = wallet_file + '_seed.txt'
+        with open(seed_text_file, 'w') as file:
+            file.write(seed)
+
+        public_address = wallet_info['addresses']['receiving'][0]
+        logger.info('Public address: ' + public_address)
+        address_text_file = wallet_file + '_addr.txt'
+        with open(address_text_file, 'w') as file:
+            file.write(public_address)
+
+        logger.info('Creating bill feature elements.')
+        create_seed(seed, wallet_file)
+        create_qr(public_address, wallet_file)
+
+        if create_overlay == True:
+            logger.info('Creating bill printing overlay.')
+            if os.path.isfile(bill_file) == False:
+                logger.info('Creating new canvas.')
+                draw_canvas()
+                #import_bill_layout()
+            else:
+                logger.info('Using existing canvas.')
+
+            pos_modulo = int(wallet_file) % 3
+            logger.debug('pos_modulo: ' + str(pos_modulo))
+            # pos_modulo = 1 --> Top bill
+            # pos_modulo = 2 --> Middle bill
+            # pos_modulo = 3 --> Bottom bill
+            
+            bill_positions = ['top', 'middle', 'bottom']
+            logger.debug('bill_positions[pos_modulo]: ' + bill_positions[pos_modulo])
+            
+            draw_address(public_address, bill_positions[pos_modulo])
+            draw_qr(bill_positions[pos_modulo])
+            draw_seed(bill_positions[pos_modulo])
+
+        #logger.info('Cleaning up wallet directory.')
+        #cleanup()
     
     except Exception as e:
         logger.exception(e)

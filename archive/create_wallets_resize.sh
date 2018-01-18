@@ -12,7 +12,7 @@ echo "Enter number of wallets to create:"
 read wallet_num
 echo
 
-exec_string="python create_features.py"
+exec_string="python create_features_resize.py"
 
 echo "Create overlays?"
 PS3="Selection: "
@@ -97,7 +97,7 @@ done
 if [ $create_pdfs = true ]; then
     echo
     echo "Merging PDFs into single document."
-    $exec_string --directory wallets/$DT --merge
+    python combine_pdfs_resize.py -d wallets/$DT
 fi
 
 if [ $print_overlays = true ]; then
