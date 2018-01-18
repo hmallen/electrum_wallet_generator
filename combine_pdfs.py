@@ -18,14 +18,33 @@ merger = PdfFileMerger()
 
 
 def combine_pdfs(pdfs):
-    output_pdf = 'overlay.pdf'
+    try:
+        output_pdf = 'overlay.pdf'
 
-    for doc in pdfs:
-        file = open(doc, 'rb')
-        merger.append(fileobj=file)
+        for doc in pdfs:
+            file = open(doc, 'rb')
+            merger.append(fileobj=file)
 
-    output = open(output_pdf, 'wb')
-    merger.write(output)
+        output = open(output_pdf, 'wb')
+        merger.write(output)
+
+    except Exception as e:
+        logger.exception('Exception while combining pdfs.')
+        logger.exception(e)
+        raise
+
+
+def cleanup(pdfs):
+    try:
+        os.mkdir('tmp/')
+
+        for doc in pdfs:
+            os.rename(doc, ('tmp/' + doc))
+
+    except Exception as e:
+        logger.exception('Exception while cleaning-up directory.')
+        logger.exception(e)
+        raise
 
 
 if __name__ == '__main__':
@@ -44,6 +63,8 @@ if __name__ == '__main__':
         if len(pdf_files) > 1:
             logger.info('Multiple PDF files found. Merging.')
             combine_pdfs(pdf_files)
+            logger.info('Cleaning-up pdf directory.')
+            cleanup(pdf_files)
         else:
             logger.info('Multiple PDF files not found. Skipping merge.')
 
