@@ -1,0 +1,4 @@
+- Open image directly from SVG, unmodified
+-- Or generate new image using better methods
+
+- Add database of serial numbers and add to print
