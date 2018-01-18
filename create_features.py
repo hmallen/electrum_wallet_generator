@@ -18,6 +18,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
+parser.add_argument('--demo', action='store_true', default=False, help='Print bill features onto bill template to demonstrate.')
 parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet file.')
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
 parser.add_argument('-o', '--overlay', action='store_true', default=False, help='Enable creation of png overlays for bill printing.')
@@ -25,6 +26,7 @@ parser.add_argument('--pdf', action='store_true', default=False, help='Overlay o
 parser.add_argument('-m', '--merge', action='store_true', default=False, help='Skip wallet creation and merge existing PDFs into single file instead.')
 args = parser.parse_args()
 
+demo_mode = args.demo
 wallet_dir = args.directory
 wallet_file = args.number
 create_overlay = args.overlay
@@ -44,14 +46,10 @@ if merge_only == False:
 # Coordinates of bill features
 bill_features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
                  'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
-                 'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
-                 'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
-"""
-bill_features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
-                 'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
-                 'qr_top': (338, 262), 'qr_middle': (338, 991), 'qr_bottom': (338, 1718),
-                 'seed_top': (1257, 471), 'seed_middle': (1257, 1200), 'seed_bottom': (1257, 1926)}
-"""
+                 'qr_top': (339, 262), 'qr_middle': (339, 991), 'qr_bottom': (339, 1718),
+                 'seed_top': (1258, 471), 'seed_middle': (1258, 1200), 'seed_bottom': (1258, 1926)}
+
+demo_layout = 'resources/bill_feature_outlines.pdf'
 
 
 def create_seed(seed, name):
@@ -150,8 +148,8 @@ def draw_canvas():
 def import_bill_layout(path):
     try:
         with Image(filename=path) as img:
-            #img.resize
-            pass
+            img.resize(1836, 2376)
+            img.save(filename=bill_file)
 
     except Exception as e:
         logger.exception('Exception while importing bill layout.')
@@ -322,8 +320,10 @@ if __name__ == '__main__':
                 logger.info('Creating bill printing overlay.')
                 if os.path.isfile(bill_file) == False:
                     logger.info('Creating new canvas.')
-                    draw_canvas()
-                    #import_bill_layout()
+                    if demo_mode == False:
+                        draw_canvas()
+                    else:
+                        import_bill_layout(demo_layout)
                 else:
                     logger.info('Using existing canvas.')
 

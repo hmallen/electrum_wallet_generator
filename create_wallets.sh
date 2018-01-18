@@ -105,8 +105,14 @@ fi
 
 if [ $print_overlays = true ]; then
     echo
-    echo "OVERLAY PRINTING TO BE IMPLEMENTED HERE..."
-    # EXAMPLE: lp wallets/$DT/overlay_1.png
+    if [ $create_pdfs = true ]; then
+        #echo "OVERLAY PRINTING TO BE IMPLEMENTED HERE..."
+        # EXAMPLE: lp wallets/$DT/overlay_1.png
+        echo "Sending overlays to printer."
+        lp wallets/$DT/overlay.pdf
+    else
+        echo "PNG printing not yet implemented. Skipping."
+    fi
 fi
 
 echo
