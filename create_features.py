@@ -241,11 +241,13 @@ def draw_seed(position):
         raise
 
 
-def merge_pdfs(path):
+def merge_format_pdfs(path):
     try:
         os.chdir(path)
         contents = os.listdir()
         logger.debug('contents: ' + str(contents))
+
+        os.mkdir('tmp/')
 
         pdf_files = []
         for file in contents:
@@ -267,8 +269,6 @@ def merge_pdfs(path):
             merger.write(output)
             
             logger.info('Cleaning-up pdf directory.')
-            os.mkdir('tmp/')
-
             for doc in pdf_files:
                 os.rename(doc, ('tmp/' + doc))
         
@@ -342,7 +342,7 @@ if __name__ == '__main__':
 
         else:
             logger.info('Merging PDF files, if multiple present.')
-            merge_pdfs(wallet_dir)
+            merge_format_pdfs(wallet_dir)
         
     
     except Exception as e:

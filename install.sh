@@ -2,7 +2,7 @@
 
 sudo apt update &&
 <<<<<<< HEAD
-sudo apt install git python3 python3-dev libcairo2 libffi-dev libmagickwand-dev libmagickcore-extra -y &&
+sudo apt install git python3 python3-dev libcairo2 libffi-dev libmagickwand-dev libmagickcore-extra ghostscript -y &&
 sudo python3 -m pip install virtualenv &&
 
 mkdir -p .virtualenvs &&

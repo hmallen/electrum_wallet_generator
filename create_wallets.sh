@@ -98,6 +98,9 @@ if [ $create_pdfs = true ]; then
     echo
     echo "Merging PDFs into single document."
     $exec_string --directory wallets/$DT --merge
+    mv wallets/$DT/overlay.pdf wallets/$DT/tmp/overlay_orig.pdf
+    echo "Formatting PDFs for printing."
+    gs -sOutputFile=wallets/$DT/overlay.pdf -sDEVICE=pdfwrite -sPAPERSIZE=letter -dCompatibilityLevel=1.6 -dNOPAUSE -dBATCH -dPDFFitPage wallets/$DT/tmp/overlay_orig.pdf
 fi
 
 if [ $print_overlays = true ]; then
@@ -106,6 +109,7 @@ if [ $print_overlays = true ]; then
     # EXAMPLE: lp wallets/$DT/overlay_1.png
 fi
 
+echo
 echo "Done!"
 
 exit 0
