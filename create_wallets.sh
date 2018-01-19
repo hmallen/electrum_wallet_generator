@@ -125,8 +125,8 @@ if [ $print_overlays = true ]; then
                 echo "Printing overlay page $i."
                 #lp -P $i -H hold overlay.pdf
                 lp -P $i wallets/$DT/overlay.pdf
-                echo "Delaying $printer_delay seconds before next print."
-                if [ $i -lt $page_count ]; then
+                if [ $i -ne $page_count ]; then
+                    echo "Delaying $printer_delay seconds before next print."
                     sleep $printer_delay
                 fi
             done
