@@ -1,5 +1,6 @@
 import argparse
 from cairosvg import svg2png
+import configparser
 from drawSVG.drawSVG import SVG
 import glob
 import json
@@ -13,6 +14,9 @@ from wand.image import Image
 from wand.display import display
 from wand.drawing import Drawing
 from wand.color import Color
+
+demo_layout = 'resources/bill_feature_outlines.pdf'
+config_file = 'layout_config.ini'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -43,13 +47,39 @@ if merge_only == False:
     else:
         logger.info('Wallet directory: ' + wallet_dir)
 
-# Coordinates of bill features
-bill_features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
-                 'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
-                 'qr_top': (339, 262), 'qr_middle': (339, 991), 'qr_bottom': (339, 1718),
-                 'seed_top': (1258, 471), 'seed_middle': (1258, 1200), 'seed_bottom': (1258, 1926)}
 
-demo_layout = 'resources/bill_feature_outlines.pdf'
+def get_config():
+    config = configparser.ConfigParser()
+    config.read(config_file)
+
+    # Coordinates of bill features
+    features = {'canvas': config['canvas']['dim'], 'square_elements': config['square_elements']['dim'], 'font_size': config['font']['size'],
+                     'addr_top': config['addr']['top'], 'addr_middle': config['addr']['middle'], 'addr_bottom': config['addr']['bottom'],
+                     'qr_top': config['qr']['top'], 'qr_middle': config['qr']['middle'], 'qr_bottom': config['qr']['bottom'],
+                     'seed_top': config['seed']['top'], 'seed_middle': config['seed']['middle'], 'seed_bottom': config['seed']['bottom']}
+    """
+    features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
+                     'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
+                     'qr_top': (340, 261), 'qr_middle': (340, 989), 'qr_bottom': (340, 1715),
+                     'seed_top': (1259, 470), 'seed_middle': (1259, 1199), 'seed_bottom': (1259, 1925)}
+    """
+    for key in features:
+        if key != 'font_size':
+            features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
+    logger.debug('[Step #1]features: ' + str(features))
+    for key in features:
+        if key != 'font_size':
+            features[key] = tuple([int(val) for val in features[key]])
+        else:
+            features[key] = int(features[key])
+    logger.debug('[Step #2]features: ' + str(features))
+    logger.debug('features[\'font_size\']: ' + str(features['font_size']))
+    logger.debug('TYPE: ' + str(type(features['font_size'])))
+
+    logger.debug('font_size: ' + str(features['font_size']))
+    logger.debug(type(features['font_size']))
+
+    return features
 
 
 def create_seed(seed, name):
@@ -282,6 +312,8 @@ def merge_format_pdfs(path):
 
 if __name__ == '__main__':
     try:
+        bill_features = get_config()
+
         if merge_only == False:
             os.chdir(wallet_dir)
 
