@@ -54,7 +54,6 @@ if [ $create_overlays = true ]; then
     do
         case $opt in
             "Yes")
-                #echo "Printing overlays."
                 print_overlays=true
                 if [ $wallet_num -gt 3 ]; then
                     echo
@@ -64,7 +63,6 @@ if [ $create_overlays = true ]; then
                 break
                 ;;
             "No")
-                #echo "Not printing overlays."
                 print_overlays=false
                 break
                 ;;
@@ -159,7 +157,6 @@ if [ $print_overlays = true ]; then
             do
                 echo
                 echo "Printing overlay page $i."
-                #lp -P $i -H hold overlay.pdf
                 lp -P $i wallets/$DT/overlay.pdf
                 if [ $i -ne $page_count ]; then
                     echo "Delaying $printer_delay seconds before next print."
