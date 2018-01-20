@@ -17,3 +17,6 @@ Option #2: Install all dependencies manually. (Will improve this section with mo
 4. Write seed to svg file, formatting text for square output (Python)
 5. Create canvas and place features in arrangement for printing on paper wallet (Python)
 6. Save to transparent overlay file (Python)
+
+<b>To Do:</b>
+1. Add argument to delete entire wallet folder after printing to prevent double use
