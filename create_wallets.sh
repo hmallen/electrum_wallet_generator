@@ -78,15 +78,53 @@ if [ $create_overlays = true ]; then
     done
 fi
 
-echo
+if [ $print_overlays = true ]; then
+    echo
+    echo "Enable secure mode?"
+    echo "--Networking will be disabled while program is running and wallet files will be shredded/overwritten after printing.--"
+    PS3="Selection: "
+    options=("Yes" "No" "Quit")
+    select opt in "${options[@]}"
+    do
+        case $opt in
+            "Yes")
+                secure_mode=true
+                break
+                ;;
+            "No")
+                secure_mode=false
+                break
+                ;;
+            "Quit")
+                echo
+                echo "Exiting program."
+                exit
+                ;;
+            *) echo invalid option;;
+        esac
+    done
+fi
 
+DT=$(date "+%m%d%Y_%H%M%S")
+
+if [ $secure_mode = true ]; then
+    echo
+    echo "Secure mode enabled."
+    echo "Disabling networking services."
+    sudo /etc/init.d/networking stop &&
+    sudo /etc/init.d/network-manager stop &&
+    sleep 5
+    DT="${DT}_secure"
+fi
+
+echo
 if [ $wallet_num -eq 1 ]; then
     echo "Creating 1 wallet."
 else
     echo "Creating $wallet_num wallets."
 fi
 
-DT=$(date "+%m%d%Y_%H%M%S")
+exit 0
 
 for (( i=1; i<=$wallet_num; i++ ))
 do
@@ -139,6 +177,25 @@ if [ $print_overlays = true ]; then
         echo
         echo "PNG printing not yet implemented. Skipping."
     fi
+fi
+
+if [ $secure_mode = true ]; then
+    echo
+    echo "Shredding wallet files."
+    for (( i=1; i<=$wallet_num; i++ ))
+    do
+        shred -u -z -v wallets/$DT/$i/* &&
+        rm -r wallets/$DT/$i
+    done
+    shred -u -z -v wallets/$DT/tmp/*
+    rm -r wallets/$DT/tmp
+    shred -u -z -v wallets/$DT/* &&
+    rm -r wallets/$DT
+    echo
+    echo "Restoring networking services."
+    sudo /etc/init.d/networking start &&
+    sudo /etc/init.d/network-manager start &&
+    sleep 5
 fi
 
 echo
