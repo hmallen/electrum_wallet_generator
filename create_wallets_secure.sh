@@ -1,7 +1,5 @@
 #!/bin/bash
 
-secure_mode=true
-
 echo
 echo "-----------------------------"
 echo "| Electrum Wallet Generator |"
@@ -80,12 +78,31 @@ if [ $create_overlays = true ]; then
     done
 fi
 
-echo
-
-if [ $wallet_num -eq 1 ]; then
-    echo "Creating 1 wallet."
-else
-    echo "Creating $wallet_num wallets."
+if [ $print_overlays = true ]; then
+    echo
+    echo "Enable secure mode?"
+    echo "--Networking will be disabled while program is running and wallet files will be shredded/overwritten after printing.--"
+    PS3="Selection: "
+    options=("Yes" "No" "Quit")
+    select opt in "${options[@]}"
+    do
+        case $opt in
+            "Yes")
+                secure_mode=true
+                break
+                ;;
+            "No")
+                secure_mode=false
+                break
+                ;;
+            "Quit")
+                echo
+                echo "Exiting program."
+                exit
+                ;;
+            *) echo invalid option;;
+        esac
+    done
 fi
 
 DT=$(date "+%m%d%Y_%H%M%S")
@@ -99,6 +116,15 @@ if [ $secure_mode = true ]; then
     sleep 5
     DT="${DT}_secure"
 fi
+
+echo
+if [ $wallet_num -eq 1 ]; then
+    echo "Creating 1 wallet."
+else
+    echo "Creating $wallet_num wallets."
+fi
+
+exit 0
 
 for (( i=1; i<=$wallet_num; i++ ))
 do
