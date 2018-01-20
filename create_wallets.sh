@@ -124,8 +124,6 @@ else
     echo "Creating $wallet_num wallets."
 fi
 
-exit 0
-
 for (( i=1; i<=$wallet_num; i++ ))
 do
     exec="$exec_string --directory wallets/$DT/$i --number $i"
