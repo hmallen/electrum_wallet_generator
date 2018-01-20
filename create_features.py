@@ -16,7 +16,7 @@ from wand.drawing import Drawing
 from wand.color import Color
 
 demo_layout = 'resources/bill_feature_outlines.pdf'
-config_file = 'layout_config.ini'
+config_file = 'config/layout.ini'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
