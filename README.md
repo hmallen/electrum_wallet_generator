@@ -19,4 +19,6 @@ Option #2: Install all dependencies manually. (Will improve this section with mo
 6. Save to transparent overlay file (Python)
 
 <b>To Do:</b>
-1. Add argument to delete entire wallet folder after printing to prevent double use
+1. Add argument to delete (shred) entire wallet folder after printing to prevent double use
+2. Add script to disable networking before wallet creation
+3. Look into other security implementations
