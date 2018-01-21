@@ -15,8 +15,10 @@ from wand.display import display
 from wand.drawing import Drawing
 from wand.color import Color
 
-demo_layout = 'resources/bill_feature_outlines.pdf'
+demo_layout_bill = 'resources/bill_feature_outlines.pdf'
+demo_layout_address = 'resources/address_info_card_layout_front.pdf'
 bill_config_file = 'config/bill.ini'
+address_config_file = 'config/address.ini'
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
@@ -48,36 +50,57 @@ if merge_only == False:
         logger.info('Wallet directory: ' + wallet_dir)
 
 
-def get_config():
+def get_config(config_type):
     config = configparser.ConfigParser()
-    config.read(bill_config_file)
 
-    # Coordinates of bill features
-    features = {'canvas': config['canvas']['dim'], 'square_elements': config['square_elements']['dim'], 'font_size': config['font']['size'],
-                     'addr_top': config['addr']['top'], 'addr_middle': config['addr']['middle'], 'addr_bottom': config['addr']['bottom'],
-                     'qr_top': config['qr']['top'], 'qr_middle': config['qr']['middle'], 'qr_bottom': config['qr']['bottom'],
-                     'seed_top': config['seed']['top'], 'seed_middle': config['seed']['middle'], 'seed_bottom': config['seed']['bottom']}
-    """
-    features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
-                     'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
-                     'qr_top': (340, 261), 'qr_middle': (340, 989), 'qr_bottom': (340, 1715),
-                     'seed_top': (1259, 470), 'seed_middle': (1259, 1199), 'seed_bottom': (1259, 1925)}
-    """
-    for key in features:
-        if key != 'font_size':
-            features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
-    logger.debug('[Step #1]features: ' + str(features))
-    for key in features:
-        if key != 'font_size':
-            features[key] = tuple([int(val) for val in features[key]])
-        else:
-            features[key] = int(features[key])
-    logger.debug('[Step #2]features: ' + str(features))
-    logger.debug('features[\'font_size\']: ' + str(features['font_size']))
-    logger.debug('TYPE: ' + str(type(features['font_size'])))
+    if config_type == 'bill':
+        config.read(bill_config_file)
 
-    logger.debug('font_size: ' + str(features['font_size']))
-    logger.debug(type(features['font_size']))
+        # Coordinates of bill features
+        features = {'canvas': config['canvas']['dim'], 'square_elements': config['square_elements']['dim'], 'font_size': config['font']['size'],
+                         'addr_top': config['addr']['top'], 'addr_middle': config['addr']['middle'], 'addr_bottom': config['addr']['bottom'],
+                         'qr_top': config['qr']['top'], 'qr_middle': config['qr']['middle'], 'qr_bottom': config['qr']['bottom'],
+                         'seed_top': config['seed']['top'], 'seed_middle': config['seed']['middle'], 'seed_bottom': config['seed']['bottom']}
+        """
+        features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
+                         'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
+                         'qr_top': (340, 261), 'qr_middle': (340, 989), 'qr_bottom': (340, 1715),
+                         'seed_top': (1259, 470), 'seed_middle': (1259, 1199), 'seed_bottom': (1259, 1925)}
+        """
+        for key in features:
+            if key != 'font_size':
+                features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
+        logger.debug('[Step #1]features: ' + str(features))
+        for key in features:
+            if key != 'font_size':
+                features[key] = tuple([int(val) for val in features[key]])
+            else:
+                features[key] = int(features[key])
+        logger.debug('[Step #2]features: ' + str(features))
+        logger.debug('features[\'font_size\']: ' + str(features['font_size']))
+        logger.debug('TYPE: ' + str(type(features['font_size'])))
+
+        logger.debug('font_size: ' + str(features['font_size']))
+        logger.debug(type(features['font_size']))
+
+    elif config_type == 'address':
+        config.read(address_config_file)
+
+        features = {'canvas': config['canvas']['dim'], 'square_elements': config['square_elements']['dim'],
+                    'left_x': config['addr']['left_x'], 'right_x': config['addr']['right_x'],
+                    'row_one_y': config['addr']['row_one_y'], 'row_two_y': config['addr']['row_two_y'],
+                    'row_three_y': config['addr']['row_three_y'], 'row_four_y': config['addr']['row_four_y']}
+
+        for key in features:
+            if key == 'canvas' or key == 'square_elements':
+                features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
+        logger.debug('[Step #1]features: ' + str(features))
+        for key in features:
+            if key == 'canvas' or key == 'square_elements':
+                features[key] = tuple([int(val) for val in features[key]])
+            else:
+                features[key] = int(features[key])
+        logger.debug('[Step #2]features: ' + str(features))
 
     return features
 
@@ -151,7 +174,7 @@ def create_qr(addr, name):
             svg_file.write(qr_svg_pub)
 
         with open(qr_svg_path, 'rb') as svg_file:
-            svg2png(file_obj=svg_file, write_to=qr_png_path, parent_width=512, parent_height=512)
+            svg2png(file_obj=svg_file, write_to=qr_png_path, parent_width=1024, parent_height=1024)
 
     except Exception as e:
         logger.exception('Exception while creating QR file.')
@@ -175,14 +198,19 @@ def draw_canvas():
         raise
 
 
-def import_bill_layout(path):
+def import_demo_layout(demo_type):
     try:
+        if demo_type == 'bill':
+            demo_file = demo_layout_bill
+        elif demo_type == 'address':
+            demo_file = demo_layout_address
+    
         with Image(filename=path) as img:
             img.resize(1836, 2376)
-            img.save(filename=bill_file)
+            img.save(filename=demo_file)
 
     except Exception as e:
-        logger.exception('Exception while importing bill layout.')
+        logger.exception('Exception while importing demo layout.')
         logger.exception(e)
         raise
 
@@ -312,7 +340,8 @@ def merge_format_pdfs(path):
 
 if __name__ == '__main__':
     try:
-        bill_features = get_config()
+        bill_features = get_config('bill')
+        addr_features = get_config('address')
 
         if merge_only == False:
             os.chdir(wallet_dir)
@@ -349,13 +378,13 @@ if __name__ == '__main__':
             create_qr(public_address, wallet_file)
 
             if create_overlay == True:
-                logger.info('Creating bill printing overlay.')
+                logger.info('Creating bill print overlay.')
                 if os.path.isfile(bill_file) == False:
                     logger.info('Creating new canvas.')
                     if demo_mode == False:
                         draw_canvas()
                     else:
-                        import_bill_layout(demo_layout)
+                        import_demo_layout('bill')
                 else:
                     logger.info('Using existing canvas.')
 
