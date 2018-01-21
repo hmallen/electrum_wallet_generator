@@ -4,3 +4,6 @@ env*/
 output/
 *.DS_Store
 wallets/
+activate
+aws_connect
+resources/*.deb

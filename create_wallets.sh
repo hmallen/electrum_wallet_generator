@@ -176,6 +176,12 @@ fi
 
 if [ "$secure_mode" = true ]; then
     echo
+    echo "Waiting for print jobs to complete."
+    while [ "`lpstat | awk '{print $2}'`" != "" ]
+    do
+        sleep 1
+    done
+    echo
     echo "Shredding wallet files."
     for (( i=1; i<=$wallet_num; i++ ))
     do

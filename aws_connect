@@ -1,1 +1,0 @@
-ssh -i /home/ubuntu/keys/bitbillz.pem ec2-user@ec2-52-90-176-80.compute-1.amazonaws.com
