@@ -1,4 +1,4 @@
-#!/home/ubuntu/.virtualenvs/bitcoin_wallet_generator/bin/python3.5
+#!/home/xbuntu/.virtualenvs/electrum_wallet_generator/bin/python3.5
 # -*- mode: python -*-
 #
 # Electrum - lightweight Bitcoin client
