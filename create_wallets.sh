@@ -45,7 +45,7 @@ do
     esac
 done
 
-if [ $create_overlays = true ]; then
+if [ "$create_overlays" = true ]; then
     echo
     echo "Send overlays to printer?"
     PS3="Selection: "
@@ -76,7 +76,7 @@ if [ $create_overlays = true ]; then
     done
 fi
 
-if [ $print_overlays = true ]; then
+if [ "$print_overlays" = true ]; then
     echo
     echo "Enable secure mode?"
     echo "--Networking will be disabled while program is running and wallet files will be shredded/overwritten after printing.--"
@@ -105,7 +105,7 @@ fi
 
 DT=$(date "+%m%d%Y_%H%M%S")
 
-if [ $secure_mode = true ]; then
+if [ "$secure_mode" = true ]; then
     echo
     echo "Secure mode enabled."
     echo "Disabling networking services."
@@ -133,7 +133,7 @@ do
     $exec
 done
 
-if [ $create_pdfs = true ]; then
+if [ "$create_pdfs" = true ]; then
     echo
     echo "Merging PDFs into single document."
     $exec_string --directory wallets/$DT --merge
@@ -143,8 +143,8 @@ if [ $create_pdfs = true ]; then
     gs -sOutputFile=wallets/$DT/overlay.pdf -sDEVICE=pdfwrite -sPAPERSIZE=letter -dCompatibilityLevel=1.6 -dNOPAUSE -dBATCH -dPDFFitPage wallets/$DT/tmp/overlay_orig.pdf
 fi
 
-if [ $print_overlays = true ]; then
-    if [ $create_pdfs = true ]; then
+if [ "$print_overlays" = true ]; then
+    if [ "$create_pdfs" = true ]; then
         echo
         echo "Sending overlays to printer."
         if [ $wallet_num -gt 3 ]; then
@@ -174,7 +174,7 @@ if [ $print_overlays = true ]; then
     fi
 fi
 
-if [ $secure_mode = true ]; then
+if [ "$secure_mode" = true ]; then
     echo
     echo "Shredding wallet files."
     for (( i=1; i<=$wallet_num; i++ ))
