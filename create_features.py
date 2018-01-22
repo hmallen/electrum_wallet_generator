@@ -21,7 +21,7 @@ demo_layout_address = 'resources/address_info_card_layout_front.pdf'
 bill_config_file = 'config/bill.ini'
 address_config_file = 'config/address.ini'
 
-logging.basicConfig(level=logging.DEBUG)
+logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
@@ -71,7 +71,10 @@ def get_config(config_type, config_element=None):
                     'qr_bottom': config['qr']['bottom'],
                     'seed_top': config['seed']['top'],
                     'seed_middle': config['seed']['middle'],
-                    'seed_bottom': config['seed']['bottom']}
+                    'seed_bottom': config['seed']['bottom'],
+                    'label_top': config['label']['top'],
+                    'label_middle': config['label']['middle'],
+                    'label_bottom': config['label']['bottom']}
 
         for key in features:
             if key != 'font_size':
@@ -287,7 +290,7 @@ def draw_address(addr, position):
                 img.save(filename=bill_file)
 
     except Exception as e:
-        logger.exception('Exception while drawing address.')
+        logger.exception('Exception while drawing public address on bill overlay.')
         logger.exception(e)
         raise
 
@@ -314,7 +317,7 @@ def draw_qr(position):
                 bill.save(filename=bill_file)
 
     except Exception as e:
-        logger.exception('Exception while drawing QR.')
+        logger.exception('Exception while drawing QR on bill overlay.')
         logger.exception(e)
         raise
 
@@ -340,7 +343,37 @@ def draw_seed(position):
                 bill.save(filename=bill_file)
 
     except Exception as e:
-        logger.exception('Exception while drawing seed.')
+        logger.exception('Exception while drawing seed on bill overlay.')
+        logger.exception(e)
+        raise
+
+
+def draw_label(position, text):
+    logger.info('Adding label to bill overlay.')
+
+    try:
+        if position == 'top':
+            x_label = bill_features['label_top'][0]
+            y_label = bill_features['label_top'][1]
+        elif position == 'middle':
+            x_label = bill_features['label_middle'][0]
+            y_label = bill_features['label_middle'][1]
+        elif position == 'bottom':
+            x_label = bill_features['label_bottom'][0]
+            y_label = bill_features['label_bottom'][1]
+            
+        with Drawing() as draw:
+            draw.font_family = 'Ubuntu'
+            draw.font_style = 'oblique'
+            draw.font_size = bill_features['font_size']
+            draw.text_alignment = 'left'
+            draw.text(x_label, y_label, text)
+            with Image(filename=bill_file) as layout:
+                draw.draw(layout)
+                layout.save(filename=bill_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing label on bill overlay.')
         logger.exception(e)
         raise
 
@@ -433,7 +466,7 @@ def draw_address_layout(position, element, text=None):
             y_label = addr_features_label['row_four_y']
 
         if element == 'qr':
-            logger.info('Adding QR code.')
+            logger.info('Adding QR code to address card overlay.')
             # QR Code
             with Image(filename=addr_file) as layout:
                 with Image(filename=qr_png_path) as img:
@@ -442,7 +475,7 @@ def draw_address_layout(position, element, text=None):
                     layout.save(filename=addr_file)
 
         elif element == 'address':
-            logger.info('Adding public address.')
+            logger.info('Adding public address to address card overlay.')
             # Public Address
             with Drawing() as draw:
                 draw.font_family = 'Ubuntu'
@@ -456,7 +489,7 @@ def draw_address_layout(position, element, text=None):
                     layout.save(filename=addr_file)
 
         elif element == 'label':
-            logger.info('Adding label.')
+            logger.info('Adding label to address card overlay.')
             # Label
             with Drawing() as draw:
                 draw.font_family = 'Ubuntu'
@@ -581,6 +614,12 @@ if __name__ == '__main__':
             create_qr(public_address, wallet_file)
 
             if create_overlay == True:
+                # Construct label for overlay
+                label_current = '#' + wallet_file
+                if serial_number != '':
+                    label_current = label_current + ' - ' + serial_number
+                logger.debug('label_current: ' + label_current)
+                
                 # Determine overlay number and file name based on wallet number
                 overlay_num_bill = str(math.ceil(int(wallet_file) / 3))
                 logger.debug('overlay_num: ' + overlay_num_bill)
@@ -615,12 +654,14 @@ if __name__ == '__main__':
                 # pos_modulo_bill = 2 --> Middle bill
                 # pos_modulo_bill = 3 --> Bottom bill
                 
-                bill_positions = ['top', 'middle', 'bottom']
+                #bill_positions = ['top', 'middle', 'bottom']
+                bill_positions = ['bottom', 'top', 'middle']
                 logger.debug('bill_positions[pos_modulo_bill]: ' + bill_positions[pos_modulo_bill])
                 
                 draw_address(public_address, bill_positions[pos_modulo_bill])
                 draw_qr(bill_positions[pos_modulo_bill])
                 draw_seed(bill_positions[pos_modulo_bill])
+                draw_label(bill_positions[pos_modulo_bill], label_current)
 
                 #### ADDRESS CARD OVERLAY FUNCTIONS ####
                 logger.info('Creating address card print overlay.')
@@ -641,11 +682,6 @@ if __name__ == '__main__':
 
                 draw_address_layout(addr_positions[pos_modulo_addr], 'qr')
                 draw_address_layout(addr_positions[pos_modulo_addr], 'address', public_address)
-                
-                label_current = '#' + wallet_file
-                if serial_number != '':
-                    label_current = label_current + ' - ' + serial_number
-                logger.debug('label_current: ' + label_current)
                 draw_address_layout(addr_positions[pos_modulo_addr], 'label', label_current)
 
         else:
