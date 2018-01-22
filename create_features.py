@@ -15,10 +15,13 @@ from wand.display import display
 from wand.drawing import Drawing
 from wand.color import Color
 
-demo_layout = 'resources/bill_feature_outlines.pdf'
-bill_config_file = 'config/bill.ini'
+demo_layout_bill = 'resources/bill_feature_outlines.pdf'
+demo_layout_address = 'resources/address_info_card_layout_front.pdf'
 
-logging.basicConfig(level=logging.INFO)
+bill_config_file = 'config/bill.ini'
+address_config_file = 'config/address.ini'
+
+logging.basicConfig(level=logging.DEBUG)
 logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
@@ -48,36 +51,88 @@ if merge_only == False:
         logger.info('Wallet directory: ' + wallet_dir)
 
 
-def get_config():
+def get_config(config_type, config_element=None):
     config = configparser.ConfigParser()
-    config.read(bill_config_file)
 
-    # Coordinates of bill features
-    features = {'canvas': config['canvas']['dim'], 'square_elements': config['square_elements']['dim'], 'font_size': config['font']['size'],
-                     'addr_top': config['addr']['top'], 'addr_middle': config['addr']['middle'], 'addr_bottom': config['addr']['bottom'],
-                     'qr_top': config['qr']['top'], 'qr_middle': config['qr']['middle'], 'qr_bottom': config['qr']['bottom'],
-                     'seed_top': config['seed']['top'], 'seed_middle': config['seed']['middle'], 'seed_bottom': config['seed']['bottom']}
-    """
-    features = {'canvas': (1836, 2376), 'square_elements': (195, 195), 'font_size': 20,
-                     'addr_top': (1784, 604), 'addr_middle': (1056, 604), 'addr_bottom': (330, 604),
-                     'qr_top': (340, 261), 'qr_middle': (340, 989), 'qr_bottom': (340, 1715),
-                     'seed_top': (1259, 470), 'seed_middle': (1259, 1199), 'seed_bottom': (1259, 1925)}
-    """
-    for key in features:
-        if key != 'font_size':
-            features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
-    logger.debug('[Step #1]features: ' + str(features))
-    for key in features:
-        if key != 'font_size':
-            features[key] = tuple([int(val) for val in features[key]])
-        else:
-            features[key] = int(features[key])
-    logger.debug('[Step #2]features: ' + str(features))
-    logger.debug('features[\'font_size\']: ' + str(features['font_size']))
-    logger.debug('TYPE: ' + str(type(features['font_size'])))
+    if config_type == 'bill':
+        config.read(bill_config_file)
 
-    logger.debug('font_size: ' + str(features['font_size']))
-    logger.debug(type(features['font_size']))
+        # Coordinates of bill features
+        features = {'canvas': config['canvas']['dim'],
+                    'square_elements': config['square_elements']['dim'],
+                    'font_size': config['font']['size'],
+                    'addr_top': config['addr']['top'],
+                    'addr_middle': config['addr']['middle'],
+                    'addr_bottom': config['addr']['bottom'],
+                    'qr_top': config['qr']['top'],
+                    'qr_middle': config['qr']['middle'],
+                    'qr_bottom': config['qr']['bottom'],
+                    'seed_top': config['seed']['top'],
+                    'seed_middle': config['seed']['middle'],
+                    'seed_bottom': config['seed']['bottom']}
+
+        for key in features:
+            if key != 'font_size':
+                features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
+        logger.debug('[Step #1]features: ' + str(features))
+        for key in features:
+            if key != 'font_size':
+                features[key] = tuple([int(val) for val in features[key]])
+            else:
+                features[key] = int(features[key])
+        logger.debug('[Step #2]features: ' + str(features))
+        logger.debug('features[\'font_size\']: ' + str(features['font_size']))
+        logger.debug('TYPE: ' + str(type(features['font_size'])))
+
+        logger.debug('font_size: ' + str(features['font_size']))
+        logger.debug(type(features['font_size']))
+
+    elif config_type == 'address':
+        config.read(address_config_file)
+
+        if config_element == 'qr':
+            features = {'canvas': config['canvas']['dim'],
+                        'square_elements': config['square_elements']['dim'],
+                        'left_x': config[config_element]['left_x'],
+                        'right_x': config[config_element]['right_x'],
+                        'row_one_y': config[config_element]['row_one_y'],
+                        'row_two_y': config[config_element]['row_two_y'],
+                        'row_three_y': config[config_element]['row_three_y'],
+                        'row_four_y': config[config_element]['row_four_y'],
+                        'font_size': config[config_element]['font_size']}
+
+        elif config_element == 'addr':
+            features = {'canvas': config['canvas']['dim'],
+                        'square_elements': config['square_elements']['dim'],
+                        'top_y': config[config_element]['top_y'],
+                        'bottom_y': config[config_element]['bottom_y'],
+                        'column_one_x': config[config_element]['column_one_x'],
+                        'column_two_x': config[config_element]['column_two_x'],
+                        'column_three_x': config[config_element]['column_three_x'],
+                        'column_four_x': config[config_element]['column_four_x'],
+                        'font_size': config[config_element]['font_size']}
+
+        elif config_element == 'label':
+            features = {'canvas': config['canvas']['dim'],
+                        'square_elements': config['square_elements']['dim'],
+                        'left_x': config[config_element]['left_x'],
+                        'right_x': config[config_element]['right_x'],
+                        'row_one_y': config[config_element]['row_one_y'],
+                        'row_two_y': config[config_element]['row_two_y'],
+                        'row_three_y': config[config_element]['row_three_y'],
+                        'row_four_y': config[config_element]['row_four_y'],
+                        'font_size': config[config_element]['font_size']}
+        
+        for key in features:
+            if key == 'canvas' or key == 'square_elements':
+                features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
+        logger.debug('[Step #1]features: ' + str(features))
+        for key in features:
+            if key == 'canvas' or key == 'square_elements':
+                features[key] = tuple([int(val) for val in features[key]])
+            else:
+                features[key] = int(features[key])
+        logger.debug('[Step #2]features: ' + str(features))
 
     return features
 
@@ -151,7 +206,7 @@ def create_qr(addr, name):
             svg_file.write(qr_svg_pub)
 
         with open(qr_svg_path, 'rb') as svg_file:
-            svg2png(file_obj=svg_file, write_to=qr_png_path, parent_width=512, parent_height=512)
+            svg2png(file_obj=svg_file, write_to=qr_png_path, parent_width=1024, parent_height=1024)
 
     except Exception as e:
         logger.exception('Exception while creating QR file.')
@@ -159,15 +214,25 @@ def create_qr(addr, name):
         raise
 
 
-def draw_canvas():
+def draw_canvas(canvas_type):
     try:
-        with Drawing() as draw:
-            draw.fill_color = Color('transparent')
-            draw.rectangle(left=0, top=0, width=bill_features['canvas'][0], height=bill_features['canvas'][1])
-            
-            with Image(width=bill_features['canvas'][0], height=bill_features['canvas'][1]) as img:
-                draw.draw(img)
-                img.save(filename=bill_file)
+        if canvas_type == 'bill':
+            with Drawing() as draw:
+                draw.fill_color = Color('transparent')
+                draw.rectangle(left=0, top=0, width=bill_features['canvas'][0], height=bill_features['canvas'][1])
+                
+                with Image(width=bill_features['canvas'][0], height=bill_features['canvas'][1]) as img:
+                    draw.draw(img)
+                    img.save(filename=bill_file)
+
+        elif canvas_type == 'address':
+            with Drawing() as draw:
+                draw.fill_color = Color('transparent')
+                draw.rectangle(left=0, top=0, width=addr_features_qr['canvas'][0], height=addr_features_qr['canvas'][1])
+                
+                with Image(width=addr_features_qr['canvas'][0], height=addr_features_qr['canvas'][1]) as img:
+                    draw.draw(img)
+                    img.save(filename=addr_file)
 
     except Exception as e:
         logger.exception('Exception while drawing canvas.')
@@ -175,14 +240,22 @@ def draw_canvas():
         raise
 
 
-def import_bill_layout(path):
+def import_demo_layout(demo_type):
     try:
-        with Image(filename=path) as img:
+        if demo_type == 'bill':
+            demo_layout = demo_layout_bill
+            demo_file = bill_file
+        elif demo_type == 'address':
+            demo_layout = demo_layout_address
+            demo_file = addr_file
+    
+        with Image(filename=demo_layout) as img:
             img.resize(1836, 2376)
-            img.save(filename=bill_file)
+            #display(img)
+            img.save(filename=demo_file)
 
     except Exception as e:
-        logger.exception('Exception while importing bill layout.')
+        logger.exception('Exception while importing demo layout.')
         logger.exception(e)
         raise
 
@@ -219,6 +292,7 @@ def draw_address(addr, position):
 
 def draw_qr(position):
     global qr_png_path
+    logger.debug('[draw_qr()]-qr_png_path: ' + qr_png_path)
 
     try:
         if position == 'top':
@@ -269,6 +343,135 @@ def draw_seed(position):
         raise
 
 
+def draw_address_layout(position, element, text=None):
+    global qr_png_path
+    logger.debug('[draw_address_layout()]-qr_png_path: ' + qr_png_path)
+
+    try:
+        # 8 positions available on print layout
+        # Position argument is an integer from 1-8
+        if position == 1:
+            x_qr = addr_features_qr['left_x']
+            y_qr = addr_features_qr['row_one_y']
+            
+            x_addr = addr_features_addr['column_four_x']
+            y_addr = addr_features_addr['top_y']
+
+            x_label = addr_features_label['left_x']
+            y_label = addr_features_label['row_one_y']
+            
+        elif position == 2:
+            x_qr = addr_features_qr['right_x']
+            y_qr = addr_features_qr['row_one_y']
+
+            x_addr = addr_features_addr['column_four_x']
+            y_addr = addr_features_addr['bottom_y']
+
+            x_label = addr_features_label['right_x']
+            y_label = addr_features_label['row_one_y']
+            
+        elif position == 3:
+            x_qr = addr_features_qr['left_x']
+            y_qr = addr_features_qr['row_two_y']
+
+            x_addr = addr_features_addr['column_three_x']
+            y_addr = addr_features_addr['top_y']
+
+            x_label = addr_features_label['left_x']
+            y_label = addr_features_label['row_two_y']
+            
+        elif position == 4:
+            x_qr = addr_features_qr['right_x']
+            y_qr = addr_features_qr['row_two_y']
+
+            x_addr = addr_features_addr['column_three_x']
+            y_addr = addr_features_addr['bottom_y']
+
+            x_label = addr_features_label['right_x']
+            y_label = addr_features_label['row_two_y']
+            
+        elif position == 5:
+            x_qr = addr_features_qr['left_x']
+            y_qr = addr_features_qr['row_three_y']
+
+            x_addr = addr_features_addr['column_two_x']
+            y_addr = addr_features_addr['top_y']
+
+            x_label = addr_features_label['left_x']
+            y_label = addr_features_label['row_three_y']
+            
+        elif position == 6:
+            x_qr = addr_features_qr['right_x']
+            y_qr = addr_features_qr['row_three_y']
+
+            x_addr = addr_features_addr['column_two_x']
+            y_addr = addr_features_addr['bottom_y']
+
+            x_label = addr_features_label['right_x']
+            y_label = addr_features_label['row_three_y']
+            
+        elif position == 7:
+            x_qr = addr_features_qr['left_x']
+            y_qr = addr_features_qr['row_four_y']
+
+            x_addr = addr_features_addr['column_one_x']
+            y_addr = addr_features_addr['top_y']
+
+            x_label = addr_features_label['left_x']
+            y_label = addr_features_label['row_four_y']
+            
+        elif position == 8:
+            x_qr = addr_features_qr['right_x']
+            y_qr = addr_features_qr['row_four_y']
+
+            x_addr = addr_features_addr['column_one_x']
+            y_addr = addr_features_addr['bottom_y']
+
+            x_label = addr_features_label['right_x']
+            y_label = addr_features_label['row_four_y']
+
+        if element == 'qr':
+            logger.info('Adding QR code.')
+            # QR Code
+            with Image(filename=addr_file) as layout:
+                with Image(filename=qr_png_path) as img:
+                    img.resize(addr_features_qr['square_elements'][0], addr_features_qr['square_elements'][1])
+                    layout.composite(img, left=x_qr, top=y_qr)
+                    layout.save(filename=addr_file)
+
+        elif element == 'address':
+            logger.info('Adding public address.')
+            # Public Address
+            with Drawing() as draw:
+                draw.font_family = 'Ubuntu'
+                draw.font_size = addr_features_addr['font_size']
+                draw.text_alignment = 'center'
+                draw.text(x_addr, y_addr, text)
+                with Image(filename=addr_file) as layout:
+                    layout.rotate(90)
+                    draw.draw(layout)
+                    layout.rotate(270)
+                    layout.save(filename=addr_file)
+
+        elif element == 'label':
+            logger.info('Adding label.')
+            # Label
+            with Drawing() as draw:
+                draw.font_family = 'Ubuntu'
+                draw.font_style = 'oblique'
+                draw.font_size = addr_features_label['font_size']
+                draw.text_alignment = 'left'
+                draw.text(x_label, y_label, text)
+                with Image(filename=addr_file) as layout:
+                    draw.draw(layout)
+                    layout.save(filename=addr_file)
+
+    except Exception as e:
+        logger.exception('Exception while drawing info on address layout.')
+        logger.exception(e)
+        raise
+
+
 def merge_format_pdfs(path):
     try:
         os.chdir(path)
@@ -277,32 +480,67 @@ def merge_format_pdfs(path):
 
         os.mkdir('tmp/')
 
-        pdf_files = []
+        # Merge bill files, if multiple present
+        pdf_files_bill = []
         for file in contents:
             if file.endswith('.pdf'):
-                pdf_files.append(file)
-                logger.debug('file: ' + file)
-        logger.debug('pdf_files: ' + str(pdf_files))
+                if file.split('_')[1] != 'addr':
+                    pdf_files_bill.append(file)
+                    logger.debug('file: ' + file)
+                else:
+                    logger.debug('Skipping address file: ' + file)
+        logger.debug('pdf_files_bill: ' + str(pdf_files_bill))
 
-        if len(pdf_files) > 1:
-            logger.info('Multiple PDF files found. Merging.')
+        if len(pdf_files_bill) > 1:
+            logger.info('Multiple bill overlays found. Merging.')
             merger = PdfFileMerger()
-            output_pdf = 'overlay.pdf'
+            merged_output = 'overlay.pdf'
 
-            for doc in pdf_files:
+            for doc in pdf_files_bill:
                 file = open(doc, 'rb')
                 merger.append(fileobj=file)
 
-            output = open(output_pdf, 'wb')
+            output = open(merged_output, 'wb')
             merger.write(output)
             
             logger.info('Cleaning-up pdf directory.')
-            for doc in pdf_files:
+            for doc in pdf_files_bill:
                 os.rename(doc, ('tmp/' + doc))
         
         else:
-            logger.info('Multiple PDF files not found. Renaming overlay and skipping merge.')
+            logger.info('Multiple bill overlays not found. Renaming overlay and skipping merge.')
             os.rename('overlay_1.pdf', 'overlay.pdf')
+
+        # Merge address overlays, if multiple present
+        pdf_files_addr = []
+        for file in contents:
+            if file.endswith('.pdf'):
+                if file.split('_')[1] == 'addr':
+                    pdf_files_addr.append(file)
+                    logger.debug('file: ' + file)
+                else:
+                    logger.debug('Skipping bill file: ' + file)
+        logger.debug('pdf_files_addr: ' + str(pdf_files_addr))
+
+        if len(pdf_files_addr) > 1:
+            logger.info('Multiple address overlays found. Merging.')
+            merger = PdfFileMerger()
+            merged_output = 'overlay_addr.pdf'
+
+            for doc in pdf_files_addr:
+                file = open(doc, 'rb')
+                merger.append(fileobj=file)
+
+            output = open(merged_output, 'wb')
+            merger.write(output)
+            
+            logger.info('Cleaning-up pdf directory.')
+            for doc in pdf_files_addr:
+                os.rename(doc, ('tmp/' + doc))
+
+        else:
+            logger.info('Multiple address overlays not found. Renaming overlay and skipping merge.')
+            os.rename('overlay_addr_1.pdf', 'overlay_addr.pdf')
 
     except Exception as e:
         logger.exception('Exception while merging PDF files.')
@@ -312,21 +550,13 @@ def merge_format_pdfs(path):
 
 if __name__ == '__main__':
     try:
-        bill_features = get_config()
-
         if merge_only == False:
+            bill_features = get_config('bill')
+            addr_features_qr = get_config('address', 'qr')
+            addr_features_addr = get_config('address', 'addr')
+            addr_features_label = get_config('address', 'label')
+        
             os.chdir(wallet_dir)
-
-            # Determine overlay number and file name based on wallet number
-            overlay_num = str(math.ceil(int(wallet_file) / 3))
-            logger.debug('overlay_num: ' + overlay_num)
-
-            # Set file suffix based on desired output
-            if output_pdf == True:
-                bill_file = '../overlay_' + overlay_num + '.pdf'
-            else:
-                bill_file = '../overlay_' + overlay_num + '.png'
-            logger.debug('bill_file: ' + bill_file)
 
             with open(wallet_file, 'r') as file:
                 wallet_info_raw = file.read()
@@ -349,28 +579,70 @@ if __name__ == '__main__':
             create_qr(public_address, wallet_file)
 
             if create_overlay == True:
-                logger.info('Creating bill printing overlay.')
-                if os.path.isfile(bill_file) == False:
-                    logger.info('Creating new canvas.')
-                    if demo_mode == False:
-                        draw_canvas()
-                    else:
-                        import_bill_layout(demo_layout)
-                else:
-                    logger.info('Using existing canvas.')
+                # Determine overlay number and file name based on wallet number
+                overlay_num_bill = str(math.ceil(int(wallet_file) / 3))
+                logger.debug('overlay_num: ' + overlay_num_bill)
 
-                pos_modulo = int(wallet_file) % 3
-                logger.debug('pos_modulo: ' + str(pos_modulo))
-                # pos_modulo = 1 --> Top bill
-                # pos_modulo = 2 --> Middle bill
-                # pos_modulo = 3 --> Bottom bill
+                overlay_num_addr = str(math.ceil(int(wallet_file) / 3))
+                logger.debug('overlay_num: ' + overlay_num_addr)
+
+                # Set file suffix based on desired output
+                if output_pdf == True:
+                    bill_file = '../overlay_' + overlay_num_bill + '.pdf'
+                    addr_file = '../overlay_addr_' + overlay_num_addr + '.pdf'
+                else:
+                    bill_file = '../overlay_' + overlay_num_bill + '.png'
+                    addr_file = '../overlay_addr_' + overlay_num_addr + '.png'
+                logger.debug('bill_file: ' + bill_file)
+                logger.debug('addr_file: ' + addr_file)
+                
+                #### BILL OVERLAY FUNCTIONS ####
+                logger.info('Creating bill print overlay.')
+                if os.path.isfile(bill_file) == False:
+                    logger.info('Creating new bill canvas.')
+                    if demo_mode == False:
+                        draw_canvas('bill')
+                    else:
+                        import_demo_layout('bill')
+                else:
+                    logger.info('Using existing bill canvas.')
+
+                pos_modulo_bill = int(wallet_file) % 3
+                logger.debug('pos_modulo_bill: ' + str(pos_modulo_bill))
+                # pos_modulo_bill = 1 --> Top bill
+                # pos_modulo_bill = 2 --> Middle bill
+                # pos_modulo_bill = 3 --> Bottom bill
                 
                 bill_positions = ['top', 'middle', 'bottom']
-                logger.debug('bill_positions[pos_modulo]: ' + bill_positions[pos_modulo])
+                logger.debug('bill_positions[pos_modulo_bill]: ' + bill_positions[pos_modulo_bill])
                 
-                draw_address(public_address, bill_positions[pos_modulo])
-                draw_qr(bill_positions[pos_modulo])
-                draw_seed(bill_positions[pos_modulo])
+                draw_address(public_address, bill_positions[pos_modulo_bill])
+                draw_qr(bill_positions[pos_modulo_bill])
+                draw_seed(bill_positions[pos_modulo_bill])
+
+                #### ADDRESS CARD OVERLAY FUNCTIONS ####
+                logger.info('Creating address card print overlay.')
+                if os.path.isfile(addr_file) == False:
+                    logger.info('Creating new address canvas.')
+                    if demo_mode == False:
+                        draw_canvas('address')
+                    else:
+                        import_demo_layout('address')
+                else:
+                    logger.info('Using existing address canvas.')
+
+                pos_modulo_addr = int(wallet_file) % 8
+                logger.debug('pos_modulo_addr: ' + str(pos_modulo_addr))
+
+                addr_positions = [8, 1, 2, 3, 4, 5, 6, 7]
+                logger.debug('addr_positions[pos_modulo_addr]: ' + str(addr_positions[pos_modulo_addr]))
+
+                draw_address_layout(addr_positions[pos_modulo_addr], 'qr')
+                draw_address_layout(addr_positions[pos_modulo_addr], 'address', public_address)
+                # For testing...
+                test_label_prefix = 'W7000'
+                label_current = '#' + str(addr_positions[pos_modulo_addr]) + ' - ' + test_label_prefix + str(addr_positions[pos_modulo_addr])
+                draw_address_layout(addr_positions[pos_modulo_addr], 'label', label_current)
 
         else:
             logger.info('Merging PDF files, if multiple present.')

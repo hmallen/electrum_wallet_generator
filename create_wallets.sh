@@ -77,6 +77,37 @@ if [ "$create_overlays" = true ]; then
 fi
 
 if [ "$print_overlays" = true ]; then
+    if [ $(($wallet_num%3)) -gt 0 ]; then
+        echo
+        echo "WARNING: Bill overlay will print with blank spots. (3 per sheet)"
+        blank_space=true
+    fi
+    if [ $(($wallet_num%8)) -gt 0 ]; then
+        echo
+        echo "WARNING: Address card overlay will print with blank spots. (8 per sheet)"
+        blank_space=true
+    fi
+    if [ "$blank_space" = true ]; then
+        echo
+        echo "Continue anyways?"
+        PS3="Selection: "
+        options=("Yes" "No")
+        select opt in "${options[@]}"
+        do
+            case $opt in
+                "Yes")
+                    break
+                    ;;
+                "No")
+                    echo
+                    echo "Exiting program."
+                    exit
+                    ;;
+                *) echo invalid option;;
+            esac
+        done
+    fi
+    
     echo
     echo "Enable secure mode?"
     echo "--Networking will be disabled while program is running and wallet files will be shredded/overwritten after printing.--"
@@ -138,9 +169,11 @@ if [ "$create_pdfs" = true ]; then
     echo "Merging PDFs into single document."
     $exec_string --directory wallets/$DT --merge
     mv wallets/$DT/overlay.pdf wallets/$DT/tmp/overlay_orig.pdf
+    mv wallets/$DT/overlay_addr.pdf wallets/$DT/tmp/overlay_addr_orig.pdf
     echo
     echo "Formatting PDFs for printing."
-    gs -sOutputFile=wallets/$DT/overlay.pdf -sDEVICE=pdfwrite -sPAPERSIZE=letter -dCompatibilityLevel=1.6 -dNOPAUSE -dBATCH -dPDFFitPage wallets/$DT/tmp/overlay_orig.pdf
+    gs -sOutputFile=wallets/$DT/overlay.pdf -sDEVICE=pdfwrite -sPAPERSIZE=letter -dCompatibilityLevel=1.6 -dNOPAUSE -dBATCH -dPDFFitPage wallets/$DT/tmp/overlay_orig.pdf;
+    gs -sOutputFile=wallets/$DT/overlay_addr.pdf -sDEVICE=pdfwrite -sPAPERSIZE=letter -dCompatibilityLevel=1.6 -dNOPAUSE -dBATCH -dPDFFitPage wallets/$DT/tmp/overlay_addr_orig.pdf;
 fi
 
 if [ "$print_overlays" = true ]; then
