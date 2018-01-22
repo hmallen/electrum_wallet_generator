@@ -30,7 +30,6 @@ parser.add_argument('-d', '--directory', type=str, help='Directory containing wa
 parser.add_argument('-n', '--number', type=str, help='Wallet file number.')
 parser.add_argument('-o', '--overlay', action='store_true', default=False, help='Enable creation of png overlays for bill printing.')
 parser.add_argument('--pdf', action='store_true', default=False, help='Overlay output formatted as PDF instead of PNG.')
-parser.add_argument('-s', '--serial', type=str, default='', help='Serial number to print on overlays for reference.')
 parser.add_argument('-m', '--merge', action='store_true', default=False, help='Skip wallet creation and merge existing PDFs into single file instead.')
 args = parser.parse_args()
 
@@ -39,7 +38,6 @@ wallet_dir = args.directory
 wallet_file = args.number
 create_overlay = args.overlay
 output_pdf = args.pdf
-serial_number = args.serial
 merge_only = args.merge
 
 if merge_only == False:
@@ -641,11 +639,9 @@ if __name__ == '__main__':
 
                 draw_address_layout(addr_positions[pos_modulo_addr], 'qr')
                 draw_address_layout(addr_positions[pos_modulo_addr], 'address', public_address)
-                
-                label_current = '#' + wallet_file
-                if serial_number != '':
-                    label_current = label_current + ' - ' + serial_number
-                logger.debug('label_current: ' + label_current)
+                # For testing...
+                test_label_prefix = 'W7000'
+                label_current = '#' + str(addr_positions[pos_modulo_addr]) + ' - ' + test_label_prefix + str(addr_positions[pos_modulo_addr])
                 draw_address_layout(addr_positions[pos_modulo_addr], 'label', label_current)
 
         else:

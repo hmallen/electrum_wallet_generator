@@ -12,7 +12,7 @@ echo "Enter number of wallets to create:"
 read wallet_num
 echo
 
-exec_string="python create_features_serial.py"
+exec_string="python create_features.py"
 
 echo "Create overlays?"
 PS3="Selection: "
@@ -46,97 +46,6 @@ do
 done
 
 if [ "$create_overlays" = true ]; then
-    if [ $(($wallet_num%3)) -gt 0 ]; then
-        echo
-        echo "WARNING: Bill overlay will print with blank spots. (3 per sheet)"
-        blank_space=true
-    fi
-    if [ $(($wallet_num%8)) -gt 0 ]; then
-        echo
-        echo "WARNING: Address card overlay will print with blank spots. (8 per sheet)"
-        blank_space=true
-    fi
-    if [ "$blank_space" = true ]; then
-        echo
-        echo "Continue anyways?"
-        PS3="Selection: "
-        options=("Yes" "No")
-        select opt in "${options[@]}"
-        do
-            case $opt in
-                "Yes")
-                    break
-                    ;;
-                "No")
-                    echo
-                    echo "Exiting program."
-                    exit
-                    ;;
-                *) echo invalid option;;
-            esac
-        done
-    fi
-    echo
-    echo "Add serial numbers to overlays?"
-    PS3="Selection: "
-    options=("Yes" "No" "Quit")
-    select opt in "${options[@]}"
-    do
-        case $opt in
-            "Yes")
-                serial_numbers=true
-                
-                echo 
-                echo "Please input serial number base/prefix."
-                echo "(Leading letter, leading number, and all zeros before next number)"
-                echo "ex. For \"M700401\" use \"M700.\""
-                read serial_prefix
-                
-                echo
-                echo "Please input starting serial number in series."
-                echo "(Number following the prefix input above)"
-                echo "ex. For \"M700401\" use \"401.\""
-                read serial_start
-                
-                serial_current="$serial_prefix$serial_start"
-                
-                echo
-                echo "Serial prefix: $serial_prefix"
-                echo "Serial start: $serial_start"
-                echo "First serial: $serial_current"
-                
-                echo
-                echo "Is this correct?"
-                PS3="Selection: "
-                options=("Yes" "No")
-                select opt in "${options[@]}"
-                do
-                    case $opt in
-                        "Yes")
-                            break
-                            ;;
-                        "No")
-                            echo
-                            echo "Exiting program."
-                            exit
-                            ;;
-                        *) echo invalid option;;
-                    esac
-                done
-                break
-                ;;
-            "No")
-                serial_numbers=false
-                break
-                ;;
-            "Quit")
-                echo
-                echo "Exiting program."
-                exit
-                ;;
-            *) echo invalid option;;
-        esac
-    done
     echo
     echo "Send overlays to printer?"
     PS3="Selection: "
@@ -168,6 +77,37 @@ if [ "$create_overlays" = true ]; then
 fi
 
 if [ "$print_overlays" = true ]; then
+    if [ $(($wallet_num%3)) -gt 0 ]; then
+        echo
+        echo "WARNING: Bill overlay will print with blank spots. (3 per sheet)"
+        blank_space=true
+    fi
+    if [ $(($wallet_num%8)) -gt 0 ]; then
+        echo
+        echo "WARNING: Address card overlay will print with blank spots. (8 per sheet)"
+        blank_space=true
+    fi
+    if [ "$blank_space" = true ]; then
+        echo
+        echo "Continue anyways?"
+        PS3="Selection: "
+        options=("Yes" "No")
+        select opt in "${options[@]}"
+        do
+            case $opt in
+                "Yes")
+                    break
+                    ;;
+                "No")
+                    echo
+                    echo "Exiting program."
+                    exit
+                    ;;
+                *) echo invalid option;;
+            esac
+        done
+    fi
+    
     echo
     echo "Enable secure mode?"
     echo "--Networking will be disabled while program is running and wallet files will be shredded/overwritten after printing.--"
@@ -216,11 +156,6 @@ fi
 for (( i=1; i<=$wallet_num; i++ ))
 do
     exec="$exec_string --directory wallets/$DT/$i --number $i"
-    if [ "$serial_numbers" = true ]; then
-        exec="$exec --serial $serial_current"
-        ((serial_start++))
-        serial_current="$serial_prefix$serial_start"
-    fi
     mkdir -p wallets/$DT/$i
     echo
     ./electrum_modified create -w wallets/$DT/$i/$i
