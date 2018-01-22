@@ -20,37 +20,6 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 
-"""
-def get_config(config_type):
-    config = configparser.ConfigParser()
-    
-    if config_type == 'bill':
-        config.read(bill_config_file)
-        features = {'NA': 'NA'}
-
-    elif config_type == 'address':
-        config.read(address_config_file)
-
-        features = {'canvas': config['canvas']['dim'], 'square_elements': config['square_elements']['dim'],
-                    'left_x': config['addr']['left_x'], 'right_x': config['addr']['right_x'],
-                    'row_one_y': config['addr']['row_one_y'], 'row_two_y': config['addr']['row_two_y'],
-                    'row_three_y': config['addr']['row_three_y'], 'row_four_y': config['addr']['row_four_y']}
-
-        for key in features:
-            if key == 'canvas' or key == 'square_elements':
-                features[key] = tuple(features[key].strip('\(').strip('\)').split(', '))
-        logger.debug('[Step #1]features: ' + str(features))
-        for key in features:
-            if key == 'canvas' or key == 'square_elements':
-                features[key] = tuple([int(val) for val in features[key]])
-            else:
-                features[key] = int(features[key])
-        logger.debug('[Step #2]features: ' + str(features))
-
-    return features
-"""
-
-
 def get_config(config_type, config_element=None):
     config = configparser.ConfigParser()
 
