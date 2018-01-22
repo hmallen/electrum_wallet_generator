@@ -524,6 +524,7 @@ def merge_format_pdfs(path):
                     logger.debug('file: ' + file)
                 else:
                     logger.debug('Skipping address file: ' + file)
+        pdf_files_bill.sort()
         logger.debug('pdf_files_bill: ' + str(pdf_files_bill))
 
         if len(pdf_files_bill) > 1:
@@ -555,6 +556,7 @@ def merge_format_pdfs(path):
                     logger.debug('file: ' + file)
                 else:
                     logger.debug('Skipping bill file: ' + file)
+        pdf_files_addr.sort()
         logger.debug('pdf_files_addr: ' + str(pdf_files_addr))
 
         if len(pdf_files_addr) > 1:
@@ -624,7 +626,7 @@ if __name__ == '__main__':
                 overlay_num_bill = str(math.ceil(int(wallet_file) / 3))
                 logger.debug('overlay_num: ' + overlay_num_bill)
 
-                overlay_num_addr = str(math.ceil(int(wallet_file) / 3))
+                overlay_num_addr = str(math.ceil(int(wallet_file) / 8))
                 logger.debug('overlay_num: ' + overlay_num_addr)
 
                 # Set file suffix based on desired output
