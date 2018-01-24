@@ -19,6 +19,7 @@ Option #2: Install all dependencies manually. (Will improve this section with mo
 6. Save to transparent overlay file (Python)
 
 <b>To Do:</b>
+1. Reference db of serial numbers and consider naming wallets/dirs using this
 
 <b>Complete:</b>
 1. Add argument to delete (shred) entire wallet folder after printing to prevent double use

@@ -15,8 +15,8 @@ from wand.display import display
 from wand.drawing import Drawing
 from wand.color import Color
 
-demo_layout_bill = 'resources/bill_feature_outlines.pdf'
-demo_layout_address = 'resources/address_info_card_layout_front.pdf'
+demo_layout_bill = '../../../resources/bill_feature_outlines.pdf'
+demo_layout_address = '../../../resources/address_info_card_new.pdf'
 
 bill_config_file = 'config/bill.ini'
 address_config_file = 'config/address.ini'
@@ -238,6 +238,12 @@ def draw_canvas(canvas_type):
                 with Image(width=addr_features_qr['canvas'][0], height=addr_features_qr['canvas'][1]) as img:
                     draw.draw(img)
                     img.save(filename=addr_file)
+            """
+            with Image(filename=demo_layout_address) as img:
+                img.resize(1836, 2376)
+                #display(img)
+                img.save(filename=addr_file)
+            """
 
     except Exception as e:
         logger.exception('Exception while drawing canvas.')
