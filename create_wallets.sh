@@ -216,16 +216,17 @@ fi
 for (( i=1; i<=$wallet_num; i++ ))
 do
     exec="$exec_string --directory wallets/$DT/$i --number $i"
-    if [ "$serial_numbers" = true ]; then
-        exec="$exec --serial $serial_current"
-        ((serial_start++))
-        serial_current="$serial_prefix$serial_start"
-    fi
     mkdir -p wallets/$DT/$i
     echo
     ./electrum_modified create -w wallets/$DT/$i/$i
     echo
     echo "Creating info file and QR code."
+    if [ "$serial_numbers" = true ]; then
+        exec="$exec --serial $serial_current"
+        ((serial_start++))
+        serial_current="$serial_prefix$serial_start"
+        echo $serial_current > wallets/$DT/$i/${i}_serial.txt
+    fi
     $exec
 done
 

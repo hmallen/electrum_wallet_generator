@@ -695,7 +695,10 @@ if __name__ == '__main__':
         else:
             logger.info('Merging PDF files, if multiple present.')
             merge_format_pdfs(wallet_dir)
-        
+
+    except KeyboardInterrupt:
+        logger.info('Exit signal received.')
+        sys.exit()
     
     except Exception as e:
         logger.exception(e)
