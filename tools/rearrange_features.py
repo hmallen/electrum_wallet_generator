@@ -22,18 +22,21 @@ logger = logging.getLogger(__name__)
 
 parser = argparse.ArgumentParser()
 parser.add_argument('-d', '--directory', type=str, help='Directory containing wallet files for new overlay generation.')
-parser.add_argument('-s', '--serial', type=str, default='', help='Starting serial number in series for overlay placement.')
-parser.add_argument('-c', '--config', type=str, help='Path to config file for layout element coordinates.')
+#parser.add_argument('-s', '--serial', type=str, default='', help='Starting serial number in series for overlay placement.')
+parser.add_argument('-c', '--config', type=str, help='Path to directory with config files for layout element coordinates.')
+parser.add_argument('-p', '--pdf', action='store_true', default=False, help='Output PDF files instead of PNG.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
-serial_number = args.serial
-config_file = args.config
+#serial_number = args.serial
+config_dir = args.config
+#output_pdf = args.pdf
+output_pdf = True   # For development
 
 if wallet_dir == None:
     logger.error('No wallet directory defined. Exiting.')
     sys.exit(1)
-elif config_file == None:
+elif config_dir == None:
     logger.error('No config file defined. Exiting.')
     sys.exit(1)
 
@@ -41,8 +44,11 @@ elif config_file == None:
 def get_config(config_type, config_element=None):
     config = configparser.ConfigParser()
 
+    config_bill = config_dir + '/bill.ini'
+    config_addr = config_dir + '/address.ini'
+
     if config_type == 'bill':
-        config.read(bill_config_file)
+        config.read(config_bill)
 
         # Coordinates of bill features
         features = {'canvas': config['canvas']['dim'],
@@ -78,7 +84,7 @@ def get_config(config_type, config_element=None):
         logger.debug(type(features['font_size']))
 
     elif config_type == 'address':
-        config.read(address_config_file)
+        config.read(config_addr)
 
         if config_element == 'qr':
             features = {'canvas': config['canvas']['dim'],
@@ -429,15 +435,23 @@ if __name__ == '__main__':
 
         contents = []
         for item in contents_all:
-            if not os.path.isfile(item) and item != 'tmp':
+            if not os.path.isfile(item) and item != 'tmp' and item != 'old':
                 contents.append(item)
         contents.sort()
         logger.debug('Wallet directories: ' + str(contents))
 
         # Move original overlays into new directory
-        os.mkdir('old/')
-        os.rename('overlay.pdf', 'old/overlay_orig.pdf')
-        os.rename('overlay_addr.pdf', 'old/overlay_addr_orig.pdf')
+        if os.path.exists('old/') == False:
+            logger.debug('Creating archive directory.')
+            os.mkdir('old/')
+        else:
+            logger.debug('Archive directory found.')
+
+        if os.path.exists('old/overlay.pdf'):
+            os.rename('overlay.pdf', 'old/overlay_orig.pdf')
+
+        if os.path.exists('old/overlay_addr.pdf'):
+            os.rename('overlay_addr.pdf', 'old/overlay_addr_orig.pdf')
         
         bill_features = get_config('bill')
         addr_features_qr = get_config('address', 'qr')
@@ -461,8 +475,8 @@ if __name__ == '__main__':
 
             # Construct label for overlay
             label_current = '#' + directory
-            if serial_number != '':
-                label_current = label_current + ' - ' + serial_number
+            if serial_current != '':
+                label_current = label_current + ' - ' + serial_current
             logger.debug('label_current: ' + label_current)
             
             # Determine overlay number and file name based on wallet number
@@ -481,15 +495,14 @@ if __name__ == '__main__':
                 addr_file = '../overlay_addr_' + overlay_num_addr + '.png'
             logger.debug('bill_file: ' + bill_file)
             logger.debug('addr_file: ' + addr_file)
+
+            qr_png_path = directory + '_qr.png'
+            seed_png_path = directory + '_seed.png'
             
             #### BILL OVERLAY FUNCTIONS ####
             logger.info('Creating bill print overlay.')
             if os.path.isfile(bill_file) == False:
-                logger.info('Creating new bill canvas.')
-                if demo_mode == False:
-                    draw_canvas('bill')
-                else:
-                    import_demo_layout('bill')
+                draw_canvas('bill')
             else:
                 logger.info('Using existing bill canvas.')
 
@@ -512,10 +525,7 @@ if __name__ == '__main__':
             logger.info('Creating address card print overlay.')
             if os.path.isfile(addr_file) == False:
                 logger.info('Creating new address canvas.')
-                if demo_mode == False:
-                    draw_canvas('address')
-                else:
-                    import_demo_layout('address')
+                draw_canvas('address')
             else:
                 logger.info('Using existing address canvas.')
 
