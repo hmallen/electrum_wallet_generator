@@ -25,6 +25,7 @@ parser.add_argument('-d', '--directory', type=str, help='Directory containing wa
 #parser.add_argument('-s', '--serial', type=str, default='', help='Starting serial number in series for overlay placement.')
 parser.add_argument('-c', '--config', type=str, help='Path to directory with config files for layout element coordinates.')
 parser.add_argument('-p', '--pdf', action='store_true', default=False, help='Output PDF files instead of PNG.')
+parser.add_argument('-m', '--merge', action='store_true', default=False, help='Skip wallet creation and merge existing PDFs into single file instead.')
 args = parser.parse_args()
 
 wallet_dir = args.directory
@@ -32,13 +33,17 @@ wallet_dir = args.directory
 config_dir = args.config
 #output_pdf = args.pdf
 output_pdf = True   # For development
+merge_only = args.merge
 
-if wallet_dir == None:
-    logger.error('No wallet directory defined. Exiting.')
-    sys.exit(1)
-elif config_dir == None:
-    logger.error('No config file defined. Exiting.')
-    sys.exit(1)
+if merge_only == False:
+    if wallet_dir == None:
+        logger.error('No wallet directory defined. Exiting.')
+        sys.exit(1)
+    elif wallet_file == None:
+        logger.error('No wallet number defined. Exiting.')
+        sys.exit(1)
+    else:
+        logger.info('Wallet directory: ' + wallet_dir)
 
 
 def get_config(config_type, config_element=None):
@@ -427,120 +432,208 @@ def draw_address_layout(position, element, text=None):
         raise
 
 
+def merge_format_pdfs(path):
+    try:
+        os.chdir(path)
+        contents = os.listdir()
+        logger.debug('contents: ' + str(contents))
+
+        if os.path.exists('tmp/') == False:
+            os.mkdir('tmp/')
+
+        # Merge bill files, if multiple present
+        pdf_files_bill = []
+        for file in contents:
+            if file.endswith('.pdf'):
+                if file.split('_')[1] != 'addr':
+                    pdf_files_bill.append(file)
+                    logger.debug('file: ' + file)
+                else:
+                    logger.debug('Skipping address file: ' + file)
+        pdf_files_bill.sort()
+        logger.debug('pdf_files_bill: ' + str(pdf_files_bill))
+
+        if len(pdf_files_bill) > 1:
+            logger.info('Multiple bill overlays found. Merging.')
+            merger = PdfFileMerger()
+            merged_output = 'overlay.pdf'
+
+            for doc in pdf_files_bill:
+                file = open(doc, 'rb')
+                merger.append(fileobj=file)
+
+            output = open(merged_output, 'wb')
+            merger.write(output)
+            
+            logger.info('Cleaning-up pdf directory.')
+            for doc in pdf_files_bill:
+                os.rename(doc, ('tmp/' + doc))
+        
+        else:
+            logger.info('Multiple bill overlays not found. Renaming overlay and skipping merge.')
+            os.rename('overlay_1.pdf', 'overlay.pdf')
+
+        # Merge address overlays, if multiple present
+        pdf_files_addr = []
+        for file in contents:
+            if file.endswith('.pdf'):
+                if file.split('_')[1] == 'addr':
+                    pdf_files_addr.append(file)
+                    logger.debug('file: ' + file)
+                else:
+                    logger.debug('Skipping bill file: ' + file)
+        pdf_files_addr.sort()
+        logger.debug('pdf_files_addr: ' + str(pdf_files_addr))
+
+        if len(pdf_files_addr) > 1:
+            logger.info('Multiple address overlays found. Merging.')
+            merger = PdfFileMerger()
+            merged_output = 'overlay_addr.pdf'
+
+            for doc in pdf_files_addr:
+                file = open(doc, 'rb')
+                merger.append(fileobj=file)
+
+            output = open(merged_output, 'wb')
+            merger.write(output)
+            
+            logger.info('Cleaning-up pdf directory.')
+            for doc in pdf_files_addr:
+                os.rename(doc, ('tmp/' + doc))
+
+        else:
+            logger.info('Multiple address overlays not found. Renaming overlay and skipping merge.')
+            os.rename('overlay_addr_1.pdf', 'overlay_addr.pdf')
+
+    except Exception as e:
+        logger.exception('Exception while merging PDF files.')
+        logger.exception(e)
+        raise
+
+
 if __name__ == '__main__':
     try:
-        # Determine wallet count in directory
-        os.chdir(wallet_dir)
-        contents_all = os.listdir()
+        if merge_only == False:
+            # Determine wallet count in directory
+            os.chdir(wallet_dir)
+            contents_all = os.listdir()
 
-        contents = []
-        for item in contents_all:
-            if not os.path.isfile(item) and item != 'tmp' and item != 'old':
-                contents.append(item)
-        contents.sort()
-        logger.debug('Wallet directories: ' + str(contents))
+            contents = []
+            for item in contents_all:
+                if not os.path.isfile(item) and item != 'tmp' and item != 'old':
+                    contents.append(item)
+            contents.sort()
+            logger.debug('Wallet directories: ' + str(contents))
 
-        # Move original overlays into new directory
-        if os.path.exists('old/') == False:
-            logger.debug('Creating archive directory.')
-            os.mkdir('old/')
+            # Move original overlays into new directory
+            if os.path.exists('old/') == False:
+                logger.debug('Creating archive directory.')
+                os.mkdir('old/')
+            else:
+                logger.debug('Archive directory found.')
+
+            if os.path.exists('old/overlay.pdf') == False:
+                os.rename('old/overlay.pdf', 'old/overlay_orig.pdf')
+
+            if os.path.exists('old/overlay_addr.pdf') == False:
+                os.rename('old/overlay_addr.pdf', 'old/overlay_addr_orig.pdf')
+            
+            bill_features = get_config('bill')
+            addr_features_qr = get_config('address', 'qr')
+            addr_features_addr = get_config('address', 'addr')
+            addr_features_label = get_config('address', 'label')
+
+            for directory in contents:
+                logger.info('Moving into ' + directory + ' for feature rearrangement.')
+                # Move into individual wallet directory
+                os.chdir(directory)
+
+                # Get serial number from txt file
+                serial_file = directory + '_serial.txt'
+                with open(serial_file, 'r') as file:
+                    serial_current = file.read().rstrip()
+                
+                # Get public address from txt file
+                addr_file = directory + '_addr.txt'
+                with open(addr_file, 'r') as file:
+                    public_address = file.read().rstrip()
+
+                # Construct label for overlay
+                label_current = '#' + directory
+                if serial_current != '':
+                    label_current = label_current + ' - ' + serial_current
+                logger.debug('label_current: ' + label_current)
+                
+                # Determine overlay number and file name based on wallet number
+                overlay_num_bill = str(math.ceil(int(directory) / 3))
+                logger.debug('overlay_num: ' + overlay_num_bill)
+
+                overlay_num_addr = str(math.ceil(int(directory) / 8))
+                logger.debug('overlay_num: ' + overlay_num_addr)
+
+                # Set file suffix based on desired output
+                if output_pdf == True:
+                    bill_file = '../overlay_' + overlay_num_bill + '.pdf'
+                    addr_file = '../overlay_addr_' + overlay_num_addr + '.pdf'
+                else:
+                    bill_file = '../overlay_' + overlay_num_bill + '.png'
+                    addr_file = '../overlay_addr_' + overlay_num_addr + '.png'
+                logger.debug('bill_file: ' + bill_file)
+                logger.debug('addr_file: ' + addr_file)
+
+                qr_png_path = directory + '_qr.png'
+                seed_png_path = directory + '_seed.png'
+                
+                #### BILL OVERLAY FUNCTIONS ####
+                logger.info('Creating bill print overlay.')
+                if os.path.isfile(bill_file) == False:
+                    draw_canvas('bill')
+                else:
+                    logger.info('Using existing bill canvas.')
+
+                pos_modulo_bill = int(directory) % 3
+                logger.debug('pos_modulo_bill: ' + str(pos_modulo_bill))
+                # pos_modulo_bill = 1 --> Top bill
+                # pos_modulo_bill = 2 --> Middle bill
+                # pos_modulo_bill = 3 --> Bottom bill
+                
+                #bill_positions = ['top', 'middle', 'bottom']
+                bill_positions = ['bottom', 'top', 'middle']
+                logger.debug('bill_positions[pos_modulo_bill]: ' + bill_positions[pos_modulo_bill])
+                
+                draw_address(public_address, bill_positions[pos_modulo_bill])
+                draw_qr(bill_positions[pos_modulo_bill])
+                draw_seed(bill_positions[pos_modulo_bill])
+                draw_label(bill_positions[pos_modulo_bill], label_current)
+
+                #### ADDRESS CARD OVERLAY FUNCTIONS ####
+                logger.info('Creating address card print overlay.')
+                if os.path.isfile(addr_file) == False:
+                    logger.info('Creating new address canvas.')
+                    draw_canvas('address')
+                else:
+                    logger.info('Using existing address canvas.')
+
+                pos_modulo_addr = int(directory) % 8
+                logger.debug('pos_modulo_addr: ' + str(pos_modulo_addr))
+
+                addr_positions = [8, 1, 2, 3, 4, 5, 6, 7]
+                logger.debug('addr_positions[pos_modulo_addr]: ' + str(addr_positions[pos_modulo_addr]))
+
+                draw_address_layout(addr_positions[pos_modulo_addr], 'qr')
+                draw_address_layout(addr_positions[pos_modulo_addr], 'address', public_address)
+                draw_address_layout(addr_positions[pos_modulo_addr], 'label', label_current)
+
+                # Move back into working directory
+                os.chdir('../')
+
         else:
-            logger.debug('Archive directory found.')
+            logger.info('Merging PDF files, if multiple present.')
+            merge_format_pdfs(wallet_dir)
 
-        if os.path.exists('old/overlay.pdf'):
-            os.rename('overlay.pdf', 'old/overlay_orig.pdf')
-
-        if os.path.exists('old/overlay_addr.pdf'):
-            os.rename('overlay_addr.pdf', 'old/overlay_addr_orig.pdf')
-        
-        bill_features = get_config('bill')
-        addr_features_qr = get_config('address', 'qr')
-        addr_features_addr = get_config('address', 'addr')
-        addr_features_label = get_config('address', 'label')
-
-        for directory in contents:
-            logger.info('Moving into ' + directory + ' for feature rearrangement.')
-            # Move into individual wallet directory
-            os.chdir(directory)
-
-            # Get serial number from txt file
-            serial_file = directory + '_serial.txt'
-            with open(serial_file, 'r') as file:
-                serial_current = file.read().rstrip()
-            
-            # Get public address from txt file
-            addr_file = directory + '_addr.txt'
-            with open(addr_file, 'r') as file:
-                public_address = file.read().rstrip()
-
-            # Construct label for overlay
-            label_current = '#' + directory
-            if serial_current != '':
-                label_current = label_current + ' - ' + serial_current
-            logger.debug('label_current: ' + label_current)
-            
-            # Determine overlay number and file name based on wallet number
-            overlay_num_bill = str(math.ceil(int(directory) / 3))
-            logger.debug('overlay_num: ' + overlay_num_bill)
-
-            overlay_num_addr = str(math.ceil(int(directory) / 8))
-            logger.debug('overlay_num: ' + overlay_num_addr)
-
-            # Set file suffix based on desired output
-            if output_pdf == True:
-                bill_file = '../overlay_' + overlay_num_bill + '.pdf'
-                addr_file = '../overlay_addr_' + overlay_num_addr + '.pdf'
-            else:
-                bill_file = '../overlay_' + overlay_num_bill + '.png'
-                addr_file = '../overlay_addr_' + overlay_num_addr + '.png'
-            logger.debug('bill_file: ' + bill_file)
-            logger.debug('addr_file: ' + addr_file)
-
-            qr_png_path = directory + '_qr.png'
-            seed_png_path = directory + '_seed.png'
-            
-            #### BILL OVERLAY FUNCTIONS ####
-            logger.info('Creating bill print overlay.')
-            if os.path.isfile(bill_file) == False:
-                draw_canvas('bill')
-            else:
-                logger.info('Using existing bill canvas.')
-
-            pos_modulo_bill = int(directory) % 3
-            logger.debug('pos_modulo_bill: ' + str(pos_modulo_bill))
-            # pos_modulo_bill = 1 --> Top bill
-            # pos_modulo_bill = 2 --> Middle bill
-            # pos_modulo_bill = 3 --> Bottom bill
-            
-            #bill_positions = ['top', 'middle', 'bottom']
-            bill_positions = ['bottom', 'top', 'middle']
-            logger.debug('bill_positions[pos_modulo_bill]: ' + bill_positions[pos_modulo_bill])
-            
-            draw_address(public_address, bill_positions[pos_modulo_bill])
-            draw_qr(bill_positions[pos_modulo_bill])
-            draw_seed(bill_positions[pos_modulo_bill])
-            draw_label(bill_positions[pos_modulo_bill], label_current)
-
-            #### ADDRESS CARD OVERLAY FUNCTIONS ####
-            logger.info('Creating address card print overlay.')
-            if os.path.isfile(addr_file) == False:
-                logger.info('Creating new address canvas.')
-                draw_canvas('address')
-            else:
-                logger.info('Using existing address canvas.')
-
-            pos_modulo_addr = int(directory) % 8
-            logger.debug('pos_modulo_addr: ' + str(pos_modulo_addr))
-
-            addr_positions = [8, 1, 2, 3, 4, 5, 6, 7]
-            logger.debug('addr_positions[pos_modulo_addr]: ' + str(addr_positions[pos_modulo_addr]))
-
-            draw_address_layout(addr_positions[pos_modulo_addr], 'qr')
-            draw_address_layout(addr_positions[pos_modulo_addr], 'address', public_address)
-            draw_address_layout(addr_positions[pos_modulo_addr], 'label', label_current)
-
-            # Move back into working directory
-            os.chdir('../')
+    except KeyboardInterrupt:
+        logger.info('Exit signal received.')
+        sys.exit()
 
     except Exception as e:
         logger.exception(e)
