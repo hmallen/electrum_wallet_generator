@@ -7,7 +7,7 @@ cssselect2==0.2.1
 defusedxml==0.5.0
 dnspython==1.15.0
 drawSVG==1.0.0
-ecdsa==0.13
+ecdsa==0.13.3
 Electrum==3.0.5
 idna==2.6
 jsonrpclib-pelix==0.3.1
